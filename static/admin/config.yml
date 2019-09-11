@@ -90,7 +90,7 @@ collections:
                   - {label: "When", name: "what_is_the_time_frame_you_have_for_planning_your_project", widget: "string"}
                   - {label: "Time frame", name: "timeFrame", widget: "list"}
                   - {label: "GDPR Checkbox", name: "gdpr", widget: "string"}
-                  - {label: "Message", name: "details_on_yout_project", widget: "string"}
+                  - {label: "Details on your project", name: "details_on_your_project", widget: "string"}
               - {label: "GDPR Notice", name: "gdprNotice", widget: "markdown"}
               - {label: "More about GDPR", name: "moreGdpr", widget: "markdown"}
               - {label: "Submit", name: "submit", widget: "string"}
