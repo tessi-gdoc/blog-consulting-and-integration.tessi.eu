@@ -1,0 +1,192 @@
+backend:
+  name: git-gateway
+  branch: master
+
+display_url: https://blog-consulting-and-integration.tessi.eu
+
+logo_url: /icons/logo.svg
+
+publish_mode: editorial_workflow
+
+media_folder: static/img
+public_folder: /img
+
+collections:
+  - name: "translations"
+    label: "Translations"
+    delete: false
+    editor:
+      preview: false
+    files:
+      - name: "french"
+        label: "French"
+        file: "src/translations/fr.json"
+        fields:
+          - {label: "Not Found", name: "notFound", widget: "string"}
+          - {label: "Subtitle", name: "subtitle", widget: "string"}
+          - {label: "Service", name: "service", widget: "string"}
+          - {label: "Website", name: "website", widget: "string"}
+          - {label: "Follow", name: "follow", widget: "string"}
+          - {label: "All articles", name: "allArticles", widget: "string"}
+          - {label: "Home", name: "home", widget: "string"}
+          - {label: "Blog", name: "blog", widget: "string"}
+          - {label: "Resources", name: "resources", widget: "string"}
+          - {label: "Whitepapers", name: "whitepapers", widget: "string"}
+          - {label: "Kits", name: "kits", widget: "string"}
+          - {label: "Case Studies", name: "caseStudies", widget: "string"}
+          - {label: "Demo title", name: "demo", widget: "string"}
+          - {label: "Offers", name: "offers", widget: "string"}
+          - label: "About"
+            name: "about"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Content", name: "content", widget: "markdown"}
+          - {label: "Convinced", name: "convinced", widget: "string"}
+          - label: "Tags"
+            label_singular: "tag"
+            name: "tags"
+            widget: "list"
+          - {label: "Read article", name: "readArticle", widget: "string"}
+          - {label: "Read Case study", name: "readCaseStudy", widget: "string"}
+          - {label: "Download Whitepaper", name: "downloadWhitepaper", widget: "string"}
+          - {label: "Download Kit", name: "downloadKit", widget: "string"}
+          - label: "Newsletter"
+            name: "newsletter"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Content", name: "content", widget: "string"}
+              - label: "Form"
+                name: "form"
+                widget: "object"
+                fields:
+                  - {label: "Mail", name: "mail", widget: "string"}
+                  - {label: "Title", name: "title", widget: "string"}
+                  - {label: "Name", name: "name", widget: "string"}
+              - {label: "Submit", name: "submit", widget: "string"} 
+          - label: "Demo"
+            name: "demoPage"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - label: "Content"
+                name: "content"
+                allow_add: false
+                widget: "list"
+                field: {label: "Item", name: "item", widget: "markdown"}
+              - label: "Form"
+                name: "form"
+                widget: "object"
+                fields:
+                  - {label: "Company", name: "company", widget: "string"}
+                  - {label: "Lastname", name: "last_name", widget: "string"}
+                  - {label: "Firstname", name: "first_name", widget: "string"}
+                  - {label: "Mail", name: "email", widget: "string"}
+                  - {label: "Phone", name: "phone", widget: "string"}
+                  - {label: "Country", name: "where_are_you_based", widget: "string"}
+                  - {label: "Theme", name: "which_of_our_expertises_are_you_interested_in", widget: "string"}
+                  - {label: "Expertises", name: "expertises", widget: "list"}
+                  - {label: "When", name: "what_is_the_time_frame_you_have_for_planning_your_project", widget: "string"}
+                  - {label: "Time frame", name: "timeFrame", widget: "list"}
+                  - {label: "GDPR Checkbox", name: "gdpr", widget: "string"}
+                  - {label: "Message", name: "details_on_yout_project", widget: "string"}
+              - {label: "GDPR Notice", name: "gdprNotice", widget: "markdown"}
+              - {label: "More about GDPR", name: "moreGdpr", widget: "markdown"}
+              - {label: "Submit", name: "submit", widget: "string"}
+          - {label: "Partners", name: "partners", widget: "string"}
+          - {label: "Related posts", name: "relatedPosts", widget: "string"}
+          - label: "Messages"
+            name: "messages"
+            widget: "object"
+            fields:
+              - {label: "Required", name: "required", widget: "string"}
+              - {label: "Invalid mail", name: "invalidMail", widget: "string"}
+              - {label: "Invalid Phone", name: "invalidPhone", widget: "string"}
+              - {label: "Notification Success text", name: "success", widget: "string"}
+              - {label: "Notification Error text", name: "error", widget: "string"}
+              - {label: "Notification Loading text", name: "loading", widget: "string"}
+  
+  - name: "blog"
+    label: "Blog"
+    label_singular: "Post"
+    folder: "src/data/posts"
+    slug: "{{slug}}"
+    create: true
+    editor:
+      preview: false
+    fields:
+      - {label: "Template Key", name: "templateKey", default: "blog-post", widget: "hidden"}
+      - {label: "Image", name: "image", widget: "image", default: "/img/banner-home.jpg"}
+      - {label: "Title", name: "title", widget: "string", default: "Super title"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Publish date", name: "date", widget: "date"}
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        field: {label: "Tag", name: "tag", widget: "select", options: [ "Actualités", "Gestion de contenu (ECM)", "Communication client (CCM)", "Case Management", "Parcours client" ], default: "Case Management"}
+      - label: "Authors"
+        label_singular: "author"
+        name: "authors"
+        widget: "list"
+        fields: 
+          - {label: "Lastname", name: "lastname", widget: "string", default: "Vecchio"}
+          - {label: "Firstname", name: "firstname", widget: "string", default: "Jean-Luc"}
+          - {label: "Avatar", name: "avatar", widget: "image", default: "/img/team1.jpg"}
+          - {label: "Position", name: "position", widget: "string", default: "CEO"}
+      - {label: "Introduction", name: "introduction", widget: "markdown", default: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}
+      - {label: "Body", name: "body", widget: "markdown", default: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}
+  - name: "kits"
+    label: "Kits"
+    label_singular: "Kit"
+    folder: "src/data/kits"
+    slug: "{{slug}}"
+    create: true
+    editor:
+      preview: false
+    fields:
+      - {label: "Publish date", name: "date", widget: "date"}
+      - {label: "Image", name: "image", widget: "image", default: "/img/banner-home.jpg"}
+      - {label: "Title", name: "title", widget: "string", default: "Super title"}
+      - {label: "Link", name: "link", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown", default: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}
+  - name: "whitepapers"
+    label: "Whitepapers"
+    label_singular: "Whitepaper"
+    folder: "src/data/whitepapers"
+    slug: "{{slug}}"
+    create: true
+    editor:
+      preview: false
+    fields:
+      - {label: "Publish date", name: "date", widget: "date"}
+      - {label: "Image", name: "image", widget: "image", default: "/img/banner-home.jpg"}
+      - {label: "Title", name: "title", widget: "string", default: "Super title"}
+      - {label: "Link", name: "link", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown", default: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}
+  - name: "case-studies"
+    label: "Case Studies"
+    label_singular: "Case study"
+    folder: "src/data/case-studies"
+    slug: "{{slug}}"
+    create: true
+    editor:
+      preview: false
+    fields:
+      - {label: "Publish date", name: "date", widget: "date"}
+      - {label: "Image", name: "image", widget: "image", default: "/img/banner-home.jpg"}
+      - {label: "Title", name: "title", widget: "string", default: "Super title"}
+      - {label: "Link", name: "link", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown", default: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}
+  - name: "notices"
+    label: "Notices and policies"
+    label_singular: "notice"
+    folder: "src/data/notices"
+    slug: "{{slug}}"
+    create: true
+    editor:
+      preview: false
+    fields:
+      - {label: "Template Key", name: "templateKey", default: "notice", widget: "hidden"}
+      - {label: "Title", name: "title", widget: "string", default: "Super title"}
+      - {label: "Body", name: "body", widget: "markdown"}

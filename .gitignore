@@ -1,0 +1,6 @@
+node_modules
+public/
+static/admin/*.bundle.*
+.cache
+yarn-error.log
+.netlify
