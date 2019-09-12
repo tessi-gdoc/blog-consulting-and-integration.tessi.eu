@@ -58,14 +58,14 @@ collections:
             fields:
               - {label: "Title", name: "title", widget: "string"}
               - {label: "Content", name: "content", widget: "string"}
-              - label: "Form"
-                name: "form"
-                widget: "object"
-                fields:
-                  - {label: "Mail", name: "mail", widget: "string"}
-                  - {label: "Title", name: "title", widget: "string"}
-                  - {label: "Name", name: "name", widget: "string"}
-              - {label: "Submit", name: "submit", widget: "string"} 
+          - label: "Thank you page"
+            name: "thankYouPage"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Subtitle", name: "subtitle", widget: "string"}
+              - {label: "Content", name: "content", widget: "markdown"}
+              - {label: "Call-to-action", name: "content", widget: "string"}
           - label: "Demo"
             name: "demoPage"
             widget: "object"
@@ -76,38 +76,8 @@ collections:
                 allow_add: false
                 widget: "list"
                 field: {label: "Item", name: "item", widget: "markdown"}
-              - label: "Form"
-                name: "form"
-                widget: "object"
-                fields:
-                  - {label: "Company", name: "company", widget: "string"}
-                  - {label: "Lastname", name: "last_name", widget: "string"}
-                  - {label: "Firstname", name: "first_name", widget: "string"}
-                  - {label: "Mail", name: "email", widget: "string"}
-                  - {label: "Phone", name: "phone", widget: "string"}
-                  - {label: "Country", name: "where_are_you_based", widget: "string"}
-                  - {label: "Theme", name: "which_of_our_expertises_are_you_interested_in", widget: "string"}
-                  - {label: "Expertises", name: "expertises", widget: "list"}
-                  - {label: "When", name: "what_is_the_time_frame_you_have_for_planning_your_project", widget: "string"}
-                  - {label: "Time frame", name: "timeFrame", widget: "list"}
-                  - {label: "GDPR Checkbox", name: "gdpr", widget: "string"}
-                  - {label: "Details on your project", name: "details_on_your_project", widget: "string"}
-              - {label: "GDPR Notice", name: "gdprNotice", widget: "markdown"}
-              - {label: "More about GDPR", name: "moreGdpr", widget: "markdown"}
-              - {label: "Submit", name: "submit", widget: "string"}
           - {label: "Partners", name: "partners", widget: "string"}
           - {label: "Related posts", name: "relatedPosts", widget: "string"}
-          - label: "Messages"
-            name: "messages"
-            widget: "object"
-            fields:
-              - {label: "Required", name: "required", widget: "string"}
-              - {label: "Invalid mail", name: "invalidMail", widget: "string"}
-              - {label: "Invalid Phone", name: "invalidPhone", widget: "string"}
-              - {label: "Notification Success text", name: "success", widget: "string"}
-              - {label: "Notification Error text", name: "error", widget: "string"}
-              - {label: "Notification Loading text", name: "loading", widget: "string"}
-  
   - name: "blog"
     label: "Blog"
     label_singular: "Post"

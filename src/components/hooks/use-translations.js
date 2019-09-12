@@ -43,12 +43,6 @@ const query = graphql`
             newsletter {
               title
               content
-              form {
-                mail
-                title
-                name
-              }
-              submit
             }
             thankYouPage {
               title
@@ -66,23 +60,6 @@ const query = graphql`
             demoPage {
               title
               content
-              form {
-                company
-                last_name
-                first_name
-                email
-                phone
-                where_are_you_based
-                what_is_the_time_frame_you_have_for_planning_your_project
-                which_of_our_expertises_are_you_interested_in
-                details_on_your_project
-                expertises
-                timeFrame
-                gdpr
-              }
-              gdprNotice
-              moreGdpr
-              submit
             }
             readArticle
             readCaseStudy
@@ -90,15 +67,6 @@ const query = graphql`
             downloadKit
             relatedPosts
             partners
-            messages {
-              required
-              invalidMail
-              invalidPhone
-              uncheckedGDPR
-              error
-              loading
-              success
-            }
           }
         }
       }
