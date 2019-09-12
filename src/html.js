@@ -55,9 +55,15 @@ const CookiesMoreLink = styled(Link)`
 
 const cookiesText = `Nous utilisons des cookies pour vous garantir la meilleure expérience sur notre site et pour répondre à nos besoins statistiques et de mesure d’audience.`;
 
-const gtmId = process.env.GATSBY_GTM_ID,
-  tenantId = process.env.GATSBY_PLEZI_TENANT_ID,
-  twId = process.env.GATSBY_PLEZI_TW_ID;
+const {
+  GATSBY_PLEZI_TENANT_ID: tenantId,
+  GATSBY_PLEZI_DEMO_ID: demoId,
+  GATSBY_PLEZI_DEMO_FORM_ID: demoFormId,
+  GATSBY_PLEZI_NEWSLETTER_ID: newsletterId,
+  GASTBY_PLEZI_NEWSLETTER_DEMO_ID: newsletterFormId,
+  GATSBY_GTM_ID: gtmId,
+  GATSBY_PLEZI_TW_ID: twId
+} = process.env;
 
 const trackingScript = `var w = window, 
 d = document, 
@@ -139,6 +145,16 @@ const HTML = ({
           __html: `new CookiesEuBanner(function() {${trackingScript}}, true)`
         }}
       />
+      <script
+        async
+        type="text/javascript"
+        src={`https://app.plezi.co/scripts/ossleads_forms.js?tenant_id=${tenantId}&form_id=${demoFormId}&form_version=3&content_web_form_id=${demoId}`}
+      ></script>
+      <script
+        async
+        type="text/javascript"
+        src={`https://app.plezi.co/scripts/ossleads_forms.js?tenant_id=${tenantId}c&form_id=${newsletterFormId}&form_version=3&content_web_form_id=${newsletterId}`}
+      ></script>
       {postBodyComponents}
     </body>
   </html>
