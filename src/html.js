@@ -135,7 +135,6 @@ const HTML = ({
         id="___gatsby"
         dangerouslySetInnerHTML={{ __html: body }}
       />
-      {postBodyComponents}
       <script defer async type="text/javascript" src="/jquery.min.js" />
       <script type="text/javascript" src="/cookies-eu-banner.js" />
       <script
@@ -154,6 +153,7 @@ const HTML = ({
         type="text/javascript"
         src={`https://app.plezi.co/scripts/ossleads_forms.js?tenant_id=${tenantId}&form_id=${newsletterFormId}&form_version=3&content_web_form_id=${newsletterId}`}
       ></script>
+      {postBodyComponents}
     </body>
   </html>
 );
