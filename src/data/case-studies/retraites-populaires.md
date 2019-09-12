@@ -2,10 +2,9 @@
 date: 2019-02-28T23:40:32.169Z
 image: /img/retraites-populaires.png
 title: 'Le projet eDossier, un projet de Case Management'
-link: '/success_story/retraites-populaires'
+link: /success_story/retraites-populaires
 ---
-
-1. Une grille de notation avec XX points de contrôle répartis en X catégories.
-2. Une échelle d’importance pour chaque élément permettant de jauger en fonction de priorité business.
-3. Un générateur automatique de graphiques de prises de décision.
-4. Un document explicatif pour bien maîtriser le kit.
+1. Le secteur d'activité : Spécialiste de l'assurance vie et de la prévoyance professionnelle 
+2. Le besoin : Offrir une vision intelligente des cas clients au sein d'une solution unique 
+3. La solution : La plateforme Hyland OnBase et ses fonctionnalités de Case Management
+4. Les bénéfices : Cohérence, facilité et flexibilité
