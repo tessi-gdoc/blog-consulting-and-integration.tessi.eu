@@ -107,6 +107,7 @@ const MenuButton = styled.button`
   display: block;
   background: none;
   border: none;
+  outline: none;
   ${Desktop} {
     display: none;
   }
