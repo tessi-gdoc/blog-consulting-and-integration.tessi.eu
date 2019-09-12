@@ -57,8 +57,6 @@ const cookiesText = `Nous utilisons des cookies pour vous garantir la meilleure 
 
 const gtmId = process.env.GATSBY_GTM_ID;
 
-const pleziUrl = `https://app.plezi.co/scripts/ossleads_analytics.js?tenant=5c4ecbcee317a755ead39f5c&tw=5c4ecbd0e317a755ead3a074`;
-
 const trackingScript = `var w = window, 
 d = document, 
 s = "script", 
@@ -74,8 +72,8 @@ j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
 f.parentNode.insertBefore(j, f); 
 var p = d.createElement(s); 
 p.type = "text/javascript"; 
-p.async = true;  
-p.src = ${pleziUrl}; 
+p.async = true; 
+p.src = "https://app.plezi.co/scripts/ossleads_analytics.js?tenant=5c4ecbcee317a755ead39f5c&tw=5c4ecbd0e317a755ead3a074"; 
 f.parentNode.insertBefore(p, f);
 `;
 
@@ -131,7 +129,7 @@ const HTML = ({
         id="___gatsby"
         dangerouslySetInnerHTML={{ __html: body }}
       />
-      <script defer type="text/javascript" src="/jquery.min.js" />
+      <script defer async type="text/javascript" src="/jquery.min.js" />
       <script type="text/javascript" src="/cookies-eu-banner.js" />
       <script
         type="text/javascript"
