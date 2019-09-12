@@ -1,12 +1,13 @@
 ---
 templateKey: blog-post
-image: /img/image_article_case-management_bien-realiser-son-benchmark.jpg
+image: /img/benchmark_solution_case_management.png
 title: 'Solution de Case Management : Comment bien réaliser son benchmark ?'
 description: >-
   Découvrez les étapes à suivre et les bonnes questions à se poser pour choisir
   votre solution de Case Management.
 date: 2019-04-02T07:56:52.328Z
-tags: ['Case Management']
+tags:
+  - Case Management
 authors:
   - avatar: /img/nicolasz_profil.jpg
     firstname: Nicolas
