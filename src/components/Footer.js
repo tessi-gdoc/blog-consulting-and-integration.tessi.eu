@@ -78,7 +78,12 @@ const Footer = () => {
       <Container>
         <Flex justify="space-between" align="start">
           <FlexItem as="span">
-            <Link name="logo" title="Back to home" to="/">
+            <Link
+              name="logo"
+              title="Back to home"
+              to="/"
+              css={{ ':hover': { textDecoration: `none`, color: `inherit` } }}
+            >
               <Brand />
               <br />
               Business Process Services in a digital world

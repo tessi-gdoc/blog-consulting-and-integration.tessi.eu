@@ -1,5 +1,4 @@
 const path = require('path');
-const proxy = require('http-proxy-middleware');
 const { description } = require('./package.json');
 const { primary, secondary, lightGrey } = require('./src/styles/colors');
 
@@ -54,15 +53,6 @@ module.exports = {
         slug: `/case-studies`
       }
     ]
-  },
-  developMiddleware: app => {
-    app.use(
-      '/.netlify/functions/',
-      proxy({
-        target: 'http://localhost:9000',
-        pathRewrite: { '/.netlify/functions/': '' }
-      })
-    );
   },
   plugins: [
     {

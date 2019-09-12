@@ -1,7 +1,7 @@
 {
   "name": "tessi-blog",
-  "description": "Blog Tessi: Pôle Intégrations et Conseils",
-  "version": "0.0.0",
+  "description": "Business Process Services in a digital world",
+  "version": "1.0.0",
   "author": {
     "name": "Mathieu Gauthier",
     "email": "mathieu.gauthier@tessi.fr",
@@ -72,8 +72,6 @@
     "eslint-plugin-jsx-a11y": "6.x",
     "eslint-plugin-react": "7.x",
     "eslint-plugin-react-hooks": "^2.0.1",
-    "http-proxy-middleware": "^0.20.0",
-    "netlify-lambda": "^1.6.3",
     "prettier": "^1.18.2"
   },
   "license": "MIT",
