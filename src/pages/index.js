@@ -96,8 +96,8 @@ const HeroWrapper = styled.div`
 
 const Service = styled.div`
   position: absolute;
-  left: 25px;
   right: auto;
+  left: 25px;
   top: 25px;
   color: white;
   & > svg {
@@ -116,14 +116,14 @@ const SocialButtons = styled.aside`
   justify-content: space-between;
   flex-direction: row;
   margin: 0 auto;
-  max-width: 100px;
+  max-width: 120px;
   ${Tablet} {
     right: 25px;
     left: auto;
     top: 0;
     bottom: 0;
     margin: auto 0;
-    max-height: 100px;
+    max-height: 120px;
     flex-direction: column;
   }
 `;
@@ -190,7 +190,8 @@ const Blog = ({
     <>
       <HeroWrapper>
         <Service>
-          <ConsultingLogo /> {service}
+          <ConsultingLogo />
+          {service}
         </Service>
         <Hero
           title={

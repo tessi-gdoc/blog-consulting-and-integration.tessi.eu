@@ -58,6 +58,6 @@ exports.handler = e => {
     }))
     .catch(error => ({
       statusCode: 422,
-      body: `Oops! Something went wrong. ${error}`
+      body: `Oops! Something went wrong. ${error.message}`
     }));
 };

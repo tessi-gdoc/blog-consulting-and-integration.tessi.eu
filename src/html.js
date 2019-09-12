@@ -53,7 +53,7 @@ const CookiesMoreLink = styled(Link)`
   }
 `;
 
-const cookiesText = `We use cookies to guarantee that you have the best possible experience on our site, and to meet our statistics and traffic assessment requirements.`;
+const cookiesText = `Nous utilisons des cookies pour vous garantir la meilleure expérience sur notre site et pour répondre à nos besoins statistiques et de mesure d’audience.`;
 
 const gtmId = process.env.GATSBY_GTM_ID;
 
@@ -120,15 +120,15 @@ const HTML = ({
         <CookiesMessage>
           {cookiesText}{' '}
           <CookiesMoreLink to="/notices/cookies" id="cookies-eu-more">
-            Read our cookies management policy
+            Lire notre gestion des cookies
           </CookiesMoreLink>
         </CookiesMessage>
         <CookiesButtons>
           <button type="button" aria-label="Reject" id="cookies-eu-reject">
-            Reject
+            Rejeter
           </button>
           <button type="button" aria-label="Accept" id="cookies-eu-accept">
-            Accept
+            Accepter
           </button>
         </CookiesButtons>
       </CookiesBanner>

@@ -40,7 +40,7 @@ const Card = styled.article`
 
 const Header = styled.header`
   & > h2 {
-    margin: 0 0 0.5em 0;
+    margin: 0.5em 0;
   }
   & > span {
     display: block;
@@ -120,9 +120,10 @@ const Post = ({ frontmatter, slug }) => {
           to={slug}
           css={PostCardContentLink}
         >
-          {frontmatter.tags.map(tag => (
-            <Tag key={tag}> {tag}</Tag>
-          ))}
+          {frontmatter.tags.map((tag, i) => [
+            i > 0 && <Tag> • </Tag>,
+            <Tag key={tag}>{tag}</Tag>
+          ])}
           <Header className="post-card-header">
             <span>{frontmatter.date}</span>
             <h2>{frontmatter.title}</h2>

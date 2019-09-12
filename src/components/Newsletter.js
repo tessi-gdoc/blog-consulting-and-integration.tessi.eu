@@ -8,7 +8,7 @@ import FormikContainer, { FormField, SelectField } from './FormikContainer';
 import Modal from './Modal';
 import Flex, { FlexItem } from './Flex';
 import Cta, { enumTypes } from './Cta';
-import { Tablet } from '@media';
+import { Desktop } from '@media';
 
 const validationSchema = Yup.object().shape({
   title: Yup.string().required('required'),
@@ -29,7 +29,7 @@ const Newsletter = ({ isOpen, onClose }) => {
       isOpen={isOpen}
       title={title}
       onClose={onClose}
-      css={{ marginTop: 0, [Tablet]: { marginTop: `25vh` } }}
+      css={{ marginTop: 0, [Desktop]: { marginTop: `15vh` } }}
     >
       <p>{content}</p>
       <FormikContainer

@@ -77,41 +77,38 @@ const Footer = () => {
     <Wrapper>
       <Container>
         <Flex justify="space-between" align="start">
-          <FlexItem>
+          <FlexItem as="span">
             <Link name="logo" title="Back to home" to="/">
               <Brand />
+              <br />
+              Business Process Services in a digital world
             </Link>
             <p>
-              <strong>Business Process Services in a digital world</strong>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Tessi website"
+                href={officialWebsite}
+              >
+                {website}
+              </a>
+            </p>
+            <p>
+              <a title="Contact us" href={`mailto:${contactMail}`}>
+                {contact}
+              </a>
             </p>
           </FlexItem>
           <FlexItem as="span">
-            <Flex direction="column">
-              <FlexItem>
-                <Link to="/">{allArticles}</Link>
-              </FlexItem>
-              <FlexItem>
-                <Link to="/whitepapers">{resources}</Link>
-              </FlexItem>
-              <FlexItem>
-                <Link to="/case-studies">{caseStudies}</Link>
-              </FlexItem>
-              <FlexItem>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  title="Tessi website"
-                  href={officialWebsite}
-                >
-                  {website}
-                </a>
-              </FlexItem>
-              <FlexItem>
-                <a title="Contact us" href={`mailto:${contactMail}`}>
-                  {contact}
-                </a>
-              </FlexItem>
-            </Flex>
+            <p>
+              <Link to="/">{allArticles}</Link>
+            </p>
+            <p>
+              <Link to="/whitepapers">{resources}</Link>
+            </p>
+            <p>
+              <Link to="/case-studies">{caseStudies}</Link>
+            </p>
           </FlexItem>
           {social && social.length && (
             <FlexItem as="span">
@@ -124,7 +121,7 @@ const Footer = () => {
                     rel="noopener noreferrer"
                     title={name}
                     href={link}
-                    css={{ padding: `0 0.75rem` }}
+                    css={{ padding: `.5rem 0` }}
                   >
                     <Icon type={name} color={primary} />
                   </a>
