@@ -55,15 +55,13 @@ const CookiesMoreLink = styled(Link)`
 
 const cookiesText = `Nous utilisons des cookies pour vous garantir la meilleure expérience sur notre site et pour répondre à nos besoins statistiques et de mesure d’audience.`;
 
-const {
-  GATSBY_PLEZI_TENANT_ID: tenantId,
-  GATSBY_PLEZI_DEMO_ID: demoId,
-  GATSBY_PLEZI_DEMO_FORM_ID: demoFormId,
-  GATSBY_PLEZI_NEWSLETTER_ID: newsletterId,
-  GASTBY_PLEZI_NEWSLETTER_DEMO_ID: newsletterFormId,
-  GATSBY_GTM_ID: gtmId,
-  GATSBY_PLEZI_TW_ID: twId
-} = process.env;
+const tenantId = process.env.GATSBY_PLEZI_TENANT_ID,
+  demoId = process.env.GATSBY_PLEZI_DEMO_ID,
+  demoFormId = process.env.GATSBY_PLEZI_DEMO_FORM_ID,
+  newsletterId = process.env.GATSBY_PLEZI_NEWSLETTER_ID,
+  newsletterFormId = process.env.GATSBY_PLEZI_NEWSLETTER_FORM_ID,
+  gtmId = process.env.GATSBY_GTM_ID,
+  twId = process.env.GATSBY_PLEZI_TW_ID;
 
 const trackingScript = `var w = window, 
 d = document, 
