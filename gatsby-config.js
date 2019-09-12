@@ -256,7 +256,7 @@ module.exports = {
         include_favicon: false
       }
     },
-    `gatsby-plugin-offline`,
+    `gatsby-plugin-remove-serviceworker`,
     {
       resolve: `gatsby-plugin-netlify-cms`,
       options: { htmlTitle: `Admin | Tessi#Journey` }
