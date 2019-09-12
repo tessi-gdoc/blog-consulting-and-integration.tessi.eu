@@ -46,7 +46,7 @@ const DocTemplate = ({ title, content, cta, imageData }) => (
       <FlexItem width="calc(100% - 450px)">
         <h3>{title}</h3>
         <Description dangerouslySetInnerHTML={{ __html: content }} />
-        <Cta type={enumTypes.SECONDARY} link={cta.link}>
+        <Cta type={enumTypes.SECONDARY} link={cta.link} size="large">
           {cta.text}
         </Cta>
       </FlexItem>
