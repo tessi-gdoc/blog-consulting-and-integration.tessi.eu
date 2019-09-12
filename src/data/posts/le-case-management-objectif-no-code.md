@@ -1,13 +1,14 @@
 ---
 templateKey: blog-post
-image: /img/image_article_case-management-objectif-low-code.jpg
+image: /img/case_management_low_code.png
 title: 'Le Case Management : Objectif No Code !'
 description: >-
   Plusieurs modes de réalisation existent pour mettre en place une solution de
   Case Management. Découvrez les bénéfices et inconvénients de chacune des
   options.
 date: 2019-03-17T23:00:00.000Z
-tags: ['Case Management']
+tags:
+  - Case Management
 authors:
   - avatar: /img/magali-t._profil.jpg
     firstname: Magali
