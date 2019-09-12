@@ -1,10 +1,10 @@
 import React from 'react';
-import { hasPath } from 'ramda';
+import { hasPath, test } from 'ramda';
 import Layout from './src/components/Layout';
 
 const wrapPageElement = ({ element, props }) => {
   const { pathname } = props.location;
-  const isArticle = pathname.match(/^\/(posts)\/[^\n]+/);
+  const isArticle = test(/^\/posts\/[^\n]+/, pathname);
   let seo = {};
   if (
     isArticle &&

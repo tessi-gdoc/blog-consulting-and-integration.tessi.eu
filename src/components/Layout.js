@@ -183,13 +183,13 @@ const GlobalStyles = () => (
       h6 {
         margin-top: 0;
         line-height: 1.15;
-        font-weight: 600;
+        font-weight: 500;
         text-rendering: optimizeLegibility;
       }
       h1 {
         margin: 0 0 0.5em 0;
         font-size: 4rem;
-        font-weight: 700;
+        font-weight: 600;
       }
       @media (max-width: 500px) {
         h1 {
@@ -199,6 +199,7 @@ const GlobalStyles = () => (
       h2 {
         margin: 1.5em 0 0.5em 0;
         font-size: 1.6rem;
+        font-weight: 600;
       }
       @media (max-width: 500px) {
         h2 {
@@ -208,7 +209,6 @@ const GlobalStyles = () => (
       h3 {
         margin: 1.5em 0 0.5em 0;
         font-size: 1.4rem;
-        font-weight: 500;
       }
       @media (max-width: 500px) {
         h3 {
@@ -220,7 +220,6 @@ const GlobalStyles = () => (
       h6 {
         margin: 1.5em 0 0.5em 0;
         font-size: 1.2rem;
-        font-weight: 500;
       }
 
       a {
@@ -281,12 +280,8 @@ const GlobalStyles = () => (
           bottom: 0;
         }
       }
-      fieldset {
-        border: 1px solid rgba(218, 218, 218, 0.5);
-        border-radius: 3px;
-        & > legend {
-          font-weight: 500;
-        }
+      label.control-label {
+        font-weight: 500;
       }
       .headroom {
         flex: 0 0 auto;

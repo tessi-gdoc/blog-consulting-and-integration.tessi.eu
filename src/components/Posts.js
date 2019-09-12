@@ -121,7 +121,7 @@ const Post = ({ frontmatter, slug }) => {
           css={PostCardContentLink}
         >
           {frontmatter.tags.map((tag, i) => [
-            i > 0 && <Tag> • </Tag>,
+            i > 0 && <Tag key={i}> • </Tag>,
             <Tag key={tag}>{tag}</Tag>
           ])}
           <Header className="post-card-header">

@@ -55,7 +55,9 @@ const CookiesMoreLink = styled(Link)`
 
 const cookiesText = `Nous utilisons des cookies pour vous garantir la meilleure expérience sur notre site et pour répondre à nos besoins statistiques et de mesure d’audience.`;
 
-const gtmId = process.env.GATSBY_GTM_ID;
+const gtmId = process.env.GATSBY_GTM_ID,
+  tenantId = process.env.GATSBY_PLEZI_TENANT_ID,
+  twId = process.env.GATSBY_PLEZI_TW_ID;
 
 const trackingScript = `var w = window, 
 d = document, 
@@ -73,7 +75,7 @@ f.parentNode.insertBefore(j, f);
 var p = d.createElement(s); 
 p.type = "text/javascript"; 
 p.async = true; 
-p.src = "https://app.plezi.co/scripts/ossleads_analytics.js?tenant=5c4ecbcee317a755ead39f5c&tw=5c4ecbd0e317a755ead3a074"; 
+p.src = "https://app.plezi.co/scripts/ossleads_analytics.js?tenant=${tenantId}&tw=${twId}"; 
 f.parentNode.insertBefore(p, f);
 `;
 
