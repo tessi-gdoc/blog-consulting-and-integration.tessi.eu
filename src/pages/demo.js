@@ -1,6 +1,8 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import { toUpper, equals } from 'ramda';
+import axios from 'axios';
+import Cookies from 'universal-cookie';
 import Img from 'gatsby-image';
 import * as Yup from 'yup';
 import { css } from '@emotion/core';
@@ -15,7 +17,6 @@ import FormikContainer, {
   FormField,
   SelectField
 } from '@components/FormikContainer';
-import createContact from '@plezi';
 import { Tablet } from '@media';
 
 const ValidationSchema = Yup.object().shape({
@@ -86,13 +87,14 @@ const Demo = ({
           <FormikContainer
             initialValues={initialValues}
             validationSchema={ValidationSchema}
-            onSubmit={values =>
-              createContact({
-                data: { type: 'contacts', attributes: values }
-              })
-            }
+            onSubmit={values => {
+              const visitor = new Cookies().get('visitor');
+              return axios(
+                `/.netlify/functions/create-contact?visitor=${visitor}&email=${values.email}`
+              );
+            }}
           >
-            {({ handleSubmit, values }) => (
+            {({ handleSubmit }) => (
               <form onSubmit={handleSubmit}>
                 <Flex>
                   <FlexItem width="50%">
@@ -180,7 +182,7 @@ const Demo = ({
                 <small>
                   <HTML markdown={moreGdpr} />
                 </small>
-                <Cta type={enumTypes.SECONDARY} size="large">
+                <Cta htmltype="submit" type={enumTypes.SECONDARY} size="large">
                   {submit}
                 </Cta>
               </form>

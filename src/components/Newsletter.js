@@ -57,7 +57,9 @@ const Newsletter = ({ isOpen, onClose }) => {
                 <FormField name="name" label={form.name} />
               </FlexItem>
               <FlexItem width="100%" css={{ textAlign: `center` }}>
-                <Cta type={enumTypes.PRIMARY}>{submit}</Cta>
+                <Cta htmltype="submit" type={enumTypes.PRIMARY}>
+                  {submit}
+                </Cta>
               </FlexItem>
             </Flex>
           </form>

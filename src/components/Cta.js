@@ -84,7 +84,7 @@ const findStyleWithType = cond([
       borderStyle: `double`,
       backgroundColor: `white`,
       backgroundImage: `linear-gradient(white, white), radial-gradient(
-        circle at top right,
+        circle at top left,
         #3e6aae 0%,
         #447dbc 20%,
         #86589d 40%,
@@ -121,11 +121,11 @@ const getStyle = pipe(
   getBasicStyle
 );
 
-const Cta = ({ link, size, type, children, ...rest }) => {
+const Cta = ({ link, size, type, children, htmltype, ...rest }) => {
   const css = [getStyle(size), findStyleWithType(type)];
   const render = content =>
     !link ? (
-      <button {...rest} aria-label={content} css={css}>
+      <button type={htmltype} {...rest} aria-label={content} css={css}>
         {content}
       </button>
     ) : `/` === link.substring(0, 1) ? (

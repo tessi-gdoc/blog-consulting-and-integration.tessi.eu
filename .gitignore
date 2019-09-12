@@ -4,3 +4,4 @@ static/admin/*.bundle.*
 .cache
 yarn-error.log
 .netlify
+config.js

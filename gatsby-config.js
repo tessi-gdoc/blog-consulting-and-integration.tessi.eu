@@ -1,4 +1,5 @@
 const path = require('path');
+const proxy = require('http-proxy-middleware');
 const { description } = require('./package.json');
 const { primary, secondary, lightGrey } = require('./src/styles/colors');
 
@@ -53,6 +54,15 @@ module.exports = {
         slug: `/case-studies`
       }
     ]
+  },
+  developMiddleware: app => {
+    app.use(
+      '/.netlify/functions/',
+      proxy({
+        target: 'http://localhost:9000',
+        pathRewrite: { '/.netlify/functions/': '' }
+      })
+    );
   },
   plugins: [
     {
@@ -223,7 +233,6 @@ module.exports = {
         alias: {
           '@utils': path.resolve(__dirname, 'src/utils'),
           '@i18n': path.resolve(__dirname, 'src/i18n'),
-          '@plezi': path.resolve(__dirname, 'src/plezi'),
           '@components': path.resolve(__dirname, 'src/components'),
           '@hooks': path.resolve(__dirname, 'src/components/hooks'),
           '@icons': path.resolve(__dirname, 'src/components/Icon'),
@@ -268,7 +277,7 @@ module.exports = {
         headers: {
           '/*': [
             `X-UA-Compatible: IE=Edge`,
-            `Content-Security-Policy: base-uri 'self'; default-src 'self' data: raw.githubusercontent.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' ${cloud_id}.cloudfront.net; style-src 'self' 'unsafe-inline'; object-src 'none'; form-action 'self'; font-src 'self' data: ${cloud_id}.cloudfront.net; connect-src 'self' ${cloud_id}.cloudfront.net  app.plezi.co`
+            `Content-Security-Policy: base-uri 'self'; default-src 'self' data: raw.githubusercontent.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' ${cloud_id}.cloudfront.net googletagmanager.com app.plezi.co; style-src 'self' 'unsafe-inline'; object-src 'none'; form-action 'self'; font-src 'self' data: ${cloud_id}.cloudfront.net; connect-src 'self' ${cloud_id}.cloudfront.net app.plezi.co`
           ],
           '/icons/*.png': [`cache-control: public, max-age=31536000,immutable`]
         }
