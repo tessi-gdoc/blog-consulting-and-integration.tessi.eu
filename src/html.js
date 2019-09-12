@@ -152,7 +152,7 @@ const HTML = ({
       <script
         async
         type="text/javascript"
-        src={`https://app.plezi.co/scripts/ossleads_forms.js?tenant_id=${tenantId}c&form_id=${newsletterFormId}&form_version=3&content_web_form_id=${newsletterId}`}
+        src={`https://app.plezi.co/scripts/ossleads_forms.js?tenant_id=${tenantId}&form_id=${newsletterFormId}&form_version=3&content_web_form_id=${newsletterId}`}
       ></script>
     </body>
   </html>

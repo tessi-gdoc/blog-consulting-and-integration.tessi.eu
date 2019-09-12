@@ -51,7 +51,7 @@ const StyledModal = styled(ReactModal)`
   }
 `;
 
-ReactModal.setAppElement(`#gatsby-focus-wrapper`);
+ReactModal.setAppElement(`#___gatsby`);
 
 const Modal = ({ title, isOpen, onClose, footer, children, ...props }) => {
   return (

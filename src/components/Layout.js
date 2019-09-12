@@ -260,6 +260,9 @@ const GlobalStyles = () => (
           color: ${primary};
         }
       }
+      label.checkbox > input {
+        width: 25px;
+      }
       textarea {
         &:after {
           content: '';
@@ -282,6 +285,32 @@ const GlobalStyles = () => (
       }
       label.control-label {
         font-weight: 500;
+      }
+      .plezi-submit-btn {
+        display: inline-block;
+        font-family: inherit;
+        font-size: inherit;
+        font-weight: 600;
+        background-color: transparent;
+        user-select: none;
+        cursor: pointer;
+        text-align: center;
+        padding: 0;
+        text-transform: uppercase;
+        line-height: 43px;
+        width: 100%;
+        height: 48px;
+        outline: none;
+        position: relative;
+        border-width: 3px;
+        border-style: solid;
+        border-color: transparent;
+        border-radius: 23px;
+        overflow: hidden;
+        transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+          border-color 0.15s ease-in-out;
+        color: white;
+        background-color: #ee5d84;
       }
       .headroom {
         flex: 0 0 auto;
