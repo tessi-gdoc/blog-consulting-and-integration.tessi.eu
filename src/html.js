@@ -72,18 +72,12 @@ var f = d.getElementsByTagName(s)[0],
 j.async = true; 
 j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl; 
 f.parentNode.insertBefore(j, f); 
-var scripts = [ 
-  { defer: true, src: "/jquery.min.js" },
-  { defer: false,  src: "${pleziUrl}" } 
-]; 
-for (var sc of scripts) { 
-  var p = d.createElement(s); 
-  p.type = "text/javascript"; 
-  p.async = true; 
-  p.defer = sc.defer; 
-  p.src = sc.src; 
-  f.parentNode.insertBefore(p, f);
-}`;
+var p = d.createElement(s); 
+p.type = "text/javascript"; 
+p.async = true;  
+p.src = ${pleziUrl}; 
+f.parentNode.insertBefore(p, f);
+`;
 
 const HTML = ({
   htmlAttributes,
@@ -137,6 +131,7 @@ const HTML = ({
         id="___gatsby"
         dangerouslySetInnerHTML={{ __html: body }}
       />
+      <script defer type="text/javascript" src="/jquery.min.js" />
       <script type="text/javascript" src="/cookies-eu-banner.js" />
       <script
         type="text/javascript"
