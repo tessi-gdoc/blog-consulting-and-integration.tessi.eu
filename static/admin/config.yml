@@ -28,6 +28,7 @@ collections:
           - {label: "Website", name: "website", widget: "string"}
           - {label: "Follow", name: "follow", widget: "string"}
           - {label: "All articles", name: "allArticles", widget: "string"}
+          - {label: "Contact", name: "contact", widget: "string"}
           - {label: "Home", name: "home", widget: "string"}
           - {label: "Blog", name: "blog", widget: "string"}
           - {label: "Resources", name: "resources", widget: "string"}
