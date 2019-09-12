@@ -1,35 +1,76 @@
 {
-  "notFound": "Votre recherche n'a donné aucun résultat.",
-  "subtitle": "Le Blog de la Conversation Client",
-  "service": "Conseil et intégration",
-  "website": "Site web Officiel",
-  "follow": "Suivez-nous !",
-  "contact": "Contactez-nous",
-  "allArticles": "Tous nos articles",
-  "home": "Accueil",
+  "readArticle": "Lire l'article",
   "blog": "Blog",
-  "resources": "Ressources",
-  "whitepapers": "Livres blancs",
-  "kits": "Kits opérationnels",
-  "caseStudies": "Études de cas",
   "demo": "Demande de démo",
-  "offers": "Découvrir nos offres",
+  "readCaseStudy": "Lire l'étude de cas",
+  "resources": "Ressources",
+  "relatedPosts": "Articles associés",
+  "convinced": "êtes-vous convaincu ?",
+  "partners": "Nos partenaires",
+  "downloadWhitepaper": "Télécharger le livre blanc",
+  "messages": {
+    "required": "Ce champs est requis.",
+    "invalidMail": "Cette adresse mail n'est pas valide.",
+    "invalidPhone": "Ce numéro de téléphone n'est pas valide.",
+    "success": "Nous traitons votre demande dans les plus brefs délais.",
+    "error": "Une erreur est survenue lors de l'envoi du formulaire. Merci de nous contacter par mail.",
+    "loading": "Chargement en cours..."
+  },
   "about": {
     "title": "À propos",
     "content": "**Tessi Journey** est le blog destiné aux dirigeants et professionnels de la transformation digitale. Nos experts vous partagent les nouvelles tendances, solutions technologiques, et méthodologies au service de votre parcours client. Faites le plein de conseils et bonnes pratiques pour grimper sur le podium de la pertinence des intéractions client."
   },
-  "convinced": "êtes-vous convaincu ?",
+  "downloadKit": "Télécharger le kit",
+  "notFound": "Votre recherche n'a donné aucun résultat.",
+  "whitepapers": "Livres blancs",
+  "follow": "Suivez-nous !",
+  "demoPage": {
+    "title": "Troquez les longs discours contre une démonstration solution !",
+    "content": [
+      "**Comment cela se passe ?**\n\nDès réception de votre demande, nous vous contacterons dans les plus brefs délais pour comprendre au mieux votre besoin et ainsi préparer une démonstration sur-mesure.\n\n**Qu'attendre de cette session de démonstration ?** \n\nEn tant que spécialiste dans le conseil et intégrateur indépendant, notre rôle est de : \n\n* Vous permettre de faire progresser votre benchmark de solutions\n* Vous conseiller de façon adaptée avec une regard objectif\n* Vous partager nos retours d'expérience \n* Vous apporter des réponses à toutes vos questions\n\n**_N’hésitez plus, venez nous voir ! Une démonstration n’engage à rien…_**",
+      "Découvrez des solutions leaders sur le marché de la gestion de l’information d'entreprise  !"
+    ],
+    "form": {
+      "timeFrame": [
+        "Immédiatement",
+        "Moins de 6 mois",
+        "Entre 6 et 12 mois",
+        "Entre 1 et 2 ans",
+        "Plus de 2 ans"
+      ],
+      "expertises": [
+        "Gestion de contenu (Content Services)",
+        "Case Management",
+        "Parcours client",
+        "Gestion de la communication client (CCM)",
+        "Autre - Précisez ci-dessous"
+      ],
+      "which_of_our_expertises_are_you_interested_in": "Laquelle de nos expertises vous intéresse ?",
+      "phone": "Téléphone",
+      "details_on_your_project": "Détails sur votre projet",
+      "where_are_you_based": "Où êtes-vous basé ?",
+      "last_name": "Nom",
+      "first_name": "Prénom",
+      "email": "Email",
+      "company": "Société",
+      "what_is_the_time_frame_you_have_for_planning_your_project": "Quel est le délai de votre projet ?",
+      "gdpr": "J'ai pris connaissance de la politique de confidentialité et j'autorise Tessi Conseil & Intégration et les autres filiales du groupe Tessi à m'envoyer des informations."
+    },
+    "gdprNotice": "_En soumettant ce formulaire, vous consentez que Tessi mémorise et utilise vos données personnelles dans le respect des conditions décrites dans la Déclaration de confidentialité._",
+    "moreGdpr": "En savoir plus sur la gestion de vos données et vos droits : _[Politique d’utilisation des données personnelles](/notices/personal-data-use-policy)_",
+    "submit": "Je souhaite une démo !"
+  },
+  "service": "Conseil et intégration",
+  "offers": "Découvrir nos offres",
+  "caseStudies": "Études de cas",
+  "subtitle": "Le Blog de la Conversation Client",
   "tags": [
     "Actualités",
-    "Gestion de contenu (ECM)",
+    "Content Services",
     "Communication client (CCM)",
     "Case Management",
     "Parcours client"
   ],
-  "readArticle": "Lire l'article",
-  "readCaseStudy": "Lire l'étude de cas",
-  "downloadWhitepaper": "Lire le livre blanc",
-  "downloadKit": "Télécharger le kit",
   "newsletter": {
     "title": "Vous souhaitez recevoir nos articles par email ?",
     "content": "Abonnez vous pour recevoir notre newsletter une fois par mois",
@@ -40,57 +81,8 @@
     },
     "submit": "Je m'inscris"
   },
-  "thankYouPage": {
-    "title": "Bonjour",
-    "subtitle": "Merci pour votre demande.",
-    "content": "",
-    "cta": "Découvrez nos contenus premium"
-  },
-  "demoPage": {
-    "title": "Troquez les longs discours contre une démonstration solution !",
-    "content": [
-      "Comment cela se passe ?\n\nUne fois le formulaire soumis, vous recevrez un email de la part de l’un de nos ingénieurs d’affaires.\n\nPlanifiez un rendez-vous à votre convenance.\n\nDurant la séance : Une première partie est consacré à la démo. Une deuxième partie consiste à vous laisser naviguer sur la plateforme si vous le souhaitez.\n\n_N’hésitez plus, découvrez ! Une démonstration n’engage à rien…_",
-      "Découvrez des solutions leaders sur le marché de la gestion de l’information !"
-    ],
-    "form": {
-      "company": "Société",
-      "last_name": "Nom",
-      "first_name": "Prénom",
-      "email": "Email",
-      "phone": "Téléphone",
-      "where_are_you_based": "Où êtes-vous basé ?",
-      "what_is_the_time_frame_you_have_for_planning_your_project": "Quel est le délai de votre projet ?",
-      "expertises": [
-        "Gestion de contenu (Content Services)",
-        "Case Management",
-        "Parcours client",
-        "Gestion de la communication client (CCM)",
-        "Autre - Précisez ci-dessous"
-      ],
-      "timeFrame": [
-        "Immédiatement",
-        "Moins de 6 mois",
-        "Entre 6 et 12 mois",
-        "Entre 1 et 2 ans",
-        "Plus de 2 ans"
-      ],
-      "which_of_our_expertises_are_you_interested_in": "Laquelle de nos expertises vous intéresse ?",
-      "details_on_your_project": "Détails sur votre projet",
-      "gdpr": "J'ai pris connaissance de la politique de confidentialité et j'autorise Tessi Conseil & Intégration et les autres filiales du groupe Tessi à m'envoyer des informations."
-    },
-    "gdprNotice": "_En soumettant ce formulaire, vous consentez que Tessi mémorise et utilise vos données personnelles dans le respect des conditions décrites dans la Déclaration de confidentialité._",
-    "moreGdpr": "En savoir plus sur la gestion de vos données et vos droits : _[Politique d’utilisation des données personnelles](/notices/personal-data-use-policy)_",
-    "submit": "Je souhaite une démo !"
-  },
-  "partners": "Nos partenaires",
-  "relatedPosts": "Articles associés",
-  "messages": {
-    "required": "Ce champs est requis.",
-    "invalidMail": "Cette adresse mail n'est pas valide.",
-    "invalidPhone": "Ce numéro de téléphone n'est pas valide.",
-    "uncheckedGDPR": "Merci d'accepter notre note RGPD.",
-    "loading": "Chargement en cours...",
-    "error": "Une erreur est survenue lors de l'envoi du formulaire. Merci de nous contacter par mail.",
-    "success": "Nous traitons votre demande dans les plus brefs délais."
-  }
+  "website": "Site web Officiel",
+  "kits": "Kits opérationnels",
+  "allArticles": "Tous nos articles",
+  "home": "Accueil"
 }
