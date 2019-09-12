@@ -267,7 +267,7 @@ module.exports = {
         headers: {
           '/*': [
             `X-UA-Compatible: IE=Edge`,
-            `Content-Security-Policy: base-uri 'self'; default-src 'self' data: raw.githubusercontent.com app.plezi.co; script-src 'self' 'unsafe-inline' 'unsafe-eval' ${cloud_id}.cloudfront.net www.googletagmanager.com app.plezi.co; style-src 'self' 'unsafe-inline'; object-src 'none'; form-action 'self'; font-src 'self' data: ${cloud_id}.cloudfront.net; connect-src 'self' ${cloud_id}.cloudfront.net app.plezi.co`
+            `Content-Security-Policy: base-uri 'self'; default-src 'self' data: raw.githubusercontent.com app.plezi.co; script-src 'self' 'unsafe-inline' 'unsafe-eval' ${cloud_id}.cloudfront.net www.googletagmanager.com www.google-analytics.com www.googleadservices.com app.plezi.co; style-src 'self' 'unsafe-inline'; object-src 'none'; form-action 'self'; font-src 'self' data: ${cloud_id}.cloudfront.net; connect-src 'self' ${cloud_id}.cloudfront.net app.plezi.co`
           ],
           '/icons/*.png': [`cache-control: public, max-age=31536000,immutable`]
         }
