@@ -82,7 +82,9 @@ const Footer = () => {
               name="logo"
               title="Back to home"
               to="/"
-              css={{ ':hover': { textDecoration: `none`, color: `inherit` } }}
+              css={{
+                ':hover, :focus': { textDecoration: `none`, color: `inherit` }
+              }}
             >
               <Brand />
               <br />
