@@ -1,6 +1,6 @@
 ---
 date: 2019-02-28T23:40:32.169Z
-image: /img/image_kit-benchmark-solution-case-management_compr.-2-.jpg
+image: /img/image_kit-benchmark-solution-case-management.jpg
 title: Modèle de benchmark des solutions de Case Management
 link: /success_story/retraites-populaires
 ---
