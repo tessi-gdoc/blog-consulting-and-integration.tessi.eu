@@ -1,6 +1,6 @@
 ---
 date: 2019-02-28T23:40:32.169Z
-image: /img/retraites-populaires.png
+image: /img/etude_de_cas_retraites_populaires.png
 title: 'Le projet eDossier, un projet de Case Management'
 link: /success_story/retraites-populaires
 ---
