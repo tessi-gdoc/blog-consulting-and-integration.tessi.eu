@@ -43,7 +43,7 @@ Dans les évolutions récentes, à partir de 1960, nous pouvons citer des pas de
 * Impression 
 * Mise sous pli... 
 
-Au début de l’ère informatique, les entreprises se sont servies de l’impression pour “communiquer” avec leurs clients bien souvent par obligation légale. Il s’agit alors principalement d’envoi de documents dits “transactionnels” tels que des relevés de banque, des polices d’assurance, ou avis d’opération.  
+Au début de l’ère informatique, les entreprises se sont servies de l’impression pour “communiquer” avec leurs clients bien souvent par obligation légale. Il s’agit alors principalement d’envoi de documents dits “transactionnels” tels que des relevés de banque, des polices d’assurance, ou avis d’opération.  
 
 Pour y parvenir, les organisations utilisent des systèmes de production documentaire autrement dit des programmes connectés/intégrés aux outils métier producteur de données. Ces systèmes assurent à la fois l’extraction des données, la mise en page des maquettes, apposent les informations sur la page, jusqu’au pilotage des imprimantes.  A cette époque, malgré des systèmes lourds et complexes, mener un processus d’impression de bout en bout sans interruption relève d'une évolution majeure « … et à la fin, ça s’imprime ! ». 
 
@@ -78,61 +78,78 @@ Pour y parvenir, une solution de communication client ne doit pas seulement perm
 
 La donnée c’est la clé! Pour produire des communications à jour, pleine de sens et hyper contextualisées il faut pouvoir capter toutes les sources (parfois variées) de données. 
 
-****Les solutions actuelles se connectent à toutes sortes de bases d’informations (CRM, ERP et autres applications métier), par des moyens tels que les Web Service, les bus de données et autres plateformes de communication technique, pour les connexions internes et externes. La solution CCM est donc pleinement intégrée au système d’information est devient une brique centrale ! 
+\*\*\*\*Les solutions actuelles se connectent à toutes sortes de bases d’informations (CRM, ERP et autres applications métier), par des moyens tels que les Web Service, les bus de données et autres plateformes de communication technique, pour les connexions internes et externes. La solution CCM est donc pleinement intégrée au système d’information est devient une brique centrale ! 
 
-+ Mise à jour de données en temps réel,  \
-+ Meilleure accessibilité aux données notamment celles stockées dans le Cloud. 
+* Mise à jour de données en temps réel,\
+  \
+* Meilleure accessibilité aux données notamment celles stockées dans le Cloud. 
 
 **2. LA CONTEXTUALISATION DES COMMUNICATIONS** 
 
-L’appréciation de la situation du client est à présent prise en compte dans les communications qui lui sont faites. Si celui-ci vient par exemple de souscrire à une offre, ce point doit pouvoir être considéré pour l’envoi de la prochaine communication, qui peut par exemple s’agrémenter d’un message de remerciement.  ****
+L’appréciation de la situation du client est à présent prise en compte dans les communications qui lui sont faites. Si celui-ci vient par exemple de souscrire à une offre, ce point doit pouvoir être considéré pour l’envoi de la prochaine communication, qui peut par exemple s’agrémenter d’un message de remerciement.  
 
-+ Construire une relation client forte  \
-+ Assurer une cohérence dans l’expérience client 
+- - -
+
+* Construire une relation client forte\
+  \
+* Assurer une cohérence dans l’expérience client 
 
 **3. INTÉGRATION DES CAMPAGNES MARKETING AUX COMMUNICATIONS CLIENT**
 
 Avec les solutions CCM actuelles, les outils marketing sont davantage intégrés : il est possible d’adresser les messages en fonction du canal, de quittancer leur ajout sur la communication et également permettre de récolter les retours positifs de ces campagnes, par des codes-barres sur le papier ou des liens web dynamiques pour les documents web. Ce qui permet d’éviter au client de recevoir des messages à répétition.  
 
-+ Suivi des campagnes marketing mieux maîtrisé \
-+ Facilite le parcours client 
+* Suivi des campagnes marketing mieux maîtrisé 
+  \
+* Facilite le parcours client 
 
 **4. L'ADAPTABILITÉ DES CONTENUS A DE MULTIPLES FORMATS**
 
 Les nouvelles solutions de communication client ont dû s’adapter à l’omnicanalité et aux supports numériques favoris des utilisateurs. Ainsi, davantage de formats sont supportés lors de la création de contenu des documents hybrides. Un seul design peut-être diffusé en format papier, web, mobile, etc. On note également une accélération de l’intégration de ces nouveaux formats grâce à des architectures logicielles plus souples.  
 
-+ Adaptation plus rapide aux évolutions technologiques  \
-+ Alignement des communications aux habitudes et comportements clients  \
-+ Permet d’assurer une expérience client fluide grâce à des contenus accessibles sur différents supports et adaptés aux différents modes de consommation de contenu \
-+ La gestion de l’omnicanalité est simplifiée 
+* Adaptation plus rapide aux évolutions technologiques\
+  \
+* Alignement des communications aux habitudes et comportements clients\
+  \
+* Permet d’assurer une expérience client fluide grâce à des contenus accessibles sur différents supports et adaptés aux différents modes de consommation de contenu 
+  \
+* La gestion de l’omnicanalité est simplifiée 
 
 **5. L’EMPOWERMENT DES UTILISATEURS** 
 
 Les ressources (le contenu, le design des modèles, les images et logos, les polices de caractère, le mapping de données…) sont centralisées sur des serveurs. Leur gestion est à la main des utilisateurs et non plus seulement réservée aux informaticiens. Ces nouvelles plateformes low-code rendent la gestion des ressources, du versioning et des processus d’approbation accessibles aux métiers. 
 
-+ Les utilisateurs, émetteurs de document, disposent davantage d‘indépendance et de choix au moment-même de l’édition : canal de diffusion, design du document, contenu, etc. \
-+ Gestion des ressources simplifiée \
-+ Eviter d’utiliser des versions obsolètes \
-+ Amélioration de la performance côté métier et côté IT 
+* Les utilisateurs, émetteurs de document, disposent davantage d‘indépendance et de choix au moment-même de l’édition : canal de diffusion, design du document, contenu, etc. 
+  \
+* Gestion des ressources simplifiée 
+  \
+* Eviter d’utiliser des versions obsolètes 
+  \
+* Amélioration de la performance côté métier et côté IT 
 
 **6. L’ERGONOMIE OPTIMISÉE**
 
 Les interfaces graphiques sont plus intuitives :  
 
-* le design des documents et les règles de gestion sont plus faciles à intégrer
+* 
+
+le design des documents et les règles de gestion sont plus faciles à intégrer
+
 * les écrans graphiques permettent d’éditer et de visualiser les processus de décisions
 * les outils de design sont plus simples d’utilisation
-
-+ Les utilisateurs prennent plus rapidement la solution en main pour faire des communications au « look and feel » professionnel et engageant  \
-+ Les communications sont conçues plus rapidement \
-+ La collaboration est facilitée \
-+ Tout est fait pour que les utilisateurs adoptent la solution  
+* Les utilisateurs prennent plus rapidement la solution en main pour faire des communications au « look and feel » professionnel et engageant\
+  \
+* Les communications sont conçues plus rapidement 
+  \
+* La collaboration est facilitée 
+  \
+* Tout est fait pour que les utilisateurs adoptent la solution  
 
 **7. LA COMMUNICATION CLIENT A LA DEMANDE**
 
 Le client peut déclencher lui-même la création de communications. Dans la pratique, cette démarche est possible dans le cas de demande de communication d’ordre « générale » non légale et ne nécessitant pas d’intervention humaine. Mais la tendance est belle et bien là, le client devient maître de son parcours utilisateur. Les développements à venir des solutions de communication client s’orientent alors en ce sens.  
 
-+ L’expérience client répond aux exigences d’immédiateté et de personnalisation du parcours client recherchées par les clients.  \
-+ Les utilisateurs métier peuvent se concentrer sur les communications à plus forte valeur ajoutée 
+* L’expérience client répond aux exigences d’immédiateté et de personnalisation du parcours client recherchées par les clients.\
+  \
+* Les utilisateurs métier peuvent se concentrer sur les communications à plus forte valeur ajoutée 
 
-**_La transformation de l’éditique vers la communication client montre une forte digitalisation des processus de communication. Les évolutions ont été telles que de nombreuses solutions en place dans les organisations sur des socles technologiques figés ne permettent pas des mises à jour suffisantes (lorsqu’elles sont encore mises à jour) pour atteindre une performance et des possibilités similaires aux solutions CCM modernes. Les nouvelles solutions de composition sont devenues une brique essentielle du parcours client. Elles sont un véritable levier pour acquérir de nouveaux clients et transformer vos clients en ambassadeurs._**
+_**La transformation de l’éditique vers la communication client montre une forte digitalisation des processus de communication. Les évolutions ont été telles que de nombreuses solutions en place dans les organisations sur des socles technologiques figés ne permettent pas des mises à jour suffisantes (lorsqu’elles sont encore mises à jour) pour atteindre une performance et des possibilités similaires aux solutions CCM modernes. Les nouvelles solutions de composition sont devenues une brique essentielle du parcours client. Elles sont un véritable levier pour acquérir de nouveaux clients et transformer vos clients en ambassadeurs.**_
