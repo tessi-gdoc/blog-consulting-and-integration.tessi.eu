@@ -71,11 +71,8 @@ collections:
             widget: "object"
             fields:
               - {label: "Title", name: "title", widget: "string"}
-              - label: "Content"
-                name: "content"
-                allow_add: false
-                widget: "list"
-                field: {label: "Item", name: "item", widget: "markdown"}
+              - {label: "Left Content", name: "leftContent", widget: "markdown"}
+              - {label: "Right Content", name: "rightContent", widget: "markdown"}
           - {label: "Partners", name: "partners", widget: "string"}
           - {label: "Related posts", name: "relatedPosts", widget: "string"}
   - name: "blog"

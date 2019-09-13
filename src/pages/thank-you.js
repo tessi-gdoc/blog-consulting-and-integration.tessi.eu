@@ -23,7 +23,7 @@ const ThankYou = () => {
         <ConsultingLogo widthPx={100} color={primary} />
         <h1>{title}</h1>
         <Subtitle>{subtitle}</Subtitle>
-        <HTML markdown={content} />
+        <HTML css={{ fontSize: `18px` }} markdown={content} />
         <Cta type={enumTypes.SECONDARY} size="x-large" link="/whitepapers">
           {cta}
         </Cta>

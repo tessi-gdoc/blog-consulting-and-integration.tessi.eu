@@ -59,7 +59,8 @@ const query = graphql`
             tags
             demoPage {
               title
-              content
+              rightContent
+              leftContent
             }
             readArticle
             readCaseStudy

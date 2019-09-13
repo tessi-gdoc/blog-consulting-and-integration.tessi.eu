@@ -256,7 +256,18 @@ module.exports = {
         include_favicon: false
       }
     },
-    `gatsby-plugin-remove-serviceworker`,
+    {
+      resolve: `gatsby-plugin-offline`,
+      options: {
+        precachePages: [
+          `/`,
+          `/case-studies`,
+          `/whitepapers`,
+          `/kits`,
+          `/posts/*`
+        ]
+      }
+    },
     {
       resolve: `gatsby-plugin-netlify-cms`,
       options: { htmlTitle: `Admin | Tessi#Journey` }
