@@ -351,6 +351,12 @@ const GlobalStyles = () => (
           border-color 0.15s ease-in-out;
         color: white;
         background-color: #ee5d84;
+        &:hover,
+        &:focus {
+          background-color: transparent;
+          border-color: ${secondary};
+          color: ${secondary};
+        }
       }
       .headroom {
         flex: 0 0 auto;
