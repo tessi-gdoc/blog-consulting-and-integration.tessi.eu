@@ -35,6 +35,7 @@ collections:
           - {label: "Whitepapers", name: "whitepapers", widget: "string"}
           - {label: "Kits", name: "kits", widget: "string"}
           - {label: "Case Studies", name: "caseStudies", widget: "string"}
+          - {label: "Thank you", name: "thankYou", widget: "string"}
           - {label: "Demo title", name: "demo", widget: "string"}
           - {label: "Offers", name: "offers", widget: "string"}
           - label: "About"

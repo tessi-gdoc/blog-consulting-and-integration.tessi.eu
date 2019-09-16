@@ -326,13 +326,14 @@ const GlobalStyles = () => (
         }
       }
       .plezi-submit-btn {
-        display: inline-block;
+        display: block;
         font-family: inherit;
         font-size: inherit;
         font-weight: 600;
         background-color: transparent;
         user-select: none;
         cursor: pointer;
+        margin: 0 auto;
         text-align: center;
         padding: 0;
         text-transform: uppercase;

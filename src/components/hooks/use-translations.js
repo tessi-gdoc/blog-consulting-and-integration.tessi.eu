@@ -40,6 +40,7 @@ const query = graphql`
             whitepapers
             kits
             caseStudies
+            thankYou
             newsletter {
               title
               content

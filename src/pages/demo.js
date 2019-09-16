@@ -83,22 +83,22 @@ const Demo = ({
       <Flex align="start">
         <FlexItem width="50%">
           <HTML markdown={leftContent} />
+          <h2>{partners}</h2>
+          <Flex justify="space-around">
+            {edges.map(({ node }) => (
+              <Img
+                key={node.id}
+                fluid={node.childImageSharp.fluid}
+                alt={node.name}
+                css={{ width: 160 }}
+              />
+            ))}
+          </Flex>
         </FlexItem>
         <FlexItem width="50%">
           <HTML markdown={rightContent} />
           <Form id={`foss-${webformId}`}></Form>
         </FlexItem>
-      </Flex>
-      <h2>{partners}</h2>
-      <Flex justify="space-between">
-        {edges.map(({ node }) => (
-          <Img
-            key={node.id}
-            fluid={node.childImageSharp.fluid}
-            alt={node.name}
-            css={{ width: 70, [Tablet]: { width: 140 } }}
-          />
-        ))}
       </Flex>
     </Container>
   );
@@ -115,7 +115,7 @@ export const pageQuery = graphql`
           id
           name
           childImageSharp {
-            fluid(maxWidth: 140, traceSVG: { color: "#1a214d" }) {
+            fluid(maxWidth: 160, traceSVG: { color: "#1a214d" }) {
               ...GatsbyImageSharpFluid_tracedSVG
             }
           }
