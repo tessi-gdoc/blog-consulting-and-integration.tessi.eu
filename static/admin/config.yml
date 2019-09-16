@@ -84,6 +84,7 @@ collections:
     editor:
       preview: false
     fields:
+      - {label: "Publish date", name: "date", widget: "date"}
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "External link", name: "link", widget: "string"}
