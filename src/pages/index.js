@@ -294,7 +294,7 @@ export const pageQuery = graphql`
           fields {
             slug
           }
-          excerpt(pruneLength: 150)
+          excerpt(pruneLength: 160)
           frontmatter {
             title
             link
