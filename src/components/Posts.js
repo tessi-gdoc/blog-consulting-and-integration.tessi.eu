@@ -38,6 +38,23 @@ const Card = styled.article`
   }
 `;
 
+const CardLink = ({ to, children, ...props }) => {
+  const isSlug = `/` === to.substring(0, 1);
+  return isSlug ? (
+    <Link to={to} {...props}>
+      {children}
+    </Link>
+  ) : (
+    <a href={to} target="_blank" rel="noopener noreferrer" {...props}>
+      {children}
+    </a>
+  );
+};
+
+CardLink.propTypes = {
+  to: PropTypes.string.isRequired
+};
+
 const Header = styled.header`
   & > h2 {
     margin: 0.5em 0;
@@ -54,7 +71,7 @@ const Tag = styled.span`
   color: ${secondary};
 `;
 
-const ReadArticle = styled(Link)`
+const ReadArticle = styled(CardLink)`
   text-transform: uppercase;
 `;
 
@@ -93,47 +110,49 @@ const PostCardMeta = styled.footer`
   padding: 0 25px 25px;
 `;
 
-const Post = ({ frontmatter, slug }) => {
+const Post = ({ data, link }) => {
   const [{ readArticle }] = useTranslations();
+  const { image, title, tags, date, description } = data.frontmatter;
+  console.log(image);
   return (
-    <Card className={`post-card ${frontmatter.image ? '' : 'no-image'}`}>
-      {frontmatter.image && (
-        <Link
+    <Card className={`post-card ${image ? '' : 'no-image'}`}>
+      {image && (
+        <CardLink
           className="post-card-image-link"
-          to={slug}
+          to={link}
           css={PostCardImageLink}
         >
           <PostCardImage className="post-card-image">
-            {hasPath(['frontmatter', 'image', 'childImageSharp', 'fluid']) && (
+            {hasPath(['image', 'childImageSharp', 'fluid']) && (
               <Img
-                alt={`${frontmatter.title} cover image`}
+                alt={`${title} cover image`}
                 style={{ height: `100%` }}
-                fluid={frontmatter.image.childImageSharp.fluid}
+                fluid={image.childImageSharp.fluid}
               />
             )}
           </PostCardImage>
-        </Link>
+        </CardLink>
       )}
       <PostCardContent className="post-card-content">
-        <Link
+        <CardLink
           className="post-card-content-link"
-          to={slug}
+          to={link}
           css={PostCardContentLink}
         >
-          {frontmatter.tags.map((tag, i) => [
+          {tags.map((tag, i) => [
             i > 0 && <Tag key={i}> • </Tag>,
             <Tag key={tag}>{tag}</Tag>
           ])}
           <Header className="post-card-header">
-            <span>{frontmatter.date}</span>
-            <h2>{frontmatter.title}</h2>
+            <span>{date}</span>
+            <h2>{title}</h2>
           </Header>
           <section>
-            <p>{frontmatter.description}</p>
+            <p>{description || data.excerpt}</p>
           </section>
-        </Link>
+        </CardLink>
         <PostCardMeta className="post-card-meta">
-          <ReadArticle to={slug}>{readArticle}</ReadArticle>
+          <ReadArticle to={link}>{readArticle}</ReadArticle>
         </PostCardMeta>
       </PostCardContent>
     </Card>
@@ -141,14 +160,8 @@ const Post = ({ frontmatter, slug }) => {
 };
 
 Post.propTypes = {
-  frontmatter: PropTypes.shape({
-    title: PropTypes.string,
-    description: PropTypes.string,
-    date: PropTypes.string,
-    image: PropTypes.object,
-    tags: PropTypes.arrayOf(PropTypes.string)
-  }),
-  slug: PropTypes.string
+  data: PropTypes.object,
+  link: PropTypes.string
 };
 
 const PostFeed = styled.div`
@@ -165,8 +178,8 @@ const Posts = ({ allPosts }) => (
     {allPosts.map(({ node }) => (
       <Post
         key={node.id}
-        frontmatter={node.frontmatter}
-        slug={node.fields.slug}
+        data={node}
+        link={node.frontmatter.link || node.fields.slug}
       />
     ))}
   </PostFeed>

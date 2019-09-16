@@ -76,9 +76,22 @@ collections:
               - {label: "Right Content", name: "rightContent", widget: "markdown"}
           - {label: "Partners", name: "partners", widget: "string"}
           - {label: "Related posts", name: "relatedPosts", widget: "string"}
+  - name: "news"
+    label: "News"
+    folder: "src/data/news"
+    slug: "{{slug}}"
+    create: true
+    editor:
+      preview: false
+    fields:
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "External link", name: "link", widget: "string"}
+      - {label: "Tags", name: "tags", widget: "hidden", default: ["Actualités"]}
+      - {label: "Description", name: "body", widget: "markdown"}
   - name: "blog"
     label: "Blog"
-    label_singular: "Post"
+    label_singular: "post"
     folder: "src/data/posts"
     slug: "{{slug}}"
     create: true
@@ -86,7 +99,7 @@ collections:
       preview: false
     fields:
       - {label: "Template Key", name: "templateKey", default: "blog-post", widget: "hidden"}
-      - {label: "Image", name: "image", widget: "image", default: "/img/banner-home.jpg"}
+      - {label: "Image", name: "image", widget: "image"}
       - {label: "Title", name: "title", widget: "string", default: "Super title"}
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Publish date", name: "date", widget: "date"}
@@ -101,13 +114,13 @@ collections:
         fields: 
           - {label: "Lastname", name: "lastname", widget: "string", default: "Vecchio"}
           - {label: "Firstname", name: "firstname", widget: "string", default: "Jean-Luc"}
-          - {label: "Avatar", name: "avatar", widget: "image", default: "/img/team1.jpg"}
+          - {label: "Avatar", name: "avatar", widget: "image"}
           - {label: "Position", name: "position", widget: "string", default: "CEO"}
       - {label: "Introduction", name: "introduction", widget: "markdown", default: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}
       - {label: "Body", name: "body", widget: "markdown", default: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}
   - name: "kits"
     label: "Kits"
-    label_singular: "Kit"
+    label_singular: "kit"
     folder: "src/data/kits"
     slug: "{{slug}}"
     create: true
@@ -115,13 +128,13 @@ collections:
       preview: false
     fields:
       - {label: "Publish date", name: "date", widget: "date"}
-      - {label: "Image", name: "image", widget: "image", default: "/img/banner-home.jpg"}
+      - {label: "Image", name: "image", widget: "image"}
       - {label: "Title", name: "title", widget: "string", default: "Super title"}
       - {label: "Link", name: "link", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown", default: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}
   - name: "whitepapers"
     label: "Whitepapers"
-    label_singular: "Whitepaper"
+    label_singular: "whitepaper"
     folder: "src/data/whitepapers"
     slug: "{{slug}}"
     create: true
@@ -129,13 +142,13 @@ collections:
       preview: false
     fields:
       - {label: "Publish date", name: "date", widget: "date"}
-      - {label: "Image", name: "image", widget: "image", default: "/img/banner-home.jpg"}
+      - {label: "Image", name: "image", widget: "image"}
       - {label: "Title", name: "title", widget: "string", default: "Super title"}
       - {label: "Link", name: "link", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown", default: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}
   - name: "case-studies"
     label: "Case Studies"
-    label_singular: "Case study"
+    label_singular: "case study"
     folder: "src/data/case-studies"
     slug: "{{slug}}"
     create: true
@@ -143,7 +156,7 @@ collections:
       preview: false
     fields:
       - {label: "Publish date", name: "date", widget: "date"}
-      - {label: "Image", name: "image", widget: "image", default: "/img/banner-home.jpg"}
+      - {label: "Image", name: "image", widget: "image"}
       - {label: "Title", name: "title", widget: "string", default: "Super title"}
       - {label: "Link", name: "link", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown", default: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}

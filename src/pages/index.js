@@ -278,7 +278,10 @@ export const pageQuery = graphql`
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
       filter: {
-        fields: { slug: { regex: "/^(/posts/)/" }, locale: { eq: $locale } }
+        fields: {
+          slug: { regex: "/^/(news|posts)//" }
+          locale: { eq: $locale }
+        }
       }
     ) {
       group(field: frontmatter___tags) {
@@ -291,8 +294,10 @@ export const pageQuery = graphql`
           fields {
             slug
           }
+          excerpt(pruneLength: 150)
           frontmatter {
             title
+            link
             description
             tags
             date(formatString: "D MMMM YYYY", locale: $locale)
