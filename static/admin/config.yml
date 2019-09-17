@@ -37,7 +37,12 @@ collections:
           - {label: "Case Studies", name: "caseStudies", widget: "string"}
           - {label: "Thank you", name: "thankYou", widget: "string"}
           - {label: "Demo title", name: "demo", widget: "string"}
-          - {label: "Offers", name: "offers", widget: "string"}
+          - label: "Offers"
+            name: "offers"
+            widget: "object"
+            fields:
+              - {label: "Content", name: "text", widget: "string"}
+              - {label: "Link", name: "link", widget: "string"}
           - label: "About"
             name: "about"
             widget: "object"
@@ -78,6 +83,7 @@ collections:
           - {label: "Related posts", name: "relatedPosts", widget: "string"}
   - name: "news"
     label: "News"
+    label_singular: "article"
     folder: "src/data/news"
     slug: "{{slug}}"
     create: true

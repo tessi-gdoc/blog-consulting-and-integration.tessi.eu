@@ -51,7 +51,10 @@ const query = graphql`
               content
               cta
             }
-            offers
+            offers {
+              text
+              link
+            }
             about {
               title
               content

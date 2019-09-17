@@ -242,8 +242,8 @@ const Blog = ({
               <HTML markdown={about.content} />
             </FlexItem>
             <FlexItem width="auto">
-              <Cta link={officialWebsite} size="large">
-                {offers}
+              <Cta link={offers.link} size="large">
+                {offers.text}
               </Cta>
             </FlexItem>
           </Flex>

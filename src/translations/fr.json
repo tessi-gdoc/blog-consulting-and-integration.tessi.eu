@@ -30,7 +30,10 @@
     "rightContent": "Découvrez les fonctionnalités et interfaces de nos solutions partenaires à travers une **démonstration personnalisée**, appliquée à des cas d’usage concrets, avec un expert. \n\nAu préalable, nous avons simplement besoin que vous remplissiez ce formulaire :"
   },
   "service": "Conseil et intégration",
-  "offers": "Découvrir nos offres",
+  "offers": {
+    "text": "Découvrir nos offres",
+    "link": "https://tessi.eu"
+  },
   "caseStudies": "Études de cas",
   "subtitle": "Le Blog de la Conversation Client",
   "tags": [
