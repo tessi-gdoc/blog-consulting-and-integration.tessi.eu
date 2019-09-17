@@ -7,4 +7,4 @@ link: >-
 tags:
   - Actualités
 ---
-En tant que partenaire Platinum Quadient, nos consultants experts de la communication client seront aux Inspire Days 2019. Les objectifs : rester au fait des mises à jour et évolutions à venir des solutions Quadient, anticiper les tendances et déceler les bonnes pratiques pour toujours mieux vous accompagner sur vos projets clés notamment : l’amélioration de l’engagement client et collaborateur, la mise en place d’une stratégie omnicanale efficace et plus largement la réussite de votre transformation digitale.
+De la gestion de la communication client à la gestion de l'expérience client : Quels enjeux ? En tant que partenaire Platinum Quadient, nos consultants experts de la communication client seront aux Inspire Days 2019.
