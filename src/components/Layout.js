@@ -282,9 +282,6 @@ const GlobalStyles = () => (
       }
       .control-group {
         margin: 0.75rem 0;
-        .error {
-          color: ${secondary} !important;
-        }
         .control-label {
           font-weight: 500;
         }

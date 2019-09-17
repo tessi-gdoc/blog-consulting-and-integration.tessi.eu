@@ -24,7 +24,7 @@ const DialogCloser = styled.button`
 
 const ModalFrame = styled.div`
   overflow-y: auto;
-  padding: 0rem 4rem 2rem;
+  padding: 0.75rem 2.5rem;
 `;
 
 const getSize = cond([

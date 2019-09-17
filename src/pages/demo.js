@@ -2,20 +2,19 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import Img from 'gatsby-image';
 import { css } from '@emotion/core';
-import styled from '@emotion/styled';
 
 import useTranslations from '@hooks/use-translations';
 import Flex, { FlexItem } from '@components/Flex';
 import Container from '@components/Container';
+import PleziForm from '@components/PleziForm';
 import HTML from '@components/HTML';
-import { Tablet } from '@media';
 import { secondary } from '@colors';
 
 const webformId = process.env.GATSBY_PLEZI_DEMO_ID,
   formId = process.env.GATSBY_PLEZI_DEMO_FORM_ID,
   tenantId = process.env.GATSBY_PLEZI_TENANT_ID;
 
-const Form = styled.form`
+const formStyles = css`
   .jsonform-error-where_are_you_based,
   .jsonform-error-what_is_the_time_frame_you_have_for_planning_your_project {
     & > .controls {
@@ -60,17 +59,6 @@ const Demo = ({
     partners,
     demoPage: { title, rightContent, leftContent }
   } = t;
-  React.useEffect(() => {
-    const script = document.createElement('script');
-    script.id = webformId;
-    script.src = `https://app.plezi.co/scripts/ossleads_forms.js?tenant_id=${tenantId}&form_id=${formId}&form_version=3&content_web_form_id=${webformId}`;
-    script.async = true;
-    document.body.appendChild(script);
-    return () => {
-      const script = document.getElementById(webformId);
-      if (script !== null) document.body.removeChild(script);
-    };
-  }, []);
   return (
     <Container>
       <h2
@@ -97,7 +85,12 @@ const Demo = ({
         </FlexItem>
         <FlexItem width="50%">
           <HTML markdown={rightContent} />
-          <Form id={`foss-${webformId}`}></Form>
+          <PleziForm
+            webformId={webformId}
+            formId={formId}
+            tenantId={tenantId}
+            css={formStyles}
+          />
         </FlexItem>
       </Flex>
     </Container>
