@@ -1,6 +1,7 @@
 {
   "contact": "Contactez-nous",
   "readArticle": "Lire l'article",
+  "readNews": "Voir la news",
   "blog": "Blog",
   "demo": "Demande de démo",
   "readCaseStudy": "Lire l'étude de cas",
@@ -8,7 +9,7 @@
   "thankYouPage": {
     "title": "Bonjour",
     "subtitle": "Merci pour votre demande.",
-    "content": "Désormais, vous recevrez notre newsletter **Tessi #Journey** chaque mois.\n\nPour nous suggérer des sujets de contenu que vous aimeriez que l’on traite, n’hésitez pas à nous [contacter ](mailto:tatiana.corallo-jackson@tessi.fr)!\n\nNous restons à votre disposition pour toute information complémentaire.",
+    "content": "Désormais, vous recevrez notre newsletter **Tessi #Journey** chaque mois.\n\nPour nous suggérer des sujets de contenu que vous aimeriez que l’on traite, n’hésitez pas à nous [contacter](mailto:tatiana.corallo-jackson@tessi.fr) !\n\nNous restons à votre disposition pour toute information complémentaire.",
     "cta": "Découvrez nos contenus premium"
   },
   "resources": "Ressources",

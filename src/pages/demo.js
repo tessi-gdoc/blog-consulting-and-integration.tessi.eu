@@ -72,13 +72,13 @@ const Demo = ({
         <FlexItem width="50%">
           <HTML markdown={leftContent} />
           <h2>{partners}</h2>
-          <Flex justify="space-around">
-            {edges.map(({ node }) => (
-              <Img
-                key={node.id}
-                fluid={node.childImageSharp.fluid}
-                alt={node.name}
-                css={{ width: 160 }}
+          <Flex justify="space-between">
+            {edges.map(({ node: { publicURL, name, id } }) => (
+              <img
+                key={id}
+                src={publicURL}
+                alt={name}
+                css={{ width: 160, height: 110 }}
               />
             ))}
           </Flex>
@@ -107,11 +107,7 @@ export const pageQuery = graphql`
         node {
           id
           name
-          childImageSharp {
-            fluid(maxWidth: 160, traceSVG: { color: "#1a214d" }) {
-              ...GatsbyImageSharpFluid_tracedSVG
-            }
-          }
+          publicURL
         }
       }
     }

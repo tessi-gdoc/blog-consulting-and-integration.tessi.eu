@@ -67,6 +67,7 @@ const query = graphql`
               leftContent
             }
             readArticle
+            readNews
             readCaseStudy
             downloadWhitepaper
             downloadKit

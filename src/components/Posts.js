@@ -111,9 +111,8 @@ const PostCardMeta = styled.footer`
 `;
 
 const Post = ({ data, link }) => {
-  const [{ readArticle }] = useTranslations();
+  const [{ readArticle, readNews }] = useTranslations();
   const { image, title, tags, date, description } = data.frontmatter;
-  console.log(image);
   return (
     <Card className={`post-card ${image ? '' : 'no-image'}`}>
       {image && (
@@ -152,7 +151,9 @@ const Post = ({ data, link }) => {
           </section>
         </CardLink>
         <PostCardMeta className="post-card-meta">
-          <ReadArticle to={link}>{readArticle}</ReadArticle>
+          <ReadArticle to={link}>
+            {`/` === link.substring(0, 1) ? readArticle : readNews}
+          </ReadArticle>
         </PostCardMeta>
       </PostCardContent>
     </Card>
