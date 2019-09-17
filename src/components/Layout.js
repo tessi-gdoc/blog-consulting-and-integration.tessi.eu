@@ -193,12 +193,12 @@ const GlobalStyles = () => (
       }
       @media (max-width: 500px) {
         h1 {
-          font-size: 2.2rem;
+          font-size: 2rem;
         }
       }
       h2 {
-        margin: 1.5em 0 0.5em 0;
-        font-size: 1.6rem;
+        margin: 1.5em 0 1.25em 0;
+        font-size: 2rem;
         font-weight: 600;
       }
       @media (max-width: 500px) {
@@ -212,7 +212,7 @@ const GlobalStyles = () => (
       }
       @media (max-width: 500px) {
         h3 {
-          font-size: 1.3rem;
+          font-size: 1.2rem;
         }
       }
       h4,
@@ -247,7 +247,7 @@ const GlobalStyles = () => (
       input,
       select,
       textarea {
-        border: 1px solid rgba(218, 218, 218, 0.5);
+        border: 1px solid rgba(218, 218, 218, 0.75);
         font: inherit;
         border-radius: 3px;
         width: 100%;
@@ -281,9 +281,9 @@ const GlobalStyles = () => (
         }
       }
       .control-group {
-        margin: 0.75rem 0;
+        margin: 1.25em 0;
         .control-label {
-          font-weight: 500;
+          font-weight: bold;
         }
       }
       label.checkbox {
@@ -301,58 +301,24 @@ const GlobalStyles = () => (
           white-space: nowrap;
           width: 1px;
           & + span {
-            display: block;
+            display: flex;
+            flex-wrap: nowrap;
           }
           & + span:before {
             content: '';
-            display: inline-block;
-            vertical-align: middle;
+            flex: 0 0 14px;
             width: 14px;
             height: 14px;
             border-radius: 3px;
-            border: 0.125em solid #fff;
-            border: 2px solid ${primary};
-            margin-right: 0.75em;
+            border: 1px solid ${primary};
+            margin: 0 8px 0 2px;
             transition: box-shadow 150ms;
           }
           &:checked + span:before {
             background: ${secondary};
-            border: 2px solid transparent;
-            box-shadow: 0 0 0 3px pink;
+            border: 1px solid transparent;
+            box-shadow: 0 0 0 2px pink;
           }
-        }
-      }
-      .plezi-submit-btn {
-        display: block;
-        font-family: inherit;
-        font-size: inherit;
-        font-weight: 600;
-        background-color: transparent;
-        user-select: none;
-        cursor: pointer;
-        margin: 0 auto;
-        text-align: center;
-        padding: 0;
-        text-transform: uppercase;
-        line-height: 43px;
-        width: 250px;
-        height: 48px;
-        outline: none;
-        position: relative;
-        border-width: 3px;
-        border-style: solid;
-        border-color: transparent;
-        border-radius: 23px;
-        overflow: hidden;
-        transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-          border-color 0.15s ease-in-out;
-        color: white;
-        background-color: #ee5d84;
-        &:hover,
-        &:focus {
-          background-color: transparent;
-          border-color: ${secondary};
-          color: ${secondary};
         }
       }
       .headroom {

@@ -63,6 +63,7 @@ const query = graphql`
             tags
             demoPage {
               title
+              subtitle
               rightContent
               leftContent
             }

@@ -6,9 +6,9 @@ import { Tablet } from '@media';
 export const FlexItem = styled.div`
   flex: 0 0 100%;
   max-width: 100%;
-  padding: 0.75rem 0;
+  padding: 0.85rem 0;
   ${Tablet} {
-    padding: 0.75rem;
+    padding: 0.85rem;
     flex: 0 0 ${props => props.width};
     max-width: ${props => props.width};
   }
@@ -39,14 +39,14 @@ const alignMap = {
 
 const Flex = styled.div`
   display: flex;
-  margin: -0.75rem 0;
+  margin: 0.85rem 0;
   flex-direction: ${props => props.direction};
   justify-content: ${props => justifyMap[props.justify] || `center`};
   align-items: ${props => alignMap[props.align] || `center`};
   flex-wrap: ${props => (props.flexWrap ? `wrap` : `nowrap`)};
   flex-grow: ${props => (props.flexGrow ? 1 : 0)};
   ${Tablet} {
-    margin: -0.75rem;
+    margin: -0.85rem;
   }
 `;
 

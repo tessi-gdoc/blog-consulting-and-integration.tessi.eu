@@ -1,6 +1,6 @@
 import React from 'react';
 import { graphql } from 'gatsby';
-import Img from 'gatsby-image';
+import styled from '@emotion/styled';
 import { css } from '@emotion/core';
 
 import useTranslations from '@hooks/use-translations';
@@ -9,6 +9,7 @@ import Container from '@components/Container';
 import PleziForm from '@components/PleziForm';
 import HTML from '@components/HTML';
 import { secondary } from '@colors';
+import { Tablet } from '@media';
 
 const webformId = process.env.GATSBY_PLEZI_DEMO_ID,
   formId = process.env.GATSBY_PLEZI_DEMO_FORM_ID,
@@ -49,6 +50,10 @@ const formStyles = css`
   }
 `;
 
+const Subtitle = styled.span`
+  color: ${secondary};
+`;
+
 const Demo = ({
   data: {
     partners: { edges }
@@ -57,7 +62,7 @@ const Demo = ({
   const [t] = useTranslations();
   const {
     partners,
-    demoPage: { title, rightContent, leftContent }
+    demoPage: { title, subtitle, rightContent, leftContent }
   } = t;
   return (
     <Container>
@@ -66,25 +71,32 @@ const Demo = ({
           text-transform: uppercase;
         `}
       >
-        {title}
+        {title} <Subtitle>{subtitle}</Subtitle>
       </h2>
       <Flex align="start">
         <FlexItem width="50%">
           <HTML markdown={leftContent} />
           <h2>{partners}</h2>
-          <Flex justify="space-between">
+          <Flex justify="space-around">
             {edges.map(({ node: { publicURL, name, id } }) => (
               <img
                 key={id}
                 src={publicURL}
                 alt={name}
-                css={{ width: 160, height: 110 }}
+                css={{
+                  width: 80,
+                  height: 55,
+                  [Tablet]: {
+                    width: 160,
+                    height: 110
+                  }
+                }}
               />
             ))}
           </Flex>
         </FlexItem>
         <FlexItem width="50%">
-          <HTML markdown={rightContent} />
+          <HTML markdown={rightContent} css={{ textAlign: `center` }} />
           <PleziForm
             webformId={webformId}
             formId={formId}
