@@ -124,6 +124,7 @@ const NavWrapper = styled(Flex)`
 const LinkWrapper = styled(Flex)`
   display: none;
   max-width: 1450px;
+  flex-basis: 100%;
   margin: 0 !important;
   ${Desktop} {
     display: flex;
@@ -170,7 +171,7 @@ const Nav = ({ openNewsletter }) => {
   return (
     <>
       <Headroom pinStart={48}>
-        <NavWrapper>
+        <NavWrapper flexWrap={false}>
           <Link name="logo" title="Back to home" to="/">
             <Brand />
           </Link>

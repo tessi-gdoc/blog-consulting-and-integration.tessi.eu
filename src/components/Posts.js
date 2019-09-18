@@ -18,7 +18,6 @@ const Card = styled.article`
   margin: 0 20px 40px;
   min-height: 400px;
   background: #fff center center;
-  background-size: cover;
   box-shadow: rgba(39, 44, 49, 0.06) 8px 14px 38px,
     rgba(39, 44, 49, 0.03) 1px 3px 8px;
   transition: all 0.5s ease;
@@ -35,6 +34,9 @@ const Card = styled.article`
       rgba(39, 44, 49, 0.04) 1px 6px 12px;
     transition: all 0.4s ease;
     transform: translate3D(0, -1px, 0) scale(1.02);
+  }
+  &:last-child {
+    max-width: 50%;
   }
 `;
 
@@ -83,7 +85,7 @@ const PostCardImageLink = css`
 
 const PostCardImage = styled.div`
   width: auto;
-  height: 200px;
+  height: 220px;
 `;
 
 const PostCardContent = styled.div`

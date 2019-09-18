@@ -188,7 +188,7 @@ const GlobalStyles = () => (
       }
       h1 {
         margin: 0 0 0.5em 0;
-        font-size: 3.8rem;
+        font-size: 4rem;
         font-weight: 600;
       }
       @media (max-width: 500px) {
@@ -198,7 +198,7 @@ const GlobalStyles = () => (
       }
       h2 {
         margin: 1.5em 0 1.25em 0;
-        font-size: 1.75rem;
+        font-size: 1.6rem;
         font-weight: 600;
       }
       @media (max-width: 500px) {
@@ -305,8 +305,13 @@ const GlobalStyles = () => (
             flex-wrap: nowrap;
           }
           & + span:before {
-            content: '';
+            content: '✓';
+            color: white;
+            font-weight: bold;
             flex: 0 0 14px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             width: 14px;
             height: 14px;
             border-radius: 3px;
@@ -322,7 +327,6 @@ const GlobalStyles = () => (
         }
       }
       .headroom {
-        flex: 0 0 auto;
         padding: 1.5rem 0.75rem;
         user-select: none;
         background-color: white;
@@ -510,17 +514,8 @@ export const LocaleContext = React.createContext();
 toast.configure({ position: toast.POSITION.BOTTOM_RIGHT });
 
 const Container = styled.div`
-  display: flex;
-  flex-direction: column;
   position: relative;
   height: 100%;
-`;
-
-const Main = styled.main`
-  display: flex;
-  flex-direction: column;
-  flex: 1 1 auto;
-  position: relative;
 `;
 
 const Layout = ({
@@ -538,7 +533,7 @@ const Layout = ({
       <Newsletter isOpen={open} onClose={() => toggleNewsletter(false)} />
       <Container>
         <Navbar openNewsletter={() => toggleNewsletter(true)} />
-        <Main>{children}</Main>
+        <main>{children}</main>
         <Footer />
       </Container>
     </LocaleContext.Provider>

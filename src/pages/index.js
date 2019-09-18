@@ -112,6 +112,7 @@ const SocialButtons = styled.aside`
   left: 0;
   bottom: 25px;
   top: auto;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   flex-direction: row;

@@ -57,6 +57,7 @@ const Author = styled.div`
 const Avatar = styled.div`
   width: 80px;
   height: 80px;
+  flex: 0 0 80px;
 `;
 
 const AuthorDescription = styled.p`

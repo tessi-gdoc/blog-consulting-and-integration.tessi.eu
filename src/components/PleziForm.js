@@ -37,6 +37,9 @@ export const customSelect = css`
       outline: none;
       background-image: none !important;
       background-position: initial !important;
+      &::-ms-expand {
+        display: none;
+      }
     }
   }
 `;
@@ -66,7 +69,6 @@ const observeChildList = (targetId, cb) => {
 
 const PleziForm = ({ webformId, formId, tenantId, ...props }) => {
   const [loading, setLoading] = useState(true);
-
   useEffect(() => {
     const script = loadPleziScript(tenantId, formId, webformId);
     const id = `foss-${webformId}`;
