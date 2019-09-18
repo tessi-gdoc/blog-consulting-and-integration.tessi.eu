@@ -1,10 +1,45 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import styled from '@emotion/styled';
+import { css } from '@emotion/core';
 
 import SyncLoader from 'react-spinners/SyncLoader';
 
 import { secondary } from '@colors';
+
+export const customSelect = css`
+  .controls {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    vertical-align: top;
+    &:after {
+      border: 3px solid ${secondary};
+      border-radius: 2px;
+      border-right: 0px;
+      border-top: 0px;
+      content: ' ';
+      display: block;
+      height: 0.625em;
+      margin-top: -0.475em;
+      pointer-events: none;
+      position: absolute;
+      top: 50%;
+      right: 1.125em;
+      transform: rotate(-45deg);
+      transform-origin: center;
+      width: 0.625em;
+      z-index: 4;
+    }
+    & > select {
+      appearance: none;
+      width: 100%;
+      outline: none;
+      background-image: none !important;
+      background-position: initial !important;
+    }
+  }
+`;
 
 const Wrapper = styled.section`
   display: flex;
