@@ -188,17 +188,17 @@ const GlobalStyles = () => (
       }
       h1 {
         margin: 0 0 0.5em 0;
-        font-size: 4rem;
+        font-size: 3.8rem;
         font-weight: 600;
       }
       @media (max-width: 500px) {
         h1 {
-          font-size: 2rem;
+          font-size: 2.1rem;
         }
       }
       h2 {
         margin: 1.5em 0 1.25em 0;
-        font-size: 2rem;
+        font-size: 1.75rem;
         font-weight: 600;
       }
       @media (max-width: 500px) {

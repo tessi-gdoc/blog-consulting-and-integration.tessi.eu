@@ -66,13 +66,17 @@ const Demo = ({
   } = t;
   return (
     <Container>
-      <h2
+      <h1
         css={css`
+          font-size: 1.75rem;
           text-transform: uppercase;
+          ${Tablet} {
+            font-size: 2.45rem;
+          }
         `}
       >
         {title} <Subtitle>{subtitle}</Subtitle>
-      </h2>
+      </h1>
       <Flex align="start">
         <FlexItem width="50%">
           <HTML markdown={leftContent} />
@@ -84,8 +88,8 @@ const Demo = ({
                 src={publicURL}
                 alt={name}
                 css={{
-                  width: 80,
-                  height: 55,
+                  width: 100,
+                  height: 75,
                   [Tablet]: {
                     width: 160,
                     height: 110
