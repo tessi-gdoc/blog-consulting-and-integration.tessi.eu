@@ -31,7 +31,7 @@ const formStyles = css`
         content: ' ';
         display: block;
         height: 0.625em;
-        margin-top: -0.375em;
+        margin-top: -0.475em;
         pointer-events: none;
         position: absolute;
         top: 50%;
