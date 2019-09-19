@@ -5,6 +5,7 @@ import styled from '@emotion/styled';
 import BackgroundImage from 'gatsby-background-image';
 import Typist from 'react-typist';
 
+import Container from './Container';
 import Flex from './Flex';
 import { primary } from '@colors';
 import { isNotNil } from '@utils';
@@ -70,12 +71,12 @@ const TypistText = styled(Typist)`
 
 const InnerContent = ({ title, children }) => {
   return (
-    <>
+    <Container>
       <Title>{title}</Title>
       {isNotNil(children) && (
         <TypistText startDelay={800}>{children}</TypistText>
       )}
-    </>
+    </Container>
   );
 };
 
