@@ -3,7 +3,6 @@ import { pipe, last, without, split } from 'ramda';
 import { Global, css } from '@emotion/core';
 import styled from '@emotion/styled';
 import camelCase from 'lodash.camelcase';
-import { toast } from 'react-toastify';
 
 import SEO from './SEO';
 import Navbar from './Navbar';
@@ -11,8 +10,6 @@ import Footer from './Footer';
 import Newsletter from './Newsletter';
 
 import { primary, secondary } from '@colors';
-
-import 'react-toastify/dist/ReactToastify.css';
 
 const GlobalStyles = () => (
   <Global
@@ -491,13 +488,6 @@ const GlobalStyles = () => (
         float: left;
         min-width: 100%;
       }
-
-      .Toastify__toast {
-        font-family: inherit;
-      }
-      .Toastify__toast-body {
-        padding: 1.3125rem;
-      }
     `}
   />
 );
@@ -510,8 +500,6 @@ const parsePath = pipe(
 );
 
 export const LocaleContext = React.createContext();
-
-toast.configure({ position: toast.POSITION.BOTTOM_RIGHT });
 
 const Container = styled.div`
   position: relative;
