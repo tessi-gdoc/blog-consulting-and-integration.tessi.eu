@@ -118,12 +118,15 @@ const SocialButtons = styled.aside`
   flex-direction: row;
   margin: 0 auto;
   max-width: 120px;
+  max-height: none;
   ${Tablet} {
     right: 25px;
     left: auto;
     top: 0;
     bottom: 0;
     margin: auto 0;
+    width: auto;
+    max-width: none;
     max-height: 120px;
     flex-direction: column;
   }

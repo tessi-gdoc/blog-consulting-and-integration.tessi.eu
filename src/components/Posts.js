@@ -9,6 +9,7 @@ import Link from './LocalizedLink';
 
 import useTranslations from '@hooks/use-translations';
 import { secondary } from '@colors';
+import { Desktop } from '@media';
 
 const Card = styled.article`
   flex: 1 1 300px;
@@ -36,7 +37,10 @@ const Card = styled.article`
     transform: translate3D(0, -1px, 0) scale(1.02);
   }
   &:last-child {
-    max-width: 50%;
+    max-width: 100%;
+    ${Desktop} {
+      max-width: 50%;
+    }
   }
   &:first-child {
     max-width: 100%;
