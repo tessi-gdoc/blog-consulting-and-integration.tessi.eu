@@ -38,6 +38,9 @@ const Card = styled.article`
   &:last-child {
     max-width: 50%;
   }
+  &:first-child {
+    max-width: 100%;
+  }
 `;
 
 const CardLink = ({ to, children, ...props }) => {
