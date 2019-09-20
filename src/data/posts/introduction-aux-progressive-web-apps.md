@@ -220,6 +220,8 @@ Une autre solution serait de proposer votre propre bannière avec les explicatio
 
 ## 04 / Au-delà de l'application mobile, quelles sont les opportunités ?
 
+![Progressive Web App](/img/pwa_bg.jpg "PWA Tessi#Journey")
+
 Chez [Tessi](https://www.tessi.eu/solution/technologies/consulting-and-integration/), nous proposons des solutions de traitement et gestion documentaire qui nous permettent de composer, de produire et délivrer massivement des modèles de document (maquettes) statiques et personnalisés en fonction du client. Certains de ces logiciels intègrent des modules de composition de documents dynamiques_._ En d'autres termes, il s'agit de générer, à partir d'un ou plusieurs flux de données, une collection d'applications rendues uniquement côté client. L'outil utilise un _framework_ de création d'interface utilisateur, basé sur une architecture de composants : [Bobril](https://github.com/Bobris/Bobril)). Cela permet d'utiliser le logiciel simplement en intégrant des blocs (tableau, image, diagrammes, contenu textuel...) dans une interface de conception.
 
 **La complexité dans tout cela, c'est la livraison...**
