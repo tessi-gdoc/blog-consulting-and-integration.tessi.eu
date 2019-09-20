@@ -2,7 +2,10 @@
 templateKey: blog-post
 image: /img/monétique_nouveaux_moyens_de_paiement.png
 title: 'De la monétique aux nouveaux moyens de paiements '
-description: xxx
+description: >-
+  La monétique laisse progressivement place à un écosystème de paiements
+  innovants. Comment s'opère cette transition et quels seront les moyens de
+  paiement de demain ?
 date: 2019-09-13T16:24:29.670Z
 tags:
   - Parcours client
