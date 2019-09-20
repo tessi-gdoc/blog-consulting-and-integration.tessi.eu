@@ -49,17 +49,12 @@ A priori, la stratégie de Google se base uniquement sur la proposition d'une no
 
 Plusieurs réponses sont valables :
 
-- **La distribution des applications natives c'est compliqué !** Pour qu'un de vos clients utilise votre application, il faut le convaincre d'aller la télécharger (depuis un store ou votre site), puis de l'installer (prendre une partie plus ou moins volumineuse de sa capacité de stockage) et enfin, de l'inciter à l'utiliser et à y rester. Cela demande beaucoup d'efforts et un coût d'acquisition élevé (10 fois plus qu'une PWA d'après [une étude lancée par une startup portugaise Selio](https://www.geekmj.org/insights/progressive-web-app-introduction-599)).
-
-- **Le côut de production est très faible.** Au lieu de mobiliser plusieurs équipes de développeurs pour la réalisation d'une application iOS, Android et d'un site web, le développement d'une Progressive Web App ne nécessite qu'une seule équipe.
-
-- **La PWA améliore l'engagement des utilisateurs.** De nombreuses entreprises ont décidé de créer ou de migrer vers des PWA pour améliorer leur taux d'engagements. On peut citer Twitter avec sa PWA [Twitter Lite](https://mobile.twitter.com/home), [Uber](https://m.uber.com), Trivago, New York Times et évidemment, Google avec Maps Go, Photos, Google +... Vous pouvez retrouver sur le site [PwaStats](https://www.pwastats.com/) les articles regroupant les statistiques commerciales des PWA de certaines de ces entreprises.
-
-- **La PWA peut rivaliser avec une application native.** En fonction de vos besoins, il est possible d'obtenir des résultats très satisfaisants en matière de performance. Grâce aux HTML5 APIs ([cf. whatwebcando.today](https://whatwebcando.today/)), les PWA arrivent aujourd'hui à utiliser des fonctionnalités propres aux applications natives mais en abuser risque de baisser le _framerate_ (taux d'images par seconde) de votre web app. Si on reprend l'exemple de [Twitter Lite](https://mobile.twitter.com/home), d'après leur Engineering Lead, Nicolas Gallagher:
-
+* **La distribution des applications natives c'est compliqué !** Pour qu'un de vos clients utilise votre application, il faut le convaincre d'aller la télécharger (depuis un store ou votre site), puis de l'installer (prendre une partie plus ou moins volumineuse de sa capacité de stockage) et enfin, de l'inciter à l'utiliser et à y rester. Cela demande beaucoup d'efforts et un coût d'acquisition élevé (10 fois plus qu'une PWA d'après [une étude lancée par une startup portugaise Selio](https://www.geekmj.org/insights/progressive-web-app-introduction-599)).
+* **Le côut de production est très faible.** Au lieu de mobiliser plusieurs équipes de développeurs pour la réalisation d'une application iOS, Android et d'un site web, le développement d'une Progressive Web App ne nécessite qu'une seule équipe.
+* **La PWA améliore l'engagement des utilisateurs.** De nombreuses entreprises ont décidé de créer ou de migrer vers des PWA pour améliorer leur taux d'engagements. On peut citer Twitter avec sa PWA [Twitter Lite](https://mobile.twitter.com/home), [Uber](https://m.uber.com), Trivago, New York Times et évidemment, Google avec Maps Go, Photos, Google +... Vous pouvez retrouver sur le site [PwaStats](https://www.pwastats.com/) les articles regroupant les statistiques commerciales des PWA de certaines de ces entreprises.
+* **La PWA peut rivaliser avec une application native.** En fonction de vos besoins, il est possible d'obtenir des résultats très satisfaisants en matière de performance. Grâce aux HTML5 APIs ([cf. whatwebcando.today](https://whatwebcando.today/)), les PWA arrivent aujourd'hui à utiliser des fonctionnalités propres aux applications natives mais en abuser risque de baisser le _framerate_ (taux d'images par seconde) de votre web app. Si on reprend l'exemple de [Twitter Lite](https://mobile.twitter.com/home), d'après leur Engineering Lead, Nicolas Gallagher:
   > _Twitter Lite is now the fastest, least expensive, and most reliable way to use Twitter. The web app rivals the performance of our native apps but requires less than 3% of the device storage space compared to Twitter for Android_
-
-- **Faible consommation de données** Une application native peut consommer plusieurs dizaines de MB voire GB de data (par exemple, il n'est pas rare d'obtenir un cache de plusieurs GB pour l'application mobile Facebook). Pour une PWA, le serveur distribue uniquement des fichiers HTML, CSS et Javascript _compressés et minifiés_ de manière à réduire considérablement la taille de l'application mais aussi du cache. Dans le cas de [Twitter](https://mobile.twitter.com/home), la Progressive Web App ne fait que 600KB contre 23.5MB pour l'application Android.
+* **Faible consommation de données** Une application native peut consommer plusieurs dizaines de MB voire GB de data (par exemple, il n'est pas rare d'obtenir un cache de plusieurs GB pour l'application mobile Facebook). Pour une PWA, le serveur distribue uniquement des fichiers HTML, CSS et Javascript _compressés et minifiés_ de manière à réduire considérablement la taille de l'application mais aussi du cache. Dans le cas de [Twitter](https://mobile.twitter.com/home), la Progressive Web App ne fait que 600KB contre 23.5MB pour l'application Android.
 
 **Mais...**
 
@@ -77,13 +72,10 @@ Lorsqu'une application est progressive, elle ne demande pas directement des auto
 
 Une PWA doit supporter le principe **F.I.R.E** :
 
-- **Fast (performante) :** _en intégrant un [App-Shell](https://developers.google.com/web/fundamentals/architecture/app-shell) à vos pages, en réduisant la taille de nos fichiers, en optimisant et compressant ces images, en suivant le pattern [PRPL](https://developers.google.com/web/fundamentals/performance/prpl-pattern/)... Il faut que l'application charge une faible quantité de données côté serveur et son utilisation doit rester fluide malgré les animations ou les utilisations d'API HTML5._
-
-- **Integrated (intégrée) :** _grâce aux manifestes W3C et à l'installation du Service Worker. Ces élements permettent aux navigateurs de trouver rapidement votre web app et de la proposer en tant qu'application installable sur l'écran d'accueil sans passer par un app store._
-
-- **Reliable (fiable) :** _en utilisant un Service Worker (gestionnaire de cache) correctement configuré pour manipuler les fichiers (HTML, CSS, JS, images...) distribués par le serveur. Avec cette approche, on veut éviter à tout prix, le problème du lie-fi. C'est ce moment où le réseau vous indique sur votre smartphone, une connexion stable alors que ce n'est pas le cas. De plus, l'application doit être servie via TLS pour éviter les fraudes lors des transactions client-serveur par formulaire._
-
-- **Engaging (engageante) :** _en proposant une interface (UI) responsive (adpatée à n'importe quel format: mobile, tablette, desktop) en mode plein écran, un réengagement facilité grâce à des push notifications et des mises à jour régulières du contenu._
+* **Fast (performante) :** _en intégrant un [App-Shell](https://developers.google.com/web/fundamentals/architecture/app-shell) à vos pages, en réduisant la taille de nos fichiers, en optimisant et compressant ces images, en suivant le pattern [PRPL](https://developers.google.com/web/fundamentals/performance/prpl-pattern/)... Il faut que l'application charge une faible quantité de données côté serveur et son utilisation doit rester fluide malgré les animations ou les utilisations d'API HTML5._
+* **Integrated (intégrée) :** _grâce aux manifestes W3C et à l'installation du Service Worker. Ces élements permettent aux navigateurs de trouver rapidement votre web app et de la proposer en tant qu'application installable sur l'écran d'accueil sans passer par un app store._
+* **Reliable (fiable) :** _en utilisant un Service Worker (gestionnaire de cache) correctement configuré pour manipuler les fichiers (HTML, CSS, JS, images...) distribués par le serveur. Avec cette approche, on veut éviter à tout prix, le problème du lie-fi. C'est ce moment où le réseau vous indique sur votre smartphone, une connexion stable alors que ce n'est pas le cas. De plus, l'application doit être servie via TLS pour éviter les fraudes lors des transactions client-serveur par formulaire._
+* **Engaging (engageante) :** _en proposant une interface (UI) responsive (adpatée à n'importe quel format: mobile, tablette, desktop) en mode plein écran, un réengagement facilité grâce à des push notifications et des mises à jour régulières du contenu._
 
 L'ensemble de ces fonctionnalités forment un cachier des charges précis. Un outil Google **Lighthouse** permet de vérfier cette checklist à votre place. Sur Chrome, vous pouvez effectuer cet audit depuis la console de votre navigateur. Celui-ci vous donnera une note entre 0 et 100 en fonction des performances, des bonnes pratiques, de l'accessibilité et du référencement (SEO) de votre application.
 
@@ -219,10 +211,10 @@ Le tableau JSON `icons` du manifeste est un standard qui n'est pas pris en compt
 
 Google Chrome (et maintenant Firefox) sur Android, affiche automatiquement une bannière sur votre site pour indiquer qu'il peut être intégré comme une application native. Toutefois, votre site doit respecter les points suivants :
 
-- Avoir un manifest W3C valide
-- L'ensemble de ses ressources doivent être servi sur du HTTPS ([lestencrypt](https://letsencrypt.org/) propose, par ailleurs, des certificats gratuits)
-- Avoir un SW valide et enregistré
-- Être visité 2 fois, avec au moins 5 minutes entre chaque visite
+* Avoir un manifest W3C valide
+* L'ensemble de ses ressources doivent être servi sur du HTTPS ([letsencrypt](https://letsencrypt.org/) propose, par ailleurs, des certificats gratuits)
+* Avoir un SW valide et enregistré
+* Être visité 2 fois, avec au moins 5 minutes entre chaque visite
 
 Une autre solution serait de proposer votre propre bannière avec les explications d'installation sur [Chrome](https://support.google.com/pixelphone/answer/2781850?hl=en), [Firefox](https://hacks.mozilla.org/2017/10/progressive-web-apps-firefox-android/) ou [Safari](https://support.apple.com/fr-fr/guide/shortcuts/apd735880972/ios). Libre à vous de décider !
 
