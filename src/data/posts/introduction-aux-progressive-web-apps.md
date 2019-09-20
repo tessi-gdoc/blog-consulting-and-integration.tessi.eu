@@ -77,7 +77,7 @@ Une PWA doit supporter le principe **F.I.R.E** :
 * **Reliable (fiable) :** en utilisant un Service Worker correctement configuré pour manipuler les fichiers (HTML, CSS, JS, images...) distribués par le serveur. Avec cette approche, on veut éviter à tout prix, le problème du lie-fi. C'est ce moment où le réseau vous indique sur votre smartphone, une connexion stable alors que ce n'est pas le cas. De plus, l'application doit être servie via TLS pour éviter les fraudes lors des transactions client-serveur par formulaire.
 * **Engaging (engageante) :** en proposant une interface (UI) responsive (c'est-à-dire qui s'adapte à n'importe quel format: mobile, tablette, desktop) en mode plein écran, un réengagement facilité grâce à des push notifications et des mises à jour régulières du contenu.
 
-L'ensemble de ces fonctionnalités forment un cachier des charges précis. A cet effet, vous pouvez utiliser l'outil Google **Lighthouse** qui permet de vérifier cette checklist à votre place. Sur Chrome, vous pouvez effectuer cet audit depuis la console de votre navigateur. Celui-ci vous donnera une note entre 0 et 100 en fonction des performances, des bonnes pratiques, de l'accessibilité et du référencement (SEO) de votre application.
+L'ensemble de ces fonctionnalités forment un cachier des charges précis. A cet effet, vous pouvez utiliser l'outil **Google Lighthouse** qui permet de vérifier cette checklist à votre place. Sur Chrome, vous pouvez effectuer cet audit depuis la console de votre navigateur. Celui-ci vous donnera une note entre 0 et 100 en fonction des performances, des bonnes pratiques, de l'accessibilité et du référencement (SEO) de votre application.
 
 ## 03 / Passons au développement
 
@@ -154,7 +154,7 @@ Avec cette politique de cache et notre SW enregistré, nous rendons notre applic
 ### Web App Manifest
 
 La prochaine étape de développement c'est la mise en place d'un manifeste [W3C](https://w3c.github.io/manifest/) propre à la PWA. Il s'agit simplement d'un fichier _JSON_ dans lequel on retouve les informations de l'application comme son nom, ses icônes, l'affichage en tant qu'application native etc...
-Ce manifeste autorise l'application à la lancée en mode plein écran (sans la barre d'adresse du navigateur = `standalone`), gérer l'orientation de l'écran (forcer le lancement de l'application en mode `portrait`) et définir un Splash Screen (avec un logo, un nom et une couleur de fond). Dans le fichier JSON ci-dessous, on définit des icônes avec plusieurs tailles. L'image en _192x192px_ sera utilisée en tant qu'icône de lancement sur l'écran d'accueil de votre smartphone. Quant à celle en _512x512px_, elle sera affichée sur le Splash Screen.
+Ce manifeste autorise l'application à la lancée en mode plein écran (sans la barre d'adresse du navigateur `standalone`), gérer l'orientation de l'écran (forcer le lancement de l'application en mode `portrait`) et définir un Splash Screen (avec un logo, un nom et une couleur de fond). Dans le fichier JSON ci-dessous, on définit des icônes avec plusieurs tailles. L'image en _192x192px_ sera utilisée en tant qu'icône de lancement sur l'écran d'accueil de votre smartphone. Quant à celle en _512x512px_, elle sera affichée sur le Splash Screen.
 
 ```json:title=manifest.json
 {
@@ -214,7 +214,7 @@ Google Chrome (et maintenant Firefox) sur Android, affiche automatiquement une b
 * Avoir un manifest W3C valide
 * L'ensemble de ses ressources doivent être servi sur du HTTPS ([letsencrypt](https://letsencrypt.org/) propose, par ailleurs, des certificats gratuits)
 * Avoir un Service Worker valide et enregistré
-* Être visité 2 fois, avec au moins 5 minutes entre chaque visite
+* Être visité deux fois, avec au moins 5 minutes entre chaque visite
 
 Une autre solution serait de proposer votre propre bannière avec les explications d'installation sur [Chrome](https://support.google.com/pixelphone/answer/2781850?hl=en), [Firefox](https://hacks.mozilla.org/2017/10/progressive-web-apps-firefox-android/) ou [Safari](https://support.apple.com/fr-fr/guide/shortcuts/apd735880972/ios). Libre à vous de décider !
 
