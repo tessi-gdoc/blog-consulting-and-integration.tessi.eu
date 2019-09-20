@@ -245,7 +245,8 @@ module.exports = {
         theme_color: primary,
         display: `standalone`,
         orientation: `portrait`,
-        icon: `${__dirname}/static/icons/manifest_logo.png`,
+        include_favicon: false,
+        icon: `static/icons/manifest_logo.png`,
         icons: [
           {
             src: `/icons/android-chrome-192x192.png`,
@@ -275,7 +276,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-netlify-cms`,
       options: {
-        htmlFavicon: `/icons/favicon.svg`,
+        htmlFavicon: `static/icons/favicon.png`,
         htmlTitle: `Admin | Tessi#Journey`
       }
     },

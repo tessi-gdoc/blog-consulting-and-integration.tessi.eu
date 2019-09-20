@@ -97,6 +97,7 @@ const HTML = ({
       <meta name="apple-mobile-web-app-capable" content="yes" />
       <meta name="apple-mobile-web-app-status-bar-style" content={primary} />
       <meta name="apple-mobile-web-app-title" content="Tessi#Journey" />
+      <link rel="shortcut icon" href="/icons/favicon.png" />
       {headComponents}
     </head>
     <body {...bodyAttributes}>
