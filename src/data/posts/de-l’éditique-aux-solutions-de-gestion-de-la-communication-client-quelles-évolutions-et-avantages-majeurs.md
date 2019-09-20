@@ -6,9 +6,9 @@ title: >-
   évolutions et avantages majeurs ?  
 description: >-
   Votre solution de composition ne répond plus à vos besoins ? Elle n'est plus
-  mise à jour ou pas suffisamment ? Il est peut être temps d'en changer ?
-  Découvrez en quoi les solutions CCM ont évolué et ce que vous pouvez attendre
-  d'une solution CCM moderne. 
+  mise à jour ou pas suffisamment ? Vous commencez à envisager un éventuel
+  changement ? Découvrez en quoi les solutions CCM ont évolué et ce que vous
+  pouvez attendre d'une solution CCM moderne. 
 date: 2019-09-13T15:52:10.975Z
 tags:
   - Communication client (CCM)
