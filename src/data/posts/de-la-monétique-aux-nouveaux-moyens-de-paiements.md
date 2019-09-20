@@ -32,9 +32,9 @@ D’autre part, l’« applification », autrement dit, l’utilisation en S
 
 Cette évolution des réseaux, de l’organisation et des métiers du secteur bancaire induit des parcours client qui se transforment. L’effacement de certains moyens de paiement au profit de l’émergence de nouveaux en est aussi la cause.  
 
-## 02/ Quel avenir pour le « cash » ?  
+## 02/ Quel avenir pour le « cash » ?
 
-Et nous tendions vers une société sans cash ? Aujourd’hui une occurrence de paiement sur deux est effectuée par carte bancaire. Le chèque disparaît petit à petit même s’il représente encore 10% des paiements (Tessi (lien) étant un des derniers gestionnaires de la numérisation du chèque en France).  
+Et nous tendions vers une société sans cash ? Aujourd’hui une occurrence de paiement sur deux est effectuée par carte bancaire. Le chèque disparaît petit à petit même s’il représente encore 10% des paiements ([Tessi](www.tessi.eu) étant un des derniers gestionnaires de la numérisation du chèque en France).  
 
 La gestion des espèces est coûteuse, elle représente 5 milliards de dépense pour les banques Françaises chaque année, soit environ un coût de 500 millions d’euros par banque. C’est pourquoi les banques et les États essaient de le limiter en plafonnant les paiements en espèces, permettant également de lutter contre son anonymat.  
 
@@ -45,11 +45,11 @@ La stratégie nationale sur les moyens de paiements française a différents obj
 * Accroître la rapidité des opérations de paiement ;  
 * Réduire la préférence des français pour le chèque (réduction de la durée de validité, paiement électronique dans les services publics (TIPI /Payfip)…
 
-## 03/ Et la carte bancaire alors ? 
+## 03/ Et la carte bancaire alors ?
 
 Si le chèque et l’espèce se font la malle, notre chère carte bancaire n’est pas en reste non plus. Après le paiement sans contact, ce sont plusieurs autres moyens de paiement qui s’imposent petit à petit dans notre société. D’ailleurs nous en utilisons certains sans même y prêter attention ni connaître les technologies qui se cachent derrière. En voici une liste non exhaustive :  
 
-**1. La tokénisation** 
+**1. La tokénisation** 
 
 Avec l’essor des paiements en ligne, le PAN de la carte ou l’IBAN sont de plus en plus utilisés. Ainsi, nombreux sont les sites dotés d’un système de tokénisation.  
 
@@ -71,6 +71,6 @@ L’Instant Payment est un nouveau moyen de paiement européen proposé aux part
 
 L’industriel Total se lance dans un projet permettant aux automobiles (et non plus les automobilistes) d’intégrer un moyen de paiement via l’IoT (Internet of Things), les objets connectés dont elles sont équipées. S’il était déjà possible de payer au télépéage avec un badge, désormais la carte est embarquée dans le système de paiement : l’automobile elle-même. On glisse ainsi vers le paiement embarqué « Open Payment ».  
 
-**_La transition de la monétique vers les nouveaux moyens de paiement n’est pas nouvelle mais au contraire bien avancée. Les réseaux interbancaires et les moyens de paiement que nous connaissions jusqu’à présent tendent à disparaître pour laisser place à des parcours client digitaux, innovants, multiples et en constante évolution._** 
+_**La transition de la monétique vers les nouveaux moyens de paiement n’est pas nouvelle mais au contraire bien avancée. Les réseaux interbancaires et les moyens de paiement que nous connaissions jusqu’à présent tendent à disparaître pour laisser place à des parcours client digitaux, innovants, multiples et en constante évolution.**_ 
 
-**_Les smartphones, le sans contact, l’Instant Payment, l’IoT s’imposent comme les nouveaux moyens de paiement. Nous assistons à une convergence de ces derniers pour le créancier vers l’omnicanal, l’omni-paiement. Les moyens de paiement font partie intégrante du parcours client et s’inscrivent dans une logique de transformation digitale, l’omnicanal et la gestion des flux rejoignant ainsi l’omni-paiement._**
+_**Les smartphones, le sans contact, l’Instant Payment, l’IoT s’imposent comme les nouveaux moyens de paiement. Nous assistons à une convergence de ces derniers pour le créancier vers l’omnicanal, l’omni-paiement. Les moyens de paiement font partie intégrante du parcours client et s’inscrivent dans une logique de transformation digitale, l’omnicanal et la gestion des flux rejoignant ainsi l’omni-paiement.**_
