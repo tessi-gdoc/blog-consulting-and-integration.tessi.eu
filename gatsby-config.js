@@ -248,12 +248,16 @@ module.exports = {
         icon: `${__dirname}/static/icons/manifest_logo.png`,
         icons: [
           {
-            src: `/icons/android-chrome-512-512.png`,
+            src: `/icons/android-chrome-192x192.png`,
+            sizes: `192x192`,
+            type: `image/png`
+          },
+          {
+            src: `/icons/android-chrome-512x512.png`,
             sizes: `512x512`,
             type: `image/png`
           }
-        ],
-        include_favicon: false
+        ]
       }
     },
     {
@@ -270,7 +274,10 @@ module.exports = {
     },
     {
       resolve: `gatsby-plugin-netlify-cms`,
-      options: { htmlTitle: `Admin | Tessi#Journey` }
+      options: {
+        htmlFavicon: `/icons/favicon.svg`,
+        htmlTitle: `Admin | Tessi#Journey`
+      }
     },
     {
       resolve: `gatsby-plugin-netlify`,

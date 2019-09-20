@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
 import styled from '@emotion/styled';
 
+import { primary } from '@colors';
+
 const CookiesBanner = styled.div`
   position: fixed;
   bottom: 0;
@@ -93,9 +95,8 @@ const HTML = ({
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta name="application-name" content="Tessi#Journey" />
       <meta name="apple-mobile-web-app-capable" content="yes" />
-      <meta name="apple-mobile-web-app-status-bar-style" content="#1a214d" />
+      <meta name="apple-mobile-web-app-status-bar-style" content={primary} />
       <meta name="apple-mobile-web-app-title" content="Tessi#Journey" />
-      <link rel="icon" type="image/svg" href="/icons/favicon.svg" />
       {headComponents}
     </head>
     <body {...bodyAttributes}>
