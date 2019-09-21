@@ -60,7 +60,7 @@ const Newsletter = ({ isOpen, onClose }) => {
       isOpen={isOpen}
       title={newsletter.title}
       onClose={onClose}
-      css={{ marginTop: 0, [Desktop]: { marginTop: `15vh` } }}
+      css={{ marginTop: 0, [Desktop]: { marginTop: 90 } }}
     >
       <p>{newsletter.content}</p>
       <PleziForm

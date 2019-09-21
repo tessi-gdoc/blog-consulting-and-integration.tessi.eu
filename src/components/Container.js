@@ -4,7 +4,7 @@ import { Tablet } from '@media';
 const Container = styled.section`
   position: relative;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1080px;
   margin: 0px auto;
   padding: 2.5rem 0.75rem;
   ${Tablet} {

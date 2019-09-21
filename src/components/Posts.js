@@ -9,7 +9,7 @@ import Link from './LocalizedLink';
 
 import useTranslations from '@hooks/use-translations';
 import { secondary } from '@colors';
-import { Desktop } from '@media';
+import { truncateString, isNotNil } from '@utils';
 
 const Card = styled.article`
   flex: 1 1 300px;
@@ -35,15 +35,6 @@ const Card = styled.article`
       rgba(39, 44, 49, 0.04) 1px 6px 12px;
     transition: all 0.4s ease;
     transform: translate3D(0, -1px, 0) scale(1.02);
-  }
-  &:last-child {
-    max-width: 100%;
-    ${Desktop} {
-      max-width: 50%;
-    }
-  }
-  &:first-child {
-    max-width: 100%;
   }
 `;
 
@@ -119,6 +110,10 @@ const PostCardMeta = styled.footer`
   padding: 0 25px 25px;
 `;
 
+const Section = styled.section`
+  font-size: 14px;
+`;
+
 const Post = ({ data, link }) => {
   const [{ readArticle, readNews }] = useTranslations();
   const { image, title, tags, date, description } = data.frontmatter;
@@ -155,9 +150,13 @@ const Post = ({ data, link }) => {
             <span>{date}</span>
             <h2>{title}</h2>
           </Header>
-          <section>
-            <p>{description || data.excerpt}</p>
-          </section>
+          <Section>
+            <p>
+              {isNotNil(description)
+                ? truncateString(description, 200)
+                : data.excerpt}
+            </p>
+          </Section>
         </CardLink>
         <PostCardMeta className="post-card-meta">
           <ReadArticle to={link}>

@@ -9,4 +9,7 @@ export const getId = pipe(
   replace(/\s/g, `-`)
 );
 
+export const truncateString = (str, num) =>
+  str.length > num ? str.slice(0, num > 3 ? num - 3 : num) + '...' : str;
+
 export const str = JSON.stringify;

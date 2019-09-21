@@ -188,7 +188,7 @@ const GlobalStyles = () => (
         font-size: 4rem;
         font-weight: 600;
       }
-      @media (max-width: 500px) {
+      @media (max-width: 720px) {
         h1 {
           font-size: 2.1rem;
         }
@@ -198,7 +198,7 @@ const GlobalStyles = () => (
         font-size: 1.6rem;
         font-weight: 600;
       }
-      @media (max-width: 500px) {
+      @media (max-width: 720px) {
         h2 {
           font-size: 1.4rem;
         }
@@ -207,7 +207,7 @@ const GlobalStyles = () => (
         margin: 1.5em 0 0.5em 0;
         font-size: 1.4rem;
       }
-      @media (max-width: 500px) {
+      @media (max-width: 720px) {
         h3 {
           font-size: 1.2rem;
         }

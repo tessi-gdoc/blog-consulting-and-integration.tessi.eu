@@ -26,7 +26,7 @@ const TagGrid = styled(Flex)`
   padding: 2rem 0;
   margin: 0 auto !important;
   text-align: center;
-  max-width: 1200px;
+  max-width: 1080px;
 `;
 
 const TagWrapper = styled.section`
@@ -298,7 +298,7 @@ export const pageQuery = graphql`
           fields {
             slug
           }
-          excerpt(pruneLength: 160)
+          excerpt(pruneLength: 200)
           frontmatter {
             title
             link

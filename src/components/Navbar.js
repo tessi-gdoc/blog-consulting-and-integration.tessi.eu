@@ -123,7 +123,7 @@ const NavWrapper = styled(Flex)`
 
 const LinkWrapper = styled(Flex)`
   display: none;
-  max-width: 1450px;
+  max-width: 1234px;
   flex-basis: 100%;
   margin: 0 !important;
   ${Desktop} {

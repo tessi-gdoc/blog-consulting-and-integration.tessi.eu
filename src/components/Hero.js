@@ -33,10 +33,10 @@ const Title = styled.h1`
 const FlexContent = styled(Flex)`
   margin: 0 !important;
   height: 100px;
-  min-height: 280px;
+  min-height: 400px;
   color: white;
   ${Tablet} {
-    min-height: 40vh;
+    min-height: 45vh;
   }
 `;
 
