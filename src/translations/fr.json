@@ -1,11 +1,9 @@
 {
   "contact": "Contactez-nous",
   "readArticle": "Lire l'article",
-  "readNews": "Voir la news",
   "blog": "Blog",
   "demo": "Demande de démo",
   "readCaseStudy": "Lire l'étude de cas",
-  "thankYou": "Merci",
   "thankYouPage": {
     "title": "Bonjour",
     "subtitle": "Merci pour votre demande.",
@@ -14,6 +12,7 @@
   },
   "resources": "Ressources",
   "relatedPosts": "Articles associés",
+  "readNews": "Voir la news",
   "convinced": "êtes-vous convaincu ?",
   "partners": "Nos partenaires",
   "downloadWhitepaper": "Télécharger le livre blanc",
@@ -28,9 +27,10 @@
   "demoPage": {
     "title": "Troquez les longs discours contre",
     "subtitle": "une démonstration solution",
-    "leftContent": "**Comment cela se passe ?**\n\nDès réception de votre demande, nous vous contacterons dans les plus brefs délais pour comprendre au mieux votre besoin et ainsi préparer une démonstration sur-mesure.\n\n**Qu'attendre de cette session de démonstration ?** \n\nEn tant que spécialiste dans le conseil et intégrateur indépendant, notre rôle est de : \n\n* Vous permettre de faire progresser votre benchmark de solutions\n* Vous conseiller de façon adaptée avec une regard objectif\n* Vous partager nos retours d'expérience \n* Vous apporter des réponses à toutes vos questions\n\n_**N’hésitez plus, venez nous voir ! Une démonstration n’engage à rien…**_\n\n![ask for a demo](/img/form.png \"Demo\")\n\nDécouvrez des solutions leaders sur le marché de la gestion de l’information d'entreprise  !",
-    "rightContent": "Découvrez les fonctionnalités et interfaces de nos solutions partenaires à travers une **démonstration personnalisée**, appliquée à des cas d’usage concrets, avec un expert. \n\nAu préalable, nous avons simplement besoin que vous remplissiez ce formulaire :"
+    "leftContent": "Découvrez les fonctionnalités et interfaces de nos solutions partenaires à travers une **démonstration personnalisée**, appliquée à des cas d’usage concrets, avec un expert. \n\n![Démonstration solution ECM Case Management CCM](/img/tessi_image_demo.jpg \"Démonstration solution \")\n\n**Comment cela se passe ?**\n\nDès réception de votre demande, nous vous contacterons dans les plus brefs délais pour comprendre au mieux votre besoin et ainsi préparer une démonstration sur-mesure.\n\n**Qu'attendre de cette session de démonstration ?** \n\nEn tant que spécialiste dans le conseil et intégrateur indépendant, notre rôle est de : \n\n* Vous présenter des solutions leaders sur leur marché\n* Vous permettre de faire progresser votre benchmark de solutions\n* Vous conseiller de façon adaptée avec un regard objectif\n* Vous partager nos retours d'expérience \n* Vous apporter des réponses à toutes vos questions\n\n_**N’hésitez plus, venez nous voir ! Une démonstration n’engage à rien…**_",
+    "rightContent": "Au préalable, nous avons simplement besoin que vous remplissiez ce formulaire :"
   },
+  "thankYou": "Merci",
   "service": "Conseil et intégration",
   "offers": {
     "text": "Découvrir nos offres",
@@ -47,7 +47,7 @@
   ],
   "newsletter": {
     "title": "Vous souhaitez recevoir nos articles par email ?",
-    "content": "Abonnez vous pour recevoir notre newsletter une fois par mois"
+    "content": "Abonnez-vous pour recevoir notre newsletter une fois par mois"
   },
   "website": "Site web Officiel",
   "kits": "Kits opérationnels",
