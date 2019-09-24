@@ -42,30 +42,19 @@ const Demo = ({
       >
         {title} <Subtitle>{subtitle}</Subtitle>
       </h1>
-      <Flex align="start">
+      <Flex
+        align="start"
+        css={css`
+          & p:first-child {
+            text-align: center;
+          }
+        `}
+      >
         <FlexItem width="50%">
           <HTML markdown={leftContent} />
-          <h2>{partners}</h2>
-          <Flex justify="space-around">
-            {edges.map(({ node: { publicURL, name, id } }) => (
-              <img
-                key={id}
-                src={publicURL}
-                alt={name}
-                css={{
-                  width: 100,
-                  height: 75,
-                  [Tablet]: {
-                    width: 160,
-                    height: 110
-                  }
-                }}
-              />
-            ))}
-          </Flex>
         </FlexItem>
         <FlexItem width="50%">
-          <HTML markdown={rightContent} css={{ textAlign: `center` }} />
+          <HTML markdown={rightContent} />
           <PleziForm
             webformId={webformId}
             formId={formId}
@@ -78,6 +67,17 @@ const Demo = ({
             `}
           />
         </FlexItem>
+      </Flex>
+      <h2>{partners}</h2>
+      <Flex justify="space-around">
+        {edges.map(({ node: { publicURL, name, id } }) => (
+          <img
+            key={id}
+            src={publicURL}
+            alt={name}
+            css={{ width: 120, height: 120 }}
+          />
+        ))}
       </Flex>
     </Container>
   );
