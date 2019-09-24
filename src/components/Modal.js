@@ -5,7 +5,7 @@ import styled from '@emotion/styled';
 import ReactModal from 'react-modal';
 import Icon from './Icon';
 import { isNotNil } from '@utils';
-import { primary, secondary } from '@colors';
+import { primary } from '@colors';
 
 const DialogCloser = styled.button`
   cursor: pointer;
@@ -13,7 +13,7 @@ const DialogCloser = styled.button`
   background: transparent;
   position: absolute;
   right: 5px;
-  top: 5px;
+  top: 10px;
   z-index: 10;
   line-height: 1;
   text-decoration: none;
@@ -36,12 +36,26 @@ const getSize = cond([
 ]);
 
 const StyledModal = styled(ReactModal)`
+  &:before {
+    content: ' ';
+    display: block;
+    width: 100%;
+    height: 6px;
+    background-color: #1a214d;
+    background-image: linear-gradient(
+      to right,
+      #3e6aae 0%,
+      #447dbc 20%,
+      #86589d 40%,
+      #df6584 80%,
+      #e58b90 100%
+    );
+  }
   position: relative;
   overflow: auto;
   outline: none;
   margin: 0 auto;
   background: white;
-  border-top: 6px solid ${secondary};
   box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.5);
   max-width: ${props => getSize(props.width)};
   & > h2 {

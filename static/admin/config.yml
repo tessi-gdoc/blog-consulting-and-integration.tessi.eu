@@ -55,6 +55,7 @@ collections:
             name: "tags"
             widget: "list"
           - {label: "Read article", name: "readArticle", widget: "string"}
+          - {label: "Read news", name: "readNews", widget: "string"}
           - {label: "Read Case study", name: "readCaseStudy", widget: "string"}
           - {label: "Download Whitepaper", name: "downloadWhitepaper", widget: "string"}
           - {label: "Download Kit", name: "downloadKit", widget: "string"}
