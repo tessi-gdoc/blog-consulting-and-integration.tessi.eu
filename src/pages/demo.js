@@ -48,6 +48,20 @@ const Demo = ({
           & p:first-child {
             text-align: center;
           }
+          ${Tablet} {
+            & p:first-child {
+              padding-bottom: 1.5rem;
+            }
+            & > div:first-child {
+              padding-right: 2rem;
+              & p:nth-child(2) {
+                padding-bottom: 1.5rem;
+              }
+            }
+            & > div:last-child {
+              padding-left: 2rem;
+            }
+          }
         `}
       >
         <FlexItem width="50%">
