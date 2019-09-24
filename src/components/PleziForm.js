@@ -21,10 +21,9 @@ export const customSelect = css`
       content: ' ';
       display: block;
       height: 0.625em;
-      margin-top: -0.475em;
       pointer-events: none;
       position: absolute;
-      top: 50%;
+      top: 1.125em;
       right: 1.125em;
       transform: rotate(-45deg);
       transform-origin: center;
