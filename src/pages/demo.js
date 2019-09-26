@@ -21,10 +21,10 @@ const Subtitle = styled.span`
 
 const Img = styled.img`
   &:first-of-type {
-    width: 200px;
+    width: 150px;
   }
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
 `;
 
 const Demo = ({
@@ -43,7 +43,6 @@ const Demo = ({
         css={css`
           font-size: 1.75rem;
           text-align: center;
-          text-transform: uppercase;
           background-image: linear-gradient(
             to right,
             #3e6aae 0%,
