@@ -1,8 +1,6 @@
 import React from 'react';
-import { pipe, last, without, split } from 'ramda';
 import { Global, css } from '@emotion/core';
 import styled from '@emotion/styled';
-import camelCase from 'lodash.camelcase';
 
 import SEO from './SEO';
 import Navbar from './Navbar';
@@ -128,13 +126,18 @@ const GlobalStyles = () => (
         background-color: rgba(40, 39, 77, 0.04);
         margin: 40px 0 60px;
         border-collapse: separate;
+        width: 100%;
         max-width: 860px;
+
+        @media (max-width: 550px) {
+          padding: 0;
+        }
 
         & tr,
         td,
         th {
           border-top: none;
-          padding: 12px;
+          padding: 8px;
           border-bottom: 1px dotted #777780;
           text-align: left;
           font-size: 14px;
@@ -166,7 +169,7 @@ const GlobalStyles = () => (
         line-height: 1.6;
         font-style: normal;
         min-height: 100vh;
-
+        word-wrap: break-word;
         text-rendering: optimizelegibility;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
@@ -492,13 +495,6 @@ const GlobalStyles = () => (
   />
 );
 
-const parsePath = pipe(
-  split(`/`),
-  without([``]),
-  last,
-  camelCase
-);
-
 export const LocaleContext = React.createContext();
 
 const Container = styled.div`
@@ -512,11 +508,10 @@ const Layout = ({
   seo,
   pageContext: { locale, dateFormat, countries }
 }) => {
-  const defaultTitle = pathname !== `/` ? parsePath(pathname) : `home`;
   const [open, toggleNewsletter] = React.useState(false);
   return (
     <LocaleContext.Provider value={{ locale, dateFormat, countries }}>
-      <SEO lang={locale} pathname={pathname} title={defaultTitle} {...seo} />
+      <SEO lang={locale} pathname={pathname} {...seo} />
       <GlobalStyles />
       <Newsletter isOpen={open} onClose={() => toggleNewsletter(false)} />
       <Container>

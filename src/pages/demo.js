@@ -45,20 +45,20 @@ const Demo = ({
       <Flex
         align="start"
         css={css`
-          & p:first-child {
+          & p:first-of-type {
             text-align: center;
           }
           ${Tablet} {
-            & p:first-child {
+            & p:first-of-type {
               padding-bottom: 1.5rem;
             }
-            & > div:first-child {
+            & > div:first-of-type {
               padding-right: 2rem;
-              & p:nth-child(2) {
+              & p:nth-of-type(2) {
                 padding-bottom: 1.5rem;
               }
             }
-            & > div:last-child {
+            & > div:last-of-type {
               padding-left: 2rem;
             }
           }

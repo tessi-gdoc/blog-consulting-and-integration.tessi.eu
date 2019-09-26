@@ -1,4 +1,15 @@
-import { complement, isNil, pipe, toLower, trim, replace } from 'ramda';
+import {
+  complement,
+  isNil,
+  pipe,
+  split,
+  without,
+  last,
+  toLower,
+  trim,
+  replace
+} from 'ramda';
+import camelCase from 'lodash.camelcase';
 
 export const isNotNil = complement(isNil);
 
@@ -13,3 +24,10 @@ export const truncateString = (str, num) =>
   str.length > num ? str.slice(0, num > 3 ? num - 3 : num) + '...' : str;
 
 export const str = JSON.stringify;
+
+export const parsePath = pipe(
+  split(`/`),
+  without([``]),
+  last,
+  camelCase
+);

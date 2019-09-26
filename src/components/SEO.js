@@ -1,10 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
+import path from 'ramda/src/path';
 import { StaticQuery, graphql } from 'gatsby';
 
 import useTranslations from '@hooks/use-translations';
-import { str } from '@utils';
+import { str, parsePath } from '@utils';
 
 const SEO = ({
   lang,
@@ -34,9 +35,16 @@ const SEO = ({
           buildTime
         }
       }) => {
+        const digMetadata = attr => {
+          const pageMetadata = pathname !== `/` ? parsePath(pathname) : `home`;
+          return path(['siteMetadata', pageMetadata, attr], t);
+        };
+        const seoTitle = article ? title : digMetadata('title'),
+          seoDescription = article ? description : digMetadata('description');
+
         const seo = {
-          title: article ? title : t[title],
-          description: description || defaultDescription,
+          title: seoTitle || defaultTitle,
+          description: seoDescription || defaultDescription,
           image: `${siteUrl}${image || logo}`,
           author: authors && authors.length > 0 ? authors.join` & ` : author,
           url: `${siteUrl}${pathname || `/`}`

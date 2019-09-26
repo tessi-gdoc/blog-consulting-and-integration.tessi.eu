@@ -34,7 +34,6 @@ const query = graphql`
             contact
             allArticles
             blog
-            home
             demo
             resources
             whitepapers
@@ -74,6 +73,44 @@ const query = graphql`
             downloadKit
             relatedPosts
             partners
+            siteMetadata {
+              home {
+                title
+                description
+              }
+              cookies {
+                title
+                description
+              }
+              personalDataUsePolicy {
+                title
+                description
+              }
+              disclaimer {
+                title
+                description
+              }
+              demo {
+                title
+                description
+              }
+              caseStudies {
+                title
+                description
+              }
+              kits {
+                title
+                description
+              }
+              whitepapers {
+                title
+                description
+              }
+              thankYou {
+                title
+                description
+              }
+            }
           }
         }
       }

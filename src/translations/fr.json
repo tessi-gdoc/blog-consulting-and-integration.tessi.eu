@@ -52,5 +52,24 @@
   "website": "Site web Officiel",
   "kits": "Kits opérationnels",
   "allArticles": "Tous nos articles",
-  "home": "Accueil"
+  "siteMetadata": {
+    "home": {
+      "title": "Accueil",
+      "description": ""
+    },
+    "cookies": {
+      "title": "Cookies",
+      "description": ""
+    },
+    "personalDataUsePolicy": {
+      "title": "Données personnelles",
+      "description": ""
+    },
+    "disclaimer": { "title": "Mentions", "description": "" },
+    "demo": { "title": "Demande de démo", "description": "" },
+    "caseStudies": { "title": "Études de cas", "description": "" },
+    "kits": { "title": "Kits opérationnels", "description": "" },
+    "whitepapers": { "title": "Livres blancs", "description": "" },
+    "thankYou": { "title": "Merci", "description": "" }
+  }
 }
