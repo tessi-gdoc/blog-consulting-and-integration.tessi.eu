@@ -12,7 +12,7 @@ import { secondary } from '@colors';
 import { truncateString, isNotNil } from '@utils';
 
 const Card = styled.article`
-  flex: 1 1 300px;
+  flex: 1 1 500px;
   display: flex;
   flex-direction: column;
   overflow: hidden;
