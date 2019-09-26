@@ -5,6 +5,8 @@ import styled from '@emotion/styled';
 
 import { primary } from '@colors';
 
+import { displayName } from '../package.json';
+
 const CookiesBanner = styled.div`
   position: fixed;
   bottom: 0;
@@ -93,10 +95,10 @@ const HTML = ({
     <head>
       <meta charSet="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta name="application-name" content="Tessi#Journey" />
+      <meta name="application-name" content={displayName} />
       <meta name="apple-mobile-web-app-capable" content="yes" />
       <meta name="apple-mobile-web-app-status-bar-style" content={primary} />
-      <meta name="apple-mobile-web-app-title" content="Tessi#Journey" />
+      <meta name="apple-mobile-web-app-title" content={displayName} />
       <link rel="shortcut icon" href="/icons/favicon.png" />
       {headComponents}
     </head>
