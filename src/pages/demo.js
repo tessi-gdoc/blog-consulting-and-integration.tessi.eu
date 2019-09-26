@@ -19,6 +19,14 @@ const Subtitle = styled.span`
   color: ${secondary};
 `;
 
+const Img = styled.img`
+  &:first-of-type {
+    width: 200px;
+  }
+  width: 100px;
+  height: 100px;
+`;
+
 const Demo = ({
   data: {
     partners: { edges }
@@ -34,7 +42,18 @@ const Demo = ({
       <h1
         css={css`
           font-size: 1.75rem;
+          text-align: center;
           text-transform: uppercase;
+          background-image: linear-gradient(
+            to right,
+            #3e6aae 0%,
+            #447dbc 20%,
+            #86589d 40%,
+            #df6584 80%,
+            #e58b90 100%
+          );
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
           ${Tablet} {
             font-size: 2.45rem;
           }
@@ -85,12 +104,7 @@ const Demo = ({
       <h2>{partners}</h2>
       <Flex justify="space-around">
         {edges.map(({ node: { publicURL, name, id } }) => (
-          <img
-            key={id}
-            src={publicURL}
-            alt={name}
-            css={{ width: 120, height: 120 }}
-          />
+          <Img key={id} src={publicURL} alt={name} />
         ))}
       </Flex>
     </Container>
