@@ -4,8 +4,7 @@ https://www.gdoc-espana.es/* https://blog-consulting-and-integration.tessi.eu/:s
 
 https://tessi.netlify.com/* https://blog-consulting-and-integration.tessi.eu/:splat 301!
 
-/case-studies/* /case-studies 301!
-/:lang/case-studies/* /case-studies 301!
+/:lang/case-studies/* /case-studies/ 301!
 /blog/* / 301!
 /:lang/blog/* / 301!
 /ccm-audit-offer/* / 301!
