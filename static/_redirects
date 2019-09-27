@@ -3,3 +3,19 @@ https://www.gdoc.ch/posts/* https://blog-consulting-and-integration.tessi.eu/pos
 https://www.gdoc-espana.es/posts/* https://blog-consulting-and-integration.tessi.eu/posts/:splat 301!
 
 https://tessi.netlify.com/* https://blog-consulting-and-integration.tessi.eu/:splat 301!
+
+https://www.gdoc-lasercom.com/:lang/case-studies/* https://blog-consulting-and-integration.tessi.eu/case-studies/ 301!
+https://www.gdoc-lasercom.com/:lang/blog/* https://blog-consulting-and-integration.tessi.eu/ 301!
+https://www.gdoc-lasercom.com/:lang/ccm-audit-offer/* https://blog-consulting-and-integration.tessi.eu/ 301!
+https://www.gdoc-lasercom.com/:lang/company/* https://www.tessi.eu/solution/technologies/consulting-and-integration/ 301!
+https://www.gdoc-lasercom.com/:lang/contact/* https://www.tessi.eu/solution/technologies/consulting-and-integration/ 301!
+https://www.gdoc-lasercom.com/:lang/cookies/* https://blog-consulting-and-integration.tessi.eu/notices/cookies/ 301!
+https://www.gdoc-lasercom.com/:lang/disclaimer/* https://blog-consulting-and-integration.tessi.eu/disclaimer/ 301!
+https://www.gdoc-lasercom.com/:lang/events/* https://www.tessi.eu/solution/technologies/consulting-and-integration/ 301!
+https://www.gdoc-lasercom.com/:lang/expertise/* https://www.tessi.eu/solution/technologies/consulting-and-integration/ 301!
+https://www.gdoc-lasercom.com/:lang/partners/* https://blog-consulting-and-integration.tessi.eu/demo/ 301!
+https://www.gdoc-lasercom.com/:lang/personal-data-use-policy/* https://blog-consulting-and-integration.tessi.eu/notices/personal-data-use-policy/ 301!
+https://www.gdoc-lasercom.com/:lang/services/* https://www.tessi.eu/solution/technologies/consulting-and-integration/ 301!
+https://www.gdoc-lasercom.com/:lang/video/* https://blog-consulting-and-integration.tessi.eu/ 301!
+https://www.gdoc-lasercom.com/:lang/webinars/* https://www.tessi.eu/solution/technologies/consulting-and-integration/ 301!
+https://www.gdoc-lasercom.com/:lang/whitepaper/* https://blog-consulting-and-integration.tessi.eu/whitepapers/ 301!
