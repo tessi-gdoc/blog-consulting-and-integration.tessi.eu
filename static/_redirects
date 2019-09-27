@@ -1,4 +1,5 @@
-https://www.gdoc-lasercom.com/* https://blog-consulting-and-integration.tessi.eu 301!
-https://www.gdoc.ch/* https://blog-consulting-and-integration.tessi.eu 301!
+https://www.gdoc-lasercom.com/posts/* https://blog-consulting-and-integration.tessi.eu/posts/:splat 301!
+https://www.gdoc.ch/posts/* https://blog-consulting-and-integration.tessi.eu/posts/:splat 301!
+https://www.gdoc-espana.es/posts/* https://blog-consulting-and-integration.tessi.eu/posts/:splat 301!
 
-https://tessi.netlify.com/* https://blog-consulting-and-integration.tessi.eu 301!
+https://tessi.netlify.com/* https://blog-consulting-and-integration.tessi.eu/:splat 301!
