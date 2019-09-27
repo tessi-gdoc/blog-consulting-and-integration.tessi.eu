@@ -48,7 +48,7 @@ const formStyles = css`
     }
   }
   div.control-group.jsonform-error-title {
-    ${customSelect};
+    ${customSelect()};
   }
 `;
 

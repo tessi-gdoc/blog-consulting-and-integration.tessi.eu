@@ -7,7 +7,9 @@ import SyncLoader from 'react-spinners/SyncLoader';
 
 import { secondary } from '@colors';
 
-export const customSelect = css`
+export const customSelect = (
+  arrowStyles = { top: `1.125em`, right: `1.125em` }
+) => css`
   .controls {
     display: inline-block;
     position: relative;
@@ -21,14 +23,15 @@ export const customSelect = css`
       content: ' ';
       display: block;
       height: 0.625em;
+      width: 0.625em;
       pointer-events: none;
       position: absolute;
-      top: 1.125em;
-      right: 1.125em;
       transform: rotate(-45deg);
       transform-origin: center;
-      width: 0.625em;
       z-index: 4;
+      ${typeof arrowStyles === `object`
+        ? Object.keys(arrowStyles).map(key => `${key}: ${arrowStyles[key]};\n`)
+        : ``}
     }
     & > select {
       appearance: none;

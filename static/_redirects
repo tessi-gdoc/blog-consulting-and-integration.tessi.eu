@@ -4,18 +4,32 @@ https://www.gdoc-espana.es/* https://blog-consulting-and-integration.tessi.eu/:s
 
 https://tessi.netlify.com/* https://blog-consulting-and-integration.tessi.eu/:splat 301!
 
-/:lang/case-studies /case-studies 301!
-/:lang/blog / 301!
-/:lang/ccm-audit-offer / 301!
+/:lang/case-studies/* /case-studies 301!
+/blog/* / 301!
+/:lang/blog/* / 301!
+/ccm-audit-offer/* / 301!
+/:lang/ccm-audit-offer/* / 301!
+/cookies/* /notices/cookies 301!
 /:lang/cookies/* /notices/cookies 301!
+/disclaimer/* /notices/disclaimer 301!
 /:lang/disclaimer/* /notices/disclaimer 301!
+/partners/* /demo 301!
 /:lang/partners/* /demo 301!
+/personal-data-use-policy/* /notices/personal-data-use-policy 301!
 /:lang/personal-data-use-policy/* /notices/personal-data-use-policy 301!
+/whitepaper/* /whitepapers 301!
 /:lang/whitepaper/* /whitepapers 301!
+/video/* / 301!
 /:lang/video/* / 301!
+/contact/* https://www.tessi.eu/solution/technologies/consulting-and-integration/ 301!
 /:lang/contact/* https://www.tessi.eu/solution/technologies/consulting-and-integration/ 301!
+/expertise/* https://www.tessi.eu/solution/technologies/consulting-and-integration/ 301!
 /:lang/expertise/* https://www.tessi.eu/solution/technologies/consulting-and-integration/ 301!
+/events/* https://www.tessi.eu/solution/technologies/consulting-and-integration/ 301!
 /:lang/events/* https://www.tessi.eu/solution/technologies/consulting-and-integration/ 301!
+/services/* https://www.tessi.eu/solution/technologies/consulting-and-integration/ 301!
 /:lang/services/* https://www.tessi.eu/solution/technologies/consulting-and-integration/ 301!
+/webinars/* https://www.tessi.eu/solution/technologies/consulting-and-integration/ 301!
 /:lang/webinars/* https://www.tessi.eu/solution/technologies/consulting-and-integration/ 301!
+/company/* https://www.tessi.eu/solution/technologies/consulting-and-integration/ 301!
 /:lang/company/* https://www.tessi.eu/solution/technologies/consulting-and-integration/ 301!

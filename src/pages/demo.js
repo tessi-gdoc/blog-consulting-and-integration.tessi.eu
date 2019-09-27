@@ -94,7 +94,7 @@ const Demo = ({
             css={css`
               div.jsonform-error-where_are_you_based,
               div.jsonform-error-what_is_the_time_frame_you_have_for_planning_your_project {
-                ${customSelect};
+                ${customSelect({ top: `12px`, right: `1.125em` })};
               }
             `}
           />
