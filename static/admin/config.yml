@@ -20,7 +20,7 @@ collections:
     delete: false
     editor:
       preview: false
-    files:"
+    files:
       - name: "redirects"
         label: "Netlify TOML"
         summary: "The netlify.toml file is your configuration file on how Netlify will build and deploy your site — including redirects, branch and context specific settings, and much more."
