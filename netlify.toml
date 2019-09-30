@@ -182,3 +182,15 @@ force = true
 from = "/:lang/company/*"
 status = 301
 to = "https://www.tessi.eu/"
+
+[[redirects]]
+force = true
+from = "/whitepaper/*"
+status = 301
+to = "/whitepapers"
+
+[[redirects]]
+force = true
+from = "/:lang/whitepaper/*"
+status = 301
+to = "/whitepapers"
