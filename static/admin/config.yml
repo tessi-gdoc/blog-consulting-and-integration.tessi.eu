@@ -15,13 +15,13 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: "redirects"
+  - name: "netlify"
     label: "Netlify configurations"
     delete: false
     editor:
       preview: false
     files:
-      - name: "netlify"
+      - name: "toml"
         label: "Netlify TOML"
         description: "The netlify.toml file is your configuration file on how Netlify will build and deploy your site — including redirects, branch and context specific settings, and much more."
         file: "netlify.toml"
