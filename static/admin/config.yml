@@ -20,7 +20,7 @@ slug:
 
 collections:
   - name: "netlify"
-    label: "Netlify configurations"
+    label: "Netlify configuration"
     delete: false
     editor:
       preview: false
