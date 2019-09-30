@@ -103,7 +103,7 @@ const GlobalStyles = () => (
       ul,
       ol {
         list-style-position: inside;
-        padding-left: 25px;
+        padding-left: 12px;
       }
       ul > li {
         position: relative;
