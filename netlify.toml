@@ -1,7 +1,179 @@
-[build]
-  publish = "public"
-  command = "yarn build"
-[build.environment]
-  YARN_VERSION = "1.17.3"
-  YARN_FLAGS = "--no-ignore-optional"
-  NODE_OPTIONS = "--max_old_space_size=4096"
+[[redirects]]
+force = true
+from = "https://www.gdoc-lasercom.com/*"
+status = 301
+to = "https://blog-consulting-and-integration.tessi.eu/:splat"
+
+[[redirects]]
+force = true
+from = "https://www.gdoc.ch/*"
+status = 301
+to = "https://blog-consulting-and-integration.tessi.eu/:splat"
+
+[[redirects]]
+force = true
+from = "https://www.gdoc-espana.es/*"
+status = 301
+to = "https://blog-consulting-and-integration.tessi.eu/:splat"
+
+[[redirects]]
+force = true
+from = "https://tessi.netlify.com/*"
+status = 301
+to = "https://blog-consulting-and-integration.tessi.eu/:splat"
+
+[[redirects]]
+force = true
+from = "/blog/*"
+status = 301
+to = "/"
+
+[[redirects]]
+force = true
+from = "/:lang/blog/*"
+status = 301
+to = "/"
+
+[[redirects]]
+force = true
+from = "/ccm-audit-offer/*"
+status = 301
+to = "https://www.tessi.eu/fr/solution/technologies/conseil-integration/conseil-integration/ccm-cxm-guide-de-conversation-interactif/"
+
+[[redirects]]
+force = true
+from = "/:lang/ccm-audit-offer/*"
+status = 301
+to = "https://www.tessi.eu/fr/solution/technologies/conseil-integration/conseil-integration/ccm-cxm-guide-de-conversation-interactif/"
+
+[[redirects]]
+force = true
+from = "/cookies/*"
+status = 301
+to = "https://www.tessi.eu/"
+
+[[redirects]]
+force = true
+from = "/:lang/cookies/*"
+status = 301
+to = "https://www.tessi.eu"
+
+[[redirects]]
+force = true
+from = "/disclaimer/*"
+status = 301
+to = "https://www.tessi.eu/"
+
+[[redirects]]
+force = true
+from = "/:lang/disclaimer/*"
+status = 301
+to = "https://www.tessi.eu/"
+
+[[redirects]]
+force = true
+from = "/partners/*"
+status = 301
+to = "/demo"
+
+[[redirects]]
+force = true
+from = "/:lang/partners/*"
+status = 301
+to = "/demo"
+
+[[redirects]]
+force = true
+from = "/personal-data-use-policy/*"
+status = 301
+to = "/whitepapers"
+
+[[redirects]]
+force = true
+from = "/:lang/personal-data-use-policy/*"
+status = 301
+to = "/whitepapers"
+
+[[redirects]]
+force = true
+from = "/video/*"
+status = 301
+to = "https://www.tessi.eu/"
+
+[[redirects]]
+force = true
+from = "/:lang/video/*"
+status = 301
+to = "https://www.tessi.eu/"
+
+[[redirects]]
+force = true
+from = "/contact/*"
+status = 301
+to = "https://www.tessi.eu/"
+
+[[redirects]]
+force = true
+from = "/:lang/contact/*"
+status = 301
+to = "https://www.tessi.eu/"
+
+[[redirects]]
+force = true
+from = "/expertise/*"
+status = 301
+to = "https://www.tessi.eu/fr/solution/technologies/conseil-integration/"
+
+[[redirects]]
+force = true
+from = "/:lang/expertise/*"
+status = 301
+to = "https://www.tessi.eu/fr/solution/technologies/conseil-integration/"
+
+[[redirects]]
+force = true
+from = "/events/*"
+status = 301
+to = "/"
+
+[[redirects]]
+force = true
+from = "/:lang/events/*"
+status = 301
+to = "/"
+
+[[redirects]]
+force = true
+from = "/services/*"
+status = 301
+to = "/"
+
+[[redirects]]
+force = true
+from = "/:lang/services/*"
+status = 301
+to = "/"
+
+[[redirects]]
+force = true
+from = "/webinars/*"
+status = 301
+to = "/whitepapers"
+
+[[redirects]]
+force = true
+from = "/:lang/webinars/*"
+status = 301
+to = "/whitepapers"
+
+[[redirects]]
+force = true
+from = "/company/*"
+status = 301
+to = "https://www.tessi.eu/"
+
+[[redirects]]
+force = true
+from = "/:lang/company/*"
+status = 301
+to = "https://www.tessi.eu/"
