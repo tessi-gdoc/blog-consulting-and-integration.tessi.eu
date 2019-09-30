@@ -1,3 +1,8 @@
+["build.environment"]
+NODE_OPTIONS = "--max_old_space_size=4096"
+YARN_FLAGS = "--no-ignore-optional"
+YARN_VERSION = "1.17.3"
+
 [[redirects]]
 force = true
 from = "https://www.gdoc-lasercom.com/*"
@@ -50,25 +55,25 @@ to = "https://www.tessi.eu/fr/solution/technologies/conseil-integration/conseil-
 force = true
 from = "/cookies/*"
 status = 301
-to = "https://www.tessi.eu/"
+to = "/notices/cookies"
 
 [[redirects]]
 force = true
 from = "/:lang/cookies/*"
 status = 301
-to = "https://www.tessi.eu"
+to = "/notices/cookies"
 
 [[redirects]]
 force = true
 from = "/disclaimer/*"
 status = 301
-to = "https://www.tessi.eu/"
+to = "/notices/disclaimer"
 
 [[redirects]]
 force = true
 from = "/:lang/disclaimer/*"
 status = 301
-to = "https://www.tessi.eu/"
+to = "/notices/disclaimer"
 
 [[redirects]]
 force = true
@@ -86,13 +91,13 @@ to = "/demo"
 force = true
 from = "/personal-data-use-policy/*"
 status = 301
-to = "/whitepapers"
+to = "/notices/personal-data-use-policy"
 
 [[redirects]]
 force = true
 from = "/:lang/personal-data-use-policy/*"
 status = 301
-to = "/whitepapers"
+to = "/notices/personal-data-use-policy"
 
 [[redirects]]
 force = true
