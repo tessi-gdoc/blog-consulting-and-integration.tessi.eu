@@ -21,9 +21,9 @@ collections:
     editor:
       preview: false
     files:
-      - name: "redirects"
+      - name: "netlify"
         label: "Netlify TOML"
-        summary: "The netlify.toml file is your configuration file on how Netlify will build and deploy your site — including redirects, branch and context specific settings, and much more."
+        description: "The netlify.toml file is your configuration file on how Netlify will build and deploy your site — including redirects, branch and context specific settings, and much more."
         file: "netlify.toml"
         fields:
           - label: "Build environment"
@@ -35,6 +35,7 @@ collections:
               - {label: "Node options", name: "NODE_OPTIONS", widget: "string"} 
           - label: "Redirects"
             name: "redirects"
+            label_singular: "redirection"
             widget: "list"
             fields:
               - {label: "From", name: "from", widget: "string"}
