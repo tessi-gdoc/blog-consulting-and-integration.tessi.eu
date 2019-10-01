@@ -194,3 +194,15 @@ force = true
 from = "/:lang/whitepaper/*"
 status = 301
 to = "/whitepapers"
+
+[[redirects]]
+force = true
+from = "/case-studies/*"
+status = 301
+to = "/our-case-studies"
+
+[[redirects]]
+force = true
+from = "/:lang/case-studies/*"
+status = 301
+to = "/our-case-studies"
