@@ -50,7 +50,7 @@ module.exports = {
       },
       {
         label: `caseStudies`,
-        slug: `/case-studies`
+        slug: `/our-case-studies`
       }
     ]
   },
