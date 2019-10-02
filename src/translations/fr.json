@@ -32,9 +32,47 @@
   },
   "thankYou": "Merci",
   "service": "Conseil et intégration",
+  "siteMetadata": {
+    "demo": {
+      "title": "Demande de démo",
+      "description": ""
+    },
+    "cookies": {
+      "title": "Cookies",
+      "description": ""
+    },
+    "personalDataUsePolicy": {
+      "title": "Données personnelles",
+      "description": ""
+    },
+    "whitepapers": {
+      "title": "Livres blancs",
+      "description": ""
+    },
+    "thankYou": {
+      "title": "Merci",
+      "description": ""
+    },
+    "caseStudies": {
+      "title": "Études de cas",
+      "description": ""
+    },
+    "disclaimer": {
+      "title": "Mentions",
+      "description": ""
+    },
+    "kits": {
+      "title": "Kits opérationnels",
+      "description": ""
+    },
+    "home": {
+      "title": "Accueil",
+      "description": ""
+    }
+  },
   "offers": {
     "text": "Découvrir nos offres",
-    "link": "https://tessi.eu"
+    "link": "https://www.tessi.eu/fr/solution/technologies/conseil-integration/"
   },
   "caseStudies": "Études de cas",
   "subtitle": "Le Blog de la Conversation Client",
@@ -51,25 +89,5 @@
   },
   "website": "Site web Officiel",
   "kits": "Kits opérationnels",
-  "allArticles": "Tous nos articles",
-  "siteMetadata": {
-    "home": {
-      "title": "Accueil",
-      "description": ""
-    },
-    "cookies": {
-      "title": "Cookies",
-      "description": ""
-    },
-    "personalDataUsePolicy": {
-      "title": "Données personnelles",
-      "description": ""
-    },
-    "disclaimer": { "title": "Mentions", "description": "" },
-    "demo": { "title": "Demande de démo", "description": "" },
-    "caseStudies": { "title": "Études de cas", "description": "" },
-    "kits": { "title": "Kits opérationnels", "description": "" },
-    "whitepapers": { "title": "Livres blancs", "description": "" },
-    "thankYou": { "title": "Merci", "description": "" }
-  }
+  "allArticles": "Tous nos articles"
 }
