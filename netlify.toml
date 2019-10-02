@@ -1,3 +1,5 @@
+[build]
+
 [build.environment]
 NODE_OPTIONS = "--max_old_space_size=4096"
 YARN_FLAGS = "--no-ignore-optional"
@@ -197,12 +199,12 @@ to = "/whitepapers"
 
 [[redirects]]
 force = true
-from = "/case-studies/*"
+from = "/case-studies"
 status = 301
 to = "/our-case-studies"
 
 [[redirects]]
 force = true
-from = "/:lang/case-studies/*"
+from = "/:lang/case-studies"
 status = 301
 to = "/our-case-studies"
