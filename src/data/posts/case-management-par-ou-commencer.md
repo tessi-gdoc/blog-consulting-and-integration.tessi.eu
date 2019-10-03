@@ -8,7 +8,6 @@ description: >-
 date: 2019-02-28T23:40:32.169Z
 tags:
   - Case Management
-  - Content Services
 authors:
   - avatar: /img/photo-profil-claire-collard.jpg
     firstname: Claire
