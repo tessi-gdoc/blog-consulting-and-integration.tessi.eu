@@ -1,7 +1,7 @@
 ---
 date: 2019-02-28T23:40:32.169Z
 image: /img/livre_blanc_case_management_compr..png
-title: 'Solution de Case Management : Comment bien réaliser son benchmark ?'
+title: 'Pourquoi s''équiper d''une solution de Case Management ? '
 link: >-
   https://content.blog-consulting-and-integration.tessi.eu/livre-blanc-tessi-pourquoi-sequiper-dune-solution-de-case-management
 ---
