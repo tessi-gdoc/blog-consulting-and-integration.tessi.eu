@@ -34,8 +34,8 @@
   "service": "Conseil et intégration",
   "siteMetadata": {
     "demo": {
-      "title": "Demande de démo",
-      "description": "Assistez à une démonstration sur-mesure de solutions leaders sur le marché de l’ECM (Enterprise Content Management) ou CCM (Customer Communication management). "
+      "title": "Demander une démo de solutions leaders ECM ou CCM",
+      "description": "Réservez votre démo sur-mesure avec un expert et sans engagement. Plusieurs solutions modernes de gestion de l’Information d'Entreprise (contenus, documents, communications...) disponibles."
     },
     "cookies": {
       "title": "Cookies",
@@ -46,15 +46,15 @@
       "description": ""
     },
     "whitepapers": {
-      "title": "Découvrez nos Livres Blancs - Tessi Journey",
-      "description": "Livres blancs pour tous responsables désireux d'améliorer la gestion de l'information et la conversation client : téléchargez gratuitement toutes les ressources."
+      "title": "Découvrez nos Livres Blancs - Tessi Conseil & Intégration",
+      "description": "Téléchargez gratuitement nos livres blancs adressés aux responsables désireux d'améliorer leur gestion de l'information et la conversation clients."
     },
     "thankYou": {
       "title": "Merci",
       "description": ""
     },
     "caseStudies": {
-      "title": "Découvrez nos Etude de Cas - Tessi Journey",
+      "title": "Découvrez nos Etude de Cas - Tessi Conseil & Intégration",
       "description": "Retrouvez nos études de cas présentant la mise en oeuvre de différentes solutions et expertises pour répondre aux nombreuses problématiques de nos clients !"
     },
     "disclaimer": {
@@ -62,7 +62,7 @@
       "description": ""
     },
     "kits": {
-      "title": "Découvrez nos Kits Opérationnels - Tessi Journey",
+      "title": "Découvrez nos Kits Opérationnels - Tessi Conseil & Intégration",
       "description": "Téléchargez gratuitement nos kits opérationnels, véritables guides de réflexion : fiches pratiques, modèles, méthodologies, grille d'évaluation..."
     },
     "home": {
