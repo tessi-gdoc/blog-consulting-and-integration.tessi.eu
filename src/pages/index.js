@@ -135,28 +135,28 @@ const SocialButtons = styled.aside`
 const HomePosts = css`
   ${Tablet} {
     padding: 2rem 0.75rem;
-    .post-card:nth-of-type(6n + 1):not(.no-image) {
+    .post-card:first-of-type:not(.no-image) {
       flex: 1 1 100%;
       flex-direction: row;
     }
-    .post-card:nth-of-type(6n + 1):not(.no-image) .post-card-image-link {
+    .post-card:first-of-type:not(.no-image) .post-card-image-link {
       position: relative;
       flex: 1 1 auto;
     }
-    .post-card:nth-of-type(6n + 1):not(.no-image) .post-card-image {
+    .post-card:first-of-type:not(.no-image) .post-card-image {
       position: absolute;
       width: 100%;
       height: 100%;
     }
-    .post-card:nth-of-type(6n + 1):not(.no-image) .post-card-content {
+    .post-card:first-of-type:not(.no-image) .post-card-content {
       flex: 0 1 357px;
     }
-    .post-card:nth-of-type(6n + 1):not(.no-image) .post-card-content-link {
+    .post-card:first-of-type:not(.no-image) .post-card-content-link {
       padding: 30px 40px 0;
     }
-    .post-card:nth-of-type(6n + 1):not(.no-image) .post-card-meta {
+    .post-card:first-of-type:not(.no-image) .post-card-meta {
       padding: 0 40px 30px;
-    }
+    } 
   }
 `;
 
