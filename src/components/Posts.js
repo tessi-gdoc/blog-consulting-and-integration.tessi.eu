@@ -9,10 +9,13 @@ import Link from './LocalizedLink';
 
 import useTranslations from '@hooks/use-translations';
 import { secondary } from '@colors';
+import { Tablet } from '@media';
 import { truncateString, isNotNil } from '@utils';
 
 const Card = styled.article`
-  flex: 1 1 500px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 100%;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -35,6 +38,10 @@ const Card = styled.article`
       rgba(39, 44, 49, 0.04) 1px 6px 12px;
     transition: all 0.4s ease;
     transform: translate3D(0, -1px, 0) scale(1.02);
+  }
+  ${Tablet} {
+    flex-grow: 0;
+    flex-basis: calc(50% - 40px);
   }
 `;
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import { graphql } from 'gatsby';
+import path from 'ramda/src/path';
 
 import DocTemplate from '@components/DocTemplate';
 import Container from '@components/Container';
@@ -16,7 +17,7 @@ const Kits = ({
           key={id}
           title={frontmatter.title}
           content={html}
-          imageData={frontmatter.image.childImageSharp.fluid}
+          imageData={path(['childImageSharp', 'fluid'], frontmatter.image)}
           cta={{
             link: frontmatter.link,
             text: `Télécharger le kit`

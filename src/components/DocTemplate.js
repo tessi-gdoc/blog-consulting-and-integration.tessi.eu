@@ -41,9 +41,9 @@ const DocTemplate = ({ title, content, cta, imageData }) => (
   <Wrapper>
     <Flex justify="space-between">
       <FlexItem width="400px">
-        <Img fluid={imageData} alt={title} />
+        {imageData && <Img fluid={imageData} alt={title} />}
       </FlexItem>
-      <FlexItem width="calc(100% - 450px)">
+      <FlexItem width="calc(100% - 400px)">
         <h3>{title}</h3>
         <Description dangerouslySetInnerHTML={{ __html: content }} />
         <Cta type={enumTypes.SECONDARY} link={cta.link} size="large">
