@@ -13,7 +13,7 @@ date: 2019-09-19T10:07:15.284Z
 tags:
   - Communication client (CCM)
 authors:
-  - avatar: /img/avatar_default.png
+  - avatar: /img/mag.jpg
     firstname: Mathieu
     lastname: Gauthier
     position: Consultant technique
