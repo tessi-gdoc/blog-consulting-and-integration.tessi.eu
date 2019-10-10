@@ -273,7 +273,7 @@ module.exports = {
         headers: {
           '/*': [
             `X-UA-Compatible: IE=Edge`,
-            `Content-Security-Policy: block-all-mixed-content; report-uri https://${reportUri}.report-uri.com/r/d/csp/enforce; base-uri 'self'; default-src 'none'; child-src: 'self' data: raw.githubusercontent.com app.plezi.co www.google-analytics.com www.googleadservices.com www.googletagmanager.com googleads.g.doubleclick.net; script-src 'self' www.googletagmanager.com www.google-analytics.com googleads.g.doubleclick.net www.googleadservices.com app.plezi.co; style-src 'self'; object-src 'none'; form-action 'self'; font-src 'self' data:; connect-src ${reportUri}.report-uri.com ${reportUri}.report-uri.io 'self' app.plezi.co www.google-analytics.com www.googleadservices.com`
+            `Content-Security-Policy: block-all-mixed-content; report-uri https://${reportUri}.report-uri.com/r/d/csp/enforce; base-uri 'self'; default-src 'none'; child-src 'self' data: raw.githubusercontent.com app.plezi.co www.google-analytics.com www.googleadservices.com www.googletagmanager.com googleads.g.doubleclick.net; script-src 'self' www.googletagmanager.com www.google-analytics.com googleads.g.doubleclick.net www.googleadservices.com app.plezi.co; style-src 'self'; object-src 'none'; form-action 'self'; font-src 'self' data:; connect-src ${reportUri}.report-uri.com ${reportUri}.report-uri.io 'self' app.plezi.co www.google-analytics.com www.googleadservices.com`
           ],
           '/icons/*.png': [`cache-control: public, max-age=31536000,immutable`]
         }

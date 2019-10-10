@@ -31,7 +31,10 @@ export const Section = styled.section`
 
 const Banner = styled(Section)`
   background-color: ${primary};
-  color: white;
+  &,
+  & p > a {
+    color: white;
+  }
 `;
 
 export default Banner;
