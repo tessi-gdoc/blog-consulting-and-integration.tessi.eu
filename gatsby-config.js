@@ -2,7 +2,8 @@ const path = require('path');
 const { description } = require('./package.json');
 const { primary, secondary, lightGrey } = require('./src/styles/colors');
 
-const cloud_id = `d33wubrfki0l68`;
+const cloud_id = `d33wubrfki0l68`,
+  reportUri = `f930fe3f569432dd74815d6dae927509`;
 
 module.exports = {
   siteMetadata: {
@@ -272,13 +273,9 @@ module.exports = {
         headers: {
           '/*': [
             `X-UA-Compatible: IE=Edge`,
-            `Content-Security-Policy: base-uri 'self'; default-src 'self' data: raw.githubusercontent.com app.plezi.co www.google-analytics.com www.googleadservices.com www.googletagmanager.com googleads.g.doubleclick.net; script-src 'self' 'unsafe-inline' 'unsafe-eval' ${cloud_id}.cloudfront.net www.googletagmanager.com www.google-analytics.com googleads.g.doubleclick.net www.googleadservices.com app.plezi.co; style-src 'self' 'unsafe-inline'; object-src 'none'; form-action 'self'; font-src 'self' data: ${cloud_id}.cloudfront.net; connect-src 'self' ${cloud_id}.cloudfront.net app.plezi.co www.google-analytics.com www.googleadservices.com`
+            `Content-Security-Policy: block-all-mixed-content; report-uri https://${reportUri}.report-uri.com/r/d/csp/enforce; base-uri 'self'; default-src 'none'; child-src: 'self' data: raw.githubusercontent.com app.plezi.co www.google-analytics.com www.googleadservices.com www.googletagmanager.com googleads.g.doubleclick.net; script-src 'self' www.googletagmanager.com www.google-analytics.com googleads.g.doubleclick.net www.googleadservices.com app.plezi.co; style-src 'self'; object-src 'none'; form-action 'self'; font-src 'self' data:; connect-src ${reportUri}.report-uri.com ${reportUri}.report-uri.io 'self' app.plezi.co www.google-analytics.com www.googleadservices.com`
           ],
-          '/icons/*.png': [`cache-control: public, max-age=31536000,immutable`],
-          '/*.woff2': [
-            `Access-Control-Allow-Origin: *`,
-            `Content-Type: application/font-woff2`
-          ]
+          '/icons/*.png': [`cache-control: public, max-age=31536000,immutable`]
         }
       }
     },
