@@ -84,7 +84,7 @@ collections:
           - {label: "Resources", name: "resources", widget: "string"}
           - {label: "Whitepapers", name: "whitepapers", widget: "string"}
           - {label: "Kits", name: "kits", widget: "string"}
-          - {label: "Case Studies", name: "caseStudies", widget: "string"}
+          - {label: "Case Studies", name: "ourCaseStudies", widget: "string"}
           - {label: "Thank you", name: "thankYou", widget: "string"}
           - {label: "Demo title", name: "demo", widget: "string"}
           - label: "Offers"
@@ -168,7 +168,7 @@ collections:
                   - {label: "Title", name: "title", widget: "string", required: false}
                   - {label: "Description", name: "description", widget: "string", required: false}
               - label: "Case Studies"
-                name: "caseStudies"
+                name: "ourCaseStudies"
                 widget: "object"
                 fields:
                   - {label: "Title", name: "title", widget: "string", required: false}

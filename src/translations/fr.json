@@ -46,7 +46,7 @@
       "description": ""
     },
     "whitepapers": {
-      "title": "Découvrez nos Livres Blancs - Tessi Conseil & Intégration",
+      "title": "Découvrez nos Livres Blancs",
       "description": "Téléchargez gratuitement nos livres blancs adressés aux responsables désireux d'améliorer leur gestion de l'information et la conversation clients."
     },
     "thankYou": {
@@ -54,7 +54,7 @@
       "description": ""
     },
     "caseStudies": {
-      "title": "Découvrez nos Etude de Cas - Tessi Conseil & Intégration",
+      "title": "Découvrez nos Etude de Cas",
       "description": "Retrouvez nos études de cas présentant la mise en oeuvre de différentes solutions et expertises pour répondre aux nombreuses problématiques de nos clients !"
     },
     "disclaimer": {
@@ -62,11 +62,11 @@
       "description": ""
     },
     "kits": {
-      "title": "Découvrez nos Kits Opérationnels - Tessi Conseil & Intégration",
+      "title": "Découvrez nos Kits Opérationnels",
       "description": "Téléchargez gratuitement nos kits opérationnels, véritables guides de réflexion : fiches pratiques, modèles, méthodologies, grille d'évaluation..."
     },
     "home": {
-      "title": "Tessi Journey - Le Blog de la Conversation Client",
+      "title": "Le Blog de la Conversation Client",
       "description": "Tessi Journey est le blog destiné aux dirigeants et professionnels de la transformation digitale désireux de fluidifier leurs parcours utilisateurs et processus associés. "
     }
   },
