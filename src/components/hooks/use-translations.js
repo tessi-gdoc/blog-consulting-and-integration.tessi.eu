@@ -94,7 +94,7 @@ const query = graphql`
                 title
                 description
               }
-              caseStudies {
+              ourCaseStudies {
                 title
                 description
               }
