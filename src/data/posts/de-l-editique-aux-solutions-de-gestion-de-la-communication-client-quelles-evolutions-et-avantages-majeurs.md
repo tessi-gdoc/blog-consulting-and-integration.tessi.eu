@@ -11,7 +11,7 @@ description: >-
   pouvez attendre d'une solution CCM moderne.
 date: 2019-09-13T15:52:10.975Z
 tags:
-  - Communication client (CCM)
+  - ccm
 authors:
   - avatar: /img/nicolasz_profil.jpg
     firstname: Nicolas

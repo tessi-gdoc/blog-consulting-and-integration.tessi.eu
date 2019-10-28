@@ -2,8 +2,9 @@ const path = require(`path`);
 const { fmImagesToRelative } = require('gatsby-remark-relative-images');
 const { createFilePath } = require(`gatsby-source-filesystem`);
 const locales = require(`./src/i18n`);
+const kebabCase = require(`lodash.kebabcase`);
 
-const localizeSlug = ({ isDefault, locale, slug }) =>
+const localizeSlug = (isDefault, locale, slug) =>
   isDefault ? slug : `/${locale}${slug}`;
 
 const removeTrailingSlash = path =>
@@ -77,7 +78,7 @@ exports.createPages = ({ graphql, actions }) => {
   return graphql(
     `
       {
-        allMarkdownRemark(
+        postRemark: allMarkdownRemark(
           filter: { fields: { slug: { regex: "/^/(posts|notices)//" } } }
           limit: 1000
         ) {
@@ -95,6 +96,22 @@ exports.createPages = ({ graphql, actions }) => {
             }
           }
         }
+        tagsGroup: allMarkdownRemark(
+          filter: { fields: { slug: { regex: "/^/(posts|news)//" } } }
+          limit: 2000
+        ) {
+          edges {
+            node {
+              fields {
+                locale
+                isDefault
+              }
+            }
+          }
+          group(field: frontmatter___tags) {
+            fieldValue
+          }
+        }
       }
     `
   ).then(result => {
@@ -103,17 +120,35 @@ exports.createPages = ({ graphql, actions }) => {
       return Promise.reject(result.errors);
     }
 
-    const files = result.data.allMarkdownRemark.edges;
+    const files = result.data.postRemark.edges;
 
     files.forEach(({ node }) => {
       const { slug, locale, isDefault } = node.fields;
-      const localizedSlug = localizeSlug({ isDefault, locale, slug });
+      const localizedSlug = localizeSlug(isDefault, locale, slug);
       createPage({
         path: localizedSlug,
         component: path.resolve(
           `src/templates/${node.frontmatter.templateKey}.js`
         ),
         context: { slug: localizedSlug, locale }
+      });
+    });
+
+    const tags = result.data.tagsGroup;
+
+    tags.edges.forEach(({ node }) => {
+      const { locale, isDefault } = node.fields;
+      tags.group.forEach(({ fieldValue }) => {
+        const localizedSlug = localizeSlug(
+          isDefault,
+          locale,
+          kebabCase(fieldValue)
+        );
+        createPage({
+          path: localizedSlug,
+          component: path.resolve(`src/templates/tag.js`),
+          context: { tag: fieldValue, slug: localizedSlug, locale }
+        });
       });
     });
   });

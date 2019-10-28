@@ -8,7 +8,7 @@ description: >-
   options.
 date: 2019-03-17T23:00:00.000Z
 tags:
-  - Case Management
+  - caseManagement
 authors:
   - avatar: /img/magali-t._profil.jpg
     firstname: Magali

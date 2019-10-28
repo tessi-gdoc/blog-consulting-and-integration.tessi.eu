@@ -4,33 +4,49 @@ import kebabCase from 'lodash.kebabcase';
 
 import useTranslations from '@hooks/use-translations';
 import { FlexItem } from '@components/Flex';
-import NotFound from '@components/NotFound';
 import Container from '@components/Container';
 import Posts, { TagWrapper, TagGrid, HomePosts, Tag } from '@components/Posts';
+import NotFound from '@components/NotFound';
 
+import { secondary } from '@colors';
 import { getTags } from '@utils';
 
-const Blog = ({
+const getPosts = (posts, tag) =>
+  posts.reduce((acc, post) => {
+    const { tags = [] } = post.node.frontmatter;
+    if (tags.includes(tag)) acc.push(post);
+    return acc;
+  }, []);
+
+const TagTemplate = ({
+  pageContext,
   data: {
     allMarkdownRemark: { edges, group: postGroup }
   }
 }) => {
   const [{ tags }] = useTranslations();
-  const allTags = getTags(tags, postGroup);
+  const allTags = getTags(tags, postGroup),
+    allPosts = getPosts(edges, pageContext.tag);
   return (
     <>
       <TagWrapper>
         <TagGrid justify="space-between">
-          {allTags.map(({ fieldValue }, i) => (
+          {allTags.map(({ fieldValue }) => (
             <FlexItem key={fieldValue}>
-              <Tag to={`/${kebabCase(fieldValue)}`}>{tags[fieldValue]}</Tag>
+              <Tag
+                to={`/${kebabCase(fieldValue)}`}
+                partiallyActive={true}
+                activeStyle={{ color: secondary }}
+              >
+                {tags[fieldValue]}
+              </Tag>
             </FlexItem>
           ))}
         </TagGrid>
       </TagWrapper>
-      {edges.length > 0 ? (
+      {allPosts.length > 0 ? (
         <Container css={HomePosts}>
-          <Posts allPosts={edges} />
+          <Posts allPosts={allPosts} />
         </Container>
       ) : (
         <NotFound />
@@ -40,7 +56,7 @@ const Blog = ({
 };
 
 export const pageQuery = graphql`
-  query Index($locale: String!) {
+  query Tag($locale: String!) {
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
       filter: {
@@ -81,4 +97,4 @@ export const pageQuery = graphql`
   }
 `;
 
-export default Blog;
+export default TagTemplate;

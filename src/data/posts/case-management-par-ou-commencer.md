@@ -7,7 +7,7 @@ description: >-
   quoi il s’agit, à quoi ça sert, de quoi avez-vous besoin et par où commencer.
 date: 2019-02-28T23:40:32.169Z
 tags:
-  - Case Management
+  - caseManagement
 authors:
   - avatar: /img/photo-profil-claire-collard.jpg
     firstname: Claire
@@ -15,7 +15,7 @@ authors:
     position: Consultante / Intégrateur GED
 introduction: >-
   Le Case Management est un terme qui est apparu aux États-Unis vers les années
-  1920. Initialement utilisé dans le domaine de la médecine, il désigne une
+   1920. Initialement utilisé dans le domaine de la médecine, il désigne une
   méthode de travail qui s’axe sur le suivi, la prise en charge et la
   coordination des soins, au cas par cas. Cette approche répond au besoin de
   traiter des patients atteint de maladie chronique pour lesquels la mise en

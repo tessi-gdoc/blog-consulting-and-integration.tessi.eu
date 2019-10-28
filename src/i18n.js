@@ -5,12 +5,6 @@ module.exports = {
     default: true,
     path: `fr`,
     locale: `fr-FR`,
-    dateFormat: frLocale,
-    countries: {
-      FR: 'France',
-      SP: 'Espagne',
-      UK: 'Royaume-uni',
-      CH: 'Suisse'
-    }
+    dateFormat: frLocale
   }
 };

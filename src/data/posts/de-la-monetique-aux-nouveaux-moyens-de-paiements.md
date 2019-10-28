@@ -8,7 +8,7 @@ description: >-
   paiement de demain ?
 date: 2019-09-13T16:24:29.670Z
 tags:
-  - Parcours client
+  - customerJourney
 authors:
   - avatar: /img/avatar_default.png
     firstname: Anthony

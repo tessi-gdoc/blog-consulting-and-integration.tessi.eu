@@ -11,10 +11,10 @@ const findTranslations = locale =>
   );
 
 const useTranslations = () => {
-  const { locale, dateFormat, countries } = useContext(LocaleContext);
+  const { locale, dateFormat } = useContext(LocaleContext);
   const getFromQuery = findTranslations(locale);
   const { rawData } = useStaticQuery(query);
-  return [getFromQuery(rawData.edges), dateFormat, countries];
+  return [getFromQuery(rawData.edges), dateFormat];
 };
 
 export default useTranslations;
@@ -59,7 +59,13 @@ const query = graphql`
               content
             }
             convinced
-            tags
+            tags {
+              news
+              contentServices
+              ccm
+              caseManagement
+              customerJourney
+            }
             demoPage {
               title
               subtitle
@@ -107,6 +113,26 @@ const query = graphql`
                 description
               }
               thankYou {
+                title
+                description
+              }
+              news {
+                title
+                description
+              }
+              contentServices {
+                title
+                description
+              }
+              ccm {
+                title
+                description
+              }
+              caseManagement {
+                title
+                description
+              }
+              customerJourney {
                 title
                 description
               }

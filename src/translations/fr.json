@@ -68,6 +68,26 @@
     "home": {
       "title": "Le Blog de la Conversation Client",
       "description": "Tessi Journey est le blog destiné aux dirigeants et professionnels de la transformation digitale désireux de fluidifier leurs parcours utilisateurs et processus associés. "
+    },
+    "news": {
+      "title": "Actualités",
+      "description": ""
+    },
+    "ccm": {
+      "title": "Communication Client (CCM)",
+      "description": ""
+    },
+    "contentServices": {
+      "title": "Content Services",
+      "description": ""
+    },
+    "caseManagement": {
+      "title": "Case Management",
+      "description": ""
+    },
+    "customerJourney": {
+      "title": "Parcours client",
+      "description": ""
     }
   },
   "offers": {
@@ -76,13 +96,13 @@
   },
   "caseStudies": "Études de cas",
   "subtitle": "Le Blog de la Conversation Client",
-  "tags": [
-    "Actualités",
-    "Content Services",
-    "Communication client (CCM)",
-    "Case Management",
-    "Parcours client"
-  ],
+  "tags": {
+    "news": "Actualités",
+    "contentServices": "Content Services",
+    "ccm": "Communication client (CCM)",
+    "caseManagement": "Case Management",
+    "customerJourney": "Parcours client"
+  },
   "newsletter": {
     "title": "Vous souhaitez recevoir nos articles par email ?",
     "content": "Abonnez-vous pour recevoir notre newsletter une fois par mois"

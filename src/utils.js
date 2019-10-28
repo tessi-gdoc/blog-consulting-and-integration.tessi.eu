@@ -31,3 +31,10 @@ export const parsePath = pipe(
   last,
   camelCase
 );
+
+export const getTags = (edges, group) =>
+  group.reduce((acc, tag) => {
+    const idx = acc.findIndex(node => node === tag.fieldValue);
+    acc[idx] = tag;
+    return acc;
+  }, Object.keys(edges));

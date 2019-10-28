@@ -5,12 +5,85 @@ import { css } from '@emotion/core';
 import { hasPath } from 'ramda';
 import Img from 'gatsby-image';
 
+import Flex from './Flex';
 import Link from './LocalizedLink';
 
 import useTranslations from '@hooks/use-translations';
 import { secondary } from '@colors';
 import { Tablet } from '@media';
 import { truncateString, isNotNil } from '@utils';
+
+export const TagGrid = styled(Flex)`
+  padding: 2rem 0;
+  margin: 0 auto !important;
+  text-align: center;
+  max-width: 1080px;
+`;
+
+export const TagWrapper = styled.section`
+  &:after {
+    content: ' ';
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: #1a214d;
+    background-image: linear-gradient(
+      to right,
+      #3e6aae 0%,
+      #447dbc 20%,
+      #86589d 40%,
+      #df6584 80%,
+      #e58b90 100%
+    );
+  }
+`;
+
+export const Tag = styled(Link)`
+  display: inline-block;
+  vertical-align: sub;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  font-weight: 700;
+  font-size: 1.15em;
+  border: 0;
+  outline: 0;
+  padding: 0;
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+    color: ${secondary};
+  }
+`;
+
+export const HomePosts = css`
+  ${Tablet} {
+    padding: 2rem 0.75rem;
+    .post-card:first-of-type:not(.no-image) {
+      flex: 1 1 100%;
+      flex-direction: row;
+    }
+    .post-card:first-of-type:not(.no-image) .post-card-image-link {
+      position: relative;
+      flex: 1 1 auto;
+    }
+    .post-card:first-of-type:not(.no-image) .post-card-image {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
+    .post-card:first-of-type:not(.no-image) .post-card-content {
+      flex: 0 1 357px;
+    }
+    .post-card:first-of-type:not(.no-image) .post-card-content-link {
+      padding: 30px 40px 0;
+    }
+    .post-card:first-of-type:not(.no-image) .post-card-meta {
+      padding: 0 40px 30px;
+    }
+  }
+`;
 
 const Card = styled.article`
   flex-grow: 1;
@@ -74,7 +147,7 @@ const Header = styled.header`
   }
 `;
 
-const Tag = styled.span`
+const InlineTag = styled.span`
   color: ${secondary};
 `;
 
@@ -122,8 +195,8 @@ const Section = styled.section`
 `;
 
 const Post = ({ data, link }) => {
-  const [{ readArticle, readNews }] = useTranslations();
-  const { image, title, tags, date, description } = data.frontmatter;
+  const [{ readArticle, readNews, tags }] = useTranslations();
+  const { image, title, tags: allTags, date, description } = data.frontmatter;
   return (
     <Card className={`post-card ${image ? '' : 'no-image'}`}>
       {image && (
@@ -149,9 +222,9 @@ const Post = ({ data, link }) => {
           to={link}
           css={PostCardContentLink}
         >
-          {tags.map((tag, i) => [
-            i > 0 && <Tag key={i}> • </Tag>,
-            <Tag key={tag}>{tag}</Tag>
+          {allTags.map((t, i) => [
+            i > 0 && <InlineTag key={i}> • </InlineTag>,
+            <InlineTag key={t}>{tags[t]}</InlineTag>
           ])}
           <Header className="post-card-header">
             <span>{date}</span>
