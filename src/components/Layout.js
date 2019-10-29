@@ -696,7 +696,7 @@ const Layout = ({
         <Main
           isHomePage={
             !pathname.match(
-              /(posts|notices|thank-you|whitepapers|our-case-studies|kits)/
+              /\/(posts|notices|thank-you|whitepapers|our-case-studies|kits|demo)/
             )
           }
         >
