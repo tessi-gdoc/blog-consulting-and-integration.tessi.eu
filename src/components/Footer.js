@@ -108,7 +108,7 @@ const Footer = () => {
           </FlexItem>
           <FlexItem as="span">
             <p>
-              <Link to="/">{allArticles}</Link>
+              <Link to="/#tags">{allArticles}</Link>
             </p>
             <p>
               <Link to="/whitepapers">{resources}</Link>

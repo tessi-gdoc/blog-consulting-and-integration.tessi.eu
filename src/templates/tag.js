@@ -29,19 +29,25 @@ const TagTemplate = ({
     allPosts = getPosts(edges, pageContext.tag);
   return (
     <>
-      <TagWrapper>
+      <TagWrapper id="tags">
         <TagGrid justify="space-between">
-          {allTags.map(({ fieldValue }) => (
-            <FlexItem key={fieldValue}>
-              <Tag
-                to={`/${kebabCase(fieldValue)}`}
-                partiallyActive={true}
-                activeStyle={{ color: secondary }}
-              >
-                {tags[fieldValue]}
-              </Tag>
-            </FlexItem>
-          ))}
+          {allTags.map(({ fieldValue }) => {
+            const slug = `/${kebabCase(fieldValue)}`;
+            return (
+              <FlexItem key={fieldValue}>
+                <Tag
+                  to={`${slug}#tags`}
+                  getProps={({ location }) => {
+                    return location.pathname.startsWith(slug)
+                      ? { style: { color: secondary } }
+                      : null;
+                  }}
+                >
+                  {tags[fieldValue]}
+                </Tag>
+              </FlexItem>
+            );
+          })}
         </TagGrid>
       </TagWrapper>
       {allPosts.length > 0 ? (

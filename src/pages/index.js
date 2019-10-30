@@ -19,11 +19,13 @@ const Blog = ({
   const allTags = getTags(tags, postGroup);
   return (
     <>
-      <TagWrapper>
+      <TagWrapper id="tags">
         <TagGrid justify="space-between">
-          {allTags.map(({ fieldValue }, i) => (
+          {allTags.map(({ fieldValue }) => (
             <FlexItem key={fieldValue}>
-              <Tag to={`/${kebabCase(fieldValue)}`}>{tags[fieldValue]}</Tag>
+              <Tag to={`/${kebabCase(fieldValue)}#tags`}>
+                {tags[fieldValue]}
+              </Tag>
             </FlexItem>
           ))}
         </TagGrid>
