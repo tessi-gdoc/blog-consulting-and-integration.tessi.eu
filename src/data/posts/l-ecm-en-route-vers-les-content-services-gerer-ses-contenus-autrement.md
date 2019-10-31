@@ -10,7 +10,7 @@ date: 2019-10-31T10:47:46.901Z
 tags:
   - contentServices
 authors:
-  - avatar: /img/moi_2.png
+  - avatar: /img/avatar_default.png
     firstname: Tatiana
     lastname: Corallo-Jackson
     position: XX
@@ -57,6 +57,4 @@ Qu’est-ce que cela veut dire concrètement pour votre organisation ? Si vous �
 
 Le changement de paradigme des « content services » libère les organisations des systèmes ECM universels du passé. Avec une couche de services de contenu pour lier le tout ensemble, les organisations peuvent choisir des applications et des modules « à la carte » pour répondre à leurs besoins spécifiques. Les plateformes de Content Services confèrent aux organisations les moyens d’exploiter leur information quel que soit l’endroit où se trouve le contenu ; le faire circuler dans un workflow et des outils de [Case Management](https://blog-consulting-and-integration.tessi.eu/posts/case-management-par-ou-commencer) pour traiter des processus et des dossiers sensibles ; remonter l’information de manière adapté au contexte dans la bonne application métier ; et partager les contenus de façon sécurisé entre pairs en interne comme en dehors des murs de l’entreprise. Ces plateformes délivrent l’information sur tous les supports : PC, ordinateur portable ou mobile, en « responsive design », où que vous vous trouviez et même sans connexion Internet. 
 
-_**Notre partenaire Hyland étaient prêt à affronter cette (r)évolution. Ils se placent en position de leader dans le**_ [_**Magic Quadrant Gartner**_](https://www.hyland.com/en/explore/gartner-magic-quadrant-for-content-services-platforms) _**des "Content Services Platforms".**_ 
-
-_****_
+_**Notre partenaire Hyland étaient prêt à affronter cette (r)évolution. Ils se placent en position de leader dans le**_ [_**Magic Quadrant Gartner**_](https://www.hyland.com/en/explore/gartner-magic-quadrant-for-content-services-platforms) _**des "Content Services Platforms".**_
