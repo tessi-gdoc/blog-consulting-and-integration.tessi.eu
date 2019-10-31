@@ -239,7 +239,7 @@ collections:
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "External link", name: "link", widget: "string"}
-      - {label: "Tags", name: "tags", widget: "hidden", default: ["Actualités"]}
+      - {label: "Tags", name: "tags", widget: "hidden", default: ["news"]}
       - {label: "Description", name: "body", widget: "markdown"}
   - name: "blog"
     label: "Blog"
