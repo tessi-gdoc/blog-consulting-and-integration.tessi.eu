@@ -1,7 +1,7 @@
 ---
 date: 2019-04-09T13:39:55.283Z
 image: /img/actu_lec_2019.png
-title: Tessi au salon du LEC
+title: Tessi au salon du LEC 2019
 link: 'https://www.tessi.eu/fr/tessi-au-salon-du-lec/'
 tags:
   - Actualités
