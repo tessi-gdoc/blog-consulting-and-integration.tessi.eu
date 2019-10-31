@@ -35,7 +35,7 @@
   "siteMetadata": {
     "customerJourney": {
       "title": "Tous nos articles sur le Parcours Client",
-      "description": ""
+      "description": "Vos parcours client sont à la base de l’expérience client. Optimiser et fluidifier ses parcours assure la satisfaction de vos clients à chaque point de contact.  "
     },
     "demo": {
       "title": "Demander une démo parmi les solutions leaders ECM ou CCM",
@@ -47,7 +47,7 @@
     },
     "ccm": {
       "title": "Tous nos articles sur la Communication Client",
-      "description": "La communication client est l'élément clé de vos interactions clients. Une gestion de la communication client optimisée est gage d’engagement et de fidélisation."
+      "description": "La communication client est l'élément clé de vos interactions clients. Une communication client personnalisée et omnicanal est garante de l'engagement et de la fidélisation client."
     },
     "cookies": {
       "title": "Cookies",
@@ -67,7 +67,7 @@
     },
     "caseManagement": {
       "title": "Tous nos articles sur le Case Management",
-      "description": ""
+      "description": "Le Case Management est un service de contenu extrêmement puissant : il permet de gérer une multitude de cas en venant compléter et enrichir les processus. "
     },
     "thankYou": {
       "title": "Merci",
