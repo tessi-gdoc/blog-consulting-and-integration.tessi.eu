@@ -36,15 +36,12 @@ exports.onCreatePage = ({ page, actions }) => {
       ? removeTrailingSlash(page.path)
       : `${locales[lang].path}${page.path}`;
 
-    const { dateFormat, countries } = locales[lang];
     return createPage({
       ...page,
       path: localizedPath,
       context: {
         ...page.context,
-        locale: lang,
-        dateFormat,
-        countries
+        locale: lang
       }
     });
   });

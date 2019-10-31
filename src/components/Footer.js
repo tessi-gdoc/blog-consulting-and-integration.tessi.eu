@@ -69,7 +69,7 @@ const Footer = () => {
       }
     }
   `);
-  const { locale } = React.useContext(LocaleContext);
+  const locale = React.useContext(LocaleContext);
   const [
     { allArticles, resources, caseStudies, website, contact, follow }
   ] = useTranslations();

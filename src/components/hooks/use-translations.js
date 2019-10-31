@@ -11,10 +11,10 @@ const findTranslations = locale =>
   );
 
 const useTranslations = () => {
-  const { locale, dateFormat } = useContext(LocaleContext);
+  const locale = useContext(LocaleContext);
   const getFromQuery = findTranslations(locale);
   const { rawData } = useStaticQuery(query);
-  return [getFromQuery(rawData.edges), dateFormat];
+  return [getFromQuery(rawData.edges)];
 };
 
 export default useTranslations;
