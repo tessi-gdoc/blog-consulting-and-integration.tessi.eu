@@ -10,6 +10,7 @@ description: >-
 date: 2019-10-03T14:43:05.418Z
 tags:
   - contentServices
+  - caseManagement
 authors:
   - avatar: /img/magali-t._profil.jpg
     firstname: Magali
