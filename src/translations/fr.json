@@ -33,9 +33,21 @@
   "thankYou": "Merci",
   "service": "Conseil et intégration",
   "siteMetadata": {
+    "customerJourney": {
+      "title": "Tous nos articles sur le Parcours Client",
+      "description": ""
+    },
     "demo": {
       "title": "Demander une démo parmi les solutions leaders ECM ou CCM",
       "description": "Réservez votre démo sur-mesure avec un expert et sans engagement. Plusieurs solutions modernes de gestion de l’Information d'Entreprise (contenus, documents, communications...) disponibles."
+    },
+    "ourCaseStudies": {
+      "title": "Découvrez nos Etude de Cas",
+      "description": "Retrouvez nos études de cas présentant la mise en oeuvre de différentes solutions et expertises pour répondre aux nombreuses problématiques de nos clients !"
+    },
+    "ccm": {
+      "title": "Tous nos articles sur la Communication Client",
+      "description": "La communication client est l'élément clé de vos interactions clients. Une gestion de la communication client optimisée est gage d’engagement et de fidélisation."
     },
     "cookies": {
       "title": "Cookies",
@@ -49,13 +61,21 @@
       "title": "Découvrez nos Livres Blancs",
       "description": "Téléchargez gratuitement nos livres blancs adressés aux responsables désireux d'améliorer leur gestion de l'information et la conversation clients."
     },
+    "news": {
+      "title": "Toutes les actualités de Tessi Conseil & Intégration",
+      "description": "Le pôle Conseil & Intégration du groupe Tessi est spécialisé dans la gestion de l'information d'entreprise. Retrouvez ici toutes les actualités du pôle. "
+    },
+    "caseManagement": {
+      "title": "Tous nos articles sur le Case Management",
+      "description": ""
+    },
     "thankYou": {
       "title": "Merci",
       "description": ""
     },
-    "ourCaseStudies": {
-      "title": "Découvrez nos Etude de Cas",
-      "description": "Retrouvez nos études de cas présentant la mise en oeuvre de différentes solutions et expertises pour répondre aux nombreuses problématiques de nos clients !"
+    "contentServices": {
+      "title": "Tous nos articles sur les Content Services",
+      "description": "Les Content Services ou plateformes de services de contenu (CSP) sont vos alliés pour une gouvernance de l’information optimisée et un gain de productivité. "
     },
     "disclaimer": {
       "title": "Mentions",
@@ -68,26 +88,6 @@
     "home": {
       "title": "Le Blog de la Conversation Client",
       "description": "Tessi Journey est le blog destiné aux dirigeants et professionnels de la transformation digitale désireux de fluidifier leurs parcours utilisateurs et processus associés. "
-    },
-    "news": {
-      "title": "Actualités",
-      "description": ""
-    },
-    "ccm": {
-      "title": "Communication Client (CCM)",
-      "description": ""
-    },
-    "contentServices": {
-      "title": "Content Services",
-      "description": ""
-    },
-    "caseManagement": {
-      "title": "Case Management",
-      "description": ""
-    },
-    "customerJourney": {
-      "title": "Parcours client",
-      "description": ""
     }
   },
   "offers": {
