@@ -10,7 +10,7 @@ date: 2019-10-31T10:47:46.901Z
 tags:
   - contentServices
 authors:
-  - avatar: /img/moi.png
+  - avatar: /img/moi_2.png
     firstname: Tatiana
     lastname: Corallo-Jackson
     position: XX
@@ -51,7 +51,7 @@ Derrière l’évolution sémantique impulsée par le Gartner se cache une volon
 
 C’est pourquoi, alors que les origines d’Hyland étaient dans la gestion de contenu avec la plateforme OnBase, Hyland est maintenant plus d’un fournisseur ECM. C’est une suite complète de produits proposée pour gérer le contenu, les processus, les cas, que nous pouvons intégrer entièrement en mode Cloud, hybride, ou sur site. Les produits et solutions Hyland se connectent et aide à consolider les systèmes afin d’éviter l’étalement des applications au sein des organisations. 
 
-## Adopter les Content Services pour votre transformation digitale : notre vision partagée avec Hyland
+## Adopter les Content Services pour votre transformation digitale 
 
 Qu’est-ce que cela veut dire concrètement pour votre organisation ? Si vous êtes dans une logique de transformation digitale, adopter une plateforme de services de contenu vous aidera sans nul doute à atteindre votre but. Même les entreprises matures, avec un fort taux d’équipement ECM, restent hantées par de nombreux contenus clés isolés dans des silos d’information - applications dispersées, messageries email, disques durs réseaux, outils de partage de fichiers, etc. A l’échelle d’une organisation toute entière, ce volume de contenu n’est pas négligeable. Par conséquent, les collaborateurs perdent du temps à explorer plusieurs systèmes tentant en vain de recréer une vision d’ensemble et le service en souffre. En bénéficiant de « content services », vous définissez une stratégie d’information permettant de délivrer votre contenu à la bonne personne au bon moment et au bon endroit. 
 
@@ -59,4 +59,4 @@ Le changement de paradigme des « content services » libère les organisations 
 
 _**Notre partenaire Hyland étaient prêt à affronter cette (r)évolution. Ils se placent en position de leader dans le**_ [_**Magic Quadrant Gartner**_](https://www.hyland.com/en/explore/gartner-magic-quadrant-for-content-services-platforms) _**des "Content Services Platforms".**_ 
 
-- - -
+_****_
