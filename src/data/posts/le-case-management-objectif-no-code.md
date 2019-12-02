@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 image: /img/case_management_low_code.png
-title: Quel mode de réalisation pour votre solution de Case Management ?
+title: Quel mode de réalisation pour sa solution de Case Management ?
 description: >-
   Plusieurs modes de réalisation existent pour mettre en place une solution de
   Case Management. Découvrez les bénéfices et inconvénients de chacune des
