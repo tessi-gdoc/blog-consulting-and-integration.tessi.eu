@@ -20,7 +20,7 @@ introduction: >-
   Populaires et responsable du marketing, de la communication et de la
   distribution interne et externe, soutient cette dynamique en insufflant un
   état d'esprit et des projets digitaux centrés client. Mais comment parvenir à
-  initier des projets transverses de long terme ? Quid du leadership ? et où
+  initier des projets transverses de long terme ? Quid du leadership ? Où
   trouver le financement ? Judith Granat nous confie sa vision, sa méthode et
   les processus en place chez Retraites Populaires.
 ---
