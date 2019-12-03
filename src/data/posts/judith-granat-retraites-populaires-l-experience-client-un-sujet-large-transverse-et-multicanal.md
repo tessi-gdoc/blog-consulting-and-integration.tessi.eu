@@ -4,7 +4,7 @@ image: /img/interview_experience_client_judith_granat.png
 title: >-
   Judith Granat, Retraites Populaires : « L’expérience client : un sujet large,
   transverse et multicanal »
-description: xxx
+description: 'Judith Granat, Retraites Populaires '
 date: 2019-12-03T13:14:06.108Z
 tags:
   - ccm
@@ -14,12 +14,15 @@ authors:
     lastname: Corallo-Jackson
     position: XXX
 introduction: >-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-  nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-  eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-  in culpa qui officia deserunt mollit anim id est laborum.
+  Il y a 4 ans, Retraites Populaires lance un gigantesque chantier visant à
+  optimiser le traitement des cas client dans une logique d'amélioration de
+  l'expérience client. Judith Granat, membre de la direction de Retraites
+  Populaires et responsable du marketing, de la communication et de la
+  distribution interne et externe, soutient cette dynamique au travers de
+  projets digitaux centrés client. Mais comment parvenir à initier des projets
+  transverses de long terme ? Où trouver le budget ? Et qui doit porter ces
+  projets ? Elle nous confie sa vision, sa méthode et le fonctionnement chez
+  Retraites Populaires.
 ---
 **Quelle a été l’évolution de l’expérience client chez Retraites Populaires ces dernières années ?**   
 
