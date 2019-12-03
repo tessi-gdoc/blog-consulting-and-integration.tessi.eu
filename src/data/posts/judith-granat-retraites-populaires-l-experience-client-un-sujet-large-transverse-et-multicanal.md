@@ -18,11 +18,11 @@ introduction: >-
   optimiser le traitement des cas client dans une logique d'amélioration de
   l'expérience client. Judith Granat, membre de la direction de Retraites
   Populaires et responsable du marketing, de la communication et de la
-  distribution interne et externe, soutient cette dynamique au travers de
-  projets digitaux centrés client. Mais comment parvenir à initier des projets
-  transverses de long terme ? Où trouver le budget ? Et qui doit porter ces
-  projets ? Elle nous confie sa vision, sa méthode et le fonctionnement chez
-  Retraites Populaires.
+  distribution interne et externe, soutient cette dynamique en insufflant un
+  état d'esprit et des projets digitaux centrés client. Mais comment parvenir à
+  initier des projets transverses de long terme ? Quid du leadership ? et où
+  trouver le financement ? Judith Granat nous confie sa vision, sa méthode et
+  les processus en place chez Retraites Populaires.
 ---
 **Quelle a été l’évolution de l’expérience client chez Retraites Populaires ces dernières années ?**   
 
