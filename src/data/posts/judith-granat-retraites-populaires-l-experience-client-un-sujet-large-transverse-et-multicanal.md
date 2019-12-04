@@ -24,8 +24,8 @@ introduction: >-
   distribution interne et externe, soutient cette dynamique avec la conviction
   que l'expérience client doit être une priorité stratégique. Comment parvenir à
   initier des projets transverses de long terme ? Avec quel budget ? Qui doit en
-  être le sponsor ? Judith Granat nous confie sa vision, sa méthode et les
-  processus en place chez Retraites Populaires.
+  être le sponsor ? Judith Granat nous confie sa vision, sa méthode et le
+  fonctionnement en place chez Retraites Populaires.
 ---
 **Quelle a été l’évolution de l’expérience client chez Retraites Populaires ces dernières années ?**   
 
