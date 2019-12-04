@@ -270,7 +270,7 @@ module.exports = {
           '/cookies-eu-banner.js': [
             `cache-control: public, max-age=31536000,immutable`
           ],
-          '/**/static/*.woff2': [`Content-Type: application/x-font-woff2`]
+          '/**/**/static/*.woff2': [`Content-Type: application/x-font-woff2`]
         }
       }
     },
