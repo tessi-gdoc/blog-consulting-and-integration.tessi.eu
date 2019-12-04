@@ -261,7 +261,7 @@ module.exports = {
         headers: {
           '/*': [
             `X-UA-Compatible: IE=Edge`,
-            `Content-Security-Policy: block-all-mixed-content; base-uri 'self'; default-src 'self' data: ${cloud_id}.cloudfront.net raw.githubusercontent.com app.plezi.co www.google-analytics.com www.googleadservices.com www.googletagmanager.com googleads.g.doubleclick.net ; script-src 'self' 'unsafe-inline' 'unsafe-eval' www.googletagmanager.com www.google-analytics.com googleads.g.doubleclick.net www.googleadservices.com api.plezi.co app.plezi.co; style-src 'self' 'unsafe-inline'; object-src 'none'; form-action 'self'; font-src 'self' data: ${cloud_id}.cloudfront.net; connect-src 'self' app.plezi.co files.plezi.co le-anoazi.clytics.com www.googleadservices.com`
+            `Content-Security-Policy: block-all-mixed-content; base-uri 'self'; default-src 'self' data: ${cloud_id}.cloudfront.net raw.githubusercontent.com app.plezi.co www.google-analytics.com www.googleadservices.com www.googletagmanager.com googleads.g.doubleclick.net ; script-src 'self' 'unsafe-inline' 'unsafe-eval' www.googletagmanager.com www.google-analytics.com googleads.g.doubleclick.net www.googleadservices.com api.plezi.co app.plezi.co; style-src 'self' 'unsafe-inline'; object-src 'none'; form-action 'self'; font-src 'self' data: ${cloud_id}.cloudfront.net; connect-src 'self' app.plezi.co files.plezi.co api.plezi.co www.google-analytics.com www.googleadservices.com`
           ],
           '/icons/*.png': [`cache-control: public, max-age=31536000,immutable`],
           '/jquery.min.js': [
