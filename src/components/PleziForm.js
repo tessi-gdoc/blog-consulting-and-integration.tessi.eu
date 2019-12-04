@@ -83,9 +83,11 @@ const PleziForm = ({ webformId, formId, tenantId, ...props }) => {
   return (
     <>
       <form id={`foss-${webformId}`} {...props}></form>
-      <Wrapper>
-        <SyncLoader color={secondary} loading={loading} />
-      </Wrapper>
+      {loading && (
+        <Wrapper>
+          <SyncLoader color={secondary} />
+        </Wrapper>
+      )}
     </>
   );
 };

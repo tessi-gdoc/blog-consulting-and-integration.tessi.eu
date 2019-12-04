@@ -36,7 +36,6 @@ const CookiesButtons = styled.div`
     font-weight: 600;
     color: white;
     cursor: pointer;
-    width: 66px;
     height: 32px;
     opacity: 1;
     &:hover {
