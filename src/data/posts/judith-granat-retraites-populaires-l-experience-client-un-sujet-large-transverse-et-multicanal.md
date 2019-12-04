@@ -18,21 +18,21 @@ introduction: >-
   optimiser le traitement des cas client dans une logique d'amélioration de
   l'expérience client. Judith Granat, membre de la direction de Retraites
   Populaires et responsable du marketing, de la communication et de la
-  distribution interne et externe, soutient cette dynamique en insufflant un
-  état d'esprit et des projets digitaux centrés client. Mais comment parvenir à
-  initier des projets transverses de long terme ? Quid du leadership ? Où
-  trouver le financement ? Judith Granat nous confie sa vision, sa méthode et
-  les processus en place chez Retraites Populaires.
+  distribution interne et externe, soutient cette dynamique avec la conviction
+  que l'expérience client doit être une priorité stratégique. Comment parvenir à
+  initier des projets transverses de long terme ? Avec quel budget ? Qui doit en
+  être le sponsor ? Judith Granat nous confie sa vision, sa méthode et les
+  processus en place chez Retraites Populaires.
 ---
 **Quelle a été l’évolution de l’expérience client chez Retraites Populaires ces dernières années ?**   
 
-L’expérience client est un sujet large, transverse et multicanale. Elle a fortement évolué ces sept dernières années et continue de se transformer. Initialement, l’expérience client n’était que transactionnelle et s’inscrivait dans une logique de relation contractuelle. Puis le souci de fidélisation de nos clients, nous a mené à développer une véritable stratégie de relation client en profitant des nouveaux moyens digitaux. Nous avons capitalisé sur cette orientation pour progressivement mettre le client au centre des préoccupations. 
+L’expérience client est un sujet large, transverse et multicanal. Elle a fortement évolué ces sept dernières années et continue de se transformer. Initialement, l’expérience client n’était que transactionnelle et s’inscrivait dans une logique de relation contractuelle. Puis le souci de fidélisation de nos clients, nous a mené à développer une véritable stratégie de relation client en profitant des nouveaux moyens digitaux. Nous avons capitalisé sur cette orientation pour progressivement mettre le client au centre des préoccupations. 
 
 **Comment le digital soutient-il votre expérience client ?** 
 
-C’est au travers de nos projets digitaux que nous introduisons les nouvelles notions et transformons notre expérience client. Par exemple, le projet eDossier (intégration de la plateforme de Case Management OnBase) nous a permis dans un premier niveau d’améliorer la gestion des documents. Grâce à ces améliorations, nous sommes en mesure d’absorber le volume toujours croissant de demandes client. A un autre niveau, cette plateforme nous offre les moyens de suivre plus finement notre activité. Elle donne au corp managérial les clés pour répartir au mieux les tâches. Ainsi les gestionnaires arrivent à traiter, dans plus de 95% des cas, les demandes client dans les délais. Et enfin, grâce à la vue 360 des dossiers client, nos conseillers sont en mesure de mieux renseigner ces derniers. Ce projet est avant tout un projet interne visant à redesigner nos méthodes de travail. Mais indéniablement, il contribue à la transformation de la relation client, et donc de l’expérience client.
+C’est au travers de nos projets digitaux que nous introduisons les nouvelles notions et transformons notre expérience client. Par exemple, le projet e-Dossier (intégration de la plateforme de Case Management OnBase) nous a permis dans un premier niveau d’améliorer la gestion des documents. Grâce à ces améliorations, nous sommes en mesure d’absorber le volume toujours croissant de demandes client. A un autre niveau, cette plateforme nous offre les moyens de suivre plus finement notre activité. Elle donne au corps managérial les clés pour répartir au mieux les tâches. Ainsi les gestionnaires arrivent à traiter, dans plus de 95% des cas, les demandes client dans les délais. Et enfin, grâce à la vue 360 des dossiers client, nos conseillers sont en mesure de mieux renseigner ces derniers. Ce projet est avant tout un projet interne visant à redesigner nos méthodes de travail. Mais indéniablement, il contribue à la transformation de la relation client, et donc de l’expérience client.
 
-Le projet eDossier est une brique parmi d’autres. A titre d’illustration, nous travaillons actuellement sur le futur portail client qui permettra aux clients d’accéder à leur propre espace Retraites Populaires. Grâce à ce nouveau canal, nous pourrons communiquer de façon encore plus personnalisée dans l’objectif de fidéliser notre clientèle. 
+Le projet e-Dossier est une brique parmi d’autres. A titre d’illustration, nous travaillons actuellement sur le futur portail client qui permettra aux clients d’accéder à leur propre espace Retraites Populaires. Grâce à ce nouveau canal, nous pourrons communiquer de façon encore plus personnalisée dans l’objectif de fidéliser notre clientèle. 
 
 **Auriez-vous un conseil pour bien adresser différentes cibles ?** 
 
@@ -40,9 +40,9 @@ L’an dernier, nous avons pris le temps de mener une étude d’envergure pour 
 
 **Selon vous, qui doit être à l’initiative et en charge de suivre les projets relatifs à l’expérience client ?**  
 
-A moins d’avoir une équipe transverse et complétement dédiée à l’expérience client, il me semble que l’équipe marketing doit être le garant des projets d’expérience client car ce sont eux qui sont les plus à même de juger de l’efficacité du processus d’acquisition et d’onboarding des clients, d’évaluer si les bases d’UX (User Experience) sont respectées, d’apprécier la qualité des communications, etc. 
+A moins d’avoir une équipe transverse et complètement dédiée à l’expérience client, il me semble que l’équipe marketing doit être le garant des projets d’expérience client car ce sont eux qui sont les plus à même de juger de l’efficacité du processus d’acquisition et d’onboarding des clients, d’évaluer si les bases d’UX (User Experience) sont respectées, d’apprécier la qualité des communications, etc. 
 
-Mais après, il faut aussi que la personne en charge du service ait envie de porter ces projets et s’en sente capable, notamment lorsque les projets sont hors de son périmètre direct. Il faut être convainquant pour avoir du poids, et être pragmatique. En marketing, nous ne devons jamais perdre de vue le ROI, nous devons faire preuve de bon sens, et savoir trancher.
+Mais après, il faut aussi que la personne en charge du service ait envie de porter ces projets et s’en sente capable, notamment lorsque les projets sont hors de son périmètre direct. Il faut être convainquant pour avoir du poids, et être pragmatique. 
 
 Il n’y a pas vraiment de règle quant à la position que doit avoir celui ou celle qui porte les projets d’expérience client. Dans mon cas, j’ai une certaine affinité pour ces sujets, ce sont des projets qui me touchent et auxquels je crois. Je préciserais que le sponsor doit être à un niveau hiérarchique suffisant. En effet, se porter sponsor induit nécessairement de prêcher la bonne parole auprès des bonnes personnes, et parvenir à toucher plusieurs niveaux de la hiérarchie pour que l’expérience client soit une composante de l’ensemble des projets de l’organisation.
 
