@@ -65,167 +65,167 @@ collections:
                 hint: "By default, redirects won't be applied if there's a file with the same path as the one defined in the `from` property. Setting `force` to `true` will make the redirect rule take precedence over any existing files."
   - name: "translations"
     label: "Translations"
+    format: "json"
     delete: false
     editor:
       preview: false
-    files:
-      - name: "french"
-        label: "French"
-        file: "src/translations/fr.json"
+    identifier_field: "title"
+    folder: "src/translations"
+    fields:
+      - {label: "FileName", name: "title", widget: "string", hint: 'Translation title in this CMS application. Examples: "French", "English"'}
+      - {label: "Not Found", name: "notFound", widget: "string"}
+      - {label: "Subtitle", name: "subtitle", widget: "string"}
+      - {label: "Service", name: "service", widget: "string"}
+      - {label: "Website", name: "website", widget: "string"}
+      - {label: "Follow", name: "follow", widget: "string"}
+      - {label: "All articles", name: "allArticles", widget: "string"}
+      - {label: "Contact", name: "contact", widget: "string"}
+      - {label: "Blog", name: "blog", widget: "string"}
+      - {label: "Resources", name: "resources", widget: "string"}
+      - {label: "Whitepapers", name: "whitepapers", widget: "string"}
+      - {label: "Kits", name: "kits", widget: "string"}
+      - {label: "Case Studies", name: "caseStudies", widget: "string"}
+      - {label: "Thank you", name: "thankYou", widget: "string"}
+      - {label: "Demo title", name: "demo", widget: "string"}
+      - label: "Offers"
+        name: "offers"
+        widget: "object"
         fields:
-          - {label: "Not Found", name: "notFound", widget: "string"}
+          - {label: "Content", name: "text", widget: "string"}
+          - {label: "Link", name: "link", widget: "string"}
+      - label: "About"
+        name: "about"
+        widget: "object"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Content", name: "content", widget: "markdown"}
+      - {label: "Convinced", name: "convinced", widget: "string"}
+      - label: "Tags"
+        name: "tags"
+        widget: "object"
+        fields:
+          - {label: "News", name: "news", widget: "string"} 
+          - {label: "Content Services", name: "contentServices", widget: "string"} 
+          - {label: "Customer Communication (CCM)", name: "ccm", widget: "string"} 
+          - {label: "caseManagement", name: "caseManagement", widget: "string"} 
+          - {label: "customerJourney", name: "customerJourney", widget: "string"} 
+      - {label: "Read article", name: "readArticle", widget: "string"}
+      - {label: "Read news", name: "readNews", widget: "string"}
+      - {label: "Read Case study", name: "readCaseStudy", widget: "string"}
+      - {label: "Download Whitepaper", name: "downloadWhitepaper", widget: "string"}
+      - {label: "Download Kit", name: "downloadKit", widget: "string"}
+      - label: "Newsletter"
+        name: "newsletter"
+        widget: "object"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Content", name: "content", widget: "string"}
+      - label: "Thank you page"
+        name: "thankYouPage"
+        widget: "object"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
           - {label: "Subtitle", name: "subtitle", widget: "string"}
-          - {label: "Service", name: "service", widget: "string"}
-          - {label: "Website", name: "website", widget: "string"}
-          - {label: "Follow", name: "follow", widget: "string"}
-          - {label: "All articles", name: "allArticles", widget: "string"}
-          - {label: "Contact", name: "contact", widget: "string"}
-          - {label: "Blog", name: "blog", widget: "string"}
-          - {label: "Resources", name: "resources", widget: "string"}
-          - {label: "Whitepapers", name: "whitepapers", widget: "string"}
-          - {label: "Kits", name: "kits", widget: "string"}
-          - {label: "Case Studies", name: "caseStudies", widget: "string"}
-          - {label: "Thank you", name: "thankYou", widget: "string"}
-          - {label: "Demo title", name: "demo", widget: "string"}
-          - label: "Offers"
-            name: "offers"
+          - {label: "Content", name: "content", widget: "markdown"}
+          - {label: "Call-to-action", name: "cta", widget: "string"}
+      - label: "Demo"
+        name: "demoPage"
+        widget: "object"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Tilte (2)", name: "subtitle", widget: "string"}
+          - {label: "Left Content", name: "leftContent", widget: "markdown"}
+          - {label: "Right Content", name: "rightContent", widget: "markdown"}
+      - {label: "Partners", name: "partners", widget: "string"}
+      - {label: "Related posts", name: "relatedPosts", widget: "string"}
+      - label: "Site Metadata"
+        name: "siteMetadata"
+        widget: "object"
+        fields:
+          - label: "Homepage"
+            name: "home"
             widget: "object"
             fields:
-              - {label: "Content", name: "text", widget: "string"}
-              - {label: "Link", name: "link", widget: "string"}
-          - label: "About"
-            name: "about"
+              - {label: "Title", name: "title", widget: "string", required: false}
+              - {label: "Description", name: "description", widget: "string", required: false }
+          - label: "Cookies"
+            name: "cookies"
             widget: "object"
             fields:
-              - {label: "Title", name: "title", widget: "string"}
-              - {label: "Content", name: "content", widget: "markdown"}
-          - {label: "Convinced", name: "convinced", widget: "string"}
-          - label: "Tags"
-            name: "tags"
+              - {label: "Title", name: "title", widget: "string", required: false}
+              - {label: "Description", name: "description", widget: "string", required: false}
+          - label: "Personal Data Use Policy"
+            name: "personalDataUsePolicy"
             widget: "object"
             fields:
-              - {label: "News", name: "news", widget: "string"} 
-              - {label: "Content Services", name: "contentServices", widget: "string"} 
-              - {label: "Customer Communication (CCM)", name: "ccm", widget: "string"} 
-              - {label: "caseManagement", name: "caseManagement", widget: "string"} 
-              - {label: "customerJourney", name: "customerJourney", widget: "string"} 
-          - {label: "Read article", name: "readArticle", widget: "string"}
-          - {label: "Read news", name: "readNews", widget: "string"}
-          - {label: "Read Case study", name: "readCaseStudy", widget: "string"}
-          - {label: "Download Whitepaper", name: "downloadWhitepaper", widget: "string"}
-          - {label: "Download Kit", name: "downloadKit", widget: "string"}
-          - label: "Newsletter"
-            name: "newsletter"
+              - {label: "Title", name: "title", widget: "string", required: false}
+              - {label: "Description", name: "description", widget: "string", required: false}
+          - label: "Disclaimer"
+            name: "disclaimer"
             widget: "object"
             fields:
-              - {label: "Title", name: "title", widget: "string"}
-              - {label: "Content", name: "content", widget: "string"}
-          - label: "Thank you page"
-            name: "thankYouPage"
-            widget: "object"
-            fields:
-              - {label: "Title", name: "title", widget: "string"}
-              - {label: "Subtitle", name: "subtitle", widget: "string"}
-              - {label: "Content", name: "content", widget: "markdown"}
-              - {label: "Call-to-action", name: "cta", widget: "string"}
+              - {label: "Title", name: "title", widget: "string", required: false}
+              - {label: "Description", name: "description", widget: "string", required: false}
           - label: "Demo"
-            name: "demoPage"
+            name: "demo"
             widget: "object"
             fields:
-              - {label: "Title", name: "title", widget: "string"}
-              - {label: "Tilte (2)", name: "subtitle", widget: "string"}
-              - {label: "Left Content", name: "leftContent", widget: "markdown"}
-              - {label: "Right Content", name: "rightContent", widget: "markdown"}
-          - {label: "Partners", name: "partners", widget: "string"}
-          - {label: "Related posts", name: "relatedPosts", widget: "string"}
-          - label: "Site Metadata"
-            name: "siteMetadata"
+              - {label: "Title", name: "title", widget: "string", required: false}
+              - {label: "Description", name: "description", widget: "string", required: false}
+          - label: "Case Studies"
+            name: "ourCaseStudies"
             widget: "object"
             fields:
-              - label: "Homepage"
-                name: "home"
-                widget: "object"
-                fields:
-                  - {label: "Title", name: "title", widget: "string", required: false}
-                  - {label: "Description", name: "description", widget: "string", required: false }
-              - label: "Cookies"
-                name: "cookies"
-                widget: "object"
-                fields:
-                  - {label: "Title", name: "title", widget: "string", required: false}
-                  - {label: "Description", name: "description", widget: "string", required: false}
-              - label: "Personal Data Use Policy"
-                name: "personalDataUsePolicy"
-                widget: "object"
-                fields:
-                  - {label: "Title", name: "title", widget: "string", required: false}
-                  - {label: "Description", name: "description", widget: "string", required: false}
-              - label: "Disclaimer"
-                name: "disclaimer"
-                widget: "object"
-                fields:
-                  - {label: "Title", name: "title", widget: "string", required: false}
-                  - {label: "Description", name: "description", widget: "string", required: false}
-              - label: "Demo"
-                name: "demo"
-                widget: "object"
-                fields:
-                  - {label: "Title", name: "title", widget: "string", required: false}
-                  - {label: "Description", name: "description", widget: "string", required: false}
-              - label: "Case Studies"
-                name: "ourCaseStudies"
-                widget: "object"
-                fields:
-                  - {label: "Title", name: "title", widget: "string", required: false}
-                  - {label: "Description", name: "description", widget: "string", required: false}
-              - label: "Kits"
-                name: "kits"
-                widget: "object"
-                fields:
-                  - {label: "Title", name: "title", widget: "string", required: false}
-                  - {label: "Description", name: "description", widget: "string", required: false}
-              - label: "Whitepapers"
-                name: "whitepapers"
-                widget: "object"
-                fields:
-                  - {label: "Title", name: "title", widget: "string", required: false}
-                  - {label: "Description", name: "description", widget: "string", required: false}
-              - label: "Thank You"
-                name: "thankYou"
-                widget: "object"
-                fields:
-                  - {label: "Title", name: "title", widget: "string", required: false}
-                  - {label: "Description", name: "description", widget: "string", required: false}
-              - label: "News"
-                name: "news"
-                widget: "object"
-                fields:
-                  - {label: "Title", name: "title", widget: "string", required: false}
-                  - {label: "Description", name: "description", widget: "string", required: false}
-              - label: "CCM"
-                name: "ccm"
-                widget: "object"
-                fields:
-                  - {label: "Title", name: "title", widget: "string", required: false}
-                  - {label: "Description", name: "description", widget: "string", required: false}
-              - label: "Content Services"
-                name: "contentServices"
-                widget: "object"
-                fields:
-                  - {label: "Title", name: "title", widget: "string", required: false}
-                  - {label: "Description", name: "description", widget: "string", required: false}
-              - label: "Case Management"
-                name: "caseManagement"
-                widget: "object"
-                fields:
-                  - {label: "Title", name: "title", widget: "string", required: false}
-                  - {label: "Description", name: "description", widget: "string", required: false}
-              - label: "Customer Journey"
-                name: "customerJourney"
-                widget: "object"
-                fields:
-                  - {label: "Title", name: "title", widget: "string", required: false}
-                  - {label: "Description", name: "description", widget: "string", required: false}
+              - {label: "Title", name: "title", widget: "string", required: false}
+              - {label: "Description", name: "description", widget: "string", required: false}
+          - label: "Kits"
+            name: "kits"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string", required: false}
+              - {label: "Description", name: "description", widget: "string", required: false}
+          - label: "Whitepapers"
+            name: "whitepapers"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string", required: false}
+              - {label: "Description", name: "description", widget: "string", required: false}
+          - label: "Thank You"
+            name: "thankYou"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string", required: false}
+              - {label: "Description", name: "description", widget: "string", required: false}
+          - label: "News"
+            name: "news"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string", required: false}
+              - {label: "Description", name: "description", widget: "string", required: false}
+          - label: "CCM"
+            name: "ccm"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string", required: false}
+              - {label: "Description", name: "description", widget: "string", required: false}
+          - label: "Content Services"
+            name: "contentServices"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string", required: false}
+              - {label: "Description", name: "description", widget: "string", required: false}
+          - label: "Case Management"
+            name: "caseManagement"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string", required: false}
+              - {label: "Description", name: "description", widget: "string", required: false}
+          - label: "Customer Journey"
+            name: "customerJourney"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string", required: false}
+              - {label: "Description", name: "description", widget: "string", required: false}
   - name: "news"
     label: "News"
     label_singular: "article"
@@ -239,7 +239,7 @@ collections:
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "External link", name: "link", widget: "string"}
-      - {label: "Tags", name: "tags", widget: "hidden", default: ["news"]}
+      - {label: "Tags", name: "tags", widget: "hidden", default: ["Actualités"]}
       - {label: "Description", name: "body", widget: "markdown"}
   - name: "blog"
     label: "Blog"
@@ -267,7 +267,6 @@ collections:
           - {label: "Lastname", name: "lastname", widget: "string", default: "Vecchio"}
           - {label: "Firstname", name: "firstname", widget: "string", default: "Jean-Luc"}
           - {label: "Avatar", name: "avatar", widget: "image", default: "/img/avatar_default.png"}
-          - {label: "Position", name: "position", widget: "string", default: "CEO"}
       - {label: "Introduction", name: "introduction", widget: "markdown", default: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}
       - {label: "Body", name: "body", widget: "markdown", default: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}
   - name: "kits"

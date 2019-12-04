@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link, useStaticQuery, graphql } from 'gatsby';
+import { useStaticQuery, graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import Headroom from 'react-headroom';
 import styled from '@emotion/styled';
@@ -7,6 +7,7 @@ import { css, keyframes } from '@emotion/core';
 
 import useTranslations from '@hooks/use-translations';
 import Modal from './Modal';
+import Link from './LocalizedLink';
 import Cta, { enumTypes } from './Cta';
 import Icon from './Icon';
 import Flex, { FlexItem } from './Flex';

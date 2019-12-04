@@ -12,7 +12,8 @@ import useTranslations from '@hooks/use-translations';
 import Hero from '@components/Hero';
 import Icon from '@components/Icon';
 import Container from '@components/Container';
-import Posts from '@components/Posts';
+import Posts, { HomePosts } from '@components/Posts';
+import Link from '@components/LocalizedLink';
 import HTML from '@components/HTML';
 
 import { primary } from '@colors';
@@ -64,29 +65,38 @@ const AuthorDescription = styled.p`
   margin-left: 12px;
 `;
 
-const Bio = ({ authors, date, tags }) => (
-  <>
-    {authors.map(data => (
-      <Author key={`${data.firstname} ${data.lastname}`}>
-        {data.avatar && (
-          <Avatar>
-            <Img
-              fluid={data.avatar.childImageSharp.fluid}
-              alt={data.lastname}
-              style={{ width: 80, borderRadius: `100%` }}
-            />
-          </Avatar>
-        )}
-        <AuthorDescription>
-          <strong>
-            Par {data.firstname} {toUpper(data.lastname)}
-          </strong>{' '}
-          | <time>{date}</time> | {tags.join` | `}
-        </AuthorDescription>
-      </Author>
-    ))}
-  </>
-);
+const Bio = ({ authors, date, tags: tagNames }) => {
+  const [{ tags }] = useTranslations();
+  return (
+    <>
+      {authors.map(data => (
+        <Author key={`${data.firstname} ${data.lastname}`}>
+          {data.avatar && (
+            <Avatar>
+              <Img
+                fluid={data.avatar.childImageSharp.fluid}
+                alt={data.lastname}
+                style={{ width: 80, height: 80, borderRadius: `100%` }}
+              />
+            </Avatar>
+          )}
+          <AuthorDescription>
+            <strong>
+              Par {data.firstname} {toUpper(data.lastname)}
+            </strong>{' '}
+            | <time>{date}</time> |{' '}
+            {tagNames.map((key, i) => [
+              i > 0 && <span key={i}> • </span>,
+              <Link key={key} to={`/${key}#tags`}>
+                {tags[key]}
+              </Link>
+            ])}
+          </AuthorDescription>
+        </Author>
+      ))}
+    </>
+  );
+};
 
 const PostContainer = styled(Container)`
   padding: 1.25rem;
@@ -283,7 +293,7 @@ const RelatedPosts = ({ currentPostId, posts, tags }) => {
   );
   if (!relatedPosts.length) return null;
   return (
-    <Container>
+    <Container css={HomePosts}>
       <StripesLeft />
       <StripesRight />
       <RelatedPostTitle>{title}</RelatedPostTitle>
@@ -326,7 +336,7 @@ const BlogPost = ({
       <PostContainer>
         <Bio authors={authors} tags={tags} date={date} />
         <Intro markdown={introduction} />
-        <TableOfContents headings={headings} />
+        {!!headings.length && <TableOfContents headings={headings} />}
         <article dangerouslySetInnerHTML={{ __html: html }} />
       </PostContainer>
       <RelatedPosts posts={posts} tags={tags} currentPostId={post.id} />
@@ -363,7 +373,6 @@ export const pageQuery = graphql`
         authors {
           firstname
           lastname
-          position
           avatar {
             childImageSharp {
               fluid(maxWidth: 80) {

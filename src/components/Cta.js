@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Link } from 'gatsby';
+import Link from './LocalizedLink';
 import { pipe, cond, equals, always, T } from 'ramda';
 
 import { secondary, primary } from '@colors';

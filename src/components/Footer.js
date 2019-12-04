@@ -1,10 +1,11 @@
 import React from 'react';
 import styled from '@emotion/styled';
-import { Link, useStaticQuery, graphql } from 'gatsby';
+import { useStaticQuery, graphql } from 'gatsby';
 
 import { LocaleContext } from './Layout';
 import Flex, { FlexItem } from './Flex';
 import Icon from './Icon';
+import Link from './LocalizedLink';
 import Brand from './Brand';
 import Container from './Container';
 import useTranslations from '@hooks/use-translations';
@@ -114,7 +115,7 @@ const Footer = () => {
               <Link to="/whitepapers">{resources}</Link>
             </p>
             <p>
-              <Link to="/case-studies">{caseStudies}</Link>
+              <Link to="/our-case-studies">{caseStudies}</Link>
             </p>
           </FlexItem>
           {social && social.length && (
