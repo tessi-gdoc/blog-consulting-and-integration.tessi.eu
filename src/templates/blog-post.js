@@ -7,6 +7,7 @@ import TwitterShareButton from 'react-share/lib/TwitterShareButton';
 import LinkedinShareButton from 'react-share/lib/LinkedinShareButton';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import Img from 'gatsby-image';
+import kebabCase from 'lodash.kebabcase';
 
 import useTranslations from '@hooks/use-translations';
 import Hero from '@components/Hero';
@@ -16,7 +17,7 @@ import Posts, { HomePosts } from '@components/Posts';
 import Link from '@components/LocalizedLink';
 import HTML from '@components/HTML';
 
-import { primary } from '@colors';
+import { primary, secondary } from '@colors';
 import { Tablet, Desktop } from '@media';
 
 import { getId } from '@utils';
@@ -87,7 +88,7 @@ const Bio = ({ authors, date, tags: tagNames }) => {
             | <time>{date}</time> |{' '}
             {tagNames.map((key, i) => [
               i > 0 && <span key={i}> • </span>,
-              <Link key={key} to={`/${key}#tags`}>
+              <Link key={key} to={`/${kebabCase(key)}#tags`}>
                 {tags[key]}
               </Link>
             ])}
@@ -301,6 +302,13 @@ const RelatedPosts = ({ currentPostId, posts, tags }) => {
     </Container>
   );
 };
+
+const BlogPostStyle = css`
+  a {
+    color: ${secondary};
+    font-weight: normal;
+  }
+`;
 const BlogPost = ({
   location,
   data: {
@@ -333,7 +341,7 @@ const BlogPost = ({
         </TwitterShareButton>
       </ShareButtons>
       {image && <Hero title={title} imageData={image.childImageSharp.fluid} />}
-      <PostContainer>
+      <PostContainer css={BlogPostStyle}>
         <Bio authors={authors} tags={tags} date={date} />
         <Intro markdown={introduction} />
         {!!headings.length && <TableOfContents headings={headings} />}
