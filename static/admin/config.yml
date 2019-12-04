@@ -258,7 +258,7 @@ collections:
       - label: "Tags"
         name: "tags"
         widget: "list"
-        field: {label: "Tag", name: "tag", widget: "select", options: [ {label: "Actualités", value: "news"}, {label: "Content Services", value: "contentServices"}, { label: "Customer Communications (CCM)", value: "ccm"}, {label: "Case Management", value: "caseManagement"}, {label: "Customer Journey", name: "customerJourney" }]}
+        field: {label: "Tag", name: "tag", widget: "select", options: [ {label: "Actualités", value: "news"}, {label: "Content Services", value: "contentServices"}, { label: "Customer Communications (CCM)", value: "ccm"}, {label: "Case Management", value: "caseManagement"}, {label: "Customer Journey", value: "customerJourney" }]}
       - label: "Authors"
         label_singular: "author"
         name: "authors"

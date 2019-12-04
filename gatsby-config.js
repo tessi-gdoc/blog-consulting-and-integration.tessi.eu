@@ -247,12 +247,7 @@ module.exports = {
         icon: `src/assets/manifest_logo.png`
       }
     },
-    {
-      resolve: `gatsby-plugin-offline`,
-      options: {
-        precachePages: [`/posts/*`]
-      }
-    },
+    `gatsby-plugin-remove-serviceworker`,
     {
       resolve: `gatsby-plugin-netlify-cms`,
       options: {
