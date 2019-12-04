@@ -12,7 +12,7 @@ date: 2019-12-03T13:14:06.108Z
 tags:
   - ccm
 authors:
-  - avatar: /img/moi.png
+  - avatar: /img/avatar_default.png
     firstname: Tatiana
     lastname: Corallo-Jackson
     position: XXX
