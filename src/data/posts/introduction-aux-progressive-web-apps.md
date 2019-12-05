@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-image: /img/pwa_bg.jpg
+image: /img/introduction_aux_progressive_web_app.png
 title: >-
   Introduction aux Progressive Web Apps : Avantages, développement et
   opportunités
@@ -16,7 +16,6 @@ authors:
   - avatar: /img/mag.jpg
     firstname: Mathieu
     lastname: Gauthier
-    position: Consultant technique
 introduction: >-
   Pourquoi les Progressive Web Apps sont-elles devenues l’un des éléments-clés
   de la stratégie commerciale de Google ?
