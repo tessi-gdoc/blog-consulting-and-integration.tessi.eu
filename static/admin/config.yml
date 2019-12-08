@@ -92,7 +92,7 @@ collections:
         name: 'form'
         widget: 'object'
         fields:
-          - {label: "Failed", name: "failed", widget: "string"}
+          - {label: "Failed", name: "failed", widget: "markdown"}
           - {label: "Back to home (button)", name: "backToHome", widget: "string"}
       - label: "Offers"
         name: "offers"
@@ -234,12 +234,12 @@ collections:
             fields:
               - {label: "Title", name: "title", widget: "string", required: false}
               - {label: "Description", name: "description", widget: "string", required: false}
-           - label: "Videos"
-             name: "videos"
-             widget: "object"
-             fields:
-               - {label: "Title", name: "title", widget: "string", required: false}
-               - {label: "Description", name: "description", widget: "string", required: false}
+          - label: "Videos"
+            name: "videos"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string", required: false}
+              - {label: "Description", name: "description", widget: "string", required: false}
   - name: "news"
     label: "News"
     label_singular: "article"
@@ -315,6 +315,20 @@ collections:
     label: "Case Studies"
     label_singular: "case study"
     folder: "src/data/case-studies"
+    slug: "{{slug}}"
+    create: true
+    editor:
+      preview: false
+    fields:
+      - {label: "Publish date", name: "date", widget: "date"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Title", name: "title", widget: "string", default: "Super title"}
+      - {label: "Link", name: "link", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown", default: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}
+  - name: "videos"
+    label: "Videos"
+    label_singular: "video"
+    folder: "src/data/videos"
     slug: "{{slug}}"
     create: true
     editor:
