@@ -160,7 +160,7 @@ const wrapPageElement = ({ element, props }) => {
   const { pathname } = props.location;
   const isArticle = test(/^\/posts\/[^\n]+/, pathname);
   const isHomePage = !test(
-    /\/(posts|notices|thank-you|whitepapers|our-case-studies|kits|demo)/,
+    /\/(posts|notices|thank-you|whitepapers|our-case-studies|kits|demo|videos)/,
     pathname
   );
   let seo = {};

@@ -4,13 +4,15 @@ import path from 'ramda/src/path';
 
 import DocTemplate from '@components/DocTemplate';
 import Container from '@components/Container';
+import useTranslations from '@hooks/use-translations';
 
 const Kits = ({
   data: {
     allMarkdownRemark: { edges: kits }
   }
-}) => (
-  <>
+}) => {
+  const [{ downloadKit }] = useTranslations();
+  return (
     <Container>
       {kits.map(({ node: { id, frontmatter, html } }) => (
         <DocTemplate
@@ -18,15 +20,12 @@ const Kits = ({
           title={frontmatter.title}
           content={html}
           imageData={path(['childImageSharp', 'fluid'], frontmatter.image)}
-          cta={{
-            link: frontmatter.link,
-            text: `Télécharger le kit`
-          }}
+          cta={{ link: frontmatter.link, text: downloadKit }}
         />
       ))}
     </Container>
-  </>
-);
+  );
+};
 
 export const query = graphql`
   query Kits($locale: String!) {
@@ -43,7 +42,7 @@ export const query = graphql`
           frontmatter {
             image {
               childImageSharp {
-                fluid(maxWidth: 400, traceSVG: { color: "#1a214d" }) {
+                fluid(maxWidth: 450, traceSVG: { color: "#1a214d" }) {
                   ...GatsbyImageSharpFluid_tracedSVG
                 }
               }

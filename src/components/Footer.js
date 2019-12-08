@@ -72,7 +72,7 @@ const Footer = () => {
   `);
   const locale = React.useContext(LocaleContext);
   const [
-    { allArticles, resources, caseStudies, website, contact, follow }
+    { allArticles, resources, caseStudies, videos, website, contact, follow }
   ] = useTranslations();
   return (
     <Wrapper>
@@ -116,6 +116,9 @@ const Footer = () => {
             </p>
             <p>
               <Link to="/our-case-studies">{caseStudies}</Link>
+            </p>
+            <p>
+              <Link to="/videos">{videos}</Link>
             </p>
           </FlexItem>
           {social && social.length && (

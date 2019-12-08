@@ -45,6 +45,10 @@ module.exports = {
           {
             label: `kits`,
             slug: `/kits`
+          },
+          {
+            label: `videos`,
+            slug: `/videos`
           }
         ]
       },

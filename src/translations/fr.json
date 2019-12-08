@@ -4,7 +4,12 @@
   "readArticle": "Lire l'article",
   "blog": "Blog",
   "demo": "Demande de démo",
+  "videos": "Vidéos",
   "readCaseStudy": "Lire l'étude de cas",
+  "form": {
+    "failed": "",
+    "backToHome": "Revenir à l'accueil"
+  },
   "thankYouPage": {
     "title": "Bonjour",
     "subtitle": "Merci pour votre demande.",
@@ -22,6 +27,7 @@
     "content": "**Tessi Journey** est le blog destiné aux dirigeants et professionnels de la transformation digitale. Nos experts vous partagent les nouvelles tendances, solutions technologiques, stratégies et méthodologies au service de votre parcours client, et en lien avec [nos offres Conseil & Intégration](https://www.tessi.eu/fr/solution/technologies/conseil-integration/). Faites le plein de conseils et bonnes pratiques pour grimper sur le podium de la pertinence des interactions client."
   },
   "downloadKit": "Télécharger le kit",
+  "watchVideos": "Voir les vidéos",
   "notFound": "Votre recherche n'a donné aucun résultat.",
   "whitepapers": "Livres blancs",
   "follow": "Suivez-nous !",
@@ -89,6 +95,10 @@
     "home": {
       "title": "Le Blog de la Conversation Client",
       "description": "Tessi Journey est le blog destiné aux dirigeants et professionnels de la transformation digitale désireux de fluidifier leurs parcours utilisateurs et processus associés. "
+    },
+    "videos": {
+      "title": "Nos vidéos",
+      "description": "Retrouvez l'ensemble de nos vidéos présentant nos innovations technologiques, nos prestations de services externalisées, nos solutions d'activations et nos programmes relationnels ou bien les témoignages de nos clients entreprises."
     }
   },
   "offers": {

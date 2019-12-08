@@ -65,16 +65,12 @@ const Newsletter = ({ isOpen, onClose }) => {
         [Desktop]: { marginTop: 90 },
         '& p': {
           textAlign: `center`
-        }
+        },
+        ...formStyles
       }}
     >
       <p>{newsletter.content}</p>
-      <PleziForm
-        webformId={webformId}
-        formId={formId}
-        tenantId={tenantId}
-        css={formStyles}
-      />
+      <PleziForm webformId={webformId} formId={formId} tenantId={tenantId} />
     </Modal>
   );
 };

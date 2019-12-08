@@ -85,8 +85,15 @@ collections:
       - {label: "Whitepapers", name: "whitepapers", widget: "string"}
       - {label: "Kits", name: "kits", widget: "string"}
       - {label: "Case Studies", name: "caseStudies", widget: "string"}
+      - {label: "Videos", name: "videos", widget: "string"}
       - {label: "Thank you", name: "thankYou", widget: "string"}
       - {label: "Demo title", name: "demo", widget: "string"}
+      - label: "Form"
+        name: 'form'
+        widget: 'object'
+        fields:
+          - {label: "Failed", name: "failed", widget: "string"}
+          - {label: "Back to home (button)", name: "backToHome", widget: "string"}
       - label: "Offers"
         name: "offers"
         widget: "object"
@@ -114,6 +121,7 @@ collections:
       - {label: "Read Case study", name: "readCaseStudy", widget: "string"}
       - {label: "Download Whitepaper", name: "downloadWhitepaper", widget: "string"}
       - {label: "Download Kit", name: "downloadKit", widget: "string"}
+      - {label: "Watch videos", name: "watchVideos", widget: "string"}
       - label: "Newsletter"
         name: "newsletter"
         widget: "object"
@@ -226,6 +234,12 @@ collections:
             fields:
               - {label: "Title", name: "title", widget: "string", required: false}
               - {label: "Description", name: "description", widget: "string", required: false}
+           - label: "Videos"
+             name: "videos"
+             widget: "object"
+             fields:
+               - {label: "Title", name: "title", widget: "string", required: false}
+               - {label: "Description", name: "description", widget: "string", required: false}
   - name: "news"
     label: "News"
     label_singular: "article"

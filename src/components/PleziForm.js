@@ -5,6 +5,10 @@ import { css } from '@emotion/core';
 
 import SyncLoader from 'react-spinners/SyncLoader';
 
+import Cta, { enumTypes } from './Cta';
+import HTML from './HTML';
+
+import useTranslations from '@hooks/use-translations';
 import { secondary } from '@colors';
 
 export const customSelect = (
@@ -53,41 +57,53 @@ const Wrapper = styled.section`
   margin: 2rem 0;
 `;
 
-const loadPleziScript = (tenantId, formId, webformId) => {
-  const script = document.createElement('script');
-  script.setAttribute('type', 'text/javascript');
-  script.src = `https://app.plezi.co/scripts/ossleads_forms.js?tenant_id=${tenantId}&form_id=${formId}&form_version=3&content_web_form_id=${webformId}`;
-  script.async = true;
-  document.body.appendChild(script);
-  return script;
-};
+const useScript = src => {
+  const [state, setState] = useState({ loaded: false, error: false });
 
-const observeChildList = (targetId, cb) => {
-  const form = document.getElementById(targetId);
-  const observer = new MutationObserver(cb);
-  observer.observe(form, { childList: true });
-  return observer;
-};
-
-const PleziForm = ({ webformId, formId, tenantId, ...props }) => {
-  const [loading, setLoading] = useState(true);
   useEffect(() => {
-    const script = loadPleziScript(tenantId, formId, webformId);
-    const id = `foss-${webformId}`;
-    const observer = observeChildList(id, () => setLoading(false));
-    return () => {
-      observer.disconnect();
-      script.parentNode.removeChild(script);
+    let script = document.createElement('script');
+    script.src = src;
+    script.async = true;
+    const onScriptLoad = () => setState({ loaded: true, error: false });
+
+    const onScriptError = () => {
+      script.remove();
+      setState({ loaded: true, error: true });
     };
-  }, [tenantId, formId, webformId]);
+    script.addEventListener('load', onScriptLoad);
+    script.addEventListener('error', onScriptError);
+    document.body.appendChild(script);
+    return () => {
+      script.removeEventListener('load', onScriptLoad);
+      script.removeEventListener('error', onScriptError);
+      script.remove();
+    };
+  }, [src]);
+
+  return [state.loaded, state.error];
+};
+
+const PleziForm = ({ webformId, formId, tenantId }) => {
+  const [{ form }] = useTranslations();
+  const [loaded, error] = useScript(
+    `https://app.plezi.co/scripts/ossleads_forms.js?tenant_id=${tenantId}&form_id=${formId}&form_version=3&content_web_form_id=${webformId}`
+  );
+  if (error) {
+    return (
+      <>
+        <HTML markdown={form.failed} />
+        <Cta type={enumTypes.SECONDARY} link="/" size="large">
+          {form.backToHome}
+        </Cta>
+      </>
+    );
+  }
   return (
     <>
-      <form id={`foss-${webformId}`} {...props}></form>
-      {loading && (
-        <Wrapper>
-          <SyncLoader color={secondary} />
-        </Wrapper>
-      )}
+      <form id={`foss-${webformId}`}></form>
+      <Wrapper>
+        <SyncLoader color={secondary} loading={!loaded} />
+      </Wrapper>
     </>
   );
 };

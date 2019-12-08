@@ -38,8 +38,13 @@ const query = graphql`
             resources
             whitepapers
             kits
+            videos
             caseStudies
             thankYou
+            form {
+              failed
+              backToHome
+            }
             newsletter {
               title
               content
@@ -77,6 +82,7 @@ const query = graphql`
             readCaseStudy
             downloadWhitepaper
             downloadKit
+            watchVideos
             relatedPosts
             partners
             siteMetadata {
@@ -133,6 +139,10 @@ const query = graphql`
                 description
               }
               customerJourney {
+                title
+                description
+              }
+              videos {
                 title
                 description
               }
