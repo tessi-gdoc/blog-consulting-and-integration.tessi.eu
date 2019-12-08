@@ -1,13 +1,11 @@
 {
-  "title": "French",
   "contact": "Contactez-nous",
   "readArticle": "Lire l'article",
   "blog": "Blog",
   "demo": "Demande de démo",
-  "videos": "Vidéos",
   "readCaseStudy": "Lire l'étude de cas",
   "form": {
-    "failed": "",
+    "failed": "## Une erreur est survenueI\n\nNotre formulaire de demande de démonstration est indisponible pour le moment. \n\n**Merci de réessayer ultérieurement.**",
     "backToHome": "Revenir à l'accueil"
   },
   "thankYouPage": {
@@ -17,6 +15,7 @@
     "cta": "Découvrez nos contenus premium"
   },
   "resources": "Ressources",
+  "watchVideos": "Voir les vidéos",
   "relatedPosts": "Articles associés",
   "readNews": "Voir la news",
   "convinced": "êtes-vous convaincu ?",
@@ -27,7 +26,6 @@
     "content": "**Tessi Journey** est le blog destiné aux dirigeants et professionnels de la transformation digitale. Nos experts vous partagent les nouvelles tendances, solutions technologiques, stratégies et méthodologies au service de votre parcours client, et en lien avec [nos offres Conseil & Intégration](https://www.tessi.eu/fr/solution/technologies/conseil-integration/). Faites le plein de conseils et bonnes pratiques pour grimper sur le podium de la pertinence des interactions client."
   },
   "downloadKit": "Télécharger le kit",
-  "watchVideos": "Voir les vidéos",
   "notFound": "Votre recherche n'a donné aucun résultat.",
   "whitepapers": "Livres blancs",
   "follow": "Suivez-nous !",
@@ -84,6 +82,10 @@
       "title": "Tous nos articles sur les Content Services",
       "description": "Les Content Services ou plateformes de services de contenu (CSP) sont vos alliés pour une gouvernance de l’information optimisée et un gain de productivité. "
     },
+    "videos": {
+      "title": "Nos vidéos",
+      "description": "Retrouvez l'ensemble de nos vidéos présentant nos innovations technologiques, nos prestations de services externalisées, nos solutions d'activations et nos programmes relationnels ou bien les témoignages de nos clients entreprises."
+    },
     "disclaimer": {
       "title": "Mentions",
       "description": ""
@@ -95,10 +97,6 @@
     "home": {
       "title": "Le Blog de la Conversation Client",
       "description": "Tessi Journey est le blog destiné aux dirigeants et professionnels de la transformation digitale désireux de fluidifier leurs parcours utilisateurs et processus associés. "
-    },
-    "videos": {
-      "title": "Nos vidéos",
-      "description": "Retrouvez l'ensemble de nos vidéos présentant nos innovations technologiques, nos prestations de services externalisées, nos solutions d'activations et nos programmes relationnels ou bien les témoignages de nos clients entreprises."
     }
   },
   "offers": {
@@ -107,6 +105,8 @@
   },
   "caseStudies": "Études de cas",
   "subtitle": "Le Blog de la Conversation Client",
+  "title": "French",
+  "videos": "Vidéos",
   "tags": {
     "news": "Actualités",
     "contentServices": "Content Services",
