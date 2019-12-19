@@ -7,7 +7,7 @@ title: >-
 link: >-
   https://content.blog-consulting-and-integration.tessi.eu/parcours-client-rater-ou-pas-transformation-experience-client
 ---
-1. Les prérequis à la modélisation de vos parcours client \
-2. La méthode pour prioriser vos parcours client à modéliser \
-3. Les bonnes pratiques pour déterminer votre expérience client cible \
+1. Les prérequis à la modélisation de vos parcours client
+2. La méthode pour prioriser vos parcours client à modéliser
+3. Les bonnes pratiques pour déterminer votre expérience client cible
 4. Les outils et la marche à suivre pour cartographier des parcours client réussis
