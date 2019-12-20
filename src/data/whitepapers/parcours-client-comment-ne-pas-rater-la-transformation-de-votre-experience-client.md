@@ -1,6 +1,6 @@
 ---
 date: 2019-12-18T17:22:14.906Z
-image: /img/couv-livre-parcours-client.png
+image: /img/livre_blanc_3d_parcours_client.png
 title: >-
   Parcours client : Comment ne pas rater la transformation de votre expérience
   client ? 
