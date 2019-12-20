@@ -1,6 +1,6 @@
 ---
 date: 2019-02-28T23:40:32.169Z
-image: /img/image_kit-benchmark-solution-case-management.jpg
+image: /img/kit_benchmark_case_management.png
 title: Modèle de benchmark des solutions de Case Management
 link: >-
   https://content.blog-consulting-and-integration.tessi.eu/modele-de-benchmark-des-solutions-de-case-management
