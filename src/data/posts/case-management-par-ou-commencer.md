@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post
 image: /img/case_management_definition.png
+imageAlt: ''
 title: 'Le Case Management : Par où commencer ? Définition, rôle et outils'
 description: >-
   Le Case Management vous en avez entendu parler, mais savez-vous vraiment de

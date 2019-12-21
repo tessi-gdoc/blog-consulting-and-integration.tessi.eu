@@ -317,7 +317,7 @@ const BlogPost = ({
   }
 }) => {
   const {
-    frontmatter: { introduction, date, title, image, authors, tags },
+    frontmatter: { introduction, date, title, image, imageAlt, authors, tags },
     html,
     headings
   } = post;
@@ -340,7 +340,13 @@ const BlogPost = ({
           <Icon type="twitter" color="white" />
         </TwitterShareButton>
       </ShareButtons>
-      {image && <Hero title={title} imageData={image.childImageSharp.fluid} />}
+      {image && (
+        <Hero
+          title={title}
+          imageData={image.childImageSharp.fluid}
+          imageAlt={imageAlt}
+        />
+      )}
       <PostContainer css={BlogPostStyle}>
         <Bio authors={authors} tags={tags} date={date} />
         <Intro markdown={introduction} />

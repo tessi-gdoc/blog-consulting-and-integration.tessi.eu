@@ -23,6 +23,7 @@ const CaseStudies = ({
           title={frontmatter.title}
           content={html}
           imageData={path(['childImageSharp', 'fluid'], frontmatter.image)}
+          imageAlt={frontmatter.imageAlt}
           cta={{
             link: `${officialWebsite}${frontmatter.link}`,
             text: readCaseStudy
@@ -61,6 +62,7 @@ export const query = graphql`
                 }
               }
             }
+            imageAlt
             title
             link
           }

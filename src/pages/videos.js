@@ -20,6 +20,7 @@ const Videos = ({
           title={frontmatter.title}
           content={html}
           imageData={path(['childImageSharp', 'fluid'], frontmatter.image)}
+          imageAlt={frontmatter.imageAlt}
           cta={{ link: frontmatter.link, text: watchVideos }}
         />
       ))}
@@ -47,6 +48,7 @@ export const query = graphql`
                 }
               }
             }
+            imageAlt
             title
             link
           }

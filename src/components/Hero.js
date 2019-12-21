@@ -80,7 +80,7 @@ const InnerContent = ({ title, children }) => {
   );
 };
 
-const Hero = ({ title, imageData, children }) => {
+const Hero = ({ title, imageData, imageAlt, children }) => {
   if (!imageData)
     return (
       <BackgroundColor direction="column">
@@ -92,6 +92,7 @@ const Hero = ({ title, imageData, children }) => {
       Tag="header"
       id={title}
       title={title}
+      alt={imageAlt || `${title} cover image`}
       role="img"
       aria-label={title}
       fluid={imageData}

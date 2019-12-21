@@ -1,6 +1,7 @@
 ---
 templateKey: blog-post
 image: /img/monétique_nouveaux_moyens_de_paiement.png
+imageAlt: ''
 title: De la monétique aux nouveaux moyens de paiement
 description: >-
   La monétique laisse progressivement place à un écosystème de paiements
@@ -24,6 +25,7 @@ introduction: >-
   parcours client est roi et l’innovation, reine, dans un secteur du paiement en
   pleine ébullition.
 ---
+
 ## 01/ La transformation du Retail Banking
 
 Les réseaux interbancaires changent : on mixe de plus en plus la banque debout avec la banque assise. Les chargés d’accueil des banques de détail sont voués à disparaître avec une montée en compétences et le développement de nouvelles expertises (gestion de patrimoine, prêts immobilier, etc.). Par voie de conséquence, les chargés de clientèle sont plus mobiles et doivent développer une meilleure connaissance de l’ensemble des produits offerts. Ils deviennent des conseillers « augmentés » avec des tablettes à disposition afin d’avoir le catalogue toujours au bout des doigts. Pour cette raison, des transformations fondamentales au niveau du back-office s’imposent.
@@ -40,10 +42,10 @@ La gestion des espèces est coûteuse, elle représente 5 milliards de dépense 
 
 La stratégie nationale sur les moyens de paiements française a différents objectifs :
 
-* Accroître la possibilité de paiement par carte ;
-* Faciliter le paiement sans contact par carte ou téléphone mobile et l’utilisation du virement (en ligne, référencé, en temps réel) ;
-* Accroître la rapidité des opérations de paiement ;
-* Réduire la préférence des français pour le chèque (réduction de la durée de validité, paiement électronique dans les services publics (TIPI /Payfip)…
+- Accroître la possibilité de paiement par carte ;
+- Faciliter le paiement sans contact par carte ou téléphone mobile et l’utilisation du virement (en ligne, référencé, en temps réel) ;
+- Accroître la rapidité des opérations de paiement ;
+- Réduire la préférence des français pour le chèque (réduction de la durée de validité, paiement électronique dans les services publics (TIPI /Payfip)…
 
 ## 03/ Et la carte bancaire alors ?
 

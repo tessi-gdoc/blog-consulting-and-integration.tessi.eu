@@ -20,6 +20,7 @@ const Whitepapers = ({
           title={frontmatter.title}
           content={html}
           imageData={path(['childImageSharp', 'fluid'], frontmatter.image)}
+          imageAlt={frontmatter.imageAlt}
           cta={{ link: frontmatter.link, text: downloadWhitepaper }}
         />
       ))}
@@ -50,6 +51,7 @@ export const query = graphql`
                 }
               }
             }
+            imageAlt
             title
             link
           }

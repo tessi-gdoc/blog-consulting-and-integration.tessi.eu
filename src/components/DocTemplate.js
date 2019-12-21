@@ -37,11 +37,11 @@ const Wrapper = styled.section`
   }
 `;
 
-const DocTemplate = ({ title, content, cta, imageData }) => (
+const DocTemplate = ({ title, content, cta, imageData, imageAlt }) => (
   <Wrapper>
     <Flex justify="space-between">
       <FlexItem width="400px">
-        {imageData && <Img fluid={imageData} alt={title} />}
+        {imageData && <Img fluid={imageData} alt={imageAlt || title} />}
       </FlexItem>
       <FlexItem width="calc(100% - 400px)">
         <h3>{title}</h3>

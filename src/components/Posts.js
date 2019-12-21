@@ -196,7 +196,14 @@ const Section = styled.section`
 
 const Post = ({ data, link }) => {
   const [{ readArticle, readNews, tags }] = useTranslations();
-  const { image, title, tags: allTags, date, description } = data.frontmatter;
+  const {
+    image,
+    imageAlt,
+    title,
+    tags: allTags,
+    date,
+    description
+  } = data.frontmatter;
   return (
     <Card className={`post-card ${image ? '' : 'no-image'}`}>
       {image && (
@@ -208,7 +215,7 @@ const Post = ({ data, link }) => {
           <PostCardImage className="post-card-image">
             {hasPath(['image', 'childImageSharp', 'fluid']) && (
               <Img
-                alt={`${title} cover image`}
+                alt={imageAlt || `${title} cover image`}
                 style={{ height: `100%` }}
                 fluid={image.childImageSharp.fluid}
               />
