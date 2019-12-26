@@ -1,4 +1,6 @@
 ---
+lang: fr
+key: case-study
 date: 2019-02-28T23:40:32.169Z
 image: /img/etude_de_cas_retraites_populaires.png
 imageAlt: ''

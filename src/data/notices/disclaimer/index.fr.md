@@ -1,5 +1,6 @@
 ---
-templateKey: notice
+lang: fr
+key: notice
 title: Mentions légales
 ---
 

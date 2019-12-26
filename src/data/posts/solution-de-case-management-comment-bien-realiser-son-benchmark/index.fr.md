@@ -1,7 +1,9 @@
 ---
-templateKey: blog-post
+lang: fr
+key: blog-post
 image: /img/benchmark_solution_case_management.png
 imageAlt: ''
+path: solution-de-case-management-comment-bien-realiser-son-benchmark
 title: 'Solution de Case Management : Comment bien réaliser son benchmark ?'
 description: >-
   Découvrez les étapes à suivre et les bonnes questions à se poser pour choisir
@@ -13,7 +15,6 @@ authors:
   - avatar: /img/nicolasz_profil.jpg
     firstname: Nicolas
     lastname: Zanello
-    position: Consultant Technique Senior
 introduction: >-
   Le Case Management est la solution qui vous permet de porter la qualité de
   votre relation client à l’étape supérieure. Traitement des cas plus rapide,

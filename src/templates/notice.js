@@ -32,8 +32,11 @@ const Notice = ({
 export default Notice;
 
 export const pageQuery = graphql`
-  query NoticeBySlug($slug: String!) {
-    markdownRemark(fields: { slug: { eq: $slug } }) {
+  query NoticeBySlug($locale: String!, $title: String!) {
+    markdownRemark(
+      frontmatter: { title: { eq: $title } }
+      fields: { locale: { eq: $locale } }
+    ) {
       id
       html
       frontmatter {

@@ -1,4 +1,6 @@
 ---
+lang: fr
+key: news
 date: 2019-10-31T14:58:13.976Z
 image: /img/actu_hyland_summit_2019.png
 imageAlt: ''

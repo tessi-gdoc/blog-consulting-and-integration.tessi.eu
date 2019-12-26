@@ -1,4 +1,6 @@
 ---
+lang: fr
+key: news
 date: 2019-04-09T13:39:55.283Z
 image: /img/actu_lec_2019.png
 imageAlt: ''

@@ -361,8 +361,11 @@ const BlogPost = ({
 export default BlogPost;
 
 export const pageQuery = graphql`
-  query BlogPostBySlug($slug: String!, $locale: String!) {
-    markdownRemark(fields: { slug: { eq: $slug } }) {
+  query BlogPostBySlug($locale: String!, $title: String!) {
+    markdownRemark(
+      frontmatter: { title: { eq: $title } }
+      fields: { locale: { eq: $locale } }
+    ) {
       id
       headings {
         value
@@ -401,14 +404,17 @@ export const pageQuery = graphql`
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
       filter: {
-        fields: { slug: { regex: "/^(/posts/)/" }, locale: { eq: $locale } }
+        frontmatter: { key: { eq: "blog-post" } }
+        fields: { locale: { eq: $locale } }
       }
     ) {
       edges {
         node {
           id
-          fields {
-            slug
+          parent {
+            ... on File {
+              relativeDirectory
+            }
           }
           frontmatter {
             title

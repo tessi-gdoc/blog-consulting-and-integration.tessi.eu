@@ -1,4 +1,6 @@
 ---
+lang: fr
+key: news
 date: 2019-09-05T22:00:00.000Z
 image: /img/inspire_days_2019.png
 imageAlt: ''

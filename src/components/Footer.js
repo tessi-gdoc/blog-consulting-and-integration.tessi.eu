@@ -52,14 +52,16 @@ const Footer = () => {
           contactMail
         }
       }
-      allMarkdownRemark(
-        filter: { fields: { slug: { regex: "/^(/notices/)/" } } }
-      ) {
+      allMarkdownRemark(filter: { frontmatter: { key: { eq: "notice" } } }) {
         edges {
           node {
             id
+            parent {
+              ... on File {
+                relativeDirectory
+              }
+            }
             fields {
-              slug
               locale
             }
             frontmatter {
@@ -146,7 +148,7 @@ const Footer = () => {
             .filter(({ node }) => node.fields.locale === locale)
             .map(({ node }, i) => [
               i > 0 && ' • ',
-              <Link key={node.id} to={node.fields.slug}>
+              <Link key={node.id} to={`/${node.parent.relativeDirectory}`}>
                 {node.frontmatter.title}
               </Link>
             ])}

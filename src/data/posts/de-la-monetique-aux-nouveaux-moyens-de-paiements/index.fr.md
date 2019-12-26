@@ -1,7 +1,9 @@
 ---
-templateKey: blog-post
+lang: fr
+key: blog-post
 image: /img/monétique_nouveaux_moyens_de_paiement.png
 imageAlt: ''
+path: de-la-monetique-aux-nouveaux-moyens-de-paiements
 title: De la monétique aux nouveaux moyens de paiement
 description: >-
   La monétique laisse progressivement place à un écosystème de paiements
@@ -14,7 +16,6 @@ authors:
   - avatar: /img/avatar_default.png
     firstname: Anthony
     lastname: Maranghi
-    position: xx
 introduction: >-
   Le digital a bouleversé le domaine de la monétique et des moyens de paiement.
   Le terme « monétique » né dans les années 1980 a progressivement perdu de son

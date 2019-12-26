@@ -156,11 +156,16 @@ const Footer = () => {
   );
 };
 
-const wrapPageElement = ({ element, props }) => {
+const wrapPageElement = ({ element, props, ...rest }) => {
   const { pathname } = props.location;
-  const isArticle = test(/^\/posts\/[^\n]+/, pathname);
+  const { isDefault, locale } = props.pageContext;
+  const localizedRegex = path =>
+    new RegExp(`^${isDefault ? `/` : `/${locale}/`}${path}`);
+  const isArticle = test(localizedRegex('posts/[^\n]+'), pathname);
   const isHomePage = !test(
-    /\/(posts|notices|thank-you|whitepapers|our-case-studies|kits|demo|videos)/,
+    localizedRegex(
+      '(posts|notices|thank-you|whitepapers|our-case-studies|kits|demo|videos)'
+    ),
     pathname
   );
   let seo = {};

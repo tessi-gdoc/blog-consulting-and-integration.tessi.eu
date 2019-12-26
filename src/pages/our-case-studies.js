@@ -44,10 +44,8 @@ export const query = graphql`
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
       filter: {
-        fields: {
-          slug: { regex: "/^(/case-studies/)/" }
-          locale: { eq: $locale }
-        }
+        frontmatter: { key: { eq: "case-study" } }
+        fields: { locale: { eq: $locale } }
       }
     ) {
       edges {

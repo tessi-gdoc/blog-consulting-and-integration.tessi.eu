@@ -244,11 +244,23 @@ collections:
     label: "News"
     label_singular: "article"
     folder: "src/data/news"
-    slug: "{{slug}}"
+    slug: "{{title}}/index.{{lang}}"
     create: true
     editor:
       preview: false
     fields:
+      - {
+          label: 'Localization',
+          name: 'lang',
+          widget: 'select',
+          default: 'fr',
+          options:
+            [
+              { label: 'Français', value: 'fr' },
+              { label: 'English', value: 'en' },
+            ],
+        }
+      - {label: "Template Key", name: "key", default: "news", widget: "hidden"}
       - {label: "Publish date", name: "date", widget: "date"}
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Image Alt", name: "imageAlt", widget: "string"}
@@ -260,14 +272,26 @@ collections:
     label: "Blog"
     label_singular: "post"
     folder: "src/data/posts"
-    slug: "{{slug}}"
+    slug: "{{path}}/index.{{lang}}"
     create: true
     editor:
       preview: false
     fields:
-      - {label: "Template Key", name: "templateKey", default: "blog-post", widget: "hidden"}
+      - {
+          label: 'Localization',
+          name: 'lang',
+          widget: 'select',
+          default: 'fr',
+          options:
+            [
+              { label: 'Français', value: 'fr' },
+              { label: 'English', value: 'en' },
+            ],
+        }
+      - {label: "Template Key", name: "key", default: "blog-post", widget: "hidden"}
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Image Alt", name: "imageAlt", widget: "string"}
+      - {label: "URI", name: "path", widget: "string", default: "super-title" }
       - {label: "Title", name: "title", widget: "string", default: "Super title"}
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Publish date", name: "date", widget: "date"}
@@ -289,11 +313,23 @@ collections:
     label: "Kits"
     label_singular: "kit"
     folder: "src/data/kits"
-    slug: "{{slug}}"
+    slug: "{{title}}/index.{{lang}}"
     create: true
     editor:
       preview: false
     fields:
+      - {
+          label: 'Localization',
+          name: 'lang',
+          widget: 'select',
+          default: 'fr',
+          options:
+            [
+              { label: 'Français', value: 'fr' },
+              { label: 'English', value: 'en' },
+            ],
+        }
+      - {label: "Template Key", name: "key", default: "kit", widget: "hidden"}
       - {label: "Publish date", name: "date", widget: "date"}
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Image Alt", name: "imageAlt", widget: "string"}
@@ -304,11 +340,23 @@ collections:
     label: "Whitepapers"
     label_singular: "whitepaper"
     folder: "src/data/whitepapers"
-    slug: "{{slug}}"
+    slug: "{{title}}/index.{{lang}}"
     create: true
     editor:
       preview: false
     fields:
+      - {
+          label: 'Localization',
+          name: 'lang',
+          widget: 'select',
+          default: 'fr',
+          options:
+            [
+              { label: 'Français', value: 'fr' },
+              { label: 'English', value: 'en' },
+            ],
+        }
+      - {label: "Template Key", name: "key", default: "whitepaper", widget: "hidden"}
       - {label: "Publish date", name: "date", widget: "date"}
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Image Alt", name: "imageAlt", widget: "string"}
@@ -319,11 +367,23 @@ collections:
     label: "Case Studies"
     label_singular: "case study"
     folder: "src/data/case-studies"
-    slug: "{{slug}}"
+    slug: "{{title}}/index.{{lang}}"
     create: true
     editor:
       preview: false
     fields:
+      - {
+          label: 'Localization',
+          name: 'lang',
+          widget: 'select',
+          default: 'fr',
+          options:
+            [
+              { label: 'Français', value: 'fr' },
+              { label: 'English', value: 'en' },
+            ],
+        }
+      - {label: "Template Key", name: "key", default: "case-study", widget: "hidden"}
       - {label: "Publish date", name: "date", widget: "date"}
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Image Alt", name: "imageAlt", widget: "string"}
@@ -334,11 +394,23 @@ collections:
     label: "Videos"
     label_singular: "video"
     folder: "src/data/videos"
-    slug: "{{slug}}"
+    slug: "{{title}}/index.{{lang}}"
     create: true
     editor:
       preview: false
     fields:
+      - {
+          label: 'Localization',
+          name: 'lang',
+          widget: 'select',
+          default: 'fr',
+          options:
+            [
+              { label: 'Français', value: 'fr' },
+              { label: 'English', value: 'en' },
+            ],
+        }
+      - {label: "Template Key", name: "key", default: "video", widget: "hidden"}
       - {label: "Publish date", name: "date", widget: "date"}
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Image Alt", name: "imageAlt", widget: "string"}
@@ -349,11 +421,22 @@ collections:
     label: "Notices and policies"
     label_singular: "notice"
     folder: "src/data/notices"
-    slug: "{{slug}}"
+    slug: "{{title}}/index.{{lang}}"
     create: true
     editor:
       preview: false
     fields:
-      - {label: "Template Key", name: "templateKey", default: "notice", widget: "hidden"}
+      - {
+          label: 'Localization',
+          name: 'lang',
+          widget: 'select',
+          default: 'fr',
+          options:
+            [
+              { label: 'Français', value: 'fr' },
+              { label: 'English', value: 'en' },
+            ],
+        }
+      - {label: "Template Key", name: "key", default: "notice", widget: "hidden"}
       - {label: "Title", name: "title", widget: "string", default: "Super title"}
       - {label: "Body", name: "body", widget: "markdown"}

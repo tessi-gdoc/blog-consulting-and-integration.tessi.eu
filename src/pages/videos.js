@@ -33,7 +33,8 @@ export const query = graphql`
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
       filter: {
-        fields: { slug: { regex: "/^(/videos/)/" }, locale: { eq: $locale } }
+        frontmatter: { key: { eq: "video" } }
+        fields: { locale: { eq: $locale } }
       }
     ) {
       edges {

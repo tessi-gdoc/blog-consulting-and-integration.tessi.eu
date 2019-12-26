@@ -1,7 +1,9 @@
 ---
-templateKey: blog-post
+lang: fr
+key: blog-post
 image: /img/case_management_definition.png
 imageAlt: ''
+path: case-management-par-ou-commencer
 title: 'Le Case Management : Par où commencer ? Définition, rôle et outils'
 description: >-
   Le Case Management vous en avez entendu parler, mais savez-vous vraiment de
@@ -13,7 +15,6 @@ authors:
   - avatar: /img/photo-profil-claire-collard.jpg
     firstname: Claire
     lastname: Collard
-    position: Consultante / Intégrateur GED
 introduction: >-
   Le Case Management est un terme qui est apparu aux États-Unis vers les années
    1920. Initialement utilisé dans le domaine de la médecine, il désigne une

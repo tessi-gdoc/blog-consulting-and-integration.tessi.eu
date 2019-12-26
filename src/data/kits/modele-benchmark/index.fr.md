@@ -1,4 +1,6 @@
 ---
+lang: fr
+key: kit
 date: 2019-02-28T23:40:32.169Z
 image: /img/kit_benchmark_case_management.png
 imageAlt: ''

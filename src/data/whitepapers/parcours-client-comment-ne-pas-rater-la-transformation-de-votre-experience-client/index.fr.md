@@ -1,4 +1,6 @@
 ---
+lang: fr
+key: whitepaper
 date: 2019-12-18T17:22:14.906Z
 image: /img/livre_blanc_3d_parcours_client.png
 imageAlt: ''

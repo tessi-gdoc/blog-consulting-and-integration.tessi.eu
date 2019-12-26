@@ -209,7 +209,7 @@ const Post = ({ data, link }) => {
       {image && (
         <CardLink
           className="post-card-image-link"
-          to={link}
+          to={`/${link}`}
           css={PostCardImageLink}
         >
           <PostCardImage className="post-card-image">
@@ -224,9 +224,8 @@ const Post = ({ data, link }) => {
         </CardLink>
       )}
       <PostCardContent className="post-card-content">
-        <CardLink
+        <div
           className="post-card-content-link"
-          to={link}
           css={PostCardContentLink}
         >
           {allTags.map((t, i) => [
@@ -244,10 +243,10 @@ const Post = ({ data, link }) => {
                 : data.excerpt}
             </p>
           </Section>
-        </CardLink>
+        </div>
         <PostCardMeta className="post-card-meta">
-          <ReadArticle to={link}>
-            {`/` === link.substring(0, 1) ? readArticle : readNews}
+          <ReadArticle to={`/${link}`}>
+            {link.startsWith('posts') ? readArticle : readNews}
           </ReadArticle>
         </PostCardMeta>
       </PostCardContent>
@@ -275,7 +274,7 @@ const Posts = ({ allPosts }) => (
       <Post
         key={node.id}
         data={node}
-        link={node.frontmatter.link || node.fields.slug}
+        link={node.frontmatter.link || node.parent.relativeDirectory}
       />
     ))}
   </PostFeed>

@@ -46,10 +46,8 @@ export const pageQuery = graphql`
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
       filter: {
-        fields: {
-          slug: { regex: "/^/(news|posts)//" }
-          locale: { eq: $locale }
-        }
+        frontmatter: { key: { regex: "/^(news|blog-post)/" } }
+        fields: { locale: { eq: $locale } }
       }
     ) {
       group(field: frontmatter___tags) {
@@ -59,8 +57,10 @@ export const pageQuery = graphql`
       edges {
         node {
           id
-          fields {
-            slug
+          parent {
+            ... on File {
+              relativeDirectory
+            }
           }
           excerpt(pruneLength: 200)
           frontmatter {

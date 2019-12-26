@@ -1,4 +1,6 @@
 ---
+lang: fr
+key: whitepaper
 date: 2019-02-28T23:40:32.169Z
 image: /img/livre_blanc_case_management_compr.png
 imageAlt: ''
