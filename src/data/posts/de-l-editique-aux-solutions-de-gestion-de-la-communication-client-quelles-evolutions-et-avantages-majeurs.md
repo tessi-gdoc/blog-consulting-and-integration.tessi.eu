@@ -1,7 +1,8 @@
 ---
-templateKey: blog-post
+lang: fr
 image: /img/ediitique_solutions_ccm_moderne.png
-imageAlt: ''
+imageAlt: hello-world
+path: hello-world
 title: >-
   De l’éditique aux solutions de gestion de la communication client : Quelles
   évolutions et avantages majeurs ?
@@ -17,7 +18,6 @@ authors:
   - avatar: /img/nicolasz_profil.jpg
     firstname: Nicolas
     lastname: Zanello
-    position: xxx
 introduction: >-
   Dans une société connectée comme celle que connaissons, avec un accès à
   l’information instantané via une multitude de canaux, les comportements et
