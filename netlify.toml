@@ -199,12 +199,24 @@ to = "/whitepapers"
 
 [[redirects]]
 force = true
-from = "/case-studies"
+from = "/case-studies/*"
 status = 301
 to = "/our-case-studies"
 
 [[redirects]]
 force = true
-from = "/:lang/case-studies"
+from = "/:lang/case-studies/*"
 status = 301
 to = "/our-case-studies"
+
+[[redirects]]
+force = true
+from = "/privacy/*"
+status = 301
+to = "/notices/personal-data-use-policy"
+
+[[redirects]]
+force = true
+from = "/:lang/privacy/*"
+status = 301
+to = "/notices/personal-data-use-policy"
