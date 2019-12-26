@@ -2,7 +2,7 @@
 lang: fr
 key: blog-post
 image: /img/monétique_nouveaux_moyens_de_paiement.png
-imageAlt: ''
+imageAlt: monétique
 path: de-la-monetique-aux-nouveaux-moyens-de-paiements
 title: De la monétique aux nouveaux moyens de paiement
 description: >-
@@ -26,7 +26,6 @@ introduction: >-
   parcours client est roi et l’innovation, reine, dans un secteur du paiement en
   pleine ébullition.
 ---
-
 ## 01/ La transformation du Retail Banking
 
 Les réseaux interbancaires changent : on mixe de plus en plus la banque debout avec la banque assise. Les chargés d’accueil des banques de détail sont voués à disparaître avec une montée en compétences et le développement de nouvelles expertises (gestion de patrimoine, prêts immobilier, etc.). Par voie de conséquence, les chargés de clientèle sont plus mobiles et doivent développer une meilleure connaissance de l’ensemble des produits offerts. Ils deviennent des conseillers « augmentés » avec des tablettes à disposition afin d’avoir le catalogue toujours au bout des doigts. Pour cette raison, des transformations fondamentales au niveau du back-office s’imposent.
@@ -37,16 +36,16 @@ Cette évolution des réseaux, de l’organisation et des métiers du secteur ba
 
 ## 02/ Quel avenir pour le « cash » ?
 
-Et nous tendions vers une société sans cash ? Aujourd’hui une occurrence de paiement sur deux est effectuée par carte bancaire. Le chèque disparaît petit à petit même s’il représente encore 10% des paiements ([Tessi](www.tessi.eu) étant un des derniers gestionnaires de la numérisation du chèque en France).
+Et nous tendions vers une société sans cash ? Aujourd’hui une occurrence de paiement sur deux est effectuée par carte bancaire. Le chèque disparaît petit à petit même s’il représente encore 10% des paiements ([Tessi](https://www.tessi.eu/) étant un des derniers gestionnaires de la numérisation du chèque en France).
 
 La gestion des espèces est coûteuse, elle représente 5 milliards de dépense pour les banques Françaises chaque année, soit environ un coût de 500 millions d’euros par banque. C’est pourquoi les banques et les États essaient de le limiter en plafonnant les paiements en espèces, permettant également de lutter contre son anonymat.
 
 La stratégie nationale sur les moyens de paiements française a différents objectifs :
 
-- Accroître la possibilité de paiement par carte ;
-- Faciliter le paiement sans contact par carte ou téléphone mobile et l’utilisation du virement (en ligne, référencé, en temps réel) ;
-- Accroître la rapidité des opérations de paiement ;
-- Réduire la préférence des français pour le chèque (réduction de la durée de validité, paiement électronique dans les services publics (TIPI /Payfip)…
+* Accroître la possibilité de paiement par carte ;
+* Faciliter le paiement sans contact par carte ou téléphone mobile et l’utilisation du virement (en ligne, référencé, en temps réel) ;
+* Accroître la rapidité des opérations de paiement ;
+* Réduire la préférence des français pour le chèque (réduction de la durée de validité, paiement électronique dans les services publics (TIPI /Payfip)…
 
 ## 03/ Et la carte bancaire alors ?
 
@@ -74,6 +73,6 @@ L’Instant Payment est un nouveau moyen de paiement européen proposé aux part
 
 Les constructeurs automobiles expérimentent de plus en plus des solutions de paiement embarqué pour plusieurs usages. Ces projets consistent à intégrer un moyen de paiement via l’IoT (Internet of Things), les objets connectés dont elles sont équipées. S’il était déjà possible de payer au télépéage avec un badge, désormais la carte est embarquée dans le système de paiement : l’automobile elle-même. On glisse ainsi vers le paiement embarqué « Open Payment ».
 
-_**La transition de la monétique vers les nouveaux moyens de paiement n’est pas nouvelle mais au contraire bien avancée. Les réseaux interbancaires et les moyens de paiement que nous connaissions jusqu’à présent tendent à disparaître pour laisser place à des parcours client digitaux, innovants, multiples et en constante évolution.**_
+***La transition de la monétique vers les nouveaux moyens de paiement n’est pas nouvelle mais au contraire bien avancée. Les réseaux interbancaires et les moyens de paiement que nous connaissions jusqu’à présent tendent à disparaître pour laisser place à des parcours client digitaux, innovants, multiples et en constante évolution.***
 
-_**Les smartphones, le sans contact, l’Instant Payment, l’IoT s’imposent comme les nouveaux moyens de paiement. Nous assistons à une convergence de ces derniers pour le créancier vers l’omnicanal, l’omni-paiement. Les moyens de paiement font partie intégrante du parcours client et s’inscrivent dans une logique de transformation digitale, l’omnicanal et la gestion des flux rejoignant ainsi l’omni-paiement.**_
+***Les smartphones, le sans contact, l’Instant Payment, l’IoT s’imposent comme les nouveaux moyens de paiement. Nous assistons à une convergence de ces derniers pour le créancier vers l’omnicanal, l’omni-paiement. Les moyens de paiement font partie intégrante du parcours client et s’inscrivent dans une logique de transformation digitale, l’omnicanal et la gestion des flux rejoignant ainsi l’omni-paiement.***
