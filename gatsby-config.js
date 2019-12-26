@@ -4,6 +4,64 @@ const { primary, secondary, lightGrey } = require('./src/styles/colors');
 
 const cloud_id = `d33wubrfki0l68`;
 
+const setFeed = (locale, title, output) => {
+  return {
+    serialize: ({ query: { site, allMarkdownRemark } }) =>
+      allMarkdownRemark.edges.map(
+        ({ node: { frontmatter, html, excerpt } }) => ({
+          title: frontmatter.title,
+          description: frontmatter.description || excerpt,
+          date: frontmatter.date,
+          categories: frontmatter.tags,
+          author: frontmatter.authors ? frontmatter.authors
+            .map(a => `${a.firstname} ${a.lastname}`)
+            .join(`, `) : 'Tatiana Corallo-Jackson',
+          url: site.siteMetadata.siteUrl + `/${locale}`,
+          guid: site.siteMetadata.siteUrl + `/${locale}`,
+          custom_elements: [{ 'content:encoded': html }]
+        })
+      ),
+    query: `
+{
+  allMarkdownRemark(
+    sort: { fields: [frontmatter___date], order: DESC }
+    filter: { frontmatter: { key: { regex: "/(news|blog-post)/" } }, fields: { locale: { eq: "${locale}" } } }
+  ) {
+    edges {
+      node {
+        html
+        excerpt(pruneLength: 150)
+        frontmatter {
+          title
+          description
+          authors {
+            firstname
+            lastname
+          }
+          tags
+          date(formatString: "DD MMMM YYYY", locale: "${locale}")
+        }
+      }
+    }
+  }
+}
+`,
+    title,
+    output,
+    setup: ({
+      query: {
+        site: { siteMetadata }
+      }
+    }) => ({
+      title: siteMetadata.healine,
+      description: siteMetadata.defaultDescription,
+      feed_url: siteMetadata.siteUrl + output,
+      site_url: siteMetadata.siteUrl,
+      generator: siteMetadata.defaultTitle
+    })
+  };
+};
+
 module.exports = {
   siteMetadata: {
     defaultTitle: `Tessi#Journey`,
@@ -156,67 +214,7 @@ module.exports = {
             }
           }
         `,
-        feeds: [
-          {
-            serialize: ({ query: { site, allMarkdownRemark } }) =>
-              allMarkdownRemark.edges.map(
-                ({ node: { frontmatter, html, fields } }) => ({
-                  title: frontmatter.title,
-                  description: frontmatter.description,
-                  date: frontmatter.date,
-                  categories: frontmatter.tags,
-                  author: frontmatter.authors
-                    .map(a => `${a.firstname} ${a.lastname}`)
-                    .join(`, `),
-                  url: site.siteMetadata.siteUrl + fields.slug,
-                  guid: site.siteMetadata.siteUrl + fields.slug,
-                  custom_elements: [{ 'content:encoded': html }]
-                })
-              ),
-            query: `
-            {
-              allMarkdownRemark(
-                sort: { fields: [frontmatter___date], order: DESC }
-                filter: { fields: { slug: { regex: "/^(/posts/)/" } } }
-                limit: 2000
-              ) {
-                edges {
-                  node {
-                    html
-                    fields { 
-                      slug
-                      locale 
-                    }
-                    frontmatter {
-                      tags
-                      title
-                      authors {
-                        firstname
-                        lastname
-                      }
-                      description
-                      date
-                    }
-                  }
-                }
-              }
-            }
-          `,
-            title: `T#J blog feed`,
-            output: `/rss.xml`,
-            setup: ({
-              query: {
-                site: { siteMetadata }
-              }
-            }) => ({
-              title: siteMetadata.headline,
-              description: siteMetadata.defaultDescription,
-              feed_url: siteMetadata.siteUrl + `/rss.xml`,
-              site_url: siteMetadata.siteUrl,
-              generator: siteMetadata.defaultTitle
-            })
-          }
-        ]
+        feeds: [setFeed('fr', 'Nos articles et actualités', '/rss.xml')]
       }
     },
     {
