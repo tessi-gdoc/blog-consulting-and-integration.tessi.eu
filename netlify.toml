@@ -31,6 +31,30 @@ to = "https://blog-consulting-and-integration.tessi.eu/:splat"
 
 [[redirects]]
 force = true
+from = "/fr/*"
+status = 301
+to = "/"
+
+[[redirects]]
+force = true
+from = "/en/*"
+status = 301
+to = "/"
+
+[[redirects]]
+force = true
+from = "/es/*"
+status = 301
+to = "/"
+
+[[redirects]]
+force = true
+from = "/de/*"
+status = 301
+to = "/"
+
+[[redirects]]
+force = true
 from = "/blog/*"
 status = 301
 to = "/"
