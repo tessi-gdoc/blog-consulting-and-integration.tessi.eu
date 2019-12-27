@@ -220,3 +220,51 @@ force = true
 from = "/:lang/privacy/*"
 status = 301
 to = "/notices/personal-data-use-policy"
+
+[[redirects]]
+force = true
+from = "/:lang/taxonomy/*"
+status = 301
+to = "/"
+
+[[redirects]]
+force = true
+from = "/:lang/catalog/*"
+status = 301
+to = "/"
+
+[[redirects]]
+force = true
+from = "/:lang/node/*"
+status = 301
+to = "/"
+
+[[redirects]]
+force = true
+from = "/:lang/ville/*"
+status = 301
+to = "/"
+
+[[redirects]]
+force = true
+from = "/fr/careers/*"
+status = 301
+to = "https://www.tessi.eu/fr/espace-carrieres/"
+
+[[redirects]]
+force = true
+from = "/en/careers/*"
+status = 301
+to = "https://www.tessi.eu/career-space/"
+
+[[redirects]]
+force = true
+from = "/es/careers/*"
+status = 301
+to = "https://www.tessi.eu/es/espacio-carrera-profesional/"
+
+[[redirects]]
+force = true
+from = "/careers/*"
+status = 301
+to = "https://www.tessi.eu/career-space/"
