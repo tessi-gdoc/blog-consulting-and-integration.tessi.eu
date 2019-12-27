@@ -3,7 +3,7 @@ lang: fr
 key: news
 date: 2019-10-31T14:58:13.976Z
 image: /img/actu_hyland_summit_2019.png
-imageAlt: ''
+imageAlt: Hyland Summit 2019
 title: Tessi au Hyland Summit EMEA 2019
 link: ' https://www.tessi.eu/fr/tessi-au-hyland-summit-2019-content-services/'
 tags:
