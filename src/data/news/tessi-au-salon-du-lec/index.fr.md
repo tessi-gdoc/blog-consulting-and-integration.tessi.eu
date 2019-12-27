@@ -3,7 +3,7 @@ lang: fr
 key: news
 date: 2019-04-09T13:39:55.283Z
 image: /img/actu_lec_2019.png
-imageAlt: ''
+imageAlt: LEC Genève 2019
 title: Tessi au salon du LEC 2019
 link: 'https://www.tessi.eu/fr/tessi-au-salon-du-lec/'
 tags:
