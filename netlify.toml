@@ -292,3 +292,9 @@ force = true
 from = "/careers/*"
 status = 301
 to = "https://www.tessi.eu/career-space/"
+
+[[redirects]]
+force = true
+from = "/posts"
+status = 301
+to = "/"
