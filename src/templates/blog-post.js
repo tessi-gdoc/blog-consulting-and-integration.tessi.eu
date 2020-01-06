@@ -32,7 +32,7 @@ const ShareButtons = styled.div`
   justify-content: center;
   align-items: center;
   background-color: ${primary};
-  & > div {
+  & > button {
     margin: 18px;
     cursor: pointer;
   }
@@ -328,15 +328,11 @@ const BlogPost = ({
         <LinkedinShareButton
           url={location.href}
           title={title}
-          description={introduction}
+          summary={introduction}
         >
           <Icon type="linkedin" color="white" />
         </LinkedinShareButton>
-        <TwitterShareButton
-          url={location.href}
-          title={title}
-          description={introduction}
-        >
+        <TwitterShareButton url={location.href} title={title}>
           <Icon type="twitter" color="white" />
         </TwitterShareButton>
       </ShareButtons>
