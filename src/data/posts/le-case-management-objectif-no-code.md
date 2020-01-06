@@ -1,14 +1,14 @@
 ---
 templateKey: blog-post
 image: /img/case_management_low_code.png
-title: 'Le Case Management : Objectif No Code !'
+title: Quel mode de réalisation pour sa solution de Case Management ?
 description: >-
   Plusieurs modes de réalisation existent pour mettre en place une solution de
   Case Management. Découvrez les bénéfices et inconvénients de chacune des
   options.
 date: 2019-03-17T23:00:00.000Z
 tags:
-  - Case Management
+  - caseManagement
 authors:
   - avatar: /img/magali-t._profil.jpg
     firstname: Magali
@@ -39,8 +39,6 @@ introduction: >-
   outil auteur « fait maison ». Puis il y a une troisième alternative, faire le
   choix d’un mode hybride via une plateforme de paramétrage « low code ».
 ---
-[![Case Management](/img/bannière-web_728x90px_livre-blanc_case-management.png "Pourquoi s'équiper d'une solution de Case Management")](http://content.gdoc-lasercom.com/livre-blanc-case-management)
-
 ## **01 / 3 manières de penser sa solution de Case Management**
 
 ### **A. “Buy” : une solution clé en main à poser chez vous**
@@ -137,6 +135,6 @@ L’intégrateur est également en capacité de mettre à disposition divers pro
 
 Il n’y a pas de meilleur choix entre intégrateur ou éditeur. Le choix de votre partenaire doit dépendre de votre projet et vos besoins : l’ampleur du projet (sous projets), le besoin en compétences, la capacité à mobiliser vos compétences internes, le mode de solution choisie, etc. Veillez bien à anticiper tous ce qu’implique un projet de Case Management et plus particulièrement le vôtre. Cela passe par la construction d’une stratégie et d’une méthodologie de Case Management en amont pour ne rien oublier et être sûre de faire le bon choix.
 
-**_En bref, pour réaliser votre solution de Case Management, trois options s’offrent à vous : « Buy », « Build », « Configure ». Si vous optez pour la plateforme de Case Management, soit la troisième option, ce sera l’occasion de tirer profit d’une solution sur mesure, paramétrée selon vos besoins autant que d’un cadre technologique unique et performant. Dans le même temps, il vous faudra faire le choix de votre partenaire, un choix qui vous appartient._**
+_**En bref, pour réaliser votre solution de Case Management, trois options s’offrent à vous : « Buy », « Build », « Configure ». Si vous optez pour la plateforme de Case Management, soit la troisième option, ce sera l’occasion de tirer profit d’une solution sur mesure, paramétrée selon vos besoins autant que d’un cadre technologique unique et performant. Dans le même temps, il vous faudra faire le choix de votre partenaire, un choix qui vous appartient.**_
 
-**_Au-delà des décisions relatives au mode de réalisation de votre solution et à votre compagnon de route, le choix d’une solution de Case Management est aussi une histoire de culture d’entreprise. Quelle est votre capacité ou votre envie de changement ou plutôt de stabilité ?_**
+_**Au-delà des décisions relatives au mode de réalisation de votre solution et à votre compagnon de route, le choix d’une solution de Case Management est aussi une histoire de culture d’entreprise. Quelle est votre capacité ou votre envie de changement ou plutôt de stabilité ?**_

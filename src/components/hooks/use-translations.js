@@ -11,10 +11,10 @@ const findTranslations = locale =>
   );
 
 const useTranslations = () => {
-  const { locale, dateFormat, countries } = useContext(LocaleContext);
+  const locale = useContext(LocaleContext);
   const getFromQuery = findTranslations(locale);
   const { rawData } = useStaticQuery(query);
-  return [getFromQuery(rawData.edges), dateFormat, countries];
+  return [getFromQuery(rawData.edges)];
 };
 
 export default useTranslations;
@@ -38,8 +38,13 @@ const query = graphql`
             resources
             whitepapers
             kits
+            videos
             caseStudies
             thankYou
+            form {
+              failed
+              backToHome
+            }
             newsletter {
               title
               content
@@ -59,7 +64,13 @@ const query = graphql`
               content
             }
             convinced
-            tags
+            tags {
+              news
+              contentServices
+              ccm
+              caseManagement
+              customerJourney
+            }
             demoPage {
               title
               subtitle
@@ -71,6 +82,7 @@ const query = graphql`
             readCaseStudy
             downloadWhitepaper
             downloadKit
+            watchVideos
             relatedPosts
             partners
             siteMetadata {
@@ -94,7 +106,7 @@ const query = graphql`
                 title
                 description
               }
-              caseStudies {
+              ourCaseStudies {
                 title
                 description
               }
@@ -107,6 +119,30 @@ const query = graphql`
                 description
               }
               thankYou {
+                title
+                description
+              }
+              news {
+                title
+                description
+              }
+              contentServices {
+                title
+                description
+              }
+              ccm {
+                title
+                description
+              }
+              caseManagement {
+                title
+                description
+              }
+              customerJourney {
+                title
+                description
+              }
+              videos {
                 title
                 description
               }

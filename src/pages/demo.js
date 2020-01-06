@@ -85,18 +85,20 @@ const Demo = ({
         <FlexItem width="50%">
           <HTML markdown={leftContent} />
         </FlexItem>
-        <FlexItem width="50%">
+        <FlexItem
+          width="50%"
+          css={css`
+            div.jsonform-error-where_are_you_based,
+            div.jsonform-error-what_is_the_time_frame_you_have_for_planning_your_project {
+              ${customSelect({ top: `12px`, right: `1.125em` })};
+            }
+          `}
+        >
           <HTML markdown={rightContent} />
           <PleziForm
             webformId={webformId}
             formId={formId}
             tenantId={tenantId}
-            css={css`
-              div.jsonform-error-where_are_you_based,
-              div.jsonform-error-what_is_the_time_frame_you_have_for_planning_your_project {
-                ${customSelect({ top: `12px`, right: `1.125em` })};
-              }
-            `}
           />
         </FlexItem>
       </Flex>

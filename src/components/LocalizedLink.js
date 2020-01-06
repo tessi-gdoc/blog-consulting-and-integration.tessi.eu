@@ -4,13 +4,13 @@ import { LocaleContext } from './Layout';
 import locales from '@i18n';
 
 const LocalizedLink = ({ to, ...props }) => {
-  const { locale } = React.useContext(LocaleContext);
+  const locale = React.useContext(LocaleContext);
 
   const isIndex = to === `/`;
 
   const path = locales[locale].default
     ? to
-    : `${locales[locale].path}${isIndex ? `` : `${to}`}`;
+    : `/${locales[locale].path}${isIndex ? `` : `${to}`}`;
 
   return <Link {...props} to={path} />;
 };

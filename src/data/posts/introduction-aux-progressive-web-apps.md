@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-image: /img/pwa_bg.jpg
+image: /img/introduction_aux_progressive_web_app.png
 title: >-
   Introduction aux Progressive Web Apps : Avantages, développement et
   opportunités
@@ -8,15 +8,14 @@ description: >-
   Pourquoi les Progressive Web Apps sont-elles devenues l’un des éléments-clés
   de la stratégie commerciale de Google ? Découvrez l'intérêt et le
   développement de ces applications dans votre processus de communication
-  client. 
+  client.
 date: 2019-09-19T10:07:15.284Z
 tags:
-  - Communication client (CCM)
+  - ccm
 authors:
   - avatar: /img/mag.jpg
     firstname: Mathieu
     lastname: Gauthier
-    position: Consultant technique
 introduction: >-
   Pourquoi les Progressive Web Apps sont-elles devenues l’un des éléments-clés
   de la stratégie commerciale de Google ?
@@ -43,18 +42,19 @@ introduction: >-
   rapides, installables et indépendantes de la qualité du réseau: la
   **Progessive Web App (PWA)**.
 ---
+
 ## 01 / PWA vs Native App
 
 A priori, la stratégie de Google se base uniquement sur la proposition d'une nouvelle offre dans les pays émergents. Mais quel serait l'intérêt d'une PWA dans un pays fortement industrialisé ? Les capacités des smartphones en Europe sont bien assez suffisantes pour installer de nombreuses applications natives. Alors pourquoi ne pas développer une application native ?
 
 Plusieurs réponses sont valables :
 
-* **La distribution des applications natives c'est compliqué !** Pour qu'un de vos clients utilise votre application, il faut le convaincre d'aller la télécharger (depuis un store ou votre site), puis de l'installer (prendre une partie plus ou moins volumineuse de sa capacité de stockage) et enfin, de l'inciter à l'utiliser et à y rester. Cela demande beaucoup d'efforts et un coût d'acquisition élevé (10 fois plus qu'une PWA d'après une étude lancée par la startup portugaise Selio).
-* **Le côut de production d'une PWA est très faible.** Au lieu de mobiliser plusieurs équipes de développeurs pour la réalisation d'une application iOS, Android et d'un site web, le développement d'une Progressive Web App ne nécessite qu'une seule équipe.
-* **La PWA améliore l'engagement des utilisateurs.** De nombreuses entreprises ont décidé de créer ou de migrer vers des PWA pour améliorer leur taux d'engagement. On peut citer Twitter avec sa PWA [Twitter Lite](https://mobile.twitter.com/home), Uber, Trivago, New York Times et évidemment, Google avec Maps Go, Photos, Google +... Vous pouvez retrouver sur le site [PwaStats](https://www.pwastats.com/) les statistiques commerciales des PWA de certaines de ces entreprises et bien d'autres.
-* **La PWA peut rivaliser avec une application native.** En fonction de vos besoins, il est possible d'obtenir des résultats très satisfaisants en matière de performance. Grâce aux HTML5 APIs, les PWA arrivent aujourd'hui à utiliser des fonctionnalités propres aux applications natives mais en abuser risque de baisser le _framerate_ (taux d'images par seconde) de votre web app. On peut reprendre l'exemple de Twitter Lite. Selon leur Engineering Lead, Nicolas Gallagher:
+- **La distribution des applications natives c'est compliqué !** Pour qu'un de vos clients utilise votre application, il faut le convaincre d'aller la télécharger (depuis un store ou votre site), puis de l'installer (prendre une partie plus ou moins volumineuse de sa capacité de stockage) et enfin, de l'inciter à l'utiliser et à y rester. Cela demande beaucoup d'efforts et un coût d'acquisition élevé (10 fois plus qu'une PWA d'après une étude lancée par la startup portugaise Selio).
+- **Le côut de production d'une PWA est très faible.** Au lieu de mobiliser plusieurs équipes de développeurs pour la réalisation d'une application iOS, Android et d'un site web, le développement d'une Progressive Web App ne nécessite qu'une seule équipe.
+- **La PWA améliore l'engagement des utilisateurs.** De nombreuses entreprises ont décidé de créer ou de migrer vers des PWA pour améliorer leur taux d'engagement. On peut citer Twitter avec sa PWA [Twitter Lite](https://mobile.twitter.com/home), Uber, Trivago, New York Times et évidemment, Google avec Maps Go, Photos, Google +... Vous pouvez retrouver sur le site [PwaStats](https://www.pwastats.com/) les statistiques commerciales des PWA de certaines de ces entreprises et bien d'autres.
+- **La PWA peut rivaliser avec une application native.** En fonction de vos besoins, il est possible d'obtenir des résultats très satisfaisants en matière de performance. Grâce aux HTML5 APIs, les PWA arrivent aujourd'hui à utiliser des fonctionnalités propres aux applications natives mais en abuser risque de baisser le _framerate_ (taux d'images par seconde) de votre web app. On peut reprendre l'exemple de Twitter Lite. Selon leur Engineering Lead, Nicolas Gallagher:
   > _Twitter Lite is now the fastest, least expensive, and most reliable way to use Twitter. The web app rivals the performance of our native apps but requires less than 3% of the device storage space compared to Twitter for Android_
-* **Faible consommation de données.** Une application native peut consommer plusieurs dizaines de MB voire GB de data (par exemple, il n'est pas rare d'obtenir un cache de plusieurs GB pour l'application mobile Facebook). Pour une PWA, le serveur distribue uniquement des fichiers HTML, CSS et Javascript _compressés et minifiés_ de manière à réduire considérablement la taille de l'application mais aussi du cache. Dans le cas de Twitter, la Progressive Web App ne fait que 600KB contre 23.5MB pour l'application Android.
+- **Faible consommation de données.** Une application native peut consommer plusieurs dizaines de MB voire GB de data (par exemple, il n'est pas rare d'obtenir un cache de plusieurs GB pour l'application mobile Facebook). Pour une PWA, le serveur distribue uniquement des fichiers HTML, CSS et Javascript _compressés et minifiés_ de manière à réduire considérablement la taille de l'application mais aussi du cache. Dans le cas de Twitter, la Progressive Web App ne fait que 600KB contre 23.5MB pour l'application Android.
 
 **Mais...**
 
@@ -72,10 +72,10 @@ Lorsqu'une application est progressive, elle ne demande pas directement des auto
 
 Une PWA doit supporter le principe **F.I.R.E** :
 
-* **Fast (performante) :** en intégrant un [App-Shell](https://developers.google.com/web/fundamentals/architecture/app-shell) à vos pages, en réduisant la taille de vos fichiers, en optimisant et compressant ces images, en suivant le pattern [PRPL](https://developers.google.com/web/fundamentals/performance/prpl-pattern/)... Il faut que l'application charge une faible quantité de données côté serveur et son utilisation doit rester fluide malgré les animations ou les utilisations d'API HTML5.
-* **Integrated (intégrée) :** grâce aux manifestes W3C et à l'installation du Service Worker (gestionnaire de cache). Ces éléments permettent aux navigateurs de trouver rapidement votre web app et de la proposer en tant qu'application installable sur l'écran d'accueil sans passer par un app store.
-* **Reliable (fiable) :** en utilisant un Service Worker correctement configuré pour manipuler les fichiers (HTML, CSS, JS, images...) distribués par le serveur. Avec cette approche, on veut éviter à tout prix, le problème du lie-fi. C'est ce moment où le réseau vous indique sur votre smartphone, une connexion stable alors que ce n'est pas le cas. De plus, l'application doit être servie via HTTPS pour éviter les fraudes lors des transactions client-serveur par formulaire.
-* **Engaging (engageante) :** en proposant une interface (UI) responsive (c'est-à-dire qui s'adapte à n'importe quel format: mobile, tablette, desktop) en mode plein écran, un réengagement facilité grâce à des push notifications et des mises à jour régulières du contenu.
+- **Fast (performante) :** en intégrant un [App-Shell](https://developers.google.com/web/fundamentals/architecture/app-shell) à vos pages, en réduisant la taille de vos fichiers, en optimisant et compressant ces images, en suivant le pattern [PRPL](https://developers.google.com/web/fundamentals/performance/prpl-pattern/)... Il faut que l'application charge une faible quantité de données côté serveur et son utilisation doit rester fluide malgré les animations ou les utilisations d'API HTML5.
+- **Integrated (intégrée) :** grâce aux manifestes W3C et à l'installation du Service Worker (gestionnaire de cache). Ces éléments permettent aux navigateurs de trouver rapidement votre web app et de la proposer en tant qu'application installable sur l'écran d'accueil sans passer par un app store.
+- **Reliable (fiable) :** en utilisant un Service Worker correctement configuré pour manipuler les fichiers (HTML, CSS, JS, images...) distribués par le serveur. Avec cette approche, on veut éviter à tout prix, le problème du lie-fi. C'est ce moment où le réseau vous indique sur votre smartphone, une connexion stable alors que ce n'est pas le cas. De plus, l'application doit être servie via HTTPS pour éviter les fraudes lors des transactions client-serveur par formulaire.
+- **Engaging (engageante) :** en proposant une interface (UI) responsive (c'est-à-dire qui s'adapte à n'importe quel format: mobile, tablette, desktop) en mode plein écran, un réengagement facilité grâce à des push notifications et des mises à jour régulières du contenu.
 
 L'ensemble de ces fonctionnalités forment un cachier des charges précis. A cet effet, vous pouvez utiliser l'outil **Google Lighthouse** qui permet de vérifier cette checklist à votre place. Sur Chrome, vous pouvez effectuer cet audit depuis la console de votre navigateur. Celui-ci vous donnera une note entre 0 et 100 en fonction des performances, des bonnes pratiques, de l'accessibilité et du référencement (SEO) de votre application.
 
@@ -211,22 +211,22 @@ Dorénavant, votre application peut s'installer sur votre écran d'accueil de sm
 
 Google Chrome (et maintenant Firefox) sur Android, affiche automatiquement une bannière sur votre site pour indiquer qu'il peut être intégré comme une application native. Toutefois, votre site doit respecter les points suivants :
 
-* Avoir un manifest W3C valide
-* L'ensemble de ses ressources doivent être servi sur du HTTPS ([letsencrypt](https://letsencrypt.org/) propose, par ailleurs, des certificats gratuits)
-* Avoir un Service Worker valide et enregistré
-* Être visité deux fois, avec au moins 5 minutes entre chaque visite
+- Avoir un manifest W3C valide
+- L'ensemble de ses ressources doivent être servi sur du HTTPS ([letsencrypt](https://letsencrypt.org/) propose, par ailleurs, des certificats gratuits)
+- Avoir un Service Worker valide et enregistré
+- Être visité deux fois, avec au moins 5 minutes entre chaque visite
 
 Une autre solution serait de proposer votre propre bannière avec les explications d'installation sur [Chrome](https://support.google.com/pixelphone/answer/2781850?hl=en), [Firefox](https://hacks.mozilla.org/2017/10/progressive-web-apps-firefox-android/) ou [Safari](https://support.apple.com/fr-fr/guide/shortcuts/apd735880972/ios). Libre à vous de décider !
 
 ## 04 / Au-delà de l'application mobile, quelles sont les opportunités ?
 
-![Progressive Web App](/img/pwa_bg.jpg "PWA Tessi#Journey")
+![Progressive Web App](/img/pwa_bg.jpg 'PWA Tessi#Journey')
 
-Chez [Tessi](https://www.tessi.eu/solution/technologies/consulting-and-integration/), nous proposons des solutions de traitement et gestion documentaire qui nous permettent de composer, de produire et délivrer massivement des modèles de document (maquettes) statiques et personnalisés en fonction du client. Certains de ces logiciels intègrent des modules de composition de documents dynamiques_._ En d'autres termes, il s'agit de générer, à partir d'un ou plusieurs flux de données, une collection d'applications rendues uniquement côté client. L'outil utilise un _framework_ de création d'interface utilisateur, basé sur une architecture de composants : [Bobril](https://github.com/Bobris/Bobril)). Cela permet d'utiliser le logiciel simplement en intégrant des blocs (tableau, image, diagrammes, contenu textuel...) dans une interface de conception.
+Chez [Tessi](https://www.tessi.eu/solution/technologies/consulting-and-integration/), nous proposons des solutions de traitement et gestion documentaire qui nous permettent de composer, de produire et délivrer massivement des modèles de document (maquettes) statiques et personnalisés en fonction du client. Certains de ces logiciels intègrent des modules de composition de documents dynamiques*.* En d'autres termes, il s'agit de générer, à partir d'un ou plusieurs flux de données, une collection d'applications rendues uniquement côté client. L'outil utilise un _framework_ de création d'interface utilisateur, basé sur une architecture de composants : [Bobril](https://github.com/Bobris/Bobril)). Cela permet d'utiliser le logiciel simplement en intégrant des blocs (tableau, image, diagrammes, contenu textuel...) dans une interface de conception.
 
 **La complexité dans tout cela, c'est la livraison...**
 
-Un _document dynamique_ est généré sous la forme d'un seul fichier HTML, encapsulant Javascript, CSS et images (encodées en base 64). Contrairement à un document statique (PDF par exemple), la livraison d'un fichier HTML ne peut se faire via mail ou un téléchargement sur un site. L'expérience client ne serait pas au rendez-vous.  
+Un _document dynamique_ est généré sous la forme d'un seul fichier HTML, encapsulant Javascript, CSS et images (encodées en base 64). Contrairement à un document statique (PDF par exemple), la livraison d'un fichier HTML ne peut se faire via mail ou un téléchargement sur un site. L'expérience client ne serait pas au rendez-vous.
 
 Cependant, il peut être particulièrement intéressant pour délivrer ce type de document d'utiliser les fonctionnalités d'une PWA. Il est tout à fait imaginable de développer un tableau de bord regroupant l'ensemble des documents dynamiques d'un utilisateur, les rendant accessibles et sécurisés par un portail web. Au moment de la première consultation d'un document, le client peut alors l'ajouter comme une application native sur son écran d'accueil, grâce à une bannière, et profiter des capacités _offline_ de son document. Un système de _push notifications_ peut alors être intégré pour informer l'utilisateur d'une nouvelle livraison. La fluidité de ce processus permet d'améliorer, auprès du client, l'expérience utilisateur et par conséquent son engagement.
 

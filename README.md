@@ -1,4 +1,5 @@
-# Tessi#Journey
+# Tessi Journey
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c1a26dc8-5639-4303-ac21-c5a53310a175/deploy-status)](https://app.netlify.com/sites/gdoc/deploys)
 
 Blog about consulting and integration expertises in Tessi, built with [GatsbyJS][gatsby]

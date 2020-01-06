@@ -1,14 +1,14 @@
 ---
 templateKey: blog-post
 image: /img/monétique_nouveaux_moyens_de_paiement.png
-title: 'De la monétique aux nouveaux moyens de paiements '
+title: De la monétique aux nouveaux moyens de paiement
 description: >-
   La monétique laisse progressivement place à un écosystème de paiements
   innovants. Comment s'opère cette transition et quels seront les moyens de
   paiement de demain ?
 date: 2019-09-13T16:24:29.670Z
 tags:
-  - Parcours client
+  - customerJourney
 authors:
   - avatar: /img/avatar_default.png
     firstname: Anthony
@@ -24,12 +24,11 @@ introduction: >-
   parcours client est roi et l’innovation, reine, dans un secteur du paiement en
   pleine ébullition.
 ---
-
 ## 01/ La transformation du Retail Banking
 
 Les réseaux interbancaires changent : on mixe de plus en plus la banque debout avec la banque assise. Les chargés d’accueil des banques de détail sont voués à disparaître avec une montée en compétences et le développement de nouvelles expertises (gestion de patrimoine, prêts immobilier, etc.). Par voie de conséquence, les chargés de clientèle sont plus mobiles et doivent développer une meilleure connaissance de l’ensemble des produits offerts. Ils deviennent des conseillers « augmentés » avec des tablettes à disposition afin d’avoir le catalogue toujours au bout des doigts. Pour cette raison, des transformations fondamentales au niveau du back-office s’imposent.
 
-D’autre part, l’« applification », autrement dit, l’utilisation en Selfcare des applications bancaires, réduit les passages en agence. Ainsi, les réseaux interbancaires réduisent leur nombre d’automates bancaires : d’ici 2020, le nombre de DAB en France devrait passer de 58 à 40 millions. En parallèle, les banques traditionnelles se tournent vers le Web en créant des néo-banques afin de contrecarrer l’émergence des banques totalement digitales en ligne.
+D’autre part, l’« applification », autrement dit, l’utilisation en Selfcare des applications bancaires, réduit les passages en agence. Ainsi, les réseaux interbancaires réduisent leur nombre d’automates bancaires jugés pour certains trop peu rentables  : le parc total en France s'est ainsi vu retiré plus de 5 000 DAB depuis 2012. En parallèle, les banques traditionnelles se tournent vers le Web en créant des néo-banques afin de contrecarrer l’émergence des banques totalement digitales en ligne.
 
 Cette évolution des réseaux, de l’organisation et des métiers du secteur bancaire induit des parcours client qui se transforment. L’effacement de certains moyens de paiement au profit de l’émergence de nouveaux en est aussi la cause.
 
@@ -41,10 +40,10 @@ La gestion des espèces est coûteuse, elle représente 5 milliards de dépense 
 
 La stratégie nationale sur les moyens de paiements française a différents objectifs :
 
-- Accroître la possibilité de paiement par carte ;
-- Faciliter le paiement sans contact par carte ou téléphone mobile et l’utilisation du virement (en ligne, référencé, en temps réel) ;
-- Accroître la rapidité des opérations de paiement ;
-- Réduire la préférence des français pour le chèque (réduction de la durée de validité, paiement électronique dans les services publics (TIPI /Payfip)…
+* Accroître la possibilité de paiement par carte ;
+* Faciliter le paiement sans contact par carte ou téléphone mobile et l’utilisation du virement (en ligne, référencé, en temps réel) ;
+* Accroître la rapidité des opérations de paiement ;
+* Réduire la préférence des français pour le chèque (réduction de la durée de validité, paiement électronique dans les services publics (TIPI /Payfip)…
 
 ## 03/ Et la carte bancaire alors ?
 
@@ -70,7 +69,7 @@ L’Instant Payment est un nouveau moyen de paiement européen proposé aux part
 
 **4. Le paiement embarqué**
 
-L’industriel Total se lance dans un projet permettant aux automobiles (et non plus les automobilistes) d’intégrer un moyen de paiement via l’IoT (Internet of Things), les objets connectés dont elles sont équipées. S’il était déjà possible de payer au télépéage avec un badge, désormais la carte est embarquée dans le système de paiement : l’automobile elle-même. On glisse ainsi vers le paiement embarqué « Open Payment ».
+Les constructeurs automobiles expérimentent de plus en plus des solutions de paiement embarqué pour plusieurs usages. Ces projets consistent à intégrer un moyen de paiement via l’IoT (Internet of Things), les objets connectés dont elles sont équipées. S’il était déjà possible de payer au télépéage avec un badge, désormais la carte est embarquée dans le système de paiement : l’automobile elle-même. On glisse ainsi vers le paiement embarqué « Open Payment ».
 
 _**La transition de la monétique vers les nouveaux moyens de paiement n’est pas nouvelle mais au contraire bien avancée. Les réseaux interbancaires et les moyens de paiement que nous connaissions jusqu’à présent tendent à disparaître pour laisser place à des parcours client digitaux, innovants, multiples et en constante évolution.**_
 

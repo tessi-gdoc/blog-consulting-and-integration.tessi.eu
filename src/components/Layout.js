@@ -1,6 +1,5 @@
 import React from 'react';
 import { Global, css } from '@emotion/core';
-import styled from '@emotion/styled';
 
 import SEO from './SEO';
 import Navbar from './Navbar';
@@ -497,28 +496,28 @@ const GlobalStyles = () => (
 
 export const LocaleContext = React.createContext();
 
-const Container = styled.div`
-  position: relative;
-  height: 100%;
-`;
-
 const Layout = ({
   children,
   location: { pathname },
   seo,
-  pageContext: { locale, dateFormat, countries }
+  pageContext: { locale }
 }) => {
   const [open, toggleNewsletter] = React.useState(false);
   return (
-    <LocaleContext.Provider value={{ locale, dateFormat, countries }}>
+    <LocaleContext.Provider value={locale}>
       <SEO lang={locale} pathname={pathname} {...seo} />
       <GlobalStyles />
       <Newsletter isOpen={open} onClose={() => toggleNewsletter(false)} />
-      <Container>
+      <div
+        css={css`
+          position: relative;
+          height: 100%;
+        `}
+      >
         <Navbar openNewsletter={() => toggleNewsletter(true)} />
         <main>{children}</main>
         <Footer />
-      </Container>
+      </div>
     </LocaleContext.Provider>
   );
 };

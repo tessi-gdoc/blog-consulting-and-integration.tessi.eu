@@ -6,27 +6,21 @@ import DocTemplate from '@components/DocTemplate';
 import Container from '@components/Container';
 import useTranslations from '@hooks/use-translations';
 
-const CaseStudies = ({
+const Videos = ({
   data: {
-    site: {
-      siteMetadata: { officialWebsite }
-    },
-    allMarkdownRemark: { edges: caseStudies }
+    allMarkdownRemark: { edges: videos }
   }
 }) => {
-  const [{ readCaseStudy }] = useTranslations();
+  const [{ watchVideos }] = useTranslations();
   return (
     <Container>
-      {caseStudies.map(({ node: { frontmatter, id, html } }) => (
+      {videos.map(({ node: { id, frontmatter, html } }) => (
         <DocTemplate
           key={id}
           title={frontmatter.title}
           content={html}
           imageData={path(['childImageSharp', 'fluid'], frontmatter.image)}
-          cta={{
-            link: `${officialWebsite}${frontmatter.link}`,
-            text: readCaseStudy
-          }}
+          cta={{ link: frontmatter.link, text: watchVideos }}
         />
       ))}
     </Container>
@@ -34,19 +28,11 @@ const CaseStudies = ({
 };
 
 export const query = graphql`
-  query CaseStudies($locale: String!) {
-    site {
-      siteMetadata {
-        officialWebsite
-      }
-    }
+  query Videos($locale: String!) {
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
       filter: {
-        fields: {
-          slug: { regex: "/^(/case-studies/)/" }
-          locale: { eq: $locale }
-        }
+        fields: { slug: { regex: "/^(/videos/)/" }, locale: { eq: $locale } }
       }
     ) {
       edges {
@@ -70,4 +56,4 @@ export const query = graphql`
   }
 `;
 
-export default CaseStudies;
+export default Videos;

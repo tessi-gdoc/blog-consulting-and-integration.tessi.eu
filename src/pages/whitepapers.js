@@ -13,22 +13,17 @@ const Whitepapers = ({
 }) => {
   const [{ downloadWhitepaper }] = useTranslations();
   return (
-    <>
-      <Container>
-        {whitepapers.map(({ node: { frontmatter, id, html } }) => (
-          <DocTemplate
-            key={id}
-            title={frontmatter.title}
-            content={html}
-            imageData={path(['childImageSharp', 'fluid'], frontmatter.image)}
-            cta={{
-              link: frontmatter.link,
-              text: downloadWhitepaper
-            }}
-          />
-        ))}
-      </Container>
-    </>
+    <Container>
+      {whitepapers.map(({ node: { frontmatter, id, html } }) => (
+        <DocTemplate
+          key={id}
+          title={frontmatter.title}
+          content={html}
+          imageData={path(['childImageSharp', 'fluid'], frontmatter.image)}
+          cta={{ link: frontmatter.link, text: downloadWhitepaper }}
+        />
+      ))}
+    </Container>
   );
 };
 
@@ -50,7 +45,7 @@ export const query = graphql`
           frontmatter {
             image {
               childImageSharp {
-                fluid(maxWidth: 400, traceSVG: { color: "#1a214d" }) {
+                fluid(maxWidth: 450, traceSVG: { color: "#1a214d" }) {
                   ...GatsbyImageSharpFluid_tracedSVG
                 }
               }

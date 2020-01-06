@@ -9,7 +9,8 @@ description: >-
   changer et les stratégies envisageables pour opérer la transition. 
 date: 2019-10-03T14:43:05.418Z
 tags:
-  - Content Services
+  - contentServices
+  - caseManagement
 authors:
   - avatar: /img/magali-t._profil.jpg
     firstname: Magali

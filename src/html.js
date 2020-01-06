@@ -27,7 +27,6 @@ const CookiesMessage = styled.div`
 
 const CookiesButtons = styled.div`
   & > button {
-    padding: 0px 8px;
     margin: 6px;
     background: transparent none repeat scroll 0% 0%;
     border: 2px solid white;
@@ -37,7 +36,6 @@ const CookiesButtons = styled.div`
     font-weight: 600;
     color: white;
     cursor: pointer;
-    width: 66px;
     height: 32px;
     opacity: 1;
     &:hover {

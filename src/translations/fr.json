@@ -4,6 +4,10 @@
   "blog": "Blog",
   "demo": "Demande de démo",
   "readCaseStudy": "Lire l'étude de cas",
+  "form": {
+    "failed": "## Une erreur est survenueI\n\nNotre formulaire de demande de démonstration est indisponible pour le moment. \n\n**Merci de réessayer ultérieurement.**",
+    "backToHome": "Revenir à l'accueil"
+  },
   "thankYouPage": {
     "title": "Bonjour",
     "subtitle": "Merci pour votre demande.",
@@ -11,6 +15,7 @@
     "cta": "Découvrez nos contenus premium"
   },
   "resources": "Ressources",
+  "watchVideos": "Voir les vidéos",
   "relatedPosts": "Articles associés",
   "readNews": "Voir la news",
   "convinced": "êtes-vous convaincu ?",
@@ -33,9 +38,21 @@
   "thankYou": "Merci",
   "service": "Conseil et intégration",
   "siteMetadata": {
+    "customerJourney": {
+      "title": "Tous nos articles sur le Parcours Client",
+      "description": "Vos parcours client sont à la base de l’expérience client. Optimiser et fluidifier ses parcours assure la satisfaction de vos clients à chaque point de contact.  "
+    },
     "demo": {
-      "title": "Demander une démo parmi les solutions leaders ECM ou CCM",
-      "description": "Réservez votre démo sur-mesure avec un expert et sans engagement. Plusieurs solutions modernes de gestion de l’Information d'Entreprise (contenus, documents, communications...) disponibles."
+      "title": "Demander une démo parmi nos solutions partenaires",
+      "description": "Réservez votre démo sur-mesure avec un expert et sans engagement parmi des solutions leaders du marché de la gestion de l’Information d'Entreprise."
+    },
+    "ourCaseStudies": {
+      "title": "Découvrez nos Etude de Cas",
+      "description": "Retrouvez nos études de cas présentant la mise en oeuvre de différentes solutions et expertises pour répondre aux nombreuses problématiques de nos clients !"
+    },
+    "ccm": {
+      "title": "Tous nos articles sur la Communication Client",
+      "description": "La communication client est l'élément clé de vos interactions clients. Une communication client personnalisée et omnicanal est garante de l'engagement et de la fidélisation client."
     },
     "cookies": {
       "title": "Cookies",
@@ -46,27 +63,39 @@
       "description": ""
     },
     "whitepapers": {
-      "title": "Découvrez nos Livres Blancs - Tessi Conseil & Intégration",
+      "title": "Découvrez nos Livres Blancs",
       "description": "Téléchargez gratuitement nos livres blancs adressés aux responsables désireux d'améliorer leur gestion de l'information et la conversation clients."
+    },
+    "news": {
+      "title": "Toutes les actualités de Tessi Conseil & Intégration",
+      "description": "Le pôle Conseil & Intégration du groupe Tessi est spécialisé dans la gestion de l'information d'entreprise. Retrouvez ici toutes les actualités du pôle. "
+    },
+    "caseManagement": {
+      "title": "Tous nos articles sur le Case Management",
+      "description": "Le Case Management est un service de contenu extrêmement puissant : il permet de gérer une multitude de cas en venant compléter et enrichir les processus. "
     },
     "thankYou": {
       "title": "Merci",
       "description": ""
     },
-    "caseStudies": {
-      "title": "Découvrez nos Etude de Cas - Tessi Conseil & Intégration",
-      "description": "Retrouvez nos études de cas présentant la mise en oeuvre de différentes solutions et expertises pour répondre aux nombreuses problématiques de nos clients !"
+    "contentServices": {
+      "title": "Tous nos articles sur les Content Services",
+      "description": "Les Content Services ou plateformes de services de contenu (CSP) sont vos alliés pour une gouvernance de l’information optimisée et un gain de productivité. "
+    },
+    "videos": {
+      "title": "Nos vidéos",
+      "description": "Retrouvez l'ensemble de nos vidéos présentant nos innovations technologiques, nos prestations de services externalisées, nos solutions d'activations et nos programmes relationnels ou bien les témoignages de nos clients entreprises."
     },
     "disclaimer": {
       "title": "Mentions",
       "description": ""
     },
     "kits": {
-      "title": "Découvrez nos Kits Opérationnels - Tessi Conseil & Intégration",
+      "title": "Découvrez nos Kits Opérationnels",
       "description": "Téléchargez gratuitement nos kits opérationnels, véritables guides de réflexion : fiches pratiques, modèles, méthodologies, grille d'évaluation..."
     },
     "home": {
-      "title": "Tessi Journey - Le Blog de la Conversation Client",
+      "title": "Le Blog de la Conversation Client",
       "description": "Tessi Journey est le blog destiné aux dirigeants et professionnels de la transformation digitale désireux de fluidifier leurs parcours utilisateurs et processus associés. "
     }
   },
@@ -76,13 +105,15 @@
   },
   "caseStudies": "Études de cas",
   "subtitle": "Le Blog de la Conversation Client",
-  "tags": [
-    "Actualités",
-    "Content Services",
-    "Communication client (CCM)",
-    "Case Management",
-    "Parcours client"
-  ],
+  "title": "French",
+  "videos": "Vidéos",
+  "tags": {
+    "news": "Actualités",
+    "contentServices": "Content Services",
+    "ccm": "Communication client (CCM)",
+    "caseManagement": "Case Management",
+    "customerJourney": "Parcours client"
+  },
   "newsletter": {
     "title": "Vous souhaitez recevoir nos articles par email ?",
     "content": "Abonnez-vous pour recevoir notre newsletter une fois par mois"

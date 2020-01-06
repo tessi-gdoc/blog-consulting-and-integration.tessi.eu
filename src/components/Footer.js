@@ -1,10 +1,11 @@
 import React from 'react';
 import styled from '@emotion/styled';
-import { Link, useStaticQuery, graphql } from 'gatsby';
+import { useStaticQuery, graphql } from 'gatsby';
 
 import { LocaleContext } from './Layout';
 import Flex, { FlexItem } from './Flex';
 import Icon from './Icon';
+import Link from './LocalizedLink';
 import Brand from './Brand';
 import Container from './Container';
 import useTranslations from '@hooks/use-translations';
@@ -69,9 +70,9 @@ const Footer = () => {
       }
     }
   `);
-  const { locale } = React.useContext(LocaleContext);
+  const locale = React.useContext(LocaleContext);
   const [
-    { allArticles, resources, caseStudies, website, contact, follow }
+    { allArticles, resources, caseStudies, videos, website, contact, follow }
   ] = useTranslations();
   return (
     <Wrapper>
@@ -108,13 +109,16 @@ const Footer = () => {
           </FlexItem>
           <FlexItem as="span">
             <p>
-              <Link to="/">{allArticles}</Link>
+              <Link to="/#tags">{allArticles}</Link>
             </p>
             <p>
               <Link to="/whitepapers">{resources}</Link>
             </p>
             <p>
-              <Link to="/case-studies">{caseStudies}</Link>
+              <Link to="/our-case-studies">{caseStudies}</Link>
+            </p>
+            <p>
+              <Link to="/videos">{videos}</Link>
             </p>
           </FlexItem>
           {social && social.length && (

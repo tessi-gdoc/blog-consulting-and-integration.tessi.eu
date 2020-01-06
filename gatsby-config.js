@@ -45,6 +45,10 @@ module.exports = {
           {
             label: `kits`,
             slug: `/kits`
+          },
+          {
+            label: `videos`,
+            slug: `/videos`
           }
         ]
       },
@@ -247,18 +251,7 @@ module.exports = {
         icon: `src/assets/manifest_logo.png`
       }
     },
-    {
-      resolve: `gatsby-plugin-offline`,
-      options: {
-        precachePages: [
-          `/`,
-          `/case-studies`,
-          `/whitepapers`,
-          `/kits`,
-          `/posts/*`
-        ]
-      }
-    },
+    `gatsby-plugin-remove-serviceworker`,
     {
       resolve: `gatsby-plugin-netlify-cms`,
       options: {
@@ -272,12 +265,14 @@ module.exports = {
         headers: {
           '/*': [
             `X-UA-Compatible: IE=Edge`,
-            `Content-Security-Policy: base-uri 'self'; default-src 'self' data: raw.githubusercontent.com app.plezi.co www.google-analytics.com www.googleadservices.com www.googletagmanager.com googleads.g.doubleclick.net; script-src 'self' 'unsafe-inline' 'unsafe-eval' ${cloud_id}.cloudfront.net www.googletagmanager.com www.google-analytics.com googleads.g.doubleclick.net www.googleadservices.com app.plezi.co; style-src 'self' 'unsafe-inline'; object-src 'none'; form-action 'self'; font-src 'self' data: ${cloud_id}.cloudfront.net; connect-src 'self' ${cloud_id}.cloudfront.net app.plezi.co www.google-analytics.com www.googleadservices.com`
+            `Content-Security-Policy: block-all-mixed-content; base-uri 'self'; default-src 'self' data: ${cloud_id}.cloudfront.net raw.githubusercontent.com app.plezi.co www.google-analytics.com www.googleadservices.com www.googletagmanager.com googleads.g.doubleclick.net ; script-src 'self' 'unsafe-inline' 'unsafe-eval' www.googletagmanager.com www.google-analytics.com googleads.g.doubleclick.net www.googleadservices.com api.plezi.co app.plezi.co; style-src 'self' 'unsafe-inline'; object-src 'none'; form-action 'self'; font-src 'self' data: ${cloud_id}.cloudfront.net; connect-src 'self' app.plezi.co files.plezi.co api.plezi.co www.google-analytics.com www.googleadservices.com`
           ],
           '/icons/*.png': [`cache-control: public, max-age=31536000,immutable`],
-          '/*.woff2': [
-            `Access-Control-Allow-Origin: *`,
-            `Content-Type: application/font-woff2`
+          '/jquery.min.js': [
+            `cache-control: public, max-age=31536000,immutable`
+          ],
+          '/cookies-eu-banner.js': [
+            `cache-control: public, max-age=31536000,immutable`
           ]
         }
       }
