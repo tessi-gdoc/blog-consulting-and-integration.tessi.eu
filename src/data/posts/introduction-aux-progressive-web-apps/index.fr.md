@@ -5,7 +5,7 @@ image: /img/introduction_aux_progressive_web_app.png
 imageAlt: Introduction aux PWA
 path: introduction-aux-progressive-web-apps
 title: >-
-  Introduction aux Progressive Web Apps : avantages, développement et
+  Introduction aux Progressive Web Apps : Avantages, développement et
   opportunités
 description: >-
   Pourquoi les Progressive Web Apps sont-elles devenues l’un des éléments-clés
