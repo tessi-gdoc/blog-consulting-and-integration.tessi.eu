@@ -69,7 +69,7 @@ Malgré ce dernier point, la PWA reste un atout majeur dans votre communication 
 
 Vous êtes convaincu ? Alors passons au cahier des charges nécessaire au développement de votre PWA.
 
-## 02 / Le cachier des charges
+## 02 / Le cahier des charges
 
 Lorsqu'une application est progressive, elle ne demande pas directement des autorisations à l'utilisateur pour accéder à l'ensemble de ses fonctionnalités mais lui laisse le choix, en fonction des pages visitées. Par exemple, si on prend le cas de Google Maps, l'application ne vous demande pas, dès l'ouverture, l'activation de la géolocalisation mais elle vous propose plutôt un bouton pour créer un itinéraire depuis votre position vers une autre.
 
@@ -80,7 +80,7 @@ Une PWA doit supporter le principe **F.I.R.E** :
 * **Reliable (fiable) :** en utilisant un Service Worker correctement configuré pour manipuler les fichiers (HTML, CSS, JS, images...) distribués par le serveur. Avec cette approche, on veut éviter à tout prix, le problème du lie-fi. C'est ce moment où le réseau vous indique sur votre smartphone, une connexion stable alors que ce n'est pas le cas. De plus, l'application doit être servie via HTTPS pour éviter les fraudes lors des transactions client-serveur par formulaire.
 * **Engaging (engageante) :** en proposant une interface (UI) responsive (c'est-à-dire qui s'adapte à n'importe quel format: mobile, tablette, desktop) en mode plein écran, un réengagement facilité grâce à des push notifications et des mises à jour régulières du contenu.
 
-L'ensemble de ces fonctionnalités forment un cachier des charges précis. A cet effet, vous pouvez utiliser l'outil **Google Lighthouse** qui permet de vérifier cette checklist à votre place. Sur Chrome, vous pouvez effectuer cet audit depuis la console de votre navigateur. Celui-ci vous donnera une note entre 0 et 100 en fonction des performances, des bonnes pratiques, de l'accessibilité et du référencement (SEO) de votre application.
+L'ensemble de ces fonctionnalités forment un cahier des charges précis. A cet effet, vous pouvez utiliser l'outil **Google Lighthouse** qui permet de vérifier cette checklist à votre place. Sur Chrome, vous pouvez effectuer cet audit depuis la console de votre navigateur. Celui-ci vous donnera une note entre 0 et 100 en fonction des performances, des bonnes pratiques, de l'accessibilité et du référencement (SEO) de votre application.
 
 ## 03 / Passons au développement
 
@@ -149,13 +149,13 @@ if (workbox) {
 
 Ce petit script permet de servir tous les fichiers HTML, CSS, JS et images depuis le cache du navigateur. De plus, le Service Worker met à jour toutes ces ressources si besoin, à partir du réseau, en fond de tâche. On peut évidemment modifier l'expression régulière utilisée ici pour capturer d'autres types de fichier comme de la vidéo ou de l'audio.
 
-La gestion du cache n'est pas chose aisée. Elle dépend des ressources, de l'utilisation et du développement de votre application. Dans notre cas, Workbox effectue énormément de travail qui nous épargne l'utilisation de l'API [Cache](https://developer.mozilla.org/en-US/docs/Web/API/Cache). L'outil nous permet d'appliquer plusieurs [statégies](https://developers.google.com/web/tools/workbox/reference-docs/latest/workbox.strategies) en fonction des ressources à récupérer sur le serveur. Dans notre exemple, la stratégie `StaleWhileRevalidate` demande au Service Worker de récupérer les ressources depuis le cache et le réseau en parallèle. Si une ancienne version de ces ressources est déjà en cache, la stratégie va alors proposer de la servir au client. En parallèle, des requêtes HTTP essayent de récupérer une nouvelle version sur le serveur. Le cache est alors mis à jour avec la réponse du réseau pour chaque requête réussie.
+La gestion du cache n'est pas chose aisée. Elle dépend des ressources, de l'utilisation et du développement de votre application. Dans notre cas, Workbox effectue énormément de travail qui nous épargne l'utilisation de l'API [Cache](https://developer.mozilla.org/en-US/docs/Web/API/Cache). L'outil nous permet d'appliquer plusieurs [stratégies](https://developers.google.com/web/tools/workbox/reference-docs/latest/workbox.strategies) en fonction des ressources à récupérer sur le serveur. Dans notre exemple, la stratégie `StaleWhileRevalidate` demande au Service Worker de récupérer les ressources depuis le cache et le réseau en parallèle. Si une ancienne version de ces ressources est déjà en cache, la stratégie va alors proposer de la servir au client. En parallèle, des requêtes HTTP essayent de récupérer une nouvelle version sur le serveur. Le cache est alors mis à jour avec la réponse du réseau pour chaque requête réussie.
 
 Avec cette politique de cache et notre SW enregistré, nous rendons notre application beaucoup plus fiable et moins dépendante du réseau. Passons maintenant à l'intégration de notre future PWA...
 
 ### Web App Manifest
 
-La prochaine étape de développement c'est la mise en place d'un manifeste [W3C](https://w3c.github.io/manifest/) propre à la PWA. Il s'agit simplement d'un fichier *JSON* dans lequel on retouve les informations de l'application comme son nom, ses icônes, l'affichage en tant qu'application native etc... Ce manifeste autorise l'application à la lancée en mode plein écran (sans la barre d'adresse du navigateur `standalone`), gérer l'orientation de l'écran (forcer le lancement de l'application en mode `portrait`) et définir un Splash Screen (avec un logo, un nom et une couleur de fond). Dans le fichier JSON ci-dessous, on définit des icônes avec plusieurs tailles. L'image en *192x192px* sera utilisée en tant qu'icône de lancement sur l'écran d'accueil de votre smartphone. Quant à celle en *512x512px*, elle sera affichée sur le Splash Screen.
+La prochaine étape de développement c'est la mise en place d'un manifeste [W3C](https://w3c.github.io/manifest/) propre à la PWA. Il s'agit simplement d'un fichier *JSON* dans lequel on retrouve les informations de l'application comme son nom, ses icônes, l'affichage en tant qu'application native etc... Ce manifeste autorise l'application à la lancée en mode plein écran (sans la barre d'adresse du navigateur `standalone`), gérer l'orientation de l'écran (forcer le lancement de l'application en mode `portrait`) et définir un Splash Screen (avec un logo, un nom et une couleur de fond). Dans le fichier JSON ci-dessous, on définit des icônes avec plusieurs tailles. L'image en *192x192px* sera utilisée en tant qu'icône de lancement sur l'écran d'accueil de votre smartphone. Quant à celle en *512x512px*, elle sera affichée sur le Splash Screen.
 
 ```json:title=manifest.json
 {
