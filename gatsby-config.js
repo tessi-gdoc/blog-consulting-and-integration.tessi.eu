@@ -1,26 +1,13 @@
 const path = require('path');
 const { description } = require('./package.json');
 const { primary, secondary, lightGrey } = require('./src/styles/colors');
+const { defaultKey } = require('./gatsby-node');
 
 const cloud_id = `d33wubrfki0l68`;
 
 const setFeed = (locale, title, output) => {
   return {
-    serialize: ({ query: { site, allMarkdownRemark } }) =>
-      allMarkdownRemark.edges.map(
-        ({ node: { frontmatter, html, excerpt } }) => ({
-          title: frontmatter.title,
-          description: frontmatter.description || excerpt,
-          date: frontmatter.date,
-          categories: frontmatter.tags,
-          author: frontmatter.authors ? frontmatter.authors
-            .map(a => `${a.firstname} ${a.lastname}`)
-            .join(`, `) : 'Tatiana Corallo-Jackson',
-          url: site.siteMetadata.siteUrl + `/${locale}`,
-          guid: site.siteMetadata.siteUrl + `/${locale}`,
-          custom_elements: [{ 'content:encoded': html }]
-        })
-      ),
+    title,
     query: `
 {
   allMarkdownRemark(
@@ -38,27 +25,49 @@ const setFeed = (locale, title, output) => {
             firstname
             lastname
           }
+          link
+          path
           tags
-          date(formatString: "DD MMMM YYYY", locale: "${locale}")
+          date
         }
       }
     }
   }
 }
 `,
-    title,
     output,
     setup: ({
       query: {
         site: { siteMetadata }
       }
     }) => ({
-      title: siteMetadata.healine,
+      title,
       description: siteMetadata.defaultDescription,
       feed_url: siteMetadata.siteUrl + output,
       site_url: siteMetadata.siteUrl,
-      generator: siteMetadata.defaultTitle
-    })
+      generator: `GatsbyJS`
+    }),
+    serialize: ({ query: { site, allMarkdownRemark } }) =>
+      allMarkdownRemark.edges.map(
+        ({ node: { frontmatter, html, excerpt } }) => {
+          const baseUrl = `${site.siteMetadata.siteUrl}${
+            locale === defaultKey ? `` : `/${locale}`
+          }`;
+          return Object.assign({}, frontmatter, {
+            description: frontmatter.description || excerpt,
+            date: frontmatter.date,
+            categories: frontmatter.tags,
+            author: frontmatter.authors
+              ? frontmatter.authors
+                  .map(a => `${a.firstname} ${a.lastname}`)
+                  .join(`, `)
+              : 'Tatiana Corallo-Jackson',
+            url: frontmatter.link || `${baseUrl}${frontmatter.path}`,
+            guid: frontmatter.link || `${baseUrl}${frontmatter.path}`,
+            custom_elements: [{ 'content:encoded': html }]
+          });
+        }
+      )
   };
 };
 

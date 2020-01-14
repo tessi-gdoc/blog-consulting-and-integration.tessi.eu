@@ -2,28 +2,11 @@ const path = require(`path`);
 const { fmImagesToRelative } = require('gatsby-remark-relative-images');
 const locales = require(`./src/i18n`);
 const kebabCase = require(`lodash.kebabcase`);
-
-const localizeSlug = (isDefault, locale, slug) =>
-  isDefault ? slug : `/${locale}${slug}`;
-
-const removeTrailingSlash = path =>
-  path === `/` ? path : path.replace(/\/$/, ``);
-
-const findKey = (object, predicate) => {
-  let result;
-  if (object == null) {
-    return result;
-  }
-  Object.keys(object).some(key => {
-    const value = object[key];
-    if (predicate(value, key, object)) {
-      result = key;
-      return true;
-    }
-    return false;
-  });
-  return result;
-};
+const {
+  removeTrailingSlash,
+  defaultKey,
+  localizeSlug
+} = require(`./src/gatsby-helpers`);
 
 exports.onCreatePage = ({ page, actions }) => {
   const { createPage, deletePage } = actions;
@@ -55,10 +38,8 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 
   if (node.internal.type === `MarkdownRemark`) {
     const name = path.basename(node.fileAbsolutePath, `.md`);
-    const defaultKey = findKey(locales, o => o.default === true);
     const isDefault = name === `index.${defaultKey}`;
     const lang = isDefault ? defaultKey : name.split(`.`)[1];
-
     createNodeField({ name: `locale`, node, value: lang });
     createNodeField({ name: `isDefault`, node, value: isDefault });
   }
