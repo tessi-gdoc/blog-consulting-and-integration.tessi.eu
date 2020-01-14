@@ -1,7 +1,7 @@
 const path = require('path');
 const { description } = require('./package.json');
 const { primary, secondary, lightGrey } = require('./src/styles/colors');
-const { defaultKey } = require('./gatsby-node');
+const { defaultKey } = require('./src/gatsby-helpers');
 
 const cloud_id = `d33wubrfki0l68`;
 
