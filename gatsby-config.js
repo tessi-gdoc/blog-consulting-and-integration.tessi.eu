@@ -51,7 +51,7 @@ const setFeed = (locale, title, output) => {
       allMarkdownRemark.edges.map(
         ({ node: { frontmatter, html, excerpt } }) => {
           const baseUrl = `${site.siteMetadata.siteUrl}${
-            locale === defaultKey ? `` : `/${locale}`
+            locale === defaultKey ? `/` : `/${locale}/`
           }`;
           return Object.assign({}, frontmatter, {
             description: frontmatter.description || excerpt,
