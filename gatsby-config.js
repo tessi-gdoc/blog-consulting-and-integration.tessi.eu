@@ -50,9 +50,8 @@ const setFeed = (locale, title, output) => {
     serialize: ({ query: { site, allMarkdownRemark } }) =>
       allMarkdownRemark.edges.map(
         ({ node: { frontmatter, html, excerpt } }) => {
-          const baseUrl = `${site.siteMetadata.siteUrl}${
-            locale === defaultKey ? `/` : `/${locale}/`
-          }`;
+          const localeSegment = locale === defaultKey ? `` : `/${locale}`;
+          const postBaseUrl = `${site.siteMetadata.siteUrl}${localeSegment}/posts/`;
           return Object.assign({}, frontmatter, {
             description: frontmatter.description || excerpt,
             date: frontmatter.date,
@@ -62,8 +61,8 @@ const setFeed = (locale, title, output) => {
                   .map(a => `${a.firstname} ${a.lastname}`)
                   .join(`, `)
               : 'Tatiana Corallo-Jackson',
-            url: frontmatter.link || `${baseUrl}${frontmatter.path}`,
-            guid: frontmatter.link || `${baseUrl}${frontmatter.path}`,
+            url: frontmatter.link || `${postBaseUrl}${frontmatter.path}`,
+            guid: frontmatter.link || `${postBaseUrl}${frontmatter.path}`,
             custom_elements: [{ 'content:encoded': html }]
           });
         }
