@@ -9,9 +9,9 @@ title: >-
   opportunités
 description: >-
   Pourquoi les Progressive Web Apps sont-elles devenues l’un des éléments-clés
-  de la stratégie commerciale de Google ? Découvrez l'intérêt et le
-  développement de ces applications dans votre processus de communication
-  client.
+  de la stratégie commerciale de Google ? Découvrez les intérêts majeurs de ce
+  moyen de communication et les principes de développement de ce type
+  d’application mobile.
 date: 2020-01-06T17:03:48.051Z
 tags:
   - ccm
