@@ -71,8 +71,6 @@ Malgré ce dernier point, la PWA reste un atout majeur dans votre communication 
 
 ## 02 / Le cahier des charges
 
-Lorsqu'une application est progressive, elle ne demande pas directement des autorisations à l'utilisateur pour accéder à l'ensemble de ses fonctionnalités mais lui laisse le choix, en fonction des pages visitées. Par exemple, si on prend le cas de Google Maps, l'application ne vous demande pas, dès l'ouverture, l'activation de la géolocalisation mais elle vous propose plutôt un bouton pour créer un itinéraire depuis votre position vers une autre.
-
 Une PWA doit supporter le principe **F.I.R.E** :
 
 * **Fast (performante) :** en intégrant un [App-Shell](https://developers.google.com/web/fundamentals/architecture/app-shell) à vos pages, en réduisant la taille de vos fichiers, en optimisant et compressant ces images, en suivant le pattern [PRPL](https://developers.google.com/web/fundamentals/performance/prpl-pattern/)... Il faut que l'application charge une faible quantité de données côté serveur et son utilisation doit rester fluide malgré les animations ou les utilisations d'API HTML5.
