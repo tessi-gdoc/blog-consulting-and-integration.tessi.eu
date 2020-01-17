@@ -16,13 +16,12 @@ date: 2020-01-06T17:03:48.051Z
 tags:
   - ccm
 authors:
-  - avatar: /img/avatar_default.png
+  - avatar: /img/mag.jpg
     firstname: Mathieu
     lastname: Gauthier
 introduction: >-
-  Pourquoi les Progressive Web Apps sont-elles devenues l’un des éléments-clés  
+  Pourquoi les Progressive Web Apps sont-elles devenues l’un des éléments-clés
   de la stratégie commerciale de Google ?
-
 
 
   Les pays émergents sont aujourd’hui de grands consommateurs d'Internet. En
@@ -34,7 +33,6 @@ introduction: >-
   [USSD](https://fr.wikipedia.org/wiki/Unstructured_Supplementary_Service_Data)
   pour accéder à leur compte bancaire ou à Internet, ce qui rend l’implantation
   de Google d’autant plus compliquée.
-
 
 
   Aujourd’hui, on est capable de fabriquer un smartphone pour seulement 10 à 15
@@ -49,25 +47,27 @@ introduction: >-
 ---
 ## 01 / PWA vs Native App
 
-A priori, la stratégie de Google se base uniquement sur la proposition d'une nouvelle offre dans les pays émergents. Mais quel serait l'intérêt d'une PWA dans un pays fortement industrialisé ? Les capacités des smartphones en Europe sont bien assez suffisantes pour installer de nombreuses applications natives. Alors pourquoi ne pas développer une application native ?
+A priori, la stratégie de Google se base uniquement sur la proposition d'une nouvelle offre dans les pays émergents. Mais quel serait l'intérêt d'une PWA dans un pays fortement industrialisé ? Les capacités des smartphones en Europe sont bien assez suffisantes pour installer de nombreuses applications natives. Alors pourquoi songer à privilégier le développement d'une PWA au lieu d'une application native.
 
 Plusieurs réponses sont valables :
 
-* **La distribution des applications natives c'est compliqué !** Pour qu'un de vos clients utilise votre application, il faut le convaincre d'aller la télécharger (depuis un store ou votre site), puis de l'installer (prendre une partie plus ou moins volumineuse de sa capacité de stockage) et enfin, de l'inciter à l'utiliser et à y rester. Cela demande beaucoup d'efforts et un coût d'acquisition élevé (10 fois plus qu'une PWA d'après une étude lancée par la startup portugaise Selio).
-* **Le côut de production d'une PWA est très faible.** Au lieu de mobiliser plusieurs équipes de développeurs pour la réalisation d'une application iOS, Android et d'un site web, le développement d'une Progressive Web App ne nécessite qu'une seule équipe.
+* **La distribution des applications natives est compliqué.** Pour qu'un de vos clients utilise votre application, il faut le convaincre d'aller la télécharger depuis un store ou votre site web, puis de l'installer (autrement-dit prendre une partie plus ou moins volumineuse de la capacité de stockage de son smartphone) et enfin, de l'inciter à l'utiliser et à y revenir. Cela demande beaucoup d'efforts, et un coût d'acquisition qui, selon la startup Portugaise Selio, serait 10 fois plus élevé que pour une PWA.
+* **Le côut de production d'une PWA est très faible.** Au lieu de mobiliser plusieurs équipes de développeurs pour la réalisation d'une application native iOS, Android ou d'un site web, le développement d'une Progressive Web App ne nécessite qu'une seule équipe.
 * **La PWA améliore l'engagement des utilisateurs.** De nombreuses entreprises ont décidé de créer ou de migrer vers des PWA pour améliorer leur taux d'engagement. On peut citer Twitter avec sa PWA [Twitter Lite](https://mobile.twitter.com/home), Uber, Trivago, New York Times et évidemment, Google avec Maps Go, Photos, Google +... Vous pouvez retrouver sur le site [PwaStats](https://www.pwastats.com/) les statistiques commerciales des PWA de certaines de ces entreprises et bien d'autres.
-* **La PWA peut rivaliser avec une application native.** En fonction de vos besoins, il est possible d'obtenir des résultats très satisfaisants en matière de performance. Grâce aux HTML5 APIs, les PWA arrivent aujourd'hui à utiliser des fonctionnalités propres aux applications natives mais en abuser risque de baisser le *framerate* (taux d'images par seconde) de votre web app. On peut reprendre l'exemple de Twitter Lite. Selon leur Engineering Lead, Nicolas Gallagher:
+* **La PWA peut rivaliser avec une application native.** En fonction de vos besoins, il est possible d'obtenir des résultats très satisfaisants en matière de performance. Nicolas Gallagher, Engineer Lead de Twitter Lite confie :  
 
   > *Twitter Lite is now the fastest, least expensive, and most reliable way to use Twitter. The web app rivals the performance of our native apps but requires less than 3% of the device storage space compared to Twitter for Android*
+
+  D'un point de vu fonctionnelle, les PWA arrivent également aujourd'hui à utiliser des fonctionnalités propres aux applications natives grâce aux HTML5 APIs.
 * **Faible consommation de données.** Une application native peut consommer plusieurs dizaines de MB voire GB de data (par exemple, il n'est pas rare d'obtenir un cache de plusieurs GB pour l'application mobile Facebook). Pour une PWA, le serveur distribue uniquement des fichiers HTML, CSS et Javascript *compressés et minifiés* de manière à réduire considérablement la taille de l'application mais aussi du cache. Dans le cas de Twitter, la Progressive Web App ne fait que 600KB contre 23.5MB pour l'application Android. **Mais...**
 
-il est indéniable que la PWA à son niveau actuel ne remplace pas l'application mobile, dû à son manque de fonctionnalités natives supportées par l'OS de nos smartphones (et plus particulièrement par iOS). De plus, l'évolutivité du marché de la PWA chez Apple parait compromise en raison d'un manque à gagner sur la "App Store Tax" de 30% (uniquement applicable aux applications natives présentes sur le App Store).
+il est indéniable que la PWA à son niveau actuel ne remplace pas l'application mobile telle qu'on l'a connaît, dû à son manque de fonctionnalités natives supportées par l'OS de nos smartphones (et plus particulièrement par iOS). De plus, l'évolutivité du marché de la PWA chez Apple parait compromise en raison d'un manque à gagner sur la "App Store Tax" de 30% (uniquement applicable aux applications natives présentes sur le App Store).
 
 Cependant, en Mars 2019, l'entreprise a fait un effort avec la sortie de iOS 11.3 et Safari 13. Un utilisateur d'iPhone peut dorénavant supporter une partie des fonctionnalités des Progressive Web Apps mais cela reste encore très lacunaire.
 
 Malgré ce dernier point, la PWA reste un atout majeur dans votre communication client et peut nettement améliorer l'engagement de vos utilisateurs, même sur Safari et Internet Explorer.
 
-Vous êtes convaincu ? Alors passons au cahier des charges nécessaire au développement de votre PWA.
+***Vous êtes convaincu ? Alors passons au cahier des charges nécessaire au développement de votre PWA.***
 
 ## 02 / Le cahier des charges
 
@@ -78,7 +78,9 @@ Une PWA doit supporter le principe **F.I.R.E** :
 * **Fast (performante) :** en intégrant un [App-Shell](https://developers.google.com/web/fundamentals/architecture/app-shell) à vos pages, en réduisant la taille de vos fichiers, en optimisant et compressant ces images, en suivant le pattern [PRPL](https://developers.google.com/web/fundamentals/performance/prpl-pattern/)... Il faut que l'application charge une faible quantité de données côté serveur et son utilisation doit rester fluide malgré les animations ou les utilisations d'API HTML5.
 * **Integrated (intégrée) :** grâce aux manifestes W3C et à l'installation du Service Worker (gestionnaire de cache). Ces éléments permettent aux navigateurs de trouver rapidement votre web app et de la proposer en tant qu'application installable sur l'écran d'accueil sans passer par un app store.
 * **Reliable (fiable) :** en utilisant un Service Worker correctement configuré pour manipuler les fichiers (HTML, CSS, JS, images...) distribués par le serveur. Avec cette approche, on veut éviter à tout prix, le problème du lie-fi. C'est ce moment où le réseau vous indique sur votre smartphone, une connexion stable alors que ce n'est pas le cas. De plus, l'application doit être servie via HTTPS pour éviter les fraudes lors des transactions client-serveur par formulaire.
-* **Engaging (engageante) :** en proposant une interface (UI) responsive (c'est-à-dire qui s'adapte à n'importe quel format: mobile, tablette, desktop) en mode plein écran, un réengagement facilité grâce à des push notifications et des mises à jour régulières du contenu.
+* **Engaging (engageante) :** en proposant une interface responsive (c'est-à-dire qui s'adapte à n'importe quel format: mobile, tablette, desktop). Grâce à des push notifications et des mises à jour régulières du contenu invitant l'utilisateur à revenir sur l'app. En limitant à certaines pages/actions sur l'application les demandes d'autorisations pour accéder aux fonctionnalités du smartphone comme Google Maps par exemple.
+
+  L'application Google Maps ne vous demande pas, dès l'ouverture, l'activation de la géolocalisation. En revanche, si vous souhaitez créer un itinéraire depuis votre position, l'application vous demandera votre autorisation pour activer la géolocalisation. La demande étant contextualisée, elle semble moins intrusive et l'utilisateur est donc plus à même d'accepter.
 
 L'ensemble de ces fonctionnalités forment un cahier des charges précis. A cet effet, vous pouvez utiliser l'outil **Google Lighthouse** qui permet de vérifier cette checklist à votre place. Sur Chrome, vous pouvez effectuer cet audit depuis la console de votre navigateur. Celui-ci vous donnera une note entre 0 et 100 en fonction des performances, des bonnes pratiques, de l'accessibilité et du référencement (SEO) de votre application.
 
@@ -213,7 +215,7 @@ Dorénavant, votre application peut s'installer sur votre écran d'accueil de sm
 Google Chrome (et maintenant Firefox) sur Android, affiche automatiquement une bannière sur votre site pour indiquer qu'il peut être intégré comme une application native. Toutefois, votre site doit respecter les points suivants :
 
 * Avoir un manifest W3C valide
-* L'ensemble de ses ressources doivent être servi sur du HTTPS ([letsencrypt](https://letsencrypt.org/) propose, par ailleurs, des certificats gratuits)
+* L'ensemble de ses ressources doivent être servi sur du HTTPS ([](https://letsencrypt.org/)[Certigna](https://www.certigna.com/), tiers de confiance européen du groupe Tessi, proprose des certificats hautement sécurisés, certifiés RGS/eIDAS).
 * Avoir un Service Worker valide et enregistré
 * Être visité deux fois, avec au moins 5 minutes entre chaque visite
 
@@ -223,7 +225,7 @@ Une autre solution serait de proposer votre propre bannière avec les explicatio
 
 ![Progressive Web App](/img/pwa_bg.jpg "Exemple de PWA avec le blog Tessi Customer Journey")
 
-Chez [Tessi](https://www.tessi.eu/solution/technologies/consulting-and-integration/), nous proposons des solutions de traitement et gestion documentaire qui nous permettent de composer, de produire et délivrer massivement des modèles de document (maquettes) statiques et personnalisés en fonction du client. Certains de ces logiciels intègrent des modules de composition de documents dynamiques*.* En d'autres termes, il s'agit de générer, à partir d'un ou plusieurs flux de données, une collection d'applications rendues uniquement côté client. L'outil utilise un *framework* de création d'interface utilisateur, basé sur une architecture de composants : [Bobril](https://github.com/Bobris/Bobril)). Cela permet d'utiliser le logiciel simplement en intégrant des blocs (tableau, image, diagrammes, contenu textuel...) dans une interface de conception.
+Chez [Tessi](https://www.tessi.eu/solution/technologies/consulting-and-integration/), nous proposons des solutions de traitement et gestion documentaire permettant de composer, de produire et de délivrer des modèles de document (maquettes) en volume et personnalisées en fonction du client. Certains de ces logiciels intègrent des modules de composition de documents dynamiques*.* En d'autres termes, il s'agit de générer, à partir d'un ou plusieurs flux de données, une collection d'applications rendues uniquement côté client. L'outil utilise un *framework* de création d'interface utilisateur, basé sur une architecture de composants : [Bobril](https://github.com/Bobris/Bobril)). Cela permet d'utiliser le logiciel simplement en intégrant des blocs (tableau, image, diagrammes, contenu textuel...) dans une interface de conception.
 
 **La complexité dans tout cela, c'est la livraison...**
 
@@ -231,4 +233,4 @@ Un *document dynamique* est généré sous la forme d'un seul fichier HTML, enca
 
 Cependant, il peut être particulièrement intéressant pour délivrer ce type de document d'utiliser les fonctionnalités d'une PWA. Il est tout à fait imaginable de développer un tableau de bord regroupant l'ensemble des documents dynamiques d'un utilisateur, les rendant accessibles et sécurisés par un portail web. Au moment de la première consultation d'un document, le client peut alors l'ajouter comme une application native sur son écran d'accueil, grâce à une bannière, et profiter des capacités *offline* de son document. Un système de *push notifications* peut alors être intégré pour informer l'utilisateur d'une nouvelle livraison. La fluidité de ce processus permet d'améliorer, auprès du client, l'expérience utilisateur et par conséquent son engagement.
 
-***En conclusion, il n'est pas difficile aujourd'hui de développer, tester et mettre en production une Progressive Web App. Dans de nombreux cas d'utilisation, elle permet d'optimiser l'expérience utilisateur comme on a pu le voir avec les documents dynamiques par exemple. De plus, la PWA a gagné en popularité dans les entreprises spécialisées dans le développement logiciel. Certaines personnes préfèrent même remplacer leurs applications natives de réseaux sociaux avec leur version PWA. Leur objectif est de gagner de l'espace de stockage sur leur téléphone pour laisser la place à des applications plus importantes et plus volumineuses. C'est d'ailleurs la principale raison du développement de Twitter Lite.***
+***En conclusion, la PWA est une alternative aux applications natives à considérer. Elle dispose d'atouts indéniables dont une facilitée de développement et permet dans de nombreux cas d'utilisation l'amélioration de l'expérience utilisateur. C'est pourquoi la PWA a gagné en popularité dans les entreprises spécialisées dans le développement logiciel. Il est de plus en plus commun de remplacer ses applications natives avec leur version PWA pour gagner en espace de stockage et ainsi laisser la place à des applications plus importantes et plus volumineuses.***
