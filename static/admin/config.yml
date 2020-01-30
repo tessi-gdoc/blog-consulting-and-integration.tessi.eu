@@ -72,7 +72,7 @@ collections:
                 widget: 'boolean'
                 default: true
   - name: 'translations'
-    label: 'Translations'
+    label: 'Traductions'
     format: 'json'
     delete: false
     editor:
@@ -426,9 +426,7 @@ collections:
     label: 'Actualités'
     label_singular: 'Actualité'
     folder: 'src/data/news'
-    path: '{{slug}}/index.{{lang}}.md'
-    media_folder: static/img
-    public_folder: /img
+    slug: '{{title}}/index.{{lang}}'
     create: true
     editor:
       preview: false
@@ -461,7 +459,7 @@ collections:
     label: 'Blog'
     label_singular: 'Article'
     folder: 'src/data/posts'
-    path: '{{slug}}/index.{{lang}}.md'
+    slug: '{{title}}/index.{{lang}}'
     create: true
     editor:
       preview: false
@@ -548,9 +546,9 @@ collections:
         }
   - name: 'kits'
     label: 'Kits'
-    label_singular: 'kit'
+    label_singular: 'Kit'
     folder: 'src/data/kits'
-    path: '{{slug}}/index.{{lang}}.md'
+    slug: '{{title}}/index.{{lang}}'
     create: true
     editor:
       preview: false
@@ -585,9 +583,9 @@ collections:
         }
   - name: 'whitepapers'
     label: 'Livres blancs'
-    label_singular: 'whitepaper'
+    label_singular: 'Livre blanc'
     folder: 'src/data/whitepapers'
-    path: '{{slug}}/index.{{lang}}.md'
+    slug: '{{title}}/index.{{lang}}'
     create: true
     editor:
       preview: false
@@ -626,10 +624,10 @@ collections:
           default: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
         }
   - name: 'case-studies'
-    label: 'Case Studies'
-    label_singular: 'case study'
+    label: 'Etudes de cas'
+    label_singular: 'Etude de cas'
     folder: 'src/data/case-studies'
-    path: '{{slug}}/index.{{lang}}.md'
+    slug: '{{title}}/index.{{lang}}'
     create: true
     editor:
       preview: false
@@ -668,10 +666,10 @@ collections:
           default: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
         }
   - name: 'videos'
-    label: 'Videos'
-    label_singular: 'video'
+    label: 'Vidéos'
+    label_singular: 'Vidéo'
     folder: 'src/data/videos'
-    path: '{{slug}}/index.{{lang}}.md'
+    slug: '{{title}}/index.{{lang}}'
     create: true
     editor:
       preview: false
@@ -710,10 +708,10 @@ collections:
           default: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
         }
   - name: 'notices'
-    label: 'Notices and policies'
-    label_singular: 'notice'
+    label: 'Mentions et politiques'
+    label_singular: 'Mention ou politique'
     folder: 'src/data/notices'
-    path: '{{slug}}/index.{{lang}}.md'
+    slug: '{{title}}/index.{{lang}}'
     create: true
     editor:
       preview: false

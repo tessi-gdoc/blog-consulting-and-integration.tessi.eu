@@ -262,7 +262,8 @@ module.exports = {
       resolve: `gatsby-plugin-netlify-cms`,
       options: {
         htmlFavicon: `static/icons/favicon.png`,
-        htmlTitle: `Admin | Tessi#Journey`
+        htmlTitle: `Admin | Tessi#Journey`,
+        modulePath: `${__dirname}/src/cms/cms.js`,
       }
     },
     {
