@@ -25,7 +25,7 @@ introduction: >-
   à la 2G/3G et le coût de la data est élevé. Difficile alors d’installer des
   applications natives gourmandes en stockage et nécessitant une connexion
   Internet pour leur bon fonctionnement. C’est pourquoi, pour faciliter son
-  implantation dans ces pays en voie de développement, Google n’avait d’autre
+  implantation dans ces pays en voie de développement, Google n’avait d’autres
   choix que d’opter pour une nouvelle solution technologique afin de s’adapter
   au marché. La multinationale prend alors la décision d'investir dans le
   développement d'applications web légères, rapides, installables et
