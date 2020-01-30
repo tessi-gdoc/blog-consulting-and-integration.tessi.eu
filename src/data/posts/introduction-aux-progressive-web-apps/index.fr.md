@@ -58,7 +58,7 @@ Il est indéniable que la PWA à son niveau actuel ne remplace pas l'application
 
 Pour autant, en Mars 2019, Apple a fait un effort avec la sortie de iOS 11.3 et Safari 13. Un utilisateur d'iPhone peut dorénavant supporter une partie des fonctionnalités des Progressive Web Apps.
 
-En effet, difficile de complètement fermer la porte aux Progressive Web Apps, à présent largement adoptées par les entreprises et les particuliers. Elles font preuves de nombreux avantages et représentent notamment un atout majeur pour vos communications client,capable de nettement améliorer l'engagement de vos utilisateurs qu’ils soient adeptes de Safari, Internet Explorer,ou bien Chrome évidemment.
+En effet, difficile de complètement fermer la porte aux Progressive Web Apps, à présent largement adoptées par les entreprises et les particuliers. En addition des avantages évoqués plus haut, elles représentent notamment un atout majeur pour vos communications client, capable de nettement améliorer l'engagement de vos utilisateurs qu’ils soient adeptes de Safari, Internet Explorer, ou bien Chrome évidemment.
 
 ## 02 / Les Progressive Web Apps pour vos communications commerciales
 
