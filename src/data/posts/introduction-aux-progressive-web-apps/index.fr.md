@@ -54,7 +54,7 @@ D'un point de vu fonctionnelle, les PWA arrivent également aujourd'hui à utili
 
 ### Progressive Web Apps sur iOS : Apple tente de résister
 
-Il est indéniable que la PWA à son niveau actuel ne remplace pas l'application mobile telle qu'on l'a connaît, dû à son manque de fonctionnalités natives supportées par l'OS de nos smartphones et plus particulièrement par iOS. De plus, l'évolutivité du marché de la PWA chez Apple parait compromise en raison d'un manque à gagner sur la "App StoreTax" de 30%. En effet, cette taxe étant applicable uniquement aux applications sur l’App Store et donc aux applications natives, la PWA s’en est affranchit.
+Il est indéniable que la PWA à son niveau actuel ne remplace pas l'application mobile telle qu'on l'a connaît, dû à son manque de fonctionnalités natives supportées par l'OS de nos smartphones et plus particulièrement par iOS. De plus, l'évolutivité du marché de la PWA chez Apple parait compromise en raison d'un manque à gagner sur la "App StoreTax" de 30%. En effet, cette taxe étant applicable uniquement aux applications sur l’App Store et donc aux applications natives, la PWA s’en est affranchie.
 
 Pour autant, en Mars 2019, Apple a fait un effort avec la sortie de iOS 11.3 et Safari 13. Un utilisateur d'iPhone peut dorénavant supporter une partie des fonctionnalités des Progressive Web Apps.
 
