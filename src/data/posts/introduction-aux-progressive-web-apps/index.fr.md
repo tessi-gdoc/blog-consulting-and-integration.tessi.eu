@@ -29,9 +29,9 @@ introduction: >-
   choix que d’opter pour une nouvelle solution technologique afin de s’adapter
   au marché. La multinationale prend alors la décision d'investir dans le
   développement d'applications web légères, rapides, installables et
-  indépendantes de la qualité du réseau : laProgressive Web App (PWA). Regardons
-  de plus près les avantages de ce type d’application mobile et leurs principes
-  de développement.
+  indépendantes de la qualité du réseau : la Progressive Web App (PWA).
+  Regardons de plus près les avantages de ce type d’application mobile et leurs
+  principes de développement.
 ---
 ## 01/ Les Progressive Web Apps : une alternative aux applications natives à considérer
 
