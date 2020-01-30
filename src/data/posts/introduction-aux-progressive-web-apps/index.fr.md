@@ -2,7 +2,7 @@
 lang: fr
 key: blog-post
 image: /img/introduction_aux_progressive_web_app.png
-imageAlt: Introduction aux Progressive web apps
+imageAlt: Introduction aux PWA
 path: introduction-aux-progressive-web-apps
 title: >-
   Introduction aux Progressive Web Apps : Avantages, développement et
