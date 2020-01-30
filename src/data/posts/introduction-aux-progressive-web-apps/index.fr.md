@@ -18,20 +18,20 @@ authors:
     firstname: Mathieu
     lastname: Gauthier
 introduction: >-
-  Les Progressive Web Apps sont uneinventionde Google. Initialement, elles
-  étaient destinées aux pays émergents, grands consommateurs d’Internetmaisoù
-  les smartphonesutiliséssontloin d’être aussi performantsque ceux que nous
-  connaissons.Leurmémoireesttrès limitée.De plus, la couverture réseau en est
-  encore à la 2G/3G et le coût de la data est élevé.Difficile alors d’installer
-  des applications natives gourmandesen stockageet nécessitant une connexion
-  Internet pour leur bon fonctionnement.C’est pourquoi,pour faciliter
-  sonimplantation dans ces pays en voie de développement,Google n’avait d’autre
-  choix que d’opter pour une nouvelle solution technologiqueafindes’adapterau
-  marché.La multinationale prend alors la décision d'investir dans le
-  développement d'applications web légères, rapides, installables et
-  indépendantes de la qualité duréseau:laProgressiveWeb App (PWA).Regardons de
-  plus près les avantages de ce type d’application mobile et leurs principes de
-  développement.
+  Les Progressive Web Apps sont une invention de Google. Initialement, elles
+  étaient destinées aux pays émergents, grands consommateurs d’Internet mais où
+  les smartphones utilisés sont loin d’être aussi performants que ceux que nous
+  connaissons. Leur mémoire est très limitée. De plus, la couverture réseau en
+  est encore à la 2G/3G et le coût de la data est élevé. Difficile alors
+  d’installer des applications natives gourmandes en stockage et nécessitant une
+  connexion Internet pour leur bon fonctionnement. C’est pourquoi, pour
+  faciliter son implantation dans ces pays en voie de développement, Google
+  n’avait d’autre choix que d’opter pour une nouvelle solution technologique
+  afin de s’adapter au marché. La multinationale prend alors la décision
+  d'investir dans le développement d'applications web légères, rapides,
+  installables et indépendantes de la qualité du réseau : laProgressive Web App
+  (PWA). Regardons de plus près les avantages de ce type d’application mobile et
+  leurs principes de développement.
 ---
 ## 01/ Les Progressive Web Apps : une alternative aux applications natives à considérer
 
