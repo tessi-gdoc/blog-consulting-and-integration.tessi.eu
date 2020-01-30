@@ -383,6 +383,7 @@ export const pageQuery = graphql`
             }
           }
         }
+        imageAlt
         authors {
           firstname
           lastname
