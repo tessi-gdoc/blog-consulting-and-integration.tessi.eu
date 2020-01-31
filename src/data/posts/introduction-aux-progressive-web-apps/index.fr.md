@@ -68,7 +68,7 @@ Chez [Tessi](https://www.tessi.eu/solution/technologies/consulting-and-integrati
 
 Un "*document dynamique"* est généré sous la forme d'un seul fichier HTML, encapsulant Javascript, CSS et images (encodées en base 64). Contrairement à un document statique (PDF par exemple), la livraison d'un fichier HTML ne peut se faire via mail ou un téléchargement sur un site. L'expérience client ne serait pas au rendez-vous.
 
-Cependant, il peut être particulièrement intéressant d’utiliser les fonctionnalités d’une PWA pour délivrer ce type de document. Il est tout à fait imaginable de développer un tableau de bord regroupant l'ensemble des documents dynamiques d'un utilisateur, les rendant accessibles et sécurisés via un portail web. Au moment de la première consultation d'un document, le client peut alors l'ajouter comme une application native sur son écran d'accueil, grâce à une bannière, et profiter des capacités offline de son document. Un système de push notifications peut alors être intégré pour informer l'utilisateur d'une nouvelle livraison. La fluidité de ce processus permet d'améliorer, auprès du client, l'expérience utilisateur et par conséquent son engagement.
+Cependant, il peut être particulièrement intéressant d’utiliser les fonctionnalités d’une PWA pour délivrer ce type de document. Il est tout à fait imaginable de développer un tableau de bord regroupant l'ensemble des *"documents dynamiques"* d'un utilisateur, les rendant accessibles et sécurisés via un portail web. Au moment de la première consultation d'un document, le client peut alors l'ajouter comme une application native sur son écran d'accueil, grâce à une bannière, et profiter des capacités offline de son document. Un système de push notifications peut alors être intégré pour informer l'utilisateur d'une nouvelle livraison. La fluidité de ce processus permet d'améliorer, auprès du client, l'expérience utilisateur et par conséquent son engagement.
 
 ## 03 / Tutoriel : comment développer une Progressive Web App ?
 
@@ -78,7 +78,7 @@ Une PWA est réussie lorsqu’elle respecte les principes F.I.R.E (fiable, inté
 
 * **FAST** 
 
-  Vous pouvez rendre votrePWA **performante** en intégrant un [App-Shell](https://developers.google.com/web/fundamentals/architecture/app-shell) à vos pages, en réduisant la taille de vos fichiers, en optimisant et compressant les images, en suivant le pattern [PRPL](https://developers.google.com/web/fundamentals/performance/prpl-pattern/)... L'objectif est que l'application ne charge qu’une faible quantité de données côté serveur et que son utilisation reste fluide malgré les animations ou les utilisations d'API HTML5.
+  Vous pouvez rendre votre PWA **performante** en intégrant un [App-Shell](https://developers.google.com/web/fundamentals/architecture/app-shell) à vos pages, en réduisant la taille de vos fichiers, en optimisant et compressant les images, en suivant le pattern [PRPL](https://developers.google.com/web/fundamentals/performance/prpl-pattern/)... L'objectif est que l'application ne charge qu’une faible quantité de données côté serveur et que son utilisation reste fluide malgré les animations ou les utilisations d'API HTML5.
 * **INTEGRATED**
 
   Une progressive web app est dite **intégrée** lorsque les navigateurs sont capables de trouver rapidement votre web app et de la proposer en tant qu’application installable sur l’écran d’accueil sans passer par un app store. Cela est rendu possible grâce aux manifestes W3C et à l'installation du Service Worker (gestionnaire de cache).
@@ -87,7 +87,7 @@ Une PWA est réussie lorsqu’elle respecte les principes F.I.R.E (fiable, inté
   Pour qu'une Progressive Web App soit considérée comme **fiable**, il faut éviter à tout prix de se heurter au problème du lie-fi. C’est ce moment où le réseau indique sur votre smartphone une connexion stable alors que ce n'est pas le cas. Parer à ce désagrément nécessite d’utiliser un Service Worker correctement configuré pour manipuler les fichiers (HTML, CSS, JS, images...). De plus, il faut que votre application soit servie via HTTPS pour éviter les fraudes lors des transactions client-serveur par formulaire.
 * **ENGAGING**
 
-  Votre PWA sera **engageante** si elle est responsive, c’est-à-dire qu'elle s’adapte à n’importe quel format : mobile, tablette, desktop. Il est également conseillé de mettre votre contenu régulièrement à jour et envoyer des notifications push pour inviter les utilisateurs à revenir. Enfin, il est possible de limiter les demandes d’accès à des fonctionnalités de votre smartphone à certaines pages seulement. Par exemple,Google Maps ne vous demande pas, dès l'ouverture de celle-ci, les autorisations d’accès dont elle a besoin pour pleinement fonctionner (ce que font les applications natives). En l’occurrence, Google maps peut avoir besoin d’activer la fonctionnalité de géolocalisation de votre smartphone. Mais elle ne vous demandera cette autorisation que lorsque vous aurez besoin d’un itinéraire depuis votre position. L'utilisateur comprend alors l’objet de la demande. Cette dernière étant contextualisée, elle semble moins intrusive. Ainsi, l’utilisateur est plus à même d'accepter.
+  Votre PWA sera **engageante** si elle est responsive, c’est-à-dire qu'elle s’adapte à n’importe quel format : mobile, tablette, desktop. Il est également conseillé de mettre votre contenu régulièrement à jour et envoyer des notifications push pour inviter les utilisateurs à revenir. Enfin, il est possible de limiter les demandes d’accès à des fonctionnalités de votre smartphone à certaines pages seulement. Par exemple, Google Maps ne vous demande pas, dès l'ouverture de celle-ci, les autorisations d’accès dont elle a besoin pour pleinement fonctionner (ce que font les applications natives). En l’occurrence, Google maps peut avoir besoin d’activer la fonctionnalité de géolocalisation de votre smartphone. Mais elle ne vous demandera cette autorisation que lorsque vous aurez besoin d’un itinéraire depuis votre position. L'utilisateur comprend alors l’objet de la demande. Cette dernière étant contextualisée, elle semble moins intrusive. Ainsi, l’utilisateur est plus à même d'accepter.
 
 L'ensemble de ces fonctionnalités forment un cahier des charges précis. A cet effet, vous pouvez utiliser l'outil Google Lighthouse qui permet de vérifier cette checklist à votre place. Sur Chrome, vous pouvez effectuer cet audit depuis la console de votre navigateur. Celui-ci vous donnera une note entre 0 et 100 en fonction des performances, des bonnes pratiques, de l'accessibilité et du référencement (SEO) de votre application.
 
@@ -145,6 +145,8 @@ importScripts(
   'https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js'
 );
 if (workbox) {
+  console.log(`Super ! Workbox est chargé 🎉`);
+  
   workbox.routing.registerRoute(
     /\.(?:html|js|css|png|jpg|jpeg|svg|gif)$/,
     new workbox.strategies.StaleWhileRevalidate()
