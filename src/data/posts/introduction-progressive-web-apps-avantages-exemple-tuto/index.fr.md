@@ -4,8 +4,7 @@ key: blog-post
 image: /img/introduction_aux_progressive_web_app.png
 imageAlt: Introduction aux Progressive Web Apps
 path: introduction-progressive-web-apps-avantages-exemple-tuto
-title: >-
-  Introduction aux Progressive Web Apps : Avantages et développement
+title: 'Introduction aux Progressive Web Apps : Avantages et développement'
 description: >-
   Pourquoi les Progressive Web Apps sont-elles devenues l’un des éléments-clés
   de la stratégie commerciale de Google ? Découvrez les avantages d’une
