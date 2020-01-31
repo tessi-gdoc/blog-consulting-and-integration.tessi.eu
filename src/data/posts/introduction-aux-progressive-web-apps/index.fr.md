@@ -48,13 +48,13 @@ Plusieurs réponses sont valables :
 
 > Twitter Lite is now the fastest, least expensive, and most reliable way to use Twitter. The web apprivals the performance of our native apps but requires less than 3% of the device storage space compared to Twitter for Android.
 
-D'un point de vu fonctionnelle, les PWA arrivent également aujourd'hui à utiliser des fonctionnalités propres aux applications natives grâce aux HTML5 APIs.
+D'un point de vue fonctionnel, les PWA arrivent également aujourd'hui à utiliser des fonctionnalités propres aux applications natives grâce aux HTML5 APIs.
 
 * **Faible consommation de données.** Une application native peut consommer plusieurs dizaines de MB voire GB de data (par exemple, il n'est pas rare d'obtenir un cache de plusieurs GB pour l'application mobile Facebook). Pour une PWA, le serveur distribue uniquement des fichiers HTML, CSS et Javascript compressés et minifiés de manière à réduire considérablement la taille de l'application mais aussi du cache. Dans le cas de Twitter, la Progressive Web App ne fait que 600KB contre 23.5MB pour l'application Android.
 
 ### Progressive Web Apps sur iOS : Apple tente de résister
 
-Il est indéniable que la PWA à son niveau actuel ne remplace pas l'application mobile telle qu'on l'a connaît, dû à son manque de fonctionnalités natives supportées par l'OS de nos smartphones et plus particulièrement par iOS. De plus, l'évolutivité du marché de la PWA chez Apple parait compromise en raison d'un manque à gagner sur la "App StoreTax" de 30%. En effet, cette taxe étant applicable uniquement aux applications sur l’App Store et donc aux applications natives, la PWA s’en est affranchie.
+Il est indéniable que la PWA à son niveau actuel ne remplace pas l'application mobile telle qu'on la connaît. Cela est dû à son manque de fonctionnalités natives supportées par l'OS de nos smartphones et plus particulièrement par iOS. De plus, l'évolutivité du marché de la PWA chez Apple parait compromise en raison d'un manque à gagner sur la *"App StoreTax"* de 30%. En effet, cette taxe étant applicable uniquement aux applications sur l’App Store et donc aux applications natives, la PWA s’en est affranchie.
 
 Pour autant, en Mars 2019, Apple a fait un effort avec la sortie de iOS 11.3 et Safari 13. Un utilisateur d'iPhone peut dorénavant supporter une partie des fonctionnalités des Progressive Web Apps.
 
@@ -64,7 +64,7 @@ En effet, difficile de complètement fermer la porte aux Progressive Web Apps, �
 
 ![Progressive Web Apps](/img/pwa_bg.jpg "PWA Tessi")
 
-Chez [Tessi](https://www.tessi.eu/solution/technologies/consulting-and-integration/), nous proposons des solutions de traitement et gestion documentaire permettant de composer, de produire et de délivrer des modèles de document (maquettes) en volume et personnalisées en fonction du client. Certains de ces logiciels intègrent des modules de composition de documents dynamiques.En d'autres termes, il s'agit de générer, à partir d'un ou plusieurs flux de données, une collection d'applications rendues uniquement côté client. L'outil utilise un *framework* de création d'interface utilisateur, basé sur une architecture de composants : [Bobril](https://github.com/Bobris/Bobril). Cela permet d'utiliser le logiciel simplement en intégrant des blocs (tableau, image, diagrammes, contenu textuel...) dans une interface de conception.
+Chez [Tessi](https://www.tessi.eu/solution/technologies/consulting-and-integration/), nous proposons des solutions de traitement et gestion documentaire permettant de composer, de produire et de délivrer des modèles de document (maquettes) en volume et personnalisées en fonction du client. Certains de ces logiciels intègrent des modules de composition de documents dynamiques. En d'autres termes, il s'agit de générer, à partir d'un ou plusieurs flux de données, une collection d'applications rendues uniquement côté client. L'outil utilise un *framework* de création d'interface utilisateur, basé sur une architecture de composants : [Bobril](https://github.com/Bobris/Bobril). Cela permet d'utiliser le logiciel simplement en intégrant des blocs (tableau, image, diagrammes, contenu textuel...) dans une interface de conception.
 
 Un document dynamique est généré sous la forme d'un seul fichier HTML, encapsulant Javascript, CSS et images (encodées en base 64). Contrairement à un document statique (PDF par exemple), la livraison d'un fichier HTML ne peut se faire via mail ou un téléchargement sur un site. L'expérience client ne serait pas au rendez-vous.
 
