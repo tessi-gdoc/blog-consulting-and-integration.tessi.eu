@@ -13,18 +13,6 @@ to = "https://blog-consulting-and-integration.tessi.eu/:splat"
 
 [[redirects]]
 force = true
-from = "https://www.gdoc.ch/*"
-status = 301
-to = "https://blog-consulting-and-integration.tessi.eu/:splat"
-
-[[redirects]]
-force = true
-from = "https://www.gdoc-espana.es/*"
-status = 301
-to = "https://blog-consulting-and-integration.tessi.eu/:splat"
-
-[[redirects]]
-force = true
 from = "https://tessi.netlify.com/*"
 status = 301
 to = "https://blog-consulting-and-integration.tessi.eu/:splat"
