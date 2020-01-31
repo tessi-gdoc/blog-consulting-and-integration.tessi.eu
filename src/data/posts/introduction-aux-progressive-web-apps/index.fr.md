@@ -76,21 +76,18 @@ Cependant, il peut être particulièrement intéressant d’utiliser les fonctio
 
 Une PWA est réussie lorsqu’elle respecte les principes F.I.R.E (fiable, intégrée, rapide, et engageante). On vous partage quelques bonnes pratiques pour y parvenir :
 
-* FAST
+* **FAST** 
 
-Vous pouvez rendre votrePWA **performante** en intégrant un [App-Shell](https://developers.google.com/web/fundamentals/architecture/app-shell) à vos pages, en réduisant la taille de vos fichiers, en optimisant et compressant les images, en suivant le pattern [PRPL](https://developers.google.com/web/fundamentals/performance/prpl-pattern/)... L'objectif est que l'application ne charge qu’une faible quantité de données côté serveur et que son utilisation reste fluide malgré les animations ou les utilisations d'API HTML5.
+  Vous pouvez rendre votrePWA **performante** en intégrant un [App-Shell](https://developers.google.com/web/fundamentals/architecture/app-shell) à vos pages, en réduisant la taille de vos fichiers, en optimisant et compressant les images, en suivant le pattern [PRPL](https://developers.google.com/web/fundamentals/performance/prpl-pattern/)... L'objectif est que l'application ne charge qu’une faible quantité de données côté serveur et que son utilisation reste fluide malgré les animations ou les utilisations d'API HTML5.
+* **INTEGRATED**
 
-* INTEGRATED
+  Une progressive web app est dite **intégrée** lorsque les navigateurs sont capables de trouver rapidement votre web app et de la proposer en tant qu’application installable sur l’écran d’accueil sans passer par un app store. Cela est rendu possible grâce aux manifestes W3C et à l'installation du Service Worker (gestionnaire de cache).
+* **RELIABLE**
 
-Une progressive web app est dite **intégrée** lorsque les navigateurs sont capables de trouver rapidement votre web app et de la proposer en tant qu’application installable sur l’écran d’accueil sans passer par un app store. Cela est rendu possible grâce aux manifestes W3C et à l'installation du Service Worker (gestionnaire de cache).
+  Pour qu'une Progressive Web App soit considérée comme **fiable**, il faut éviter à tout prix de se heurter au problème du lie-fi. C’est ce moment où le réseau indique sur votre smartphone une connexion stable alors que ce n'est pas le cas. Parer à ce désagrément nécessite d’utiliser un Service Worker correctement configuré pour manipuler les fichiers (HTML, CSS, JS, images...). De plus, il faut que votre application soit servie via HTTPS pour éviter les fraudes lors des transactions client-serveur par formulaire.
+* **ENGAGING**
 
-* RELIABLE
-
-Pour qu'une Progressive Web App soit considérée comme **fiable**, il faut éviter à tout prix de se heurter au problème du lie-fi. C’est ce moment où le réseau indique sur votre smartphone une connexion stable alors que ce n'est pas le cas. Parer à ce désagrément nécessite d’utiliser un Service Worker correctement configuré pour manipuler les fichiers (HTML, CSS, JS, images...). De plus, il faut que votre application soit servie via HTTPS pour éviter les fraudes lors des transactions client-serveur par formulaire.
-
-* ENGAGING
-
-Votre PWA sera **engageante** si elle est responsive, c’est-à-dire qu'elle s’adapte à n’importe quel format : mobile, tablette, desktop. Il est également conseillé de mettre votre contenu régulièrement à jour et envoyer des notifications push pour inviter les utilisateurs à revenir. Enfin, il est possible de limiter les demandes d’accès à des fonctionnalités de votre smartphone à certaines pages seulement. Par exemple,Google Maps ne vous demande pas, dès l'ouverture de celle-ci, les autorisations d’accès dont elle a besoin pour pleinement fonctionner (ce que font les applications natives). En l’occurrence, Google maps peut avoir besoin d’activer la fonctionnalité de géolocalisation de votre smartphone. Mais elle ne vous demandera cette autorisation que lorsque vous aurez besoin d’un itinéraire depuis votre position. L'utilisateur comprend alors l’objet de la demande. Cette dernière étant contextualisée, elle semble moins intrusive. Ainsi, l’utilisateur est plus à même d'accepter.
+  Votre PWA sera **engageante** si elle est responsive, c’est-à-dire qu'elle s’adapte à n’importe quel format : mobile, tablette, desktop. Il est également conseillé de mettre votre contenu régulièrement à jour et envoyer des notifications push pour inviter les utilisateurs à revenir. Enfin, il est possible de limiter les demandes d’accès à des fonctionnalités de votre smartphone à certaines pages seulement. Par exemple,Google Maps ne vous demande pas, dès l'ouverture de celle-ci, les autorisations d’accès dont elle a besoin pour pleinement fonctionner (ce que font les applications natives). En l’occurrence, Google maps peut avoir besoin d’activer la fonctionnalité de géolocalisation de votre smartphone. Mais elle ne vous demandera cette autorisation que lorsque vous aurez besoin d’un itinéraire depuis votre position. L'utilisateur comprend alors l’objet de la demande. Cette dernière étant contextualisée, elle semble moins intrusive. Ainsi, l’utilisateur est plus à même d'accepter.
 
 L'ensemble de ces fonctionnalités forment un cahier des charges précis. A cet effet, vous pouvez utiliser l'outil Google Lighthouse qui permet de vérifier cette checklist à votre place. Sur Chrome, vous pouvez effectuer cet audit depuis la console de votre navigateur. Celui-ci vous donnera une note entre 0 et 100 en fonction des performances, des bonnes pratiques, de l'accessibilité et du référencement (SEO) de votre application.
 
@@ -100,7 +97,7 @@ Le développement d'une Progressive Web App ne nécessite aucun framework partic
 
 Pour le développement, il convient bien sûr de garder en tête les principes F.I.R.E. Toutefois, nous nous concentrerons surtout sur les aspects d’intégration et de fiabilité pour la suite de l'article. Les autres points sont également essentiels mais dépendants du contenu et des fonctionnalités de votre application.
 
-1. #### Service Worker
+#### Service Worker
 
 Dans le cahier des charges, le Service Worker est un des éléments indispensables pour valider votre PWA. Il s'agit d'un script lancé en tâche de fond non bloquante servant de *proxy* pour servir les fichiers de votre application. Le Service Worker est enregistré par le navigateur et répond à des événements de manière asynchrone pour mettre en cache vos fichiers HTML, CSS, JS, images etc...
 
@@ -161,7 +158,7 @@ La gestion du cache n'est pas chose aisée. Elle dépend des ressources, de l'ut
 
 Avec cette politique de cache et notre SW enregistré, nous rendons notre application beaucoup plus fiable et moins dépendante du réseau. Passons maintenant à l'intégration de notre future PWA...
 
-2. #### Web App Manifest
+#### Web App Manifest
 
 La prochaine étape de développement c'est la mise en place d'un manifeste [W3C](https://w3c.github.io/manifest/) propre à la PWA. Il s'agit d'un fichier *JSON* dans lequel on retrouve les informations de l'application comme son nom, ses icônes, l'affichage en tant qu'application native etc... Ce manifeste autorise l'application à la lancée en mode plein écran (sans la barre d'adresse du navigateur `standalone`), gérer l'orientation de l'écran (forcer le lancement de l'application en mode `portrait`) et définir un Splash Screen (avec un logo, un nom et une couleur de fond). Dans le fichier JSON ci-dessous, on définit des icônes avec plusieurs tailles. L'image en *192x192px* sera utilisée en tant qu'icône de lancement sur l'écran d'accueil de votre smartphone. Quant à celle en *512x512px*, elle sera affichée sur le Splash Screen.
 
