@@ -417,6 +417,7 @@ export const pageQuery = graphql`
             title
             description
             tags
+            path
             date(formatString: "D MMMM YYYY", locale: $locale)
             image {
               childImageSharp {

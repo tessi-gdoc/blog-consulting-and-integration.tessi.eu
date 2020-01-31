@@ -165,6 +165,7 @@ const GlobalStyles = () => (
         color: ${primary};
         font-weight: 400;
         font-size: 15px;
+        font-kerning: normal;
         line-height: 1.6;
         font-style: normal;
         min-height: 100vh;
@@ -173,6 +174,19 @@ const GlobalStyles = () => (
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         font-feature-settings: 'liga' on;
+      }
+      blockquote {
+        margin-left: 0;
+        margin-right: 1.6rem;
+        margin-top: 1.6rem;
+        padding-bottom: 0;
+        padding-left: 0.8rem;
+        padding-right: 0;
+        padding-top: 0;
+        margin-bottom: 1.6rem;
+        border-left: 0.4rem solid hsla(291, 0%, 18%, 0.1);
+        color: hsla(291, 0%, 18%, 0.8);
+        font-style: italic;
       }
       h1,
       h2,

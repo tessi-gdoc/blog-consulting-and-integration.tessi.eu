@@ -88,6 +88,7 @@ export const pageQuery = graphql`
             link
             description
             tags
+            path
             date(formatString: "D MMMM YYYY", locale: $locale)
             image {
               childImageSharp {

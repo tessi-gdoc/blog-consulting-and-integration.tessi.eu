@@ -31,7 +31,7 @@ exports.onCreatePage = ({ page, actions }) => {
   });
 };
 
-exports.onCreateNode = ({ node, actions, getNode }) => {
+exports.onCreateNode = ({ node, actions }) => {
   const { createNodeField } = actions;
 
   fmImagesToRelative(node);
@@ -65,6 +65,7 @@ exports.createPages = ({ graphql, actions }) => {
                 }
                 frontmatter {
                   key
+                  path
                   title
                 }
               }
@@ -99,12 +100,12 @@ exports.createPages = ({ graphql, actions }) => {
     const files = result.data.allFile.edges;
 
     files.forEach(({ node }) => {
-      const { key, title } = node.childMarkdownRemark.frontmatter;
+      const { key, title, path: uri } = node.childMarkdownRemark.frontmatter;
       const { locale, isDefault } = node.childMarkdownRemark.fields;
       const localizedSlug = localizeSlug(
         isDefault,
         locale,
-        node.relativeDirectory
+        uri ? `posts/${uri}` : node.relativeDirectory
       );
       createPage({
         path: localizedSlug,

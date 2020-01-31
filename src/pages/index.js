@@ -67,6 +67,7 @@ export const pageQuery = graphql`
             title
             link
             description
+            path
             tags
             date(formatString: "D MMMM YYYY", locale: $locale)
             image {

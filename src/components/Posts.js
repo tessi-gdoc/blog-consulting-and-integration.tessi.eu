@@ -267,13 +267,18 @@ const PostFeed = styled.div`
 
 const Posts = ({ allPosts }) => (
   <PostFeed>
-    {allPosts.map(({ node }) => (
-      <Post
-        key={node.id}
-        data={node}
-        link={node.frontmatter.link || `/${node.parent.relativeDirectory}`}
-      />
-    ))}
+    {allPosts.map(({ node }) => {
+      const blogPostLink = node.frontmatter.path
+        ? `/posts/${node.frontmatter.path}`
+        : `/${node.parent.relativeDirectory}`;
+      return (
+        <Post
+          key={node.id}
+          data={node}
+          link={node.frontmatter.link || blogPostLink}
+        />
+      );
+    })}
   </PostFeed>
 );
 
