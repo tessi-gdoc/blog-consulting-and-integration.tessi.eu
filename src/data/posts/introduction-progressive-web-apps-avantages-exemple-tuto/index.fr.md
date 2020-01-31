@@ -4,13 +4,14 @@ key: blog-post
 image: /img/introduction_aux_progressive_web_app.png
 imageAlt: Introduction aux Progressive Web Apps
 path: introduction-progressive-web-apps-avantages-exemple-tuto
-title: Introduction aux Progressive Web Apps : Avantages et développement
+title: >-
+  Introduction aux Progressive Web Apps : Avantages et développement
 description: >-
   Pourquoi les Progressive Web Apps sont-elles devenues l’un des éléments-clés
   de la stratégie commerciale de Google ? Découvrez les avantages d’une
   progressive web app et un tuto appliqué à un exemple concret pour développer
   votre PWA. 
-date: 2020-01-06T17:03:48.051Z
+date: 2020-01-31T17:03:48.051Z
 tags:
   - ccm
 authors:
@@ -76,7 +77,7 @@ Cependant, il peut être particulièrement intéressant d’utiliser les fonctio
 
 Une PWA est réussie lorsqu’elle respecte les principes F.I.R.E (fiable, intégrée, rapide, et engageante). On vous partage quelques bonnes pratiques pour y parvenir :
 
-* **FAST** 
+* **FAST**
 
   Vous pouvez rendre votre PWA **performante** en intégrant un [App-Shell](https://developers.google.com/web/fundamentals/architecture/app-shell) à vos pages, en réduisant la taille de vos fichiers, en optimisant et compressant les images, en suivant le pattern [PRPL](https://developers.google.com/web/fundamentals/performance/prpl-pattern/)... L'objectif est que l'application ne charge qu’une faible quantité de données côté serveur et que son utilisation reste fluide malgré les animations ou les utilisations d'API HTML5.
 * **INTEGRATED**
