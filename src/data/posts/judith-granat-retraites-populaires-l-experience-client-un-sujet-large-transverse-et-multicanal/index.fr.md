@@ -1,7 +1,7 @@
 ---
 lang: fr
 key: blog-post
-image: /img/interview_experience_client_judith_granat.png
+image: ./interview_experience_client_judith_granat.png
 imageAlt: ''
 path: judith-granat-retraites-populaires-l-experience-client-un-sujet-large-transverse-et-multicanal
 title: >-

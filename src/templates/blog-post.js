@@ -56,11 +56,11 @@ const Author = styled.div`
 `;
 
 const Avatar = styled.div`
-  flex: 0 0 120px;
+  flex: 0 0 100px;
   & > img {
     border-radius: 100%;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
   }
 `;
 

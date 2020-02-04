@@ -1,7 +1,7 @@
 ---
 lang: fr
 key: blog-post
-image: /img/monétique_nouveaux_moyens_de_paiement.png
+image: ./monétique_nouveaux_moyens_de_paiement.png
 imageAlt: monétique
 path: de-la-monetique-aux-nouveaux-moyens-de-paiements
 title: De la monétique aux nouveaux moyens de paiement

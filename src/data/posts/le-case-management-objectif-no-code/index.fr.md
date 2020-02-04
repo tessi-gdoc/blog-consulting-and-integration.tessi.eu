@@ -1,7 +1,7 @@
 ---
 lang: fr
 key: blog-post
-image: /img/case_management_low_code.png
+image: ./case_management_low_code.png
 imageAlt: ''
 path: le-case-management-objectif-no-code
 title: Quel mode de réalisation pour sa solution de Case Management ?

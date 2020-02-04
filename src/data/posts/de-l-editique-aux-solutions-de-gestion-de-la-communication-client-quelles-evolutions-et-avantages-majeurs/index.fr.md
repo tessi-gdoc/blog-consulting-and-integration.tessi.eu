@@ -1,7 +1,7 @@
 ---
 lang: fr
 key: blog-post
-image: /img/ediitique_solutions_ccm_moderne.png
+image: ./ediitique_solutions_ccm_moderne.png
 imageAlt: ''
 path: de-l-editique-aux-solutions-de-gestion-de-la-communication-client-quelles-evolutions-et-avantages-majeurs
 title: >-

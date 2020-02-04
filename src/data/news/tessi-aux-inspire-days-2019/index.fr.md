@@ -2,7 +2,7 @@
 lang: fr
 key: news
 date: 2019-09-05T22:00:00.000Z
-image: /img/inspire_days_2019.png
+image: ./inspire_days_2019.png
 imageAlt: Inspire Days 2019
 title: Tessi aux Quadient Inspire Days 2019 "Delight Customer. Be Digital."
 link: >-
