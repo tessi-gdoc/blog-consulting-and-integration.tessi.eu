@@ -75,9 +75,9 @@ const Bio = ({ authors, date, tags: tagNames }) => {
           {data.avatar && (
             <Avatar>
               <Img
-                fluid={data.avatar.childImageSharp.fluid}
+                fixed={data.avatar.childImageSharp.fixed}
                 alt={data.lastname}
-                style={{ width: 80, height: 80, borderRadius: `100%` }}
+                style={{ borderRadius: `100%` }}
               />
             </Avatar>
           )}
@@ -389,8 +389,8 @@ export const pageQuery = graphql`
           lastname
           avatar {
             childImageSharp {
-              fluid(maxWidth: 80) {
-                ...GatsbyImageSharpFluid_tracedSVG
+              fixed(width: 80, height: 80) {
+                ...GatsbyImageSharpFixed_withWebp
               }
             }
           }
