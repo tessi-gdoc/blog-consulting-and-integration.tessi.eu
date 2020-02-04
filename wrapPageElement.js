@@ -177,15 +177,14 @@ const wrapPageElement = ({ element, props, ...rest }) => {
       title,
       description,
       image,
-      authors,
+      author,
       date
     } = element.props.data.markdownRemark.frontmatter;
-    const authorNames = authors.map(a => `${a.firstname} ${a.lastname}`);
     seo = {
       seo: {
         title,
         description,
-        authors: authorNames,
+        author: author ? `${author.firstname} ${author.lastname}` : null,
         publishDate: date,
         article: true,
         ...(image ? { image: image.childImageSharp.original.src } : {})

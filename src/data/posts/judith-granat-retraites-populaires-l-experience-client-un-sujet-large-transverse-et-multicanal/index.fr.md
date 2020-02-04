@@ -14,10 +14,7 @@ description: >-
 date: 2019-12-03T13:14:06.108Z
 tags:
   - customerJourney
-authors:
-  - avatar: /img/avatar_default.png
-    firstname: Tatiana
-    lastname: Corallo-Jackson
+author: tcj
 introduction: >-
   Il y a 4 ans, Retraites Populaires lance un gigantesque chantier visant à
   optimiser le traitement des cas client dans une logique d'amélioration de

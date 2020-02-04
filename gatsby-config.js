@@ -21,7 +21,7 @@ const setFeed = (locale, title, output) => {
         frontmatter {
           title
           description
-          authors {
+          author {
             firstname
             lastname
           }
@@ -52,14 +52,13 @@ const setFeed = (locale, title, output) => {
         ({ node: { frontmatter, html, excerpt } }) => {
           const localeSegment = locale === defaultKey ? `` : `/${locale}`;
           const postBaseUrl = `${site.siteMetadata.siteUrl}${localeSegment}/posts/`;
+          const { author, tags, description, date } = frontmatter;
           return Object.assign({}, frontmatter, {
-            description: frontmatter.description || excerpt,
-            date: frontmatter.date,
-            categories: frontmatter.tags,
-            author: frontmatter.authors
-              ? frontmatter.authors
-                  .map(a => `${a.firstname} ${a.lastname}`)
-                  .join(`, `)
+            description: description || excerpt,
+            date,
+            categories: tags,
+            author: author
+              ? `${author.firstname} ${author.lastname}`
               : 'Tatiana Corallo-Jackson',
             url: frontmatter.link || `${postBaseUrl}${frontmatter.path}`,
             guid: frontmatter.link || `${postBaseUrl}${frontmatter.path}`,
@@ -262,8 +261,7 @@ module.exports = {
       resolve: `gatsby-plugin-netlify-cms`,
       options: {
         htmlFavicon: `static/icons/favicon.png`,
-        htmlTitle: `Admin | Tessi#Journey`,
-        modulePath: `${__dirname}/src/cms/cms.js`,
+        htmlTitle: `Admin | Tessi#Journey`
       }
     },
     {
@@ -285,5 +283,8 @@ module.exports = {
       }
     },
     `gatsby-plugin-netlify-cache`
-  ]
+  ],
+  mapping: {
+    'MarkdownRemark.frontmatter.author': `AuthorJson`
+  }
 };

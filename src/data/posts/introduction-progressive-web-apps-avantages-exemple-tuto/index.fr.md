@@ -13,10 +13,7 @@ description: >-
 date: 2020-01-31T17:03:48.051Z
 tags:
   - ccm
-authors:
-  - avatar: ./mag.jpg
-    firstname: Mathieu
-    lastname: Gauthier
+author: mag
 introduction: >-
   Les Progressive Web Apps sont une invention de Google. Initialement, elles
   étaient destinées aux pays émergents, grands consommateurs d’Internet mais où

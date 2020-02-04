@@ -15,10 +15,7 @@ description: >-
 date: 2019-09-13T15:52:10.975Z
 tags:
   - ccm
-authors:
-  - avatar: /img/nicolasz_profil.jpg
-    firstname: Nicolas
-    lastname: Zanello
+author: niz
 introduction: >-
   Dans une société connectée comme celle que connaissons, avec un accès à
   l’information instantané via une multitude de canaux, les comportements et

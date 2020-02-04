@@ -18,12 +18,48 @@ slug:
   clean_accents: true
 
 collections:
-  - name: 'netlify'
-    label: 'Configuration Netlify'
+  - name: 'configuration'
+    label: 'Configuration'
     delete: false
     editor:
       preview: false
     files:
+      - name: 'authors'
+        label: 'Auteurs'
+        file: 'src/data/author.json'
+        fields:
+          - {
+              label: 'Template Key',
+              name: 'key',
+              default: 'author',
+              widget: 'hidden',
+            }
+          - {
+              label: 'Trigramme',
+              name: 'id',
+              widget: 'string',
+              default: 'jlv',
+              pattern: ['[a-z]{3}', 'Doit avoir uniquement 3 caractères'],
+            }
+          - {
+              label: 'Nom',
+              name: 'lastname',
+              widget: 'string',
+              default: 'Vecchio',
+            }
+          - {
+              label: 'Prénom',
+              name: 'firstname',
+              widget: 'string',
+              default: 'Jean-Luc',
+            }
+          - {
+              label: 'Avatar',
+              name: 'avatar',
+              widget: 'image',
+              default: '../avatar_default.png',
+            }
+
       - name: 'toml'
         label: 'Netlify TOML'
         file: 'netlify.toml'
@@ -422,34 +458,6 @@ collections:
                   widget: 'string',
                   required: false,
                 }
-  - name: authors
-    label: Auteurs
-    label_singular: Auteur
-    folder: src/data/authors
-    path: '{{path}}/index'
-    create: true
-    editor:
-      preview: false
-    fields:
-      - {
-          label: 'Template Key',
-          name: 'key',
-          default: 'author',
-          widget: 'hidden',
-        }
-      - { label: 'Nom', name: 'lastname', widget: 'string', default: 'Vecchio' }
-      - {
-          label: 'Prénom',
-          name: 'firstname',
-          widget: 'string',
-          default: 'Jean-Luc',
-        }
-      - {
-          label: 'Avatar',
-          name: 'avatar',
-          widget: 'image',
-          default: '../avatar_default.png',
-        }
   - name: 'news'
     label: 'Actualités'
     label_singular: 'Actualité'
@@ -541,8 +549,8 @@ collections:
         name: 'author'
         widget: 'relation'
         collection: 'authors'
-        searchFields: ['firstname', 'lastname']
-        valueField: 'lastname'
+        searchFields: ['firstname', 'lastname', 'uid']
+        valueField: 'uid'
         displayFields: ['firstname', 'lastname']
       - {
           label: 'Introduction',

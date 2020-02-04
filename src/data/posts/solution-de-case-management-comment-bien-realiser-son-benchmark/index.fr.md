@@ -11,10 +11,7 @@ description: >-
 date: 2019-04-02T07:56:52.328Z
 tags:
   - caseManagement
-authors:
-  - avatar: /img/nicolasz_profil.jpg
-    firstname: Nicolas
-    lastname: Zanello
+author: niz
 introduction: >-
   Le Case Management est la solution qui vous permet de porter la qualité de
   votre relation client à l’étape supérieure. Traitement des cas plus rapide,

@@ -6,7 +6,6 @@ import { css } from '@emotion/core';
 import TwitterShareButton from 'react-share/lib/TwitterShareButton';
 import LinkedinShareButton from 'react-share/lib/LinkedinShareButton';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import Img from 'gatsby-image';
 import kebabCase from 'lodash.kebabcase';
 
 import useTranslations from '@hooks/use-translations';
@@ -57,45 +56,40 @@ const Author = styled.div`
 `;
 
 const Avatar = styled.div`
-  width: 80px;
-  height: 80px;
-  flex: 0 0 80px;
+  flex: 0 0 120px;
+  & > img {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+  }
 `;
 
 const AuthorDescription = styled.p`
   margin-left: 12px;
 `;
 
-const Bio = ({ authors, date, tags: tagNames }) => {
+const Bio = ({ author: data, date, tags: tagNames }) => {
   const [{ tags }] = useTranslations();
   return (
-    <>
-      {authors.map(data => (
-        <Author key={`${data.firstname} ${data.lastname}`}>
-          {data.avatar && (
-            <Avatar>
-              <Img
-                fixed={data.avatar.childImageSharp.fixed}
-                alt={data.lastname}
-                style={{ borderRadius: `100%` }}
-              />
-            </Avatar>
-          )}
-          <AuthorDescription>
-            <strong>
-              Par {data.firstname} {toUpper(data.lastname)}
-            </strong>{' '}
-            | <time>{date}</time> |{' '}
-            {tagNames.map((key, i) => [
-              i > 0 && <span key={i}> • </span>,
-              <Link key={key} to={`/${kebabCase(key)}#tags`}>
-                {tags[key]}
-              </Link>
-            ])}
-          </AuthorDescription>
-        </Author>
-      ))}
-    </>
+    <Author>
+      {data.avatar && (
+        <Avatar>
+          <img src={data.avatar} alt={data.id} />
+        </Avatar>
+      )}
+      <AuthorDescription>
+        <strong>
+          Par {data.firstname} {toUpper(data.lastname)}
+        </strong>{' '}
+        | <time>{date}</time> |{' '}
+        {tagNames.map((key, i) => [
+          i > 0 && <span key={i}> • </span>,
+          <Link key={key} to={`/${kebabCase(key)}#tags`}>
+            {tags[key]}
+          </Link>
+        ])}
+      </AuthorDescription>
+    </Author>
   );
 };
 
@@ -317,7 +311,7 @@ const BlogPost = ({
   }
 }) => {
   const {
-    frontmatter: { introduction, date, title, image, imageAlt, authors, tags },
+    frontmatter: { introduction, date, title, image, imageAlt, author, tags },
     html,
     headings
   } = post;
@@ -344,7 +338,7 @@ const BlogPost = ({
         />
       )}
       <PostContainer css={BlogPostStyle}>
-        <Bio authors={authors} tags={tags} date={date} />
+        {author && <Bio author={author} tags={tags} date={date} />}
         <Intro markdown={introduction} />
         {!!headings.length && <TableOfContents headings={headings} />}
         <article dangerouslySetInnerHTML={{ __html: html }} />
@@ -384,16 +378,10 @@ export const pageQuery = graphql`
           }
         }
         imageAlt
-        authors {
+        author {
           firstname
           lastname
-          avatar {
-            childImageSharp {
-              fixed(width: 80, height: 80) {
-                ...GatsbyImageSharpFixed_withWebp
-              }
-            }
-          }
+          avatar
         }
         date(formatString: "DD/MM/YYYY")
       }
