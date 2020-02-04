@@ -70,6 +70,8 @@ Cependant, il peut être particulièrement intéressant d’utiliser les fonctio
 
 ![Progressive Web Apps](/img/pwa_bg.jpg "PWA Tessi")
 
+Cependant, il peut être particulièrement intéressant d’utiliser les fonctionnalités d’une PWA pour délivrer ce type de document. Il est tout à fait imaginable de développer un tableau de bord regroupant l'ensemble des documents dynamiques d'un utilisateur, les rendant accessibles et sécurisés via un portail web. Au moment de la première consultation d'un document, le client peut alors l'ajouter comme une application native sur son écran d'accueil, grâce à une bannière, et profiter des capacités offline de son document. Un système de push notifications peut également être intégré pour informer l'utilisateur d'une nouvelle livraison. La fluidité de ce processus permet d'améliorer, auprès du client, l'expérience utilisateur et par conséquent son engagement.
+
 ## 03 / Tutoriel : comment développer une Progressive Web App ?
 
 ### Le cahier des charges pour une PWA
@@ -226,4 +228,4 @@ Google Chrome (et maintenant Firefox) sur Android, affiche automatiquement une b
 
 Une autre solution serait de proposer votre propre bannière avec les explications d'installation sur [Chrome](https://support.google.com/pixelphone/answer/2781850?hl=en), [Firefox](https://hacks.mozilla.org/2017/10/progressive-web-apps-firefox-android/) ou [Safari](https://support.apple.com/fr-fr/guide/shortcuts/apd735880972/ios). Libre à vous de décider !
 
-***En conclusion, la PWA peut s'avérer, selon le besoin, être un excellent compromis. D'une part, grâce à ses qualités intrinsèques pour l'utilisateur : application peu volumineuse, rapide, dotée du mode off-line, etc. D'autre part, elle est un moyen pour les métiers de proposer des communications client, transactionnelles et/ou commerciales, riches et engageantes au travers de documents dynamiques. Enfin, d'un point de vue plus technique, sa facilitée et son faible coût de développement lui confère un avantage non négligeable face aux applications natives. Il ne vous reste plus qu'à évaluer votre besoin pour savoir si la Progressive Web App est l'option qu'il vous faut.***
+***En conclusion, la PWA peut s'avérer, selon le besoin, être un excellent compromis. D'une part, grâce à ses qualités intrinsèques pour l'utilisateur : application peu volumineuse, rapide, dotée du mode off-line, etc. D'autre part, elle est un moyen pour les métiers de proposer des communications client, transactionnelles et/ou commerciales, riches et engageantes au travers de documents dynamiques. Enfin, d'un point de vue plus technique, sa facilitée et son faible coût de développement lui confère un avantage non négligeable face aux applications natives. Il ne vous reste plus qu'à évaluer votre besoin pour savoir si la Progressive Web App est l'option qu'il vous faut. Nos experts peuvent vous accompagner dans votre choix !***
