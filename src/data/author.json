@@ -1,10 +1,8 @@
-{
-  "list": [
-    {
-      "id": "mag",
-      "avatar": "/img/mag.jpg",
-      "firstname": "Mathieu",
-      "lastname": "Gauthier"
-    }
-  ]
-}
+[
+  {
+    "id": "mag",
+    "avatar": "/img/mag.jpg",
+    "firstname": "Mathieu",
+    "lastname": "Gauthier"
+  }
+]

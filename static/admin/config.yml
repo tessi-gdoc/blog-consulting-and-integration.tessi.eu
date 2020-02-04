@@ -28,16 +28,11 @@ collections:
         label: 'Auteurs'
         file: 'src/data/author.json'
         fields:
-          - label: 'Liste d'auteurs'
+          - label: Liste d'auteurs
+            label_singular: 'auteur'
             name: 'list'
             widget: 'list'
             fields:
-              - {
-                  label: 'Template Key',
-                  name: 'key',
-                  default: 'author',
-                  widget: 'hidden',
-                }
               - {
                   label: 'Trigramme',
                   name: 'id',
