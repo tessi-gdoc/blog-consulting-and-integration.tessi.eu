@@ -28,37 +28,41 @@ collections:
         label: 'Auteurs'
         file: 'src/data/author.json'
         fields:
-          - {
-              label: 'Template Key',
-              name: 'key',
-              default: 'author',
-              widget: 'hidden',
-            }
-          - {
-              label: 'Trigramme',
-              name: 'id',
-              widget: 'string',
-              default: 'jlv',
-              pattern: ['[a-z]{3}', 'Doit avoir uniquement 3 caractères'],
-            }
-          - {
-              label: 'Nom',
-              name: 'lastname',
-              widget: 'string',
-              default: 'Vecchio',
-            }
-          - {
-              label: 'Prénom',
-              name: 'firstname',
-              widget: 'string',
-              default: 'Jean-Luc',
-            }
-          - {
-              label: 'Avatar',
-              name: 'avatar',
-              widget: 'image',
-              default: '../avatar_default.png',
-            }
+          - label: 'Liste d'auteurs'
+            name: 'list'
+            widget: 'list'
+            fields:
+              - {
+                  label: 'Template Key',
+                  name: 'key',
+                  default: 'author',
+                  widget: 'hidden',
+                }
+              - {
+                  label: 'Trigramme',
+                  name: 'id',
+                  widget: 'string',
+                  default: 'jlv',
+                  pattern: ['[a-z]{3}', 'Doit avoir uniquement 3 caractères'],
+                }
+              - {
+                  label: 'Nom',
+                  name: 'lastname',
+                  widget: 'string',
+                  default: 'Vecchio',
+                }
+              - {
+                  label: 'Prénom',
+                  name: 'firstname',
+                  widget: 'string',
+                  default: 'Jean-Luc',
+                }
+              - {
+                  label: 'Avatar',
+                  name: 'avatar',
+                  widget: 'image',
+                  default: '../avatar_default.png',
+                }
 
       - name: 'toml'
         label: 'Netlify TOML'
