@@ -450,7 +450,7 @@ collections:
     label: 'Actualités'
     label_singular: 'Actualité'
     folder: 'src/data/news'
-    path: '{{path}}/index.{{lang}}'
+    path: '{{title}}/index.{{lang}}'
     create: true
     editor:
       preview: false
@@ -556,7 +556,7 @@ collections:
     label: 'Kits'
     label_singular: 'Kit'
     folder: 'src/data/kits'
-    path: '{{path}}/index.{{lang}}'
+    path: '{{title}}/index.{{lang}}'
     create: true
     editor:
       preview: false
@@ -593,7 +593,7 @@ collections:
     label: 'Livres blancs'
     label_singular: 'Livre blanc'
     folder: 'src/data/whitepapers'
-    path: '{{path}}/index.{{lang}}'
+    path: '{{title}}/index.{{lang}}'
     create: true
     editor:
       preview: false
@@ -635,7 +635,7 @@ collections:
     label: 'Etudes de cas'
     label_singular: 'Etude de cas'
     folder: 'src/data/case-studies'
-    path: '{{path}}/index.{{lang}}'
+    path: '{{title}}/index.{{lang}}'
     create: true
     editor:
       preview: false
@@ -677,7 +677,7 @@ collections:
     label: 'Vidéos'
     label_singular: 'Vidéo'
     folder: 'src/data/videos'
-    path: '{{path}}/index.{{lang}}'
+    path: '{{title}}/index.{{lang}}'
     create: true
     editor:
       preview: false
@@ -719,7 +719,7 @@ collections:
     label: 'Mentions et politiques'
     label_singular: 'Mention ou politique'
     folder: 'src/data/notices'
-    path: '{{path}}/index.{{lang}}'
+    path: '{{title}}/index.{{lang}}'
     create: true
     editor:
       preview: false
