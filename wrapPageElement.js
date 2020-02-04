@@ -184,7 +184,7 @@ const wrapPageElement = ({ element, props, ...rest }) => {
       seo: {
         title,
         description,
-        author: author ? `${author.firstname} ${author.lastname}` : null,
+        author: author ? author.fullname : null,
         publishDate: date,
         article: true,
         ...(image ? { image: image.childImageSharp.original.src } : {})

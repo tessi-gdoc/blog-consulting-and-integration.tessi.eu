@@ -2,38 +2,32 @@
   "list": [
     {
       "id": "mat",
-      "lastname": "Thomas",
-      "firstname": "Magali",
+      "fullname": "Magali THOMAS",
       "avatar": "/img/mat.jpg"
     },
     {
       "id": "clc",
-      "lastname": "Collard",
-      "firstname": "Claire",
+      "fullname": "Claire COLLARD",
       "avatar": "/img/clc.jpg"
     },
     {
       "id": "mag",
-      "lastname": "Gauthier",
-      "firstname": "Mathieu",
+      "fullname": "Mathieu GAUTHIER",
       "avatar": "/img/mag.jpg"
     },
     {
       "id": "niz",
-      "lastname": "Zanello",
-      "firstname": "Nicolas",
+      "fullname": "Nicolas ZANELLO",
       "avatar": "/img/niz.jpg"
     },
     {
       "id": "tcj",
-      "lastname": "Corallo-Jackson",
-      "firstname": "Tatiana",
+      "fullname": "Tatiana CORALLO-JACKSON",
       "avatar": "/img/tcj.png"
     },
     {
       "id": "anm",
-      "lastname": "Maranghi",
-      "firstname": "Anthony ",
+      "fullname": "Anthony MARANGHI",
       "avatar": "/img/avatar_default.png"
     }
   ]

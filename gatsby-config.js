@@ -22,8 +22,7 @@ const setFeed = (locale, title, output) => {
           title
           description
           author {
-            firstname
-            lastname
+            fullname
           }
           link
           path
@@ -57,9 +56,7 @@ const setFeed = (locale, title, output) => {
             description: description || excerpt,
             date,
             categories: tags,
-            author: author
-              ? `${author.firstname} ${author.lastname}`
-              : 'Tatiana Corallo-Jackson',
+            author: author ? author.fullname : 'Tatiana Corallo-Jackson',
             url: frontmatter.link || `${postBaseUrl}${frontmatter.path}`,
             guid: frontmatter.link || `${postBaseUrl}${frontmatter.path}`,
             custom_elements: [{ 'content:encoded': html }]
@@ -261,7 +258,8 @@ module.exports = {
       resolve: `gatsby-plugin-netlify-cms`,
       options: {
         htmlFavicon: `static/icons/favicon.png`,
-        htmlTitle: `Admin | Tessi#Journey`
+        htmlTitle: `Admin | Tessi#Journey`,
+        modulePath: `${__dirname}/src/cms/cms.js`
       }
     },
     {

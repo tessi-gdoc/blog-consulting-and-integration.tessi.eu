@@ -39,8 +39,7 @@ collections:
                   widget: 'string',
                   pattern: ['[a-z]{3}', 'Doit avoir uniquement 3 caractères'],
                 }
-              - { label: 'Nom', name: 'lastname', widget: 'string' }
-              - { label: 'Prénom', name: 'firstname', widget: 'string' }
+              - { label: 'Prénom et nom', name: 'fullname', widget: 'string' }
               - {
                   label: 'Avatar',
                   name: 'avatar',
@@ -533,13 +532,15 @@ collections:
                 { label: 'Customer Journey', value: 'customerJourney' },
               ],
           }
-      - label: "Auteur de l'article"
+      - label: Auteur de l'article
         name: 'author'
-        widget: 'relation'
-        collection: 'authors'
-        searchFields: ['firstname', 'lastname', 'uid']
-        valueField: 'uid'
-        displayFields: ['firstname', 'lastname']
+        widget: ncw-file-relation
+        collection: configuration
+        file: authors
+        target_field: list
+        id_field: id
+        display_fields: 'lastname'
+        searchFields: ['fullname', 'id']
       - {
           label: 'Introduction',
           name: 'introduction',

@@ -1,6 +1,5 @@
 import React from 'react';
 import { graphql } from 'gatsby';
-import { toUpper } from 'ramda';
 import styled from '@emotion/styled';
 import { css } from '@emotion/core';
 import TwitterShareButton from 'react-share/lib/TwitterShareButton';
@@ -78,10 +77,7 @@ const Bio = ({ author: data, date, tags: tagNames }) => {
         </Avatar>
       )}
       <AuthorDescription>
-        <strong>
-          Par {data.firstname} {toUpper(data.lastname)}
-        </strong>{' '}
-        | <time>{date}</time> |{' '}
+        <strong>Par {data.fullname}</strong> | <time>{date}</time> |{' '}
         {tagNames.map((key, i) => [
           i > 0 && <span key={i}> • </span>,
           <Link key={key} to={`/${kebabCase(key)}#tags`}>
@@ -379,8 +375,7 @@ export const pageQuery = graphql`
         }
         imageAlt
         author {
-          firstname
-          lastname
+          fullname
           avatar
         }
         date(formatString: "DD/MM/YYYY")
