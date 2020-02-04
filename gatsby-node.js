@@ -120,9 +120,8 @@ exports.createPages = ({ graphql, actions }) => {
     });
 
     const { edges: tagEdges, group: tagGroups } = result.data.tagsGroup;
-    const tags = filterRemarkNodes(tagEdges);
 
-    tags.forEach(({ node }) => {
+    filterRemarkNodes(tagEdges).forEach(({ node }) => {
       const { locale, isDefault } = node.childMarkdownRemark.fields;
       tagGroups.forEach(({ fieldValue }) => {
         const localizedSlug = localizeSlug(
