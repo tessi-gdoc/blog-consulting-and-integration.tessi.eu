@@ -539,7 +539,7 @@ collections:
         file: authors
         target_field: list
         id_field: id
-        display_fields: 'lastname'
+        display_fields: 'fullname'
         searchFields: ['fullname', 'id']
       - {
           label: 'Introduction',
