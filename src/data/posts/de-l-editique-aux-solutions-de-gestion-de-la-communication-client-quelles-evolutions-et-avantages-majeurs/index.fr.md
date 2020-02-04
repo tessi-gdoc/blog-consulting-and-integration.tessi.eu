@@ -1,7 +1,7 @@
 ---
 lang: fr
 key: blog-post
-image: /img/ediitique_solutions_ccm_moderne.png
+image: ./ediitique_solutions_ccm_moderne.png
 imageAlt: ''
 path: de-l-editique-aux-solutions-de-gestion-de-la-communication-client-quelles-evolutions-et-avantages-majeurs
 title: >-
@@ -15,10 +15,7 @@ description: >-
 date: 2019-09-13T15:52:10.975Z
 tags:
   - ccm
-authors:
-  - avatar: /img/nicolasz_profil.jpg
-    firstname: Nicolas
-    lastname: Zanello
+author: niz
 introduction: >-
   Dans une société connectée comme celle que connaissons, avec un accès à
   l’information instantané via une multitude de canaux, les comportements et

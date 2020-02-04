@@ -21,9 +21,8 @@ const setFeed = (locale, title, output) => {
         frontmatter {
           title
           description
-          authors {
-            firstname
-            lastname
+          author {
+            fullname
           }
           link
           path
@@ -52,15 +51,12 @@ const setFeed = (locale, title, output) => {
         ({ node: { frontmatter, html, excerpt } }) => {
           const localeSegment = locale === defaultKey ? `` : `/${locale}`;
           const postBaseUrl = `${site.siteMetadata.siteUrl}${localeSegment}/posts/`;
+          const { author, tags, description, date } = frontmatter;
           return Object.assign({}, frontmatter, {
-            description: frontmatter.description || excerpt,
-            date: frontmatter.date,
-            categories: frontmatter.tags,
-            author: frontmatter.authors
-              ? frontmatter.authors
-                  .map(a => `${a.firstname} ${a.lastname}`)
-                  .join(`, `)
-              : 'Tatiana Corallo-Jackson',
+            description: description || excerpt,
+            date,
+            categories: tags,
+            author: author ? author.fullname : 'Tatiana Corallo-Jackson',
             url: frontmatter.link || `${postBaseUrl}${frontmatter.path}`,
             guid: frontmatter.link || `${postBaseUrl}${frontmatter.path}`,
             custom_elements: [{ 'content:encoded': html }]
@@ -263,7 +259,7 @@ module.exports = {
       options: {
         htmlFavicon: `static/icons/favicon.png`,
         htmlTitle: `Admin | Tessi#Journey`,
-        modulePath: `${__dirname}/src/cms/cms.js`,
+        modulePath: `${__dirname}/src/cms/cms.js`
       }
     },
     {
@@ -283,7 +279,6 @@ module.exports = {
           ]
         }
       }
-    },
-    `gatsby-plugin-netlify-cache`
+    }
   ]
 };

@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: master
+  branch: dev
 
 display_url: https://blog-consulting-and-integration.tessi.eu
 
@@ -18,12 +18,35 @@ slug:
   clean_accents: true
 
 collections:
-  - name: 'netlify'
-    label: 'Configuration Netlify'
+  - name: 'configuration'
+    label: 'Configuration'
     delete: false
     editor:
       preview: false
     files:
+      - name: 'authors'
+        label: 'Auteurs'
+        file: 'src/data/author.json'
+        fields:
+          - label: Liste d'auteurs
+            label_singular: 'auteur'
+            name: 'list'
+            widget: 'list'
+            fields:
+              - {
+                  label: 'Trigramme',
+                  name: 'id',
+                  widget: 'string',
+                  pattern: ['[a-z]{3}', 'Doit avoir uniquement 3 caractères'],
+                }
+              - { label: 'Prénom et nom', name: 'fullname', widget: 'string' }
+              - {
+                  label: 'Avatar',
+                  name: 'avatar',
+                  widget: 'image',
+                  default: '/img/avatar_default.png',
+                }
+
       - name: 'toml'
         label: 'Netlify TOML'
         file: 'netlify.toml'
@@ -426,7 +449,7 @@ collections:
     label: 'Actualités'
     label_singular: 'Actualité'
     folder: 'src/data/news'
-    slug: '{{title}}/index.{{lang}}'
+    path: '{{title}}/index.{{lang}}'
     create: true
     editor:
       preview: false
@@ -459,7 +482,7 @@ collections:
     label: 'Blog'
     label_singular: 'Article'
     folder: 'src/data/posts'
-    slug: '{{title}}/index.{{lang}}'
+    path: '{{path}}/index.{{lang}}'
     create: true
     editor:
       preview: false
@@ -509,29 +532,15 @@ collections:
                 { label: 'Customer Journey', value: 'customerJourney' },
               ],
           }
-      - label: 'Auteur(s)'
-        label_singular: 'author'
-        name: 'authors'
-        widget: 'list'
-        fields:
-          - {
-              label: 'Nom',
-              name: 'lastname',
-              widget: 'string',
-              default: 'Vecchio',
-            }
-          - {
-              label: 'Prénom',
-              name: 'firstname',
-              widget: 'string',
-              default: 'Jean-Luc',
-            }
-          - {
-              label: 'Avatar',
-              name: 'avatar',
-              widget: 'image',
-              default: '/img/avatar_default.png',
-            }
+      - label: Auteur de l'article
+        name: 'author'
+        widget: ncw-file-relation
+        collection: configuration
+        file: authors
+        target_field: list
+        id_field: id
+        display_fields: 'fullname'
+        searchFields: ['fullname', 'id']
       - {
           label: 'Introduction',
           name: 'introduction',
@@ -548,7 +557,7 @@ collections:
     label: 'Kits'
     label_singular: 'Kit'
     folder: 'src/data/kits'
-    slug: '{{title}}/index.{{lang}}'
+    path: '{{title}}/index.{{lang}}'
     create: true
     editor:
       preview: false
@@ -585,7 +594,7 @@ collections:
     label: 'Livres blancs'
     label_singular: 'Livre blanc'
     folder: 'src/data/whitepapers'
-    slug: '{{title}}/index.{{lang}}'
+    path: '{{title}}/index.{{lang}}'
     create: true
     editor:
       preview: false
@@ -627,7 +636,7 @@ collections:
     label: 'Etudes de cas'
     label_singular: 'Etude de cas'
     folder: 'src/data/case-studies'
-    slug: '{{title}}/index.{{lang}}'
+    path: '{{title}}/index.{{lang}}'
     create: true
     editor:
       preview: false
@@ -669,7 +678,7 @@ collections:
     label: 'Vidéos'
     label_singular: 'Vidéo'
     folder: 'src/data/videos'
-    slug: '{{title}}/index.{{lang}}'
+    path: '{{title}}/index.{{lang}}'
     create: true
     editor:
       preview: false
@@ -711,7 +720,7 @@ collections:
     label: 'Mentions et politiques'
     label_singular: 'Mention ou politique'
     folder: 'src/data/notices'
-    slug: '{{title}}/index.{{lang}}'
+    path: '{{title}}/index.{{lang}}'
     create: true
     editor:
       preview: false

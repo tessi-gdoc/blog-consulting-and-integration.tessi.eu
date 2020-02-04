@@ -1,7 +1,7 @@
 ---
 lang: fr
 key: blog-post
-image: /img/introduction_aux_progressive_web_app.png
+image: ./introduction_aux_progressive_web_app.png
 imageAlt: Introduction aux Progressive Web Apps
 path: introduction-progressive-web-apps-avantages-exemple-tuto
 title: 'Introduction aux Progressive Web Apps : Avantages et développement'
@@ -13,10 +13,7 @@ description: >-
 date: 2020-01-31T17:03:48.051Z
 tags:
   - ccm
-authors:
-  - avatar: /img/mag.jpg
-    firstname: Mathieu
-    lastname: Gauthier
+author: mag
 introduction: >-
   Les Progressive Web Apps sont une invention de Google. Initialement, elles
   étaient destinées aux pays émergents, grands consommateurs d’Internet mais où

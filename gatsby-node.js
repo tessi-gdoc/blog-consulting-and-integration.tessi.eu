@@ -2,11 +2,16 @@ const path = require(`path`);
 const { fmImagesToRelative } = require('gatsby-remark-relative-images');
 const locales = require(`./src/i18n`);
 const kebabCase = require(`lodash.kebabcase`);
+const filter = require(`ramda/src/filter`);
 const {
   removeTrailingSlash,
   defaultKey,
   localizeSlug
 } = require(`./src/gatsby-helpers`);
+
+const filterRemarkNodes = filter(
+  ({ node }) => node.childMarkdownRemark !== null
+);
 
 exports.onCreatePage = ({ page, actions }) => {
   const { createPage, deletePage } = actions;
@@ -97,7 +102,7 @@ exports.createPages = ({ graphql, actions }) => {
       return Promise.reject(result.errors);
     }
 
-    const files = result.data.allFile.edges;
+    const files = filterRemarkNodes(result.data.allFile.edges);
 
     files.forEach(({ node }) => {
       const { key, title, path: uri } = node.childMarkdownRemark.frontmatter;
@@ -114,11 +119,11 @@ exports.createPages = ({ graphql, actions }) => {
       });
     });
 
-    const tags = result.data.tagsGroup;
+    const { edges: tagEdges, group: tagGroups } = result.data.tagsGroup;
 
-    tags.edges.forEach(({ node }) => {
+    filterRemarkNodes(tagEdges).forEach(({ node }) => {
       const { locale, isDefault } = node.childMarkdownRemark.fields;
-      tags.group.forEach(({ fieldValue }) => {
+      tagGroups.forEach(({ fieldValue }) => {
         const localizedSlug = localizeSlug(
           isDefault,
           locale,
@@ -132,4 +137,24 @@ exports.createPages = ({ graphql, actions }) => {
       });
     });
   });
+};
+
+exports.createSchemaCustomization = ({ actions, schema }) => {
+  const { createTypes } = actions;
+  const typeDefs = [
+    'type MarkdownRemark implements Node { frontmatter: Frontmatter }',
+    schema.buildObjectType({
+      name: 'Frontmatter',
+      fields: {
+        author: {
+          type: 'DataJsonList',
+          resolve: (source, args, { nodeModel }, info) => {
+            const [authors] = nodeModel.getAllNodes({ type: 'DataJson' });
+            return authors.list.find(a => a.id === source.author);
+          }
+        }
+      }
+    })
+  ];
+  createTypes(typeDefs);
 };

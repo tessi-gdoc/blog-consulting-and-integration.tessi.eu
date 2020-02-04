@@ -1,7 +1,7 @@
 ---
 lang: fr
 key: blog-post
-image: /img/ged_case_management_migration.png
+image: ./ged_case_management_migration.png
 imageAlt: ''
 path: de-la-ged-au-case-management-pourquoi-changer
 title: 'De la GED au Case Management : Pourquoi changer ?'
@@ -14,10 +14,7 @@ date: 2019-10-03T14:43:05.418Z
 tags:
   - contentServices
   - caseManagement
-authors:
-  - avatar: /img/magali-t._profil.jpg
-    firstname: Magali
-    lastname: Thomas
+author: mat
 introduction: "A l’arrivée du digital, mettre en place un système de GED s’est rapidement imposé comme une évidence. Le temps du tout papier était révolu, il était temps de passer aux documents dématérialisés. Les entreprises bénéficient alors de coûts de stockage et de logistique moindres, d’une accessibilité aux documents optimisée, d’un classement des documents structurant, de la sécurisation des données et d’une collaboration facilitée.  \r\n\nPuis, comme une seconde étape de la transformation digitale des organisations et des parcours de leurs clients, les besoins métier ont évolué, les volumes de données et les canaux de communication se sont multipliés, les systèmes d’information, les processus et les offres de produits/services se sont complexifiés. L’ergonomie et la personnalisation des solutions technologiques sont devenues des critères de choix, et la quête de productivité reste un enjeu majeur. \r\n\nC’est pourquoi dans de nombreux cas, les anciennes GED ne répondent plus complètement aux exigences de notre temps.  \r\n\n\rDans cet article nous définirons les limites fonctionnelles d’une GED, le moment opportun pour en changer ou la faire évoluer et les bénéfices d’une telle transition. Puis, nous verrons les deux stratégies envisageables pour passer d’un système de GED à une solution de Case Management, les ressources nécessaires et les grandes étapes d’une migration GED/ECM."
 ---
 

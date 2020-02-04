@@ -12,7 +12,7 @@ const SEO = ({
   title,
   description,
   image,
-  authors,
+  author,
   publishDate,
   pathname,
   article
@@ -28,7 +28,7 @@ const SEO = ({
             defaultDescription,
             titleAlt,
             headline,
-            author,
+            author: defaultAuthor,
             logo,
             siteUrl
           },
@@ -46,7 +46,7 @@ const SEO = ({
           title: seoTitle || defaultTitle,
           description: seoDescription || defaultDescription,
           image: `${siteUrl}${image || logo}`,
-          author: authors && authors.length > 0 ? authors.join` & ` : author,
+          author: author || defaultAuthor,
           url: `${siteUrl}${pathname || `/`}`
         };
 
@@ -72,20 +72,20 @@ const SEO = ({
                   alternateName: titleAlt,
                   author: {
                     '@type': 'Organization',
-                    name: author
+                    name: seo.author
                   },
                   copyrightHolder: {
                     '@type': 'Organization',
-                    name: author
+                    name: seo.author
                   },
                   copyrightYear: date,
                   creator: {
                     '@type': 'Organization',
-                    name: author
+                    name: seo.author
                   },
                   publisher: {
                     '@type': 'Organization',
-                    name: author
+                    name: seo.author
                   },
                   datePublished: buildTime,
                   image: {
@@ -116,7 +116,7 @@ const SEO = ({
                   },
                   publisher: {
                     '@type': 'Organization',
-                    name: author,
+                    name: seo.author,
                     logo: {
                       '@type': 'ImageObject',
                       url: seo.image
@@ -167,7 +167,7 @@ const SEO = ({
 SEO.propTypes = {
   lang: PropTypes.string,
   title: PropTypes.string,
-  authors: PropTypes.array,
+  author: PropTypes.string,
   description: PropTypes.string,
   image: PropTypes.string,
   pathname: PropTypes.string,
@@ -178,7 +178,7 @@ SEO.propTypes = {
 SEO.defaultProps = {
   lang: `fr`,
   title: null,
-  authors: undefined,
+  author: null,
   description: null,
   pathname: null,
   image: null,

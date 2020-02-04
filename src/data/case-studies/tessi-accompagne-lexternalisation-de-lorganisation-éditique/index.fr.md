@@ -2,7 +2,7 @@
 lang: fr
 key: case-study
 date: 2019-09-13T08:31:36.417Z
-image: /img/etude_de_cas_ingdirect.png
+image: ./etude_de_cas_ingdirect.png
 imageAlt: ''
 title: Tessi accompagne l'externalisation de l'organisation éditique
 link: /fr/success_story/ing-direct-externalisation-editique

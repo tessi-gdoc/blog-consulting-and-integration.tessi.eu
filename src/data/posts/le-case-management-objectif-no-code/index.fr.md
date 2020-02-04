@@ -1,7 +1,7 @@
 ---
 lang: fr
 key: blog-post
-image: /img/case_management_low_code.png
+image: ./case_management_low_code.png
 imageAlt: ''
 path: le-case-management-objectif-no-code
 title: Quel mode de réalisation pour sa solution de Case Management ?
@@ -12,10 +12,7 @@ description: >-
 date: 2019-03-17T23:00:00.000Z
 tags:
   - caseManagement
-authors:
-  - avatar: /img/magali-t._profil.jpg
-    firstname: Magali
-    lastname: Thomas
+author: mat
 introduction: >-
   Si vous planifiez d’intégrer à votre écosystème IT une solution de Case
   Management, la question du mode de réalisation de la solution se pose. Par

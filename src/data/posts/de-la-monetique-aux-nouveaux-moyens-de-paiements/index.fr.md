@@ -1,7 +1,7 @@
 ---
 lang: fr
 key: blog-post
-image: /img/monétique_nouveaux_moyens_de_paiement.png
+image: ./monétique_nouveaux_moyens_de_paiement.png
 imageAlt: monétique
 path: de-la-monetique-aux-nouveaux-moyens-de-paiements
 title: De la monétique aux nouveaux moyens de paiement
@@ -12,10 +12,7 @@ description: >-
 date: 2019-09-13T16:24:29.670Z
 tags:
   - customerJourney
-authors:
-  - avatar: /img/avatar_default.png
-    firstname: Anthony
-    lastname: Maranghi
+author: anm
 introduction: >-
   Le digital a bouleversé le domaine de la monétique et des moyens de paiement.
   Le terme « monétique » né dans les années 1980 a progressivement perdu de son

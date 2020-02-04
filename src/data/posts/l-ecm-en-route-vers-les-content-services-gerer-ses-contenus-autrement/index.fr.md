@@ -1,7 +1,7 @@
 ---
 lang: fr
 key: blog-post
-image: /img/ecm_vers_content_services.png
+image: ./ecm_vers_content_services.png
 imageAlt: ''
 path: l-ecm-en-route-vers-les-content-services-gerer-ses-contenus-autrement
 title: 'L’ECM en route vers les Content Services : gérer ses contenus autrement'
@@ -12,10 +12,7 @@ description: >-
 date: 2019-10-31T10:47:46.901Z
 tags:
   - contentServices
-authors:
-  - avatar: /img/avatar_default.png
-    firstname: Tatiana
-    lastname: Corallo-Jackson
+author: tcj
 introduction: >-
   A l’aube des projets de transformation digitale, la tendance était au « sans
   papier », à  la dématérialisation des documents. C’est alors que Packy Hyland

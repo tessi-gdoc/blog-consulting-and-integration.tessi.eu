@@ -1,0 +1,34 @@
+{
+  "list": [
+    {
+      "id": "mat",
+      "fullname": "Magali THOMAS",
+      "avatar": "/img/mat.jpg"
+    },
+    {
+      "id": "clc",
+      "fullname": "Claire COLLARD",
+      "avatar": "/img/clc.jpg"
+    },
+    {
+      "id": "mag",
+      "fullname": "Mathieu GAUTHIER",
+      "avatar": "/img/mag.jpg"
+    },
+    {
+      "id": "niz",
+      "fullname": "Nicolas ZANELLO",
+      "avatar": "/img/niz.jpg"
+    },
+    {
+      "id": "tcj",
+      "fullname": "Tatiana CORALLO-JACKSON",
+      "avatar": "/img/tcj.png"
+    },
+    {
+      "id": "anm",
+      "fullname": "Anthony MARANGHI",
+      "avatar": "/img/avatar_default.png"
+    }
+  ]
+}
