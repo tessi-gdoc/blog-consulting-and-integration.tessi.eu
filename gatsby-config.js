@@ -281,10 +281,6 @@ module.exports = {
           ]
         }
       }
-    },
-    `gatsby-plugin-netlify-cache`
-  ],
-  mapping: {
-    'MarkdownRemark.frontmatter.author': `AuthorJson`
-  }
+    }
+  ]
 };

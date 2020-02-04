@@ -138,3 +138,23 @@ exports.createPages = ({ graphql, actions }) => {
     });
   });
 };
+
+exports.createSchemaCustomization = ({ actions, schema }) => {
+  const { createTypes } = actions;
+  const typeDefs = [
+    'type MarkdownRemark implements Node { frontmatter: Frontmatter }',
+    schema.buildObjectType({
+      name: 'Frontmatter',
+      fields: {
+        author: {
+          type: 'DataJsonList',
+          resolve: (source, args, { nodeModel }, info) => {
+            const [authors] = nodeModel.getAllNodes({ type: 'DataJson' });
+            return authors.list.find(a => a.id === source.author);
+          }
+        }
+      }
+    })
+  ];
+  createTypes(typeDefs);
+};

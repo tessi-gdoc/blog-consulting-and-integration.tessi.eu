@@ -1,8 +1,22 @@
-[
-  {
-    "id": "mag",
-    "avatar": "/img/mag.jpg",
-    "firstname": "Mathieu",
-    "lastname": "Gauthier"
-  }
-]
+{
+  "list": [
+    {
+      "id": "mat",
+      "avatar": "/img/magali-t._profil.jpg",
+      "firstname": "Magali",
+      "lastname": "Thomas"
+    },
+    {
+      "id": "clc",
+      "avatar": "/img/photo-profil-claire-collard.jpg",
+      "firstname": "Claire",
+      "lastname": "Collard"
+    },
+    {
+      "id": "mag",
+      "avatar": "/img/mag.jpg",
+      "firstname": "Mathieu",
+      "lastname": "Gauthier"
+    }
+  ]
+}
