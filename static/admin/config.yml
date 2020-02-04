@@ -37,26 +37,15 @@ collections:
                   label: 'Trigramme',
                   name: 'id',
                   widget: 'string',
-                  default: 'jlv',
                   pattern: ['[a-z]{3}', 'Doit avoir uniquement 3 caractères'],
                 }
-              - {
-                  label: 'Nom',
-                  name: 'lastname',
-                  widget: 'string',
-                  default: 'Vecchio',
-                }
-              - {
-                  label: 'Prénom',
-                  name: 'firstname',
-                  widget: 'string',
-                  default: 'Jean-Luc',
-                }
+              - { label: 'Nom', name: 'lastname', widget: 'string' }
+              - { label: 'Prénom', name: 'firstname', widget: 'string' }
               - {
                   label: 'Avatar',
                   name: 'avatar',
                   widget: 'image',
-                  default: '../avatar_default.png',
+                  default: '/img/avatar_default.png',
                 }
 
       - name: 'toml'

@@ -4,13 +4,13 @@
       "id": "mat",
       "lastname": "Thomas",
       "firstname": "Magali",
-      "avatar": "/img/magali-t._profil.jpg"
+      "avatar": "/img/mat.jpg"
     },
     {
       "id": "clc",
       "lastname": "Collard",
       "firstname": "Claire",
-      "avatar": "/img/photo-profil-claire-collard.jpg"
+      "avatar": "/img/clc.jpg"
     },
     {
       "id": "mag",
@@ -22,19 +22,19 @@
       "id": "niz",
       "lastname": "Zanello",
       "firstname": "Nicolas",
-      "avatar": "/img/nicolasz_profil.jpg"
+      "avatar": "/img/niz.jpg"
     },
     {
       "id": "tcj",
       "lastname": "Corallo-Jackson",
       "firstname": "Tatiana",
-      "avatar": "/img/moi_2.png"
+      "avatar": "/img/tcj.png"
     },
     {
       "id": "anm",
       "lastname": "Maranghi",
       "firstname": "Anthony ",
-      "avatar": "../avatar_default.png"
+      "avatar": "/img/avatar_default.png"
     }
   ]
 }
