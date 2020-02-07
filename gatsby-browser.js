@@ -1,5 +1,6 @@
 import CustomLayout from './wrapPageElement';
 import 'typeface-montserrat';
+import 'prismjs/plugins/line-numbers/prism-line-numbers.css';
 
 export const onClientEntry = () => {
   // IntersectionObserver polyfill for gatsby-background-image (Safari, IE)

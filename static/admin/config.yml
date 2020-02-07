@@ -183,7 +183,7 @@ collections:
         fields:
           - { label: 'Titre', name: 'title', widget: 'string' }
           - { label: 'Content', name: 'content', widget: 'string' }
-      - label: 'Thank you page'
+      - label: 'Page de remerciements'
         name: 'thankYouPage'
         widget: 'object'
         fields:
@@ -191,16 +191,29 @@ collections:
           - { label: 'Subtitle', name: 'subtitle', widget: 'string' }
           - { label: 'Content', name: 'content', widget: 'markdown' }
           - { label: 'Call-to-action', name: 'cta', widget: 'string' }
-      - label: 'Demo'
+      - label: 'Démo'
         name: 'demoPage'
         widget: 'object'
         fields:
           - { label: 'Titre', name: 'title', widget: 'string' }
-          - { label: 'Tilte (2)', name: 'subtitle', widget: 'string' }
-          - { label: 'Left Content', name: 'leftContent', widget: 'markdown' }
-          - { label: 'Right Content', name: 'rightContent', widget: 'markdown' }
-      - { label: 'Partners', name: 'partners', widget: 'string' }
-      - { label: 'Related posts', name: 'relatedPosts', widget: 'string' }
+          - { label: 'Titre (2)', name: 'subtitle', widget: 'string' }
+          - {
+              label: 'Contenu de gauche',
+              name: 'leftContent',
+              widget: 'markdown',
+            }
+          - {
+              label: 'Contenu de droite',
+              name: 'rightContent',
+              widget: 'markdown',
+            }
+      - { label: 'Partenaires', name: 'partners', widget: 'string' }
+      - { label: 'Articles associés', name: 'relatedPosts', widget: 'string' }
+      - {
+          label: 'Table des matières (introduction)',
+          name: 'tableOfContents',
+          widget: 'string',
+        }
       - label: 'Site Metadata'
         name: 'siteMetadata'
         widget: 'object'
@@ -484,8 +497,6 @@ collections:
     folder: 'src/data/posts'
     path: '{{path}}/index.{{lang}}'
     create: true
-    editor:
-      preview: false
     fields:
       - {
           label: 'Localisation',

@@ -83,6 +83,7 @@ const query = graphql`
             downloadWhitepaper
             downloadKit
             watchVideos
+            tableOfContents
             relatedPosts
             partners
             siteMetadata {

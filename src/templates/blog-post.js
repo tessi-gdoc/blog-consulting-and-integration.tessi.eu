@@ -20,6 +20,9 @@ import { Tablet, Desktop } from '@media';
 
 import { getId } from '@utils';
 
+import { tags, tableOfContents } from '../translations/fr';
+import { siteMetadata } from '../../gatsby-config';
+
 const ShareButtons = styled.div`
   position: relative;
   width: 100%;
@@ -67,17 +70,17 @@ const AuthorDescription = styled.p`
   margin-left: 12px;
 `;
 
-const Bio = ({ author: data, date, tags: tagNames }) => {
+const Bio = ({ author, date, tags: tagNames }) => {
   const [{ tags }] = useTranslations();
   return (
     <Author>
-      {data.avatar && (
+      {author?.avatar && (
         <Avatar>
-          <img src={data.avatar} alt={data.id} />
+          <img src={author.avatar} alt={author.id} />
         </Avatar>
       )}
       <AuthorDescription>
-        <strong>Par {data.fullname}</strong> | <time>{date}</time> |{' '}
+        <strong>Par {author.fullname}</strong> | <time>{date}</time> |{' '}
         {tagNames.map((key, i) => [
           i > 0 && <span key={i}> • </span>,
           <Link key={key} to={`/${kebabCase(key)}#tags`}>
@@ -109,23 +112,26 @@ const TocWrapper = styled.section`
   }
 `;
 
-const TableOfContents = ({ headings }) => (
-  <TocWrapper>
-    Dans cet article, nous verrons :
-    <ol>
-      {headings
-        .filter(({ depth }) => depth <= 2)
-        .map(({ value }) => {
-          const id = getId(value);
-          return (
-            <li key={value}>
-              <AnchorLink href={`#${id}`}>{value}</AnchorLink>
-            </li>
-          );
-        })}
-    </ol>
-  </TocWrapper>
-);
+const TableOfContents = ({ headings }) => {
+  const [{ tableOfContents }] = useTranslations();
+  return (
+    <TocWrapper>
+      {tableOfContents}
+      <ol>
+        {headings
+          .filter(({ depth }) => depth <= 2)
+          .map(({ value }) => {
+            const id = getId(value);
+            return (
+              <li key={value}>
+                <AnchorLink href={`#${id}`}>{value}</AnchorLink>
+              </li>
+            );
+          })}
+      </ol>
+    </TocWrapper>
+  );
+};
 
 const Intro = styled(HTML)`
   font-style: italic;
@@ -299,6 +305,104 @@ const BlogPostStyle = css`
     font-weight: normal;
   }
 `;
+
+const SocialButtons = ({ url, title, introduction }) => {
+  return (
+    <ShareButtons>
+      <LinkedinShareButton url={url} title={title} summary={introduction}>
+        <Icon type="linkedin" color="white" />
+      </LinkedinShareButton>
+      <TwitterShareButton url={url} title={title}>
+        <Icon type="twitter" color="white" />
+      </TwitterShareButton>
+    </ShareButtons>
+  );
+};
+
+const BioPreview = ({ author, date, tagNames }) => {
+  return (
+    <Author>
+      <Avatar>
+        <img src={`/img/${author}.jpg`} alt={author} />
+      </Avatar>
+
+      <AuthorDescription>
+        <strong>
+          Par <em>PLACEHOLDER_FULLNAME</em>
+        </strong>{' '}
+        ({author}) | <time>{date}</time> |{' '}
+        {tagNames.map((key, i) => [
+          i > 0 && <span key={i}> • </span>,
+          <a key={key} href={`/${kebabCase(key)}#tags`}>
+            {tags[key]}
+          </a>
+        ])}
+      </AuthorDescription>
+    </Author>
+  );
+};
+
+const TableOfContentsPreview = ({ headings }) => {
+  return (
+    <TocWrapper>
+      {tableOfContents}
+      <ol>
+        {headings
+          .filter(({ depth }) => depth <= 2)
+          .map(({ value }) => {
+            return (
+              <li key={value}>
+                <a href="/">{value}</a>
+              </li>
+            );
+          })}
+      </ol>
+    </TocWrapper>
+  );
+};
+
+// Blog post template for CMS
+export const BlogPostTemplatePreview = ({ data: { markdownRemark: post } }) => {
+  const {
+    frontmatter: {
+      introduction,
+      date,
+      title,
+      image,
+      imageAlt,
+      tags: tagNames,
+      author,
+      path
+    },
+    html,
+    headings
+  } = post;
+  return (
+    <>
+      <SocialButtons
+        title={title}
+        summary={introduction}
+        url={`${siteMetadata.siteUrl}/posts/${path}`}
+      />
+      {image && <Hero title={title} imageData={image} imageAlt={imageAlt} />}
+      <PostContainer css={BlogPostStyle}>
+        <BioPreview author={author} date={date} tagNames={tagNames} />
+        <Intro markdown={introduction} />
+        {!!headings.length && <TableOfContentsPreview headings={headings} />}
+        <article
+          css={css`
+            & img {
+              width: 100%;
+            }
+          `}
+        >
+          {html}
+        </article>
+      </PostContainer>
+    </>
+  );
+};
+
 const BlogPost = ({
   location,
   data: {
@@ -314,32 +418,17 @@ const BlogPost = ({
 
   return (
     <>
-      <ShareButtons>
-        <LinkedinShareButton
-          url={location.href}
-          title={title}
-          summary={introduction}
-        >
-          <Icon type="linkedin" color="white" />
-        </LinkedinShareButton>
-        <TwitterShareButton url={location.href} title={title}>
-          <Icon type="twitter" color="white" />
-        </TwitterShareButton>
-      </ShareButtons>
-      {image && (
-        <Hero
-          title={title}
-          imageData={image.childImageSharp.fluid}
-          imageAlt={imageAlt}
-        />
-      )}
+      <SocialButtons title={title} summary={introduction} url={location.href} />
+      <Hero title={title} imageData={image} imageAlt={imageAlt} />
       <PostContainer css={BlogPostStyle}>
-        {author && <Bio author={author} tags={tags} date={date} />}
+        <Bio author={author} tags={tags} date={date} />
         <Intro markdown={introduction} />
         {!!headings.length && <TableOfContents headings={headings} />}
         <article dangerouslySetInnerHTML={{ __html: html }} />
       </PostContainer>
-      <RelatedPosts posts={posts} tags={tags} currentPostId={post.id} />
+      {!!posts.length && (
+        <RelatedPosts posts={posts} tags={tags} currentPostId={post.id} />
+      )}
     </>
   );
 };

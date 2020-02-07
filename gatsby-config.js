@@ -188,7 +188,12 @@ module.exports = {
             resolve: `gatsby-remark-autolink-headers`,
             options: { icon: false }
           },
-          `gatsby-remark-prismjs`
+          {
+            resolve: `gatsby-remark-prismjs`,
+            options: {
+              showLineNumbers: true
+            }
+          }
         ]
       }
     },

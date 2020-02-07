@@ -8,7 +8,7 @@ import Newsletter from './Newsletter';
 
 import { primary, secondary } from '@colors';
 
-const GlobalStyles = () => (
+export const GlobalStyles = () => (
   <Global
     styles={css`
       html,
@@ -371,7 +371,9 @@ const GlobalStyles = () => (
       }
 
       code[class*='language-'],
-      pre[class*='language-'] {
+      pre[class*='language-'],
+      .frame-content pre,
+      .frame-content pre > code {
         color: white;
         background: none;
         font-family: Consolas, Menlo, Monaco, source-code-pro, Courier New,
@@ -474,12 +476,14 @@ const GlobalStyles = () => (
         color: rgb(178, 204, 214);
       }
 
-      pre[data-line] {
+      pre[data-line],
+      .frame-content pre {
         padding: 1em 0 1em 3em;
         position: relative;
       }
 
-      .gatsby-highlight-code-line {
+      .gatsby-highlight-code-line,
+      .frame-content pre {
         background-color: hsla(207, 95%, 15%, 1);
         display: block;
         padding-right: 1em;
@@ -489,9 +493,16 @@ const GlobalStyles = () => (
 
       .gatsby-highlight {
         margin-bottom: 1.75rem;
+        padding: 1em;
         background: #011627;
         -webkit-overflow-scrolling: touch;
         overflow: auto;
+      }
+
+      .gatsby-highlight pre[class*='language-'].line-numbers {
+        padding: 0;
+        padding-left: 2.8em;
+        overflow: initial;
       }
 
       @media (max-width: 672px) {

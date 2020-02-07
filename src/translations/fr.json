@@ -5,7 +5,7 @@
   "demo": "Demande de démo",
   "readCaseStudy": "Lire l'étude de cas",
   "form": {
-    "failed": "## Une erreur est survenueI\n\nNotre formulaire de demande de démonstration est indisponible pour le moment. \n\n**Merci de réessayer ultérieurement.**",
+    "failed": "## Une erreur est survenue\n\nNotre formulaire de demande de démonstration est indisponible pour le moment. \n\n**Merci de réessayer ultérieurement.**",
     "backToHome": "Revenir à l'accueil"
   },
   "thankYouPage": {
@@ -17,6 +17,7 @@
   "resources": "Ressources",
   "watchVideos": "Voir les vidéos",
   "relatedPosts": "Articles associés",
+  "tableOfContents": "Dans cet article, nous verrons :",
   "readNews": "Voir la news",
   "convinced": "êtes-vous convaincu ?",
   "partners": "Nos partenaires",

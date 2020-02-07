@@ -65,7 +65,7 @@ const StyledModal = styled(ReactModal)`
   }
 `;
 
-ReactModal.setAppElement(`#___gatsby`);
+ReactModal.setAppElement('body');
 
 const Modal = ({ title, isOpen, onClose, footer, children, ...props }) => {
   return (

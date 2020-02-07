@@ -57,6 +57,16 @@ const Wrapper = styled.section`
   margin: 2rem 0;
 `;
 
+const ErrorWrapper = styled.div`
+  text-align: center;
+  background-color: #ededee;
+  padding-top: 0.5em;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-bottom: 2em;
+  border-radius: 5px;
+`;
+
 const useScript = src => {
   const [state, setState] = useState({ loaded: false, error: false });
 
@@ -90,12 +100,12 @@ const PleziForm = ({ webformId, formId, tenantId }) => {
   );
   if (error) {
     return (
-      <>
+      <ErrorWrapper>
         <HTML markdown={form.failed} />
         <Cta type={enumTypes.SECONDARY} link="/" size="large">
           {form.backToHome}
         </Cta>
-      </>
+      </ErrorWrapper>
     );
   }
   return (

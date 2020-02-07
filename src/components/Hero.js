@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { keyframes } from '@emotion/core';
+import { css, keyframes } from '@emotion/core';
 import styled from '@emotion/styled';
 import BackgroundImage from 'gatsby-background-image';
 import Typist from 'react-typist';
@@ -57,13 +57,9 @@ const InnerBackgroundImage = styled(FlexContent)`
   }
 `;
 
-const BackgroundColor = styled(FlexContent)`
-  background-color: ${primary};
-  text-align: center;
-`;
-
 const TypistText = styled(Typist)`
   font-size: inherit;
+  text-align: center;
   ${Tablet} {
     font-size: 1.5rem;
   }
@@ -71,22 +67,36 @@ const TypistText = styled(Typist)`
 
 const InnerContent = ({ title, children }) => {
   return (
-    <Container>
-      <Title>{title}</Title>
-      {isNotNil(children) && (
-        <TypistText startDelay={800}>{children}</TypistText>
-      )}
-    </Container>
+    <InnerBackgroundImage direction="column">
+      <Container>
+        <Title>{title}</Title>
+        {isNotNil(children) && (
+          <TypistText startDelay={800}>{children}</TypistText>
+        )}
+      </Container>
+    </InnerBackgroundImage>
   );
 };
 
 const Hero = ({ title, imageData, imageAlt, children }) => {
-  if (!imageData)
+  if (typeof imageData === 'string')
     return (
-      <BackgroundColor direction="column">
+      <FlexContent
+        direction="column"
+        css={css`
+          position: relative;
+          background-image: url('${imageData}');
+          background-color: ${primary};
+          background-position: center center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          z-index: 0;
+        `}
+      >
         <InnerContent title={title}>{children}</InnerContent>
-      </BackgroundColor>
+      </FlexContent>
     );
+  const gatsbyImage = imageData?.childImageSharp.fluid;
   return (
     <BackgroundImage
       Tag="header"
@@ -95,25 +105,22 @@ const Hero = ({ title, imageData, imageAlt, children }) => {
       alt={imageAlt || `${title} cover image`}
       role="img"
       aria-label={title}
-      fluid={imageData}
+      fluid={gatsbyImage}
       backgroundColor={primary}
     >
-      <InnerBackgroundImage direction="column">
-        <InnerContent title={title}>{children}</InnerContent>
-      </InnerBackgroundImage>
-      >
+      <InnerContent title={title}>{children}</InnerContent>>
     </BackgroundImage>
   );
 };
 
 Hero.defaultProps = {
-  imageData: null,
+  imageData: '',
   children: undefined
 };
 
 Hero.propTypes = {
   title: PropTypes.oneOfType([PropTypes.string, PropTypes.element]).isRequired,
-  imageData: PropTypes.object,
+  imageData: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   children: PropTypes.node
 };
 
