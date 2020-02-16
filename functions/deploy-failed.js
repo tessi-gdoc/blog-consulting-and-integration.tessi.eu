@@ -6,16 +6,16 @@ exports.handler = async event => {
   await axios.post(process.env.TEAMS_WEBHOOK, {
     '@type': 'MessageCard',
     '@context': 'http://schema.org/extensions',
-    themeColor: '28A745',
-    summary: 'New deployment on Netlify',
+    themeColor: 'FF0000',
+    summary: 'Deployment failed on Netlify',
     title: payload.title,
     sections: [
       {
         title: 'Details',
         facts: [
           {
-            name: 'Published at',
-            value: new Date(payload.published_at).toLocaleString()
+            name: 'Created at',
+            value: new Date(payload.created_at).toLocaleString()
           },
           {
             name: 'Github Commit',
@@ -32,16 +32,6 @@ exports.handler = async event => {
           {
             os: 'default',
             uri: `${payload.admin_url}/deploys/${payload.id}`
-          }
-        ]
-      },
-      {
-        '@type': 'OpenUri',
-        name: 'Preview deploy',
-        targets: [
-          {
-            os: 'default',
-            uri: payload.url
           }
         ]
       }
