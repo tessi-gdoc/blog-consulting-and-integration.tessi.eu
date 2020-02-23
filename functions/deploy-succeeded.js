@@ -1,5 +1,10 @@
 const axios = require('axios');
 
+const netlifyUser = {
+  name: `Netlify Tessi`,
+  uid: `netlify-tessi`
+};
+
 exports.handler = async event => {
   const { payload } = JSON.parse(event.body);
 
@@ -7,19 +12,21 @@ exports.handler = async event => {
     '@type': 'MessageCard',
     '@context': 'http://schema.org/extensions',
     themeColor: '28A745',
-    summary: 'New deployment on Netlify',
-    title: payload.title,
+    summary: 'Nouveau déploiement sur Netlify',
+    title: `[${payload.name}] Déploiement réussi sur la branche ${payload.branch}`,
+    text: payload.title,
     sections: [
       {
-        title: 'Details',
+        title: 'Détails',
         facts: [
           {
-            name: 'Published at',
-            value: new Date(payload.published_at).toLocaleString()
+            name: 'Publié par',
+            value: `[${payload.committer ||
+              netlifyUser.name}](https://github.com/${payload.committer || netlifyUser.uid})`
           },
           {
-            name: 'Github Commit',
-            value: `[Click here to open](${payload.commit_url})`
+            name: 'Commit Github',
+            value: `[${payload.commit_ref}](${payload.commit_url})`
           }
         ]
       }
@@ -27,7 +34,7 @@ exports.handler = async event => {
     potentialAction: [
       {
         '@type': 'OpenUri',
-        name: 'Deploy log',
+        name: 'Logs du déploiement',
         targets: [
           {
             os: 'default',
@@ -37,11 +44,11 @@ exports.handler = async event => {
       },
       {
         '@type': 'OpenUri',
-        name: 'Preview deploy',
+        name: 'Preview',
         targets: [
           {
             os: 'default',
-            uri: payload.url
+            uri: payload.context === 'deploy-preview' ? payload.deploy_ssl_url : payload.url
           }
         ]
       }
