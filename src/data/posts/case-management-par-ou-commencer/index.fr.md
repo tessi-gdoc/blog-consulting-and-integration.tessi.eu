@@ -2,7 +2,7 @@
 lang: fr
 key: blog-post
 image: ./case_management_definition.png
-imageAlt: ''
+imageAlt: Case Management
 banner: { 'alt': '', title: '', 'src': './banner.png', 'link': '' }
 path: case-management-par-ou-commencer
 title: 'Le Case Management : Par où commencer ? Définition, rôle et outils'
@@ -15,7 +15,8 @@ tags:
 author: clc
 introduction: >-
   Le Case Management est un terme qui est apparu aux États-Unis vers les années
-   1.    Initialement utilisé dans le domaine de la médecine, il désigne une
+  1.    Initialement utilisé dans le domaine de la médecine, il désigne une
+
   méthode de travail qui s’axe sur le suivi, la prise en charge et la
   coordination des soins, au cas par cas. Cette approche répond au besoin de
   traiter des patients atteint de maladie chronique pour lesquels la mise en
