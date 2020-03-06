@@ -36,7 +36,7 @@ introduction: >-
 banner:
   link: >-
     https://www.tessi.eu/ch/fr/solution/technologies/conseil-integration/conseil-integration/ecm/
-  src: Bannière_offre_Gestion_de_contenu.png
+  src: banniere_offre_gestion_de_contenu.png
   alt: Découvrir l'offre Gestion de contenu
   title: Offre Gestion de contenu
 ---
