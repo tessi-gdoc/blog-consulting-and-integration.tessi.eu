@@ -2,8 +2,7 @@
 lang: fr
 key: blog-post
 image: ./ecm_vers_content_services.png
-imageAlt: ''
-banner: { 'alt': '', title: '', 'src': './banner.png', 'link': '' }
+imageAlt: Content Services
 path: l-ecm-en-route-vers-les-content-services-gerer-ses-contenus-autrement
 title: 'L’ECM en route vers les Content Services : gérer ses contenus autrement'
 description: >-
@@ -35,7 +34,6 @@ introduction: >-
   Platform (CSP) ? Quelle est notre vision sur ces plateformes ECM nouvelle
   génération ?
 ---
-
 ## Quelles sont les origines de la convergence de l’ECM vers les « Content Services » ?
 
 **A nouveaux défis, nouveau vocabulaire**
@@ -58,4 +56,6 @@ Qu’est-ce que cela veut dire concrètement pour votre organisation ? Si vous �
 
 Le changement de paradigme des « content services » libère les organisations des systèmes ECM universels du passé. Avec une couche de services de contenu pour lier le tout ensemble, les organisations peuvent choisir des applications et des modules « à la carte » pour répondre à leurs besoins spécifiques. Les plateformes de Content Services confèrent aux organisations les moyens d’exploiter leur information quel que soit l’endroit où se trouve le contenu ; le faire circuler dans un workflow et des outils de [Case Management](https://blog-consulting-and-integration.tessi.eu/posts/case-management-par-ou-commencer) pour traiter des processus et des dossiers sensibles ; remonter l’information de manière adapté au contexte dans la bonne application métier ; et partager les contenus de façon sécurisé entre pairs en interne comme en dehors des murs de l’entreprise. Ces plateformes délivrent l’information sur tous les supports : PC, ordinateur portable ou mobile, en « responsive design », où que vous vous trouviez et même sans connexion Internet.
 
-**_Notre partenaire Hyland étaient prêt à affronter cette (r)évolution. Ils se placent en position de leader dans le_** [**_Magic Quadrant Gartner_**](https://www.hyland.com/en/explore/gartner-magic-quadrant-for-content-services-platforms) **_des "Content Services Platforms" 2019 (pour la 10ème année consécutives)._**
+***Notre partenaire Hyland étaient prêt à affronter cette (r)évolution. Ils se placent en position de leader dans le*** ***[Magic Quadrant Gartner](https://www.hyland.com/en/explore/gartner-magic-quadrant-for-content-services-platforms)*** ***des "Content Services Platforms" 2019 (pour la 10ème année consécutives).***
+
+![Découvrir l'offre Gestion de contenu](Bannière_offre_Gestion_de_contenu.png "Offre Gestion de contenu")
