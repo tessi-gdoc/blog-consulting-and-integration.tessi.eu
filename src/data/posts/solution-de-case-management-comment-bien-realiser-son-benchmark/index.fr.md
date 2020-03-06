@@ -3,6 +3,7 @@ lang: fr
 key: blog-post
 image: ./benchmark_solution_case_management.png
 imageAlt: ''
+banner: { 'alt': '', title: '', 'src': './banner.png', 'link': '' }
 path: solution-de-case-management-comment-bien-realiser-son-benchmark
 title: 'Solution de Case Management : Comment bien réaliser son benchmark ?'
 description: >-

@@ -3,6 +3,7 @@ lang: fr
 key: blog-post
 image: ./ecm_vers_content_services.png
 imageAlt: ''
+banner: { 'alt': '', title: '', 'src': './banner.png', 'link': '' }
 path: l-ecm-en-route-vers-les-content-services-gerer-ses-contenus-autrement
 title: 'L’ECM en route vers les Content Services : gérer ses contenus autrement'
 description: >-

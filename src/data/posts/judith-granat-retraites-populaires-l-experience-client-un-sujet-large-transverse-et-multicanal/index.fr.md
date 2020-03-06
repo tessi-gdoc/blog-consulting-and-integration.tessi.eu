@@ -3,6 +3,7 @@ lang: fr
 key: blog-post
 image: ./interview_experience_client_judith_granat.png
 imageAlt: ''
+banner: { 'alt': '', title: '', 'src': './banner.png', 'link': '' }
 path: judith-granat-retraites-populaires-l-experience-client-un-sujet-large-transverse-et-multicanal
 title: >-
   Judith Granat, Retraites Populaires : « L’expérience client : un sujet large,

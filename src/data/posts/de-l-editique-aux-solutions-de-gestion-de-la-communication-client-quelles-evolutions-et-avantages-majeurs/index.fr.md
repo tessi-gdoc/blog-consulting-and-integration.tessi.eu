@@ -3,6 +3,7 @@ lang: fr
 key: blog-post
 image: ./ediitique_solutions_ccm_moderne.png
 imageAlt: ''
+banner: { 'alt': '', title: '', 'src': './banner.png', 'link': '' }
 path: de-l-editique-aux-solutions-de-gestion-de-la-communication-client-quelles-evolutions-et-avantages-majeurs
 title: >-
   De l’éditique aux solutions de gestion de la communication client : Quelles

@@ -3,6 +3,7 @@ lang: fr
 key: blog-post
 image: ./case_management_definition.png
 imageAlt: ''
+banner: { 'alt': '', title: '', 'src': './banner.png', 'link': '' }
 path: case-management-par-ou-commencer
 title: 'Le Case Management : Par où commencer ? Définition, rôle et outils'
 description: >-
