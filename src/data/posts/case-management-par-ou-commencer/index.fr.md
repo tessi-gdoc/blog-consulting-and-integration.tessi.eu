@@ -35,6 +35,11 @@ introduction: >-
   représentent la partie immergée de l’iceberg car nombreuses sont les
   entreprises (tout secteur confondu) qui utilisent le Case Management sans même
   en avoir conscience.
+banner:
+  src: case_management_definition.png
+  title: gezgez
+  alt: gezgzegze
+  link: 'http://gezgzegz.com'
 ---
 
 ## 1/ Définition du Case Management : C’est quoi ?
