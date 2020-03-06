@@ -29,6 +29,11 @@ introduction: >-
   indépendantes de la qualité du réseau : la Progressive Web App (PWA).
   Regardons de plus près les avantages de ce type d’application mobile et leurs
   principes de développement.
+banner:
+  image: pwa_bg.jpg
+  alt: hello
+  title: heloo
+  link: 'http://gzigji.com'
 ---
 ## 01/ Les Progressive Web Apps : une alternative aux applications natives à considérer
 
