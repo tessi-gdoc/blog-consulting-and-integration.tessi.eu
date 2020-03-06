@@ -574,7 +574,7 @@ collections:
               widget: 'string',
               required: false,
             }
-          - { label: 'Image', name: 'src', widget: 'image', required: false }
+          - { label: 'Image', name: 'src', widget: 'image', required: true }
           - { label: 'Alt', name: 'alt', widget: 'string', required: false }
           - {
               label: 'Titre (SEO)',
