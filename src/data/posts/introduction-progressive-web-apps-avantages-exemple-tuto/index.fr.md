@@ -3,7 +3,6 @@ lang: fr
 key: blog-post
 image: ./introduction_aux_progressive_web_app.png
 imageAlt: Introduction aux Progressive Web Apps
-banner: { 'alt': '', title: '', 'src': './banner.png', 'link': '' }
 path: introduction-progressive-web-apps-avantages-exemple-tuto
 title: 'Introduction aux Progressive Web Apps : Avantages et développement'
 description: >-

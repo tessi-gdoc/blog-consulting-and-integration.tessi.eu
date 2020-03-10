@@ -3,7 +3,6 @@ lang: fr
 key: blog-post
 image: ./ged_case_management_migration.png
 imageAlt: ''
-banner: { 'alt': '', title: '', 'src': './banner.png', 'link': '' }
 path: de-la-ged-au-case-management-pourquoi-changer
 title: 'De la GED au Case Management : Pourquoi changer ?'
 description: >-

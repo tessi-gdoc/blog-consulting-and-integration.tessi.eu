@@ -3,7 +3,6 @@ lang: fr
 key: blog-post
 image: ./monétique_nouveaux_moyens_de_paiement.png
 imageAlt: monétique
-banner: { 'alt': '', title: '', 'src': './banner.png', 'link': '' }
 path: de-la-monetique-aux-nouveaux-moyens-de-paiements
 title: De la monétique aux nouveaux moyens de paiement
 description: >-

@@ -33,12 +33,6 @@ introduction: >-
   Mais l’évolution continue… Pourquoi parle-t-on maintenant de Content Services
   Platform (CSP) ? Quelle est notre vision sur ces plateformes ECM nouvelle
   génération ?
-banner:
-  link: >-
-    https://www.tessi.eu/ch/fr/solution/technologies/conseil-integration/conseil-integration/ecm/
-  src: banner.png
-  alt: Découvrir l'offre Gestion de contenu
-  title: Offre Gestion de contenu
 ---
 
 ## Quelles sont les origines de la convergence de l’ECM vers les « Content Services » ?
@@ -65,3 +59,7 @@ Le changement de paradigme des « content services » libère les organisations 
 
 **_Notre partenaire Hyland étaient prêt à affronter cette (r)évolution. Ils se placent en position de leader dans le_** **_[Magic Quadrant Gartner](https://www.hyland.com/en/explore/gartner-magic-quadrant-for-content-services-platforms)_** **_des "Content Services Platforms" 2019 (pour la 10ème année consécutives)._**
 <br />
+
+<a href="https://www.tessi.eu/ch/fr/solution/technologies/conseil-integration/conseil-integration/ecm/" target="_blank" rel="noopener noreferrer" title="Offre Gestion de contenu">
+  <img src="./banner.png" alt="Découvrir offre communication client" alt="Découvrir l'offre Gestion de contenu" />
+</a>

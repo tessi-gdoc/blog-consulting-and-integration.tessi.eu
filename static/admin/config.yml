@@ -544,14 +544,9 @@ collections:
               ],
           }
       - label: Auteur de l'article
-        name: 'author'
-        widget: ncw-file-relation
-        collection: configuration
-        file: authors
-        target_field: list
-        id_field: id
-        display_fields: 'fullname'
-        searchFields: ['fullname', 'id']
+        name: author
+        widget: author-select
+        placeholder: Sélectionnez un auteur
       - {
           label: 'Introduction',
           name: 'introduction',
@@ -564,24 +559,6 @@ collections:
           widget: 'markdown',
           default: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
         }
-      - label: 'Bannière'
-        name: banner
-        widget: object
-        fields:
-          - {
-              label: 'Lien externe',
-              name: 'link',
-              widget: 'string',
-              required: false,
-            }
-          - { label: 'Image', name: 'src', widget: 'image', required: true }
-          - { label: 'Alt', name: 'alt', widget: 'string', required: false }
-          - {
-              label: 'Titre (SEO)',
-              name: 'title',
-              widget: 'string',
-              required: false,
-            }
   - name: 'kits'
     label: 'Kits'
     label_singular: 'Kit'

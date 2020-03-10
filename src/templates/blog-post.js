@@ -1,6 +1,5 @@
 import React from 'react';
 import { graphql } from 'gatsby';
-import Img from 'gatsby-image';
 import styled from '@emotion/styled';
 import { css } from '@emotion/core';
 import TwitterShareButton from 'react-share/lib/TwitterShareButton';
@@ -329,9 +328,9 @@ const BioPreview = ({ author, date, tagNames }) => {
 
       <AuthorDescription>
         <strong>
-          Par <em>PLACEHOLDER_FULLNAME</em>
+          Par <em>{author}</em>
         </strong>{' '}
-        ({author}) | <time>{date}</time> |{' '}
+        | <time>{date}</time> |{' '}
         {tagNames.map((key, i) => [
           i > 0 && <span key={i}> • </span>,
           <a key={key} href={`/${kebabCase(key)}#tags`}>
@@ -362,25 +361,6 @@ const TableOfContentsPreview = ({ headings }) => {
   );
 };
 
-const Banner = ({ title, alt, link, src }) => {
-  const Image = (
-    <Img
-      fluid={src.childImageSharp.fluid}
-      title={title}
-      alt={alt}
-      style={{ maxWidth: 720, margin: '0 auto' }}
-    />
-  );
-  if (link)
-    return (
-      <a href={link} target="_blank" rel="noopener noreferrer">
-        {Image}
-      </a>
-    );
-
-  return Image;
-};
-
 // Blog post template for CMS
 export const BlogPostTemplatePreview = ({ data: { markdownRemark: post } }) => {
   const {
@@ -392,8 +372,7 @@ export const BlogPostTemplatePreview = ({ data: { markdownRemark: post } }) => {
       imageAlt,
       tags: tagNames,
       author,
-      path,
-      banner
+      path
     },
     html,
     headings
@@ -419,16 +398,6 @@ export const BlogPostTemplatePreview = ({ data: { markdownRemark: post } }) => {
         >
           {html}
         </article>
-        {banner.src && (
-          <a href={banner.link} target="_blank" rel="noopener noreferrer">
-            <img
-              src={banner.src}
-              title={title}
-              alt={banner.alt}
-              style={{ maxWidth: 720, width: '100%', margin: '0 auto' }}
-            />
-          </a>
-        )}
       </PostContainer>
     </>
   );
@@ -442,16 +411,7 @@ const BlogPost = ({
   }
 }) => {
   const {
-    frontmatter: {
-      introduction,
-      date,
-      title,
-      image,
-      imageAlt,
-      author,
-      tags,
-      banner
-    },
+    frontmatter: { introduction, date, title, image, imageAlt, author, tags },
     html,
     headings
   } = post;
@@ -465,7 +425,6 @@ const BlogPost = ({
         <Intro markdown={introduction} />
         {!!headings.length && <TableOfContents headings={headings} />}
         <article dangerouslySetInnerHTML={{ __html: html }} />
-        {banner.src.childImageSharp && <Banner {...banner} />}
       </PostContainer>
       {!!posts.length && (
         <RelatedPosts posts={posts} tags={tags} currentPostId={post.id} />
@@ -504,18 +463,6 @@ export const pageQuery = graphql`
           }
         }
         imageAlt
-        banner {
-          alt
-          title
-          src {
-            childImageSharp {
-              fluid(maxWidth: 720) {
-                ...GatsbyImageSharpFluid_withWebp
-              }
-            }
-          }
-          link
-        }
         author {
           fullname
           avatar

@@ -31,12 +31,6 @@ introduction: >-
   reviendrons sur l’histoire de la communication client au sein des
   organisations pour comprendre dans une deuxième partie, en quoi les solutions
   CCM modernes présentent des opportunités à saisir.
-banner:
-  alt: Découvrir offre communication client
-  title: Offre communication client
-  src: banniere_offre_communication_client_interactif.png
-  link: >-
-    https://www.tessi.eu/ch/fr/solution/technologies/conseil-integration/conseil-integration/ccm-cxm-guide-de-conversation-interactif/
 ---
 
 ## 01/ De l'éditique aux plateformes de composition modernes
@@ -146,3 +140,7 @@ Le client peut déclencher lui-même la création de communications. Dans la pra
 - Les utilisateurs métier peuvent se concentrer sur les communications à plus forte valeur ajoutée
 
 **_La transformation de l’éditique vers la communication client montre une forte digitalisation des processus de communication. Les évolutions ont été telles que de nombreuses solutions en place dans les organisations sur des socles technologiques figés ne permettent pas des mises à jour suffisantes (lorsqu’elles sont encore mises à jour) pour atteindre une performance et des possibilités similaires aux solutions CCM modernes. Les nouvelles solutions de composition sont devenues une brique essentielle du parcours client. Elles sont un véritable levier pour acquérir de nouveaux clients et transformer vos clients en ambassadeurs._**
+
+<a href="https://www.tessi.eu/ch/fr/solution/technologies/conseil-integration/conseil-integration/ccm-cxm-guide-de-conversation-interactif/" target="_blank" rel="noopener noreferrer" title="Offre communication client">
+  <img src="./banniere_offre_communication_client_interactif.png" alt="Découvrir offre communication client" />
+</a>
