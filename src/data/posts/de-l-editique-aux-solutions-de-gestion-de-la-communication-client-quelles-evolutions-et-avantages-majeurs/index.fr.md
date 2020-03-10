@@ -139,3 +139,5 @@ Le client peut déclencher lui-même la création de communications. Dans la pra
 * Les utilisateurs métier peuvent se concentrer sur les communications à plus forte valeur ajoutée
 
 ***La transformation de l’éditique vers la communication client montre une forte digitalisation des processus de communication. Les évolutions ont été telles que de nombreuses solutions en place dans les organisations sur des socles technologiques figés ne permettent pas des mises à jour suffisantes (lorsqu’elles sont encore mises à jour) pour atteindre une performance et des possibilités similaires aux solutions CCM modernes. Les nouvelles solutions de composition sont devenues une brique essentielle du parcours client. Elles sont un véritable levier pour acquérir de nouveaux clients et transformer vos clients en ambassadeurs.***
+
+[![Découvrir l'offre communication client](banniere_offre_communication_client_interactif.png "Offre communication client")](https://www.tessi.eu/ch/fr/solution/technologies/conseil-integration/conseil-integration/ccm-cxm-guide-de-conversation-interactif/)
