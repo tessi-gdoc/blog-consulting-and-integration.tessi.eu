@@ -2,9 +2,9 @@
 lang: fr
 key: blog-post
 image: ./ediitique_solutions_ccm_moderne.png
-imageAlt: ''
-banner: { 'alt': '', title: '', 'src': './banner.png', 'link': '' }
-path: de-l-editique-aux-solutions-de-gestion-de-la-communication-client-quelles-evolutions-et-avantages-majeurs
+imageAlt: éditique
+path: >-
+  de-l-editique-aux-solutions-de-gestion-de-la-communication-client-quelles-evolutions-et-avantages-majeurs
 title: >-
   De l’éditique aux solutions de gestion de la communication client : Quelles
   évolutions et avantages majeurs ?
@@ -31,6 +31,12 @@ introduction: >-
   reviendrons sur l’histoire de la communication client au sein des
   organisations pour comprendre dans une deuxième partie, en quoi les solutions
   CCM modernes présentent des opportunités à saisir.
+banner:
+  alt: Découvrir offre communication client
+  title: Offre communication client
+  src: banniere_offre_communication_client_interactif.png
+  link: >-
+    https://www.tessi.eu/ch/fr/solution/technologies/conseil-integration/conseil-integration/ccm-cxm-guide-de-conversation-interactif/
 ---
 
 ## 01/ De l'éditique aux plateformes de composition modernes
