@@ -36,16 +36,15 @@ introduction: >-
   entreprises (tout secteur confondu) qui utilisent le Case Management sans même
   en avoir conscience.
 ---
-
 ## 1/ Définition du Case Management : C’est quoi ?
 
-- Le Case Management est un concept qui vise à optimiser la performance des organisations et plus particulièrement la performance des équipes front office.
-- En français, Case Management se traduit par « gestion des cas ». Autrement dit, le Case Management facilite le traitement des cas pour plus d’efficacité.
-- Le Case Management est le fruit de la digitalisation de la relation client : cette relation auparavant limitée aux échanges en personne ou aux conversations téléphonique, passe aujourd’hui par une multiplicité de points de contact.
-- L’approche de Case Management prend tout son sens particulièrement en BtoC dans les secteurs d’activités où le traitement des cas client peuvent être complexes, longs et recourir à plusieurs acteurs humains et expertises dans la prise de décision.
-- De cette approche sont nées des solutions technologiques de Case Management. Ces dernières mettent le client et les données au centre des processus avec un objectif premier : soigner la relation client.
-- L’amalgame est souvent faite entre Case Management et BPM. Même si en effet, ces deux types de solution permettent le traitement de cas client, le BPM utilise des processus prédictibles. Alors que le Case Management fait appel à des processus contrôlés mais non prédictifs qui confèrent une flexibilité que les solutions de BPM ne sauraient égaler.
-- On parle aussi de Case Management 360. Cette notion illustre la vision d’ensemble des dossiers clients et processus qu’offre une solution de Case Management.
+* Le Case Management est un concept qui vise à optimiser la performance des organisations et plus particulièrement la performance des équipes front office.
+* En français, Case Management se traduit par « gestion des cas ». Autrement dit, le Case Management facilite le traitement des cas pour plus d’efficacité.
+* Le Case Management est le fruit de la digitalisation de la relation client : cette relation auparavant limitée aux échanges en personne ou aux conversations téléphonique, passe aujourd’hui par une multiplicité de points de contact.
+* L’approche de Case Management prend tout son sens particulièrement en BtoC dans les secteurs d’activités où le traitement des cas client peuvent être complexes, longs et recourir à plusieurs acteurs humains et expertises dans la prise de décision.
+* De cette approche sont nées des solutions technologiques de Case Management. Ces dernières mettent le client et les données au centre des processus avec un objectif premier : soigner la relation client.
+* L’amalgame est souvent faite entre Case Management et BPM. Même si en effet, ces deux types de solution permettent le traitement de cas client, le BPM utilise des processus prédictibles. Alors que le Case Management fait appel à des processus contrôlés mais non prédictifs qui confèrent une flexibilité que les solutions de BPM ne sauraient égaler.
+* On parle aussi de Case Management 360. Cette notion illustre la vision d’ensemble des dossiers clients et processus qu’offre une solution de Case Management.
 
 ## 2/ Le rôle du Case Management : Ça sert à quoi ?
 
@@ -65,9 +64,9 @@ Votre outil de Case Management doit être une solution totalement personnalisabl
 
 De façon générale, certains modules sont indispensables. Pour avoir une solution efficace, vous aurez besoin de fonctionnalités :
 
-- De capture : Les types de documents regroupés dans un cas sont très différents (documents papiers, nativement numériques, contenus multimédia) et proviennent de sources diverses. Il est nécessaire de collecter tous les documents dont l’utilisateur a besoin, de les identifier, d’en extraire les données importantes puis de les envoyer vers le système de Case Management. Vous pouvez ainsi automatiser une partie du processus souvent chronophage et pénible pour vos collaborateurs compétents.
-- De « Document Management » : cette brique vous permet de gérer vos dossiers métiers auxquels sont reliés des documents en passant par des processus flexibles et dynamiques. Vous avez également la possibilité de partager des informations pour faciliter la collaboration. Votre solution de Case Management vous aide à mieux structurer vos contenus et leur accessibilité dans le respect de votre gouvernance d’entreprise.
-- De suivi : Il est possible d’avoir un aperçu général du processus dans sa globalité ou sur un cas précis grâce à des tableaux de bord et rapports disponibles à tout moment et partout sans passer par le service informatique. Lorsqu’une décision est prise, les données sont instantanément mise à jour dans votre solution.
+* De capture : Les types de documents regroupés dans un cas sont très différents (documents papiers, nativement numériques, contenus multimédia) et proviennent de sources diverses. Il est nécessaire de collecter tous les documents dont l’utilisateur a besoin, de les identifier, d’en extraire les données importantes puis de les envoyer vers le système de Case Management. Vous pouvez ainsi automatiser une partie du processus souvent chronophage et pénible pour vos collaborateurs compétents.
+* De « Document Management » : cette brique vous permet de gérer vos dossiers métiers auxquels sont reliés des documents en passant par des processus flexibles et dynamiques. Vous avez également la possibilité de partager des informations pour faciliter la collaboration. Votre solution de Case Management vous aide à mieux structurer vos contenus et leur accessibilité dans le respect de votre gouvernance d’entreprise.
+* De suivi : Il est possible d’avoir un aperçu général du processus dans sa globalité ou sur un cas précis grâce à des tableaux de bord et rapports disponibles à tout moment et partout sans passer par le service informatique. Lorsqu’une décision est prise, les données sont instantanément mise à jour dans votre solution.
 
 Vous aurez également besoin de vos applications métiers, votre GED et/ou CRM auxquels la solution de Case Management vient se connecter. En effet, si le Case Management permet de gérer certaines actions depuis la plateforme, rappelons qu’une solution de Case Management n’a pas vocation à remplacer vos outils existants. Il s’agit d’un facilitateur.
 
@@ -103,4 +102,6 @@ En Case Management, on parle de solution mais il est en premier lieu question d�
 
 Si vous possédez l’ensemble des compétences en interne et que vous pouvez garantir leur disponibilité lors du projet alors faire appel à un éditeur peut vous convenir. En revanche, si ce n’est pas votre cas, choisir de collaborer avec un intégrateur est une option pertinente.
 
-**_Le Case Management est une solution mixte à la fois automatique et manuelle où la technologie aide le savoir-faire humain. L’utilisateur métier gagne du temps et peut enfin se consacrer uniquement au traitement des cas. De par l’existence de solutions modulaires, ses possibilités de personnalisation et son large champ d’applications, le Case Management s’adresse aux entreprises de toutes tailles sur de nombreux secteurs d’activité. Ce concept vient en soutient aux organisations désireuses d’optimiser leurs processus, d’améliorer leur relation client et de réduire leur coût de fonctionnement informatique._**
+***Le Case Management est une solution mixte à la fois automatique et manuelle où la technologie aide le savoir-faire humain. L’utilisateur métier gagne du temps et peut enfin se consacrer uniquement au traitement des cas. De par l’existence de solutions modulaires, ses possibilités de personnalisation et son large champ d’applications, le Case Management s’adresse aux entreprises de toutes tailles sur de nombreux secteurs d’activité. Ce concept vient en soutient aux organisations désireuses d’optimiser leurs processus, d’améliorer leur relation client et de réduire leur coût de fonctionnement informatique.***
+
+[![découvrir_offre_case_management](banniere_offre_case_management.png "Découvrir Case Management")](https://www.tessi.eu/ch/fr/solution/technologies/conseil-integration/conseil-integration/ecm/?utm_source=blog&utm_medium=in_article_banner&utm_content=5e67d416d59cbc342a52e403&utm_campaign=5e68e609d59cbc342a53668d)
