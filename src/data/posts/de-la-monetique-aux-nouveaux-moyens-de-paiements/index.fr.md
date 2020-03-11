@@ -73,3 +73,5 @@ Les constructeurs automobiles expérimentent de plus en plus des solutions de pa
 ***La transition de la monétique vers les nouveaux moyens de paiement n’est pas nouvelle mais au contraire bien avancée. Les réseaux interbancaires et les moyens de paiement que nous connaissions jusqu’à présent tendent à disparaître pour laisser place à des parcours client digitaux, innovants, multiples et en constante évolution.***
 
 ***Les smartphones, le sans contact, l’Instant Payment, l’IoT s’imposent comme les nouveaux moyens de paiement. Nous assistons à une convergence de ces derniers pour le créancier vers l’omnicanal, l’omni-paiement. Les moyens de paiement font partie intégrante du parcours client et s’inscrivent dans une logique de transformation digitale, l’omnicanal et la gestion des flux rejoignant ainsi l’omni-paiement.***
+
+[![Découvrir offre Paiements](banniere_offre_paiements.png "Offre Paiements")](https://www.tessi.eu/ch/fr/solution/technologies/conseil-integration/conseil-integration/paiements/?utm_source=blog&utm_medium=in_article_banner&utm_content=5e67d5e4d59cbc342a52e533&utm_campaign=5e68ead8d59cbc3435536fdd)
