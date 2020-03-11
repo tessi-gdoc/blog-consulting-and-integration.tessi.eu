@@ -1,7 +1,7 @@
 ---
 lang: fr
 key: blog-post
-image: ./benchmark_solution_case_management.png
+image: benchmark_solution_case_management.png
 imageAlt: Benchmark Case Management
 path: solution-de-case-management-comment-bien-realiser-son-benchmark
 title: 'Solution de Case Management : Comment bien réaliser son benchmark ?'
