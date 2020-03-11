@@ -2,7 +2,7 @@
 lang: fr
 key: blog-post
 image: interview_monetique_laurent_leterrier.png
-imageAlt: Portrait_Laurent_Leterrier
+imageAlt: Portrait Laurent Leterrier
 path: >-
   laurent-leterrier-BNPP-le-secteur-des-paiements-agite-par-le-foisonnement-des-usages
 title: >-
