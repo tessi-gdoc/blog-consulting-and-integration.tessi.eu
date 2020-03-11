@@ -2,7 +2,7 @@
 lang: fr
 key: blog-post
 image: ./case_management_low_code.png
-imageAlt: ''
+imageAlt: Case_management_paramétrage
 path: le-case-management-objectif-no-code
 title: Quel mode de réalisation pour sa solution de Case Management ?
 description: >-
@@ -38,7 +38,6 @@ introduction: >-
   outil auteur « fait maison ». Puis il y a une troisième alternative, faire le
   choix d’un mode hybride via une plateforme de paramétrage « low code ».
 ---
-
 ## **01 / 3 manières de penser sa solution de Case Management**
 
 ### **A. “Buy” : une solution clé en main à poser chez vous**
@@ -47,10 +46,10 @@ C’est le principe du « prêt à l’emploi » : une solution de Case Manageme
 
 Cette option peut se justifier dans les cas suivants :
 
-- La solution sectorielle que vous visez a fait ses preuves car elle maîtrise l’activité sur laquelle elle est spécialisée qui est aussi la vôtre.
-- Vous n’avez pas les ressources compétentes et disponibles (métier de l’IT par exemple) dans le temps imparti pour mettre en place votre solution puis la maintenir.
-- La transversalité de vos cas client est limitée.
-- Le marché propose des solutions qui ne vous confèrent pas d’avantage compétitif.
+* La solution sectorielle que vous visez a fait ses preuves car elle maîtrise l’activité sur laquelle elle est spécialisée qui est aussi la vôtre.
+* Vous n’avez pas les ressources compétentes et disponibles (métier de l’IT par exemple) dans le temps imparti pour mettre en place votre solution puis la maintenir.
+* La transversalité de vos cas client est limitée.
+* Le marché propose des solutions qui ne vous confèrent pas d’avantage compétitif.
 
 Cependant cette option comporte quelques limites à prendre en compte. Les solutions proposées sur le marché ne seront peut-être pas adapté à 100% à vos besoins spécifiques, vos usages, aux particularités de votre relation client. Votre choix doit dépendre de vos critères et de la pondération que vous attribuez à chacun.
 
@@ -70,17 +69,17 @@ La perspective d’une solution totalement sur mesure maîtrisée à l’interne
 
 Cette option est à considérer en particulier dans les cas suivants :
 
-- Vous disposez des compétences IT nécessaires (code, infrastructure, réseau, etc.) et disponibles dans vos équipes (ou vous souhaitez investir dans ces compétences et pouvez mettre en place cette/ces équipe(s)),
-- Vous connaissez votre écosystème et en maîtrisez les particularités, ce qui rendra l’intégration possible par vos ressources aux compétences dédiées,
-- Vous êtes en capacité de gérer l’ensemble des sous projets qui peuvent émaner d’un projet de Case Management : accompagnement au changement, reprise de données, etc.
+* Vous disposez des compétences IT nécessaires (code, infrastructure, réseau, etc.) et disponibles dans vos équipes (ou vous souhaitez investir dans ces compétences et pouvez mettre en place cette/ces équipe(s)),
+* Vous connaissez votre écosystème et en maîtrisez les particularités, ce qui rendra l’intégration possible par vos ressources aux compétences dédiées,
+* Vous êtes en capacité de gérer l’ensemble des sous projets qui peuvent émaner d’un projet de Case Management : accompagnement au changement, reprise de données, etc.
 
 Le temps de réalisation nécessaire est un facteur déterminant pour le choix ou non de cette option. En effet, la charge de développement vous incombe et sera sans doute grande. Elle devra être prise en compte. Le planning du projet sera ajusté selon la charge de travail de l’équipe projet et la disponibilité des ressources métiers référentes.
 
 Le développement concernera aussi bien le cœur de la solution que :
 
-- les connecteurs ou interfaces d’intégration, avec vos applications « maison » mais aussi avec les outils propriétaires (messagerie, bureautique, etc.),
-- les modules d’administration et de pilotage de la solution,
-- les tableaux de bords de la gestion des cas clients.
+* les connecteurs ou interfaces d’intégration, avec vos applications « maison » mais aussi avec les outils propriétaires (messagerie, bureautique, etc.),
+* les modules d’administration et de pilotage de la solution,
+* les tableaux de bords de la gestion des cas clients.
 
 Afin de garantir la souplesse et l’adaptabilité requises pour une solution de Case Management efficace, votre solution « maison » devra pouvoir évoluer facilement sans remettre en cause sa structure, ni son architecture. Pour ce faire, vos équipes compétentes de développement doivent pouvoir être mobilisées (en proportion adaptée) tout au long de la vie de la solution, pas uniquement pendant le projet.
 
@@ -96,9 +95,9 @@ Les offres de type plateforme « low-code » sont proposées par les éditeurs e
 
 Cette option modulaire s’imposera notamment si :
 
-- Vous faites face à des projets courts qui nécessitent d’être exécutés et livrés rapidement aux utilisateurs pour répondre aux contraintes business,
-- Vous avez besoin de souplesse de déploiement par métier ou par population par exemple,
-- Vous souhaitez donner la main à des profils métier ou hybrides sous encadrement de l’IT.
+* Vous faites face à des projets courts qui nécessitent d’être exécutés et livrés rapidement aux utilisateurs pour répondre aux contraintes business,
+* Vous avez besoin de souplesse de déploiement par métier ou par population par exemple,
+* Vous souhaitez donner la main à des profils métier ou hybrides sous encadrement de l’IT.
 
 Pour être un choix gagnant, ce mode de gestion est quasi indissociable de la méthode utilisée pour la mise en œuvre. Particulièrement adaptées aux projets de Case Management en privilégiant l’échange et l’itération, la méthode RAD (Rapid Application Development) et les méthodes agiles seront de la partie.
 
@@ -119,6 +118,8 @@ Les équipes IT peuvent alors garantir les bonnes pratiques de paramétrage comm
 5. L’implication de profils différents, dont des profils métier, dans la gestion de la plateforme a 2 effets positifs majeurs : une utilisation optimisée des compétences de chacun tout en maintenant une gouvernance IT, ainsi qu’une meilleure expérience utilisateur. Il en résulte une solution intuitive et une bonne adoption.
 6. L’appui de l’éditeur et les avantages de ses activités de R&D qui peuvent, particulièrement via le relais d’un intégrateur, tenir compte de vos challenges.
 
+[![découvrir_offre_case_management](banniere_offre_case_management.png "Découvrir Case Management")](https://www.tessi.eu/ch/fr/solution/technologies/conseil-integration/conseil-integration/ecm/?utm_source=blog&utm_medium=in_article_banner&utm_content=5e67d416d59cbc342a52e403&utm_campaign=5e68e791d59cbc342a53687b)
+
 ## 03 / Comment choisir votre partenaire : Intégrateur ou éditeur ?
 
 Si vous hésitez encore sur le mode de réalisation de votre solution ou sur la solution elle-même à adopter, vous pouvez contacter un intégrateur, de préférence indépendant, qui prendra compte de vos spécificités et sera en mesure de vous conseiller de manière neutre.
@@ -135,6 +136,6 @@ L’intégrateur est également en capacité de mettre à disposition divers pro
 
 Il n’y a pas de meilleur choix entre intégrateur ou éditeur. Le choix de votre partenaire doit dépendre de votre projet et vos besoins : l’ampleur du projet (sous projets), le besoin en compétences, la capacité à mobiliser vos compétences internes, le mode de solution choisie, etc. Veillez bien à anticiper tous ce qu’implique un projet de Case Management et plus particulièrement le vôtre. Cela passe par la construction d’une stratégie et d’une méthodologie de Case Management en amont pour ne rien oublier et être sûre de faire le bon choix.
 
-_**En bref, pour réaliser votre solution de Case Management, trois options s’offrent à vous : « Buy », « Build », « Configure ». Si vous optez pour la plateforme de Case Management, soit la troisième option, ce sera l’occasion de tirer profit d’une solution sur mesure, paramétrée selon vos besoins autant que d’un cadre technologique unique et performant. Dans le même temps, il vous faudra faire le choix de votre partenaire, un choix qui vous appartient.**_
+***En bref, pour réaliser votre solution de Case Management, trois options s’offrent à vous : « Buy », « Build », « Configure ». Si vous optez pour la plateforme de Case Management, soit la troisième option, ce sera l’occasion de tirer profit d’une solution sur mesure, paramétrée selon vos besoins autant que d’un cadre technologique unique et performant. Dans le même temps, il vous faudra faire le choix de votre partenaire, un choix qui vous appartient.***
 
-_**Au-delà des décisions relatives au mode de réalisation de votre solution et à votre compagnon de route, le choix d’une solution de Case Management est aussi une histoire de culture d’entreprise. Quelle est votre capacité ou votre envie de changement ou plutôt de stabilité ?**_
+***Au-delà des décisions relatives au mode de réalisation de votre solution et à votre compagnon de route, le choix d’une solution de Case Management est aussi une histoire de culture d’entreprise. Quelle est votre capacité ou votre envie de changement ou plutôt de stabilité ?***
