@@ -9,7 +9,6 @@ import Control from './custom-widgets/AuthorWidget';
 
 const Preview = ({ value }) => {
   const display = value ? value.map(item => item.get('label')).join(', ') : '';
-  console.log(display);
   return <p>{display}</p>;
 };
 

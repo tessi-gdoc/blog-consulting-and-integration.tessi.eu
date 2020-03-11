@@ -149,8 +149,6 @@ exports.createSchemaCustomization = ({ actions, schema }) => {
         author: {
           type: 'DataJsonList',
           resolve: (source, args, { nodeModel }, info) => {
-            //const [{ value }] = source.author;
-            console.log('hello');
             const [authors] = nodeModel.getAllNodes({ type: 'DataJson' });
             return authors.list.find(a => a.id === source.author);
           }
@@ -159,6 +157,5 @@ exports.createSchemaCustomization = ({ actions, schema }) => {
     })
   ];
 
-  console.log(typeDefs);
   createTypes(typeDefs);
 };

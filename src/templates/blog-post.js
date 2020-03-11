@@ -23,6 +23,8 @@ import { getId } from '@utils';
 import { tags, tableOfContents } from '../translations/fr';
 import { siteMetadata } from '../../gatsby-config';
 
+import authors from '../data/author.json';
+
 const ShareButtons = styled.div`
   position: relative;
   width: 100%;
@@ -319,16 +321,18 @@ const SocialButtons = ({ url, title, introduction }) => {
   );
 };
 
-const BioPreview = ({ author, date, tagNames }) => {
+const BioPreview = ({ author: authorId, date, tagNames }) => {
+  const maybeAuthor = authors.list.find(author => author.id === authorId);
+  if (!maybeAuthor) return null;
   return (
     <Author>
       <Avatar>
-        <img src={`/img/${author}.jpg`} alt={author} />
+        <img src={maybeAuthor.avatar} alt={maybeAuthor.id} />
       </Avatar>
 
       <AuthorDescription>
         <strong>
-          Par <em>{author}</em>
+          Par <em>{maybeAuthor.fullname}</em>
         </strong>{' '}
         | <time>{date}</time> |{' '}
         {tagNames.map((key, i) => [
@@ -393,6 +397,9 @@ export const BlogPostTemplatePreview = ({ data: { markdownRemark: post } }) => {
           css={css`
             & img {
               width: 100%;
+            }
+            & a > img {
+              max-width: 720px;
             }
           `}
         >

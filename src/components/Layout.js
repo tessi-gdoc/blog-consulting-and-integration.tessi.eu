@@ -201,7 +201,7 @@ export const GlobalStyles = () => (
       }
       h1 {
         margin: 0 0 0.5em 0;
-        font-size: 4rem;
+        font-size: 3.25rem;
         font-weight: 600;
       }
       @media (max-width: 720px) {
