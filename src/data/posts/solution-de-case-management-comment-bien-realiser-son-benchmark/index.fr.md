@@ -2,7 +2,7 @@
 lang: fr
 key: blog-post
 image: ./benchmark_solution_case_management.png
-imageAlt: ''
+imageAlt: Benchmark Case Management
 path: solution-de-case-management-comment-bien-realiser-son-benchmark
 title: 'Solution de Case Management : Comment bien réaliser son benchmark ?'
 description: >-
@@ -26,7 +26,6 @@ introduction: >-
   prêter attention, quelles questions se poser pour faire le bon choix de
   solution ?
 ---
-
 ## 01/ Préalablement à votre benchmark, réalisez votre analyse de besoins
 
 Pour s’assurer de faire le bon choix de solution, il faut commencer par auditer l’existant en vue d’atteindre l’état de l’art de la relation client. L’écart observé vous aidera à définir vos besoins, déterminer le périmètre d’application de votre solution de Case Management ainsi que vos priorités.
@@ -35,19 +34,19 @@ Pour s’assurer de faire le bon choix de solution, il faut commencer par audite
 
 Pour un projet de Case Management réussi, Il est absolument nécessaire que vous ayez une idée claire de votre parcours client, ses processus associés et les outils en soutien à la gestion de vos cas client. A cet effet, commencez par vous poser les questions suivantes :
 
-- Avez-vous une approche « Customer centric » (le client est au cœur de votre organisation et de ses décisions) ?
-- L’ensemble de vos processus sont-ils modélisés ?
-- Quels sont les processus métier qui vous permettent aujourd’hui de gérer vos dossiers clients et vos intéractions avec les clients ?
-- Etes-vous en mesure de personnaliser vos réponses clients ?
-- Quel est le niveau de collaboration de vos services en interne ?
-- Disposez-vous déjà d’outil(s) permettant de gérer le parcours client, même partiellement : CRM, GED, BPM… ? Avez-vous une vue 360° d’un dossier client ?
-- Avez-vous une idée du niveau de satisfaction et d’engagement actuel de vos clients ? (à comparer avec vos objectifs).
-- Quels sont les processus et intervenants annexes qui assurent l’intégralité du traitement de vos cas clients ?
-- Disposez-vous d’indicateurs de mesure de la gestion de vos cas ou de vos demandes clients ?
-- Vos bases de données clients sont-elles fiables ?
-- L’amélioration de la gestion de vos cas client est-elle clé dans votre activité ? Est-ce une dynamique d’entreprise insufflée par la direction générale (lien) ?
-- Quels sont les points d’entrées d’une demande client, par quels canaux ?
-- Quel est le degré d’automatisation des réponses ?
+* Avez-vous une approche « Customer centric » (le client est au cœur de votre organisation et de ses décisions) ?
+* L’ensemble de vos processus sont-ils modélisés ?
+* Quels sont les processus métier qui vous permettent aujourd’hui de gérer vos dossiers clients et vos intéractions avec les clients ?
+* Etes-vous en mesure de personnaliser vos réponses clients ?
+* Quel est le niveau de collaboration de vos services en interne ?
+* Disposez-vous déjà d’outil(s) permettant de gérer le parcours client, même partiellement : CRM, GED, BPM… ? Avez-vous une vue 360° d’un dossier client ?
+* Avez-vous une idée du niveau de satisfaction et d’engagement actuel de vos clients ? (à comparer avec vos objectifs).
+* Quels sont les processus et intervenants annexes qui assurent l’intégralité du traitement de vos cas clients ?
+* Disposez-vous d’indicateurs de mesure de la gestion de vos cas ou de vos demandes clients ?
+* Vos bases de données clients sont-elles fiables ?
+* L’amélioration de la gestion de vos cas client est-elle clé dans votre activité ? Est-ce une dynamique d’entreprise insufflée par la direction générale (lien) ?
+* Quels sont les points d’entrées d’une demande client, par quels canaux ?
+* Quel est le degré d’automatisation des réponses ?
 
 Cette analyse de l’existant permet de mettre en lumière la maturité de votre gestion de la relation client. Est-elle suffisamment avancée pour songer à implémenter une solution de Case Management ? Si vous remarquez des points bloquants à ce stade, il faudra vous demander si le Case Management va venir en réponse à ses difficultés ou bien si vous devez y pallier avant de vous lancer dans votre benchmark. En effet, votre stratégie de gestion de la relation client doit être suffisamment cohérente car l’outil vient en soutien à votre stratégie et non l’inverse.
 
@@ -132,4 +131,6 @@ En résumé, quels sont les étapes dans l’ordre :
 
 • Décision finale
 
-**_Réaliser un benchmark des solutions de Case Management ne se résume pas à de simples demandes de démonstrations des différentes solutions disponibles sur le marché. Des étapes préliminaires d’audit et d’analyse poussées sont requises pour en dégager des critères de choix stratégiques en phase avec votre contexte et vos enjeux. Ce n’est qu’ensuite qu’il conviendra de juger les solutions selon leur interface, leur flexibilité, leur évolutivité, et leurs fonctionnalités. Enfin, faites votre choix en vous assurant de la qualité de service de vos partenaires afin d’avancer sereinement avant, pendant et après le projet._**
+***Réaliser un benchmark des solutions de Case Management ne se résume pas à de simples demandes de démonstrations des différentes solutions disponibles sur le marché. Des étapes préliminaires d’audit et d’analyse poussées sont requises pour en dégager des critères de choix stratégiques en phase avec votre contexte et vos enjeux. Ce n’est qu’ensuite qu’il conviendra de juger les solutions selon leur interface, leur flexibilité, leur évolutivité, et leurs fonctionnalités. Enfin, faites votre choix en vous assurant de la qualité de service de vos partenaires afin d’avancer sereinement avant, pendant et après le projet.***
+
+[![Découvrir offre Case Management](banniere_offre_case_management.png "Offre Case Management")](https://www.tessi.eu/ch/fr/solution/technologies/conseil-integration/conseil-integration/ecm/?utm_source=blog&utm_medium=in_article_banner&utm_content=5e67d416d59cbc342a52e403&utm_campaign=5e68e791d59cbc342a53687b)
