@@ -542,6 +542,7 @@ collections:
                 { label: 'Case Management', value: 'caseManagement' },
                 { label: 'Customer Journey', value: 'customerJourney' },
               ],
+            default: 'news'
           }
       - label: Auteur de l'article
         name: author
