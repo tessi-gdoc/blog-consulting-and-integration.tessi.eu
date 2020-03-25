@@ -67,6 +67,11 @@ const ErrorWrapper = styled.div`
   border-radius: 5px;
 `;
 
+const removeElement = el => {
+  if (el.parentNode === null) return;
+  el.parentNode.removeChild(el);
+};
+
 const useScript = src => {
   const [state, setState] = useState({ loaded: false, error: false });
 
@@ -77,7 +82,7 @@ const useScript = src => {
     const onScriptLoad = () => setState({ loaded: true, error: false });
 
     const onScriptError = () => {
-      script.remove();
+      removeElement(script);
       setState({ loaded: true, error: true });
     };
     script.addEventListener('load', onScriptLoad);
@@ -86,7 +91,7 @@ const useScript = src => {
     return () => {
       script.removeEventListener('load', onScriptLoad);
       script.removeEventListener('error', onScriptError);
-      script.remove();
+      removeElement(script);
     };
   }, [src]);
 

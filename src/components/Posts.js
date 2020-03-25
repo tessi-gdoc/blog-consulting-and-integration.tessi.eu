@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import styled from '@emotion/styled';
 import { css } from '@emotion/core';
 import { hasPath } from 'ramda';
-import Img from 'gatsby-image';
+import Img from 'gatsby-image/withIEPolyfill';
 
 import Flex from './Flex';
 import Link from './LocalizedLink';

@@ -87,9 +87,8 @@ const Hero = ({ title, imageData, imageAlt, children }) => {
           position: relative;
           background-image: url('${imageData}');
           background-color: ${primary};
-          background-position: center center;
           background-repeat: no-repeat;
-          background-size: cover;
+          background-size: 100%;
           z-index: 0;
         `}
       >

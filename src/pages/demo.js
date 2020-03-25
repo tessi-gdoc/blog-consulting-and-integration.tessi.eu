@@ -43,16 +43,18 @@ const Demo = ({
         css={css`
           font-size: 1.75rem;
           text-align: center;
-          background-image: linear-gradient(
-            to right,
-            #3e6aae 0%,
-            #447dbc 20%,
-            #86589d 40%,
-            #df6584 80%,
-            #e58b90 100%
-          );
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
+          @supports (-webkit-background-clip: text) {
+            background-image: linear-gradient(
+              to right,
+              #3e6aae 0%,
+              #447dbc 20%,
+              #86589d 40%,
+              #df6584 80%,
+              #e58b90 100%
+            );
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+          }
           ${Tablet} {
             font-size: 2.45rem;
           }
