@@ -77,16 +77,6 @@ Les banques doivent repositionner leur curseur de façon à être tout d’abord
 
 Dans cette logique, il m’apparait plus que jamais nécessaire que les banques adaptent leur stratégie dans une dynamique de complémentarité, de partenariat et de proximité avec les acteurs digitaux comme des facilitateurs et des fournisseurs de services/contenus.
 
-**Quelles sont vos projets structurants pour répondre à ces enjeux ?**
-
-Tout d’abord il faut bien distinguer les 2 marchés qui cohabitent et sont adressés avec des réponses différenciées. D’un côté celui des particuliers et d’un autre, celui des entreprises. Il va de soi que nos projets ne sont pas de même nature selon que l’on s’adresse aux particuliers ou aux entreprises.
-
-Sur le marché des particuliers, nous avons toujours été attentifs à rester dans le peloton de tête en terme d’offres digitales et de selfcare. En France, Paylib reste un de nos véhicules forts, comme notre marque HelloBank qui met à disposition de nos clients les offres de services digitaux au cœur des attentes du marché. La refonte de nos moteurs de paiement pour adresser tant l’Instant Payment que la dimension transfrontière avec des solutions de conversion de devise fait également partie de nos préoccupations premières.
-
-Sur le marché des entreprises, en appui sur nos implantations à l’étranger et notre forte empreinte européenne et asiatique, notre position de partenaire financier s’est développée au fil des années via un panel d’offres domestiques et cross-border de traitement des flux.
-
-Ce mix entre des solutions locales et domestiques en appui sur notre réseau international et nos filiales est la clé de voute de notre stratégie. Ainsi, nous restons à l’écoute active du marché voire des marchés pour identifier les pistes de partenariats avec les fournisseurs, opérateurs et autres prestataires. Et par ailleurs, nous gardons la volonté d’offrir un large portefeuille de services digitaux, le plus complet possible, pour répondre aux besoins de nos clients.
-
 **Rencontrez-vous des difficultés à évoluer au rythme des législations qui s’enchaînent (DSP1, DSP2…) ? Est-ce une contrainte ?**
 
 La nature même de nos activités nous amène à conjuguer des injonctions qui peuvent sembler parfois contradictoires entre les exigences législatives d’une part et les enjeux de transformation digitale et commerciaux de l’autre.
