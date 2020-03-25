@@ -29,7 +29,7 @@ introduction: >-
 
 Si l’on observe les évolutions depuis le début des années 2000, force est de constater que les ruptures d’usage ou de technologie sont finalement restées assez circonscrites jusqu’au milieu des années 2010. Au-delà de l’omniprésence de la carte et des réseaux internationaux, de l’introduction du sans-contact, de la normalisation à SEPA, et de la prolifération des Wallets, aucune innovation technologique ne s’est révélée être une véritable évidence aux yeux de tous.
 
-Pendant 10 ans, la quasi-totalité des banques se sont engagées dans une course à l’expérimentation et aux « POCs » dans le double objectif tant de communiquer que de dégager des nouveaux axes de développement stratégiques et commerçiaux.
+Pendant 10 ans, la quasi-totalité des banques se sont engagées dans une course à l’expérimentation et aux « POCs » (Proof of Concept) dans le double objectif tant de communiquer que de dégager des nouveaux axes de développement stratégiques et commerçiaux.
 
 D’aucun avait prédit que Google Pay, Apple Pay, Samsung Pay allaient embarquer tout le marché du paiement mobile et que le bitcoin allait créer une nouvelle économie.
 
@@ -59,7 +59,7 @@ De ce point de vue, j’attends plutôt une révolution dans la vie quotidienne 
 
 Les utilisateurs continuent à rester attachés à un support physique mais pas forcément sous la forme d’une carte. La multiplication des solutions fintechs et xPay ont digitalisé la carte en la virtualisant par l’utilisation des tokens. Ce mécanisme de Token a l’immense vertu de rassurer le porteur par le pouvoir de contrôle et d’anonymisation qu’il redonne à l’utilisateur. Renouvelable à souhait, il étanchéise la carte bancaire et permet de la laisser dans un environnement sécurisé sans visibilité externe. Cette notion a permis de transformer des périphériques, moins sécurisés par nature, en moyens de paiement. Ainsi lors du paiement par mobile, votre identifiant de carte ne transite plus entre le mobile et le commerçant.
 
-Cette virtualisation du moyen de paiement ne présage pas la mort de la carte mais la fin de sa représentation physique. C’est pourquoi, pour tous les nouveaux services créés, le support physique de la carte physique est toujours proposée mais s’accompagne systématiquement de sa version virtuelle.
+Cette virtualisation du moyen de paiement ne présage pas la mort de la carte mais la fin de sa représentation physique. C’est pourquoi, pour tous les nouveaux services créés, la carte physique est toujours proposée mais s’accompagne systématiquement de sa version virtuelle.
 
 Progressivement, nous arriverons au tout digital.
 
@@ -73,9 +73,15 @@ Comme exemple de nouveaux usages apportés par les fintechs, prenons les process
 
 Nous avons dépassé le simple risque de désintermédiation évoqué ces dernières années, il s’agit tout d’abord de pleinement jouer notre rôle régalien de régulation des flux (que ce soit pour la lutte contre le blanchiment, la mise en place de mécanismes anti-fraude et la garantie du respect des réglementations domestiques, européennes, américaines et mondiales).
 
-Les banques doivent repositionner leur curseur de façon à être tout d’abord considérées comme des acteurs de confiance dont le métier est la sécurité et la qualité des transactions financières plutôt que comme des énièmes fournisseurs de services noyés dans la myriade d’opérateurs et autres PSP. Dans un environnement complexe aux données sensibles comme le nôtre, il est important que nous ne nous éloignions pas de cette priorité dans la création d’un contrat de confiance avec nos clients.
+Les banques doivent repositionner leur curseur de façon à être tout d’abord considérées comme des acteurs de confiance dont le métier est la sécurité et la qualité des transactions financières plutôt que comme des énièmes fournisseurs de services noyés dans la myriade d’opérateurs et autres prestataires de services de paiement (PSP). Dans un environnement complexe aux données sensibles comme le nôtre, il est important que nous ne nous éloignions pas de cette priorité qu'est la création d’un contrat de confiance avec nos clients.
 
-Dans cette logique, il m’apparait plus que jamais nécessaire que les banques adaptent leur stratégie dans une dynamique de complémentarité, de partenariat et de proximité avec les acteurs digitaux comme des facilitateurs et des fournisseurs de services/contenus.
+Dans cette logique, il m’apparaît plus que jamais nécessaire que les banques adaptent leur stratégie dans une dynamique de complémentarité, de partenariat et de proximité avec les acteurs digitaux comme des facilitateurs et des fournisseurs de services.
+
+**Quelles sont vos projets structurants pour répondre à ces enjeux ?**
+
+Sur le marché des particuliers, nous avons toujours été attentifs à rester dans le peloton de tête en terme d’offres digitales et de selfcare. En France, Paylib reste un de nos véhicules forts, comme notre marque HelloBank qui met à disposition de nos clients les offres de services digitaux au cœur des attentes du marché. La refonte de nos moteurs de paiement pour adresser tant l’Instant Payment que la dimension transfrontière avec des solutions de conversion de devise fait également partie de nos préoccupations premières.
+
+Sur le marché des entreprises, notre panel d'offres domestiques et cross-border de traitement des flux en appui sur nos implantations à l’étranger et nos filiales est la clé de voute de notre stratégie. En tant que partenaire financier, nous sommes constamment à l'écoute des marchés pour identifier les pistes de partenariats avec les fournisseurs, opérateurs et autres prestataires. En parallèle, nous gardons la volonté d’offrir un large portefeuille de services digitaux le plus complet possible. 
 
 **Rencontrez-vous des difficultés à évoluer au rythme des législations qui s’enchaînent (DSP1, DSP2…) ? Est-ce une contrainte ?**
 
@@ -85,10 +91,8 @@ Mais au final, les directives légales et leur rythme permettent de nous challen
 
 **Quelles sont les initiatives que vous prenez pour échanger sur ces sujets d’actualité en interne ? Comment faire monter en compétences les équipes sur des métiers qui évoluent et mettre leur expertise au service de votre stratégie de développement ?**
 
-Un des principaux leviers sur les sujets d’innovation reste la mise en exposition et en responsabilité de nos collaborateurs sur des actions de veille, d’exploration et de restitution. Autrement-dit, il convient de stimuler l’initiative par de la mise en situation tant auprès de nos métiers prescripteurs (pour participer avec eux aux actions d’analyse du marché ou d’accompagnement auprès de partenaires) que via du partage des connaissances avec les équipes intra IT.
-
-L’idée est d’entretenir un environnement dans lequel la curiosité, la force de proposition et la pro-activité permettent de maintenir des valeurs d’« empowerment » et d’« accountability ».
+Un des principaux leviers sur les sujets d’innovation reste la mise en exposition et en responsabilité de nos collaborateurs sur des actions de veille, d’exploration et de restitution. Autrement-dit, il convient de stimuler l’initiative par de la mise en situation tant auprès de nos métiers prescripteurs (pour participer avec eux aux actions d’analyse du marché ou d’accompagnement auprès de partenaires) que via du partage des connaissances avec les équipes intra IT. L’idée est d’entretenir un environnement dans lequel la curiosité, la force de proposition et la pro-activité permettent de maintenir des valeurs d’« empowerment » et d’« accountability ».
 
 Cela est facilité par la nature même de nos collaborateurs qui sont majoritairement issus du monde universitaire ou d’écoles d’ingénieurs et donc motivés par le challenge, animés par la curiosité et avide de nourriture intellectuelle.
 
-Ainsi nous organisons régulièrement des événements lors desquels nous collaborons avec des partenaires pour amener des sujets d’innovation externe. Ainsi lors de notre dernière plénière, nous avons consacré un temps dédié avec l'appui du pôle Conseil & Intégration via des start-ups membres du programme Pépites Shaker By Tessi, venues pitcher sur des sujets d’actualité et relatifs aux paiements. Les retours positifs et enthousiastes de nos équipes en sont la meilleure récompense.
+Ainsi nous organisons régulièrement des événements lors desquels nous collaborons avec des partenaires pour amener des sujets d’innovation externe. Par exemple, lors de notre dernière plénière, nous avons consacré un temps dédié via des start-ups, membres du programme Pépites Shaker By Tessi, venues pitcher sur des sujets d’actualité et relatifs aux paiements. Les retours positifs et enthousiastes de nos équipes en sont la meilleure récompense.
