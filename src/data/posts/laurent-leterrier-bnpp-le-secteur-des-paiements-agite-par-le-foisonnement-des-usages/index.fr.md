@@ -8,18 +8,22 @@ path: >-
 title: >-
   Laurent Leterrier, BNP Paribas : « Le secteur des paiements agité par le
   foisonnement des usages »
-description: à faire
-date: 2020-03-11T12:47:52.702Z
+description: >-
+  A la croisée des nouveaux moyens de paiement, des Fintechs, des législations
+  et surtout d’une explosion des usages, le secteur des paiements se transforme.
+  On fait le point !
+date: 2020-03-25T10:20:52.702Z
 tags:
   - customerJourney
 author: tcj
 introduction: >-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-  nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-  eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-  in culpa qui officia deserunt mollit anim id est laborum.
+  Laurent Leterrier exerce depuis près de 30 ans des responsabilités de
+  direction IT dans le secteur bancaire au sein de sociétés de service puis de
+  directions informatiques. Au cœur des filières monétique, flux de paiements et
+  cartes du groupe BNP Paribas depuis 2010, il est acteur et observateur des
+  transformations que connaît le secteur des paiements. Il nous partage ses
+  constats sur l'évolution des usages, les enjeux pour les acteurs du marché
+  ainsi que sa vision sur les moyens de paiement de demain.
 ---
 **Comment décririez-vous le secteur des paiements aujourd’hui ?**
 
@@ -63,7 +67,7 @@ Progressivement, nous arriverons au tout digital.
 
 Les Fintechs se créent, disparaissent, sont absorbés… Il y a beaucoup de mouvements. Cela reste un facteur de stimulation permanent pour les banques et institutions par l’apport continu de nouveaux usages disruptifs. Elles nous imposent une nécessaire réflexion sur notre positionnement sur le marché. Ce positionnement se recentre sur notre cœur de métier à savoir les flux, la sécurité, la qualité de service, la gestion et l’optimisation de trésorerie. La place d’une banque ne me semble pas être de faire « jeu égal avec les Fintechs ». Le jeu de contraintes et nos missions ne nous le permettent pas. Il vaut mieux essayer de jouer avec et en approche complémentaire qu’en approche frontale. Depuis 2015, tout le monde imaginait que la banque qui allait décrocher le graal serait celle qui rachèterait LA Fintech. Mais ça ne s’est finalement pas produit.
 
-Comme exemple de nouveaux usages apportés par les fintechs, prenons lesprocessus de souscription. Les Fintechs comme N26, Curve, Revolut ont réinventé l’usage et c’est un fait heureux. Elles ont amené une simplification et une rapidité dans le parcours. Cela a stimulé la refonte de nos processus historiques en amenant un nouveau standard. Dans ce même esprit depuis 2 ans, nous avons transformé entièrement nos applications mobiles et insufflé un vent de modernité et de renouveau sur tous les mécanismes de Selfcare et d’interactions entre le porteur et sa carte.
+Comme exemple de nouveaux usages apportés par les fintechs, prenons les processus de souscription. Les Fintechs comme N26, Curve, Revolut ont réinventé l’usage et c’est un fait heureux. Elles ont amené une simplification et une rapidité dans le parcours. Cela a stimulé la refonte de nos processus historiques en amenant un nouveau standard. Dans ce même esprit depuis 2 ans, nous avons transformé entièrement nos applications mobiles et insufflé un vent de modernité et de renouveau sur tous les mécanismes de Selfcare et d’interactions entre le porteur et sa carte.
 
 **Quels sont les enjeux majeurs pour la BNP et plus largement pour les banques traditionnelles ?**
 
@@ -81,7 +85,7 @@ Sur le marché des particuliers, nous avons toujours été attentifs à rester d
 
 Sur le marché des entreprises, en appui sur nos implantations à l’étranger et notre forte empreinte européenne et asiatique, notre position de partenaire financier s’est développée au fil des années via un panel d’offres domestiques et cross-border de traitement des flux.
 
-Ce mix entre des solutions locales et domestiques solides appuyées sur des solutions de place/partenariats et des solutions crossborder en appui sur notre réseau international et nos filiales est la clé de voute de notre stratégie. Ainsi, nous restons à l’écoute active du marché voire des marchés pour identifier les pistes de partenariats avec les fournisseurs, opérateurs et autres prestataires. Et par ailleurs, nous gardons la volonté d’offrir un large portefeuille de services digitaux, le plus complet possible, pour répondre aux besoins de nos clients. A titre d’exemple, nos offres cartes commerciales répondent à des besoins de « facilities » de nombre de nos clients entreprises.
+Ce mix entre des solutions locales et domestiques en appui sur notre réseau international et nos filiales est la clé de voute de notre stratégie. Ainsi, nous restons à l’écoute active du marché voire des marchés pour identifier les pistes de partenariats avec les fournisseurs, opérateurs et autres prestataires. Et par ailleurs, nous gardons la volonté d’offrir un large portefeuille de services digitaux, le plus complet possible, pour répondre aux besoins de nos clients.
 
 **Rencontrez-vous des difficultés à évoluer au rythme des législations qui s’enchaînent (DSP1, DSP2…) ? Est-ce une contrainte ?**
 
@@ -97,4 +101,4 @@ L’idée est d’entretenir un environnement dans lequel la curiosité, la forc
 
 Cela est facilité par la nature même de nos collaborateurs qui sont majoritairement issus du monde universitaire ou d’écoles d’ingénieurs et donc motivés par le challenge, animés par la curiosité et avide de nourriture intellectuelle.
 
-Ainsi nous organisons régulièrement des événements lors desquels nous collaborons avec des partenaires pour amener des sujets d’innovation externe. Ainsi lors de notre dernière plénier, nous avons consacré un temps dédié avec votre appui via des start-ups membres du programme Pépites Shaker By Tessi, venues pitcher sur des sujets d’actualité et relatifs aux paiements. Les retours positifs et enthousiastes de nos équipes en sont la meilleure récompense.
+Ainsi nous organisons régulièrement des événements lors desquels nous collaborons avec des partenaires pour amener des sujets d’innovation externe. Ainsi lors de notre dernière plénière, nous avons consacré un temps dédié avec l'appui du pôle Conseil & Intégration via des start-ups membres du programme Pépites Shaker By Tessi, venues pitcher sur des sujets d’actualité et relatifs aux paiements. Les retours positifs et enthousiastes de nos équipes en sont la meilleure récompense.
