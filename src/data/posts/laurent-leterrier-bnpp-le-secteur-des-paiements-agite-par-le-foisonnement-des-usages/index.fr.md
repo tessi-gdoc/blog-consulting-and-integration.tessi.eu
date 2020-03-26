@@ -1,7 +1,7 @@
 ---
 lang: fr
 key: blog-post
-image: interview_monetique_laurent_leterrier.png
+image: portrait_laurent_leterrier.png
 imageAlt: Portrait Laurent Leterrier
 path: >-
   laurent-leterrier-BNPP-le-secteur-des-paiements-agite-par-le-foisonnement-des-usages
@@ -20,7 +20,7 @@ introduction: >-
   Laurent Leterrier exerce depuis près de 30 ans des responsabilités de
   direction IT dans le secteur bancaire au sein de sociétés de service puis de
   directions informatiques. Au cœur des filières monétique, flux de paiements et
-  cartes du groupe BNP Paribas depuis 2010, il est acteur et observateur des
+  cartes du groupe BNP Paribas depuis 2013, il est acteur et observateur des
   transformations que connaît le secteur des paiements. Il nous partage ses
   constats sur l'évolution des usages, les enjeux pour les acteurs du marché
   ainsi que sa vision sur les moyens de paiement de demain.
@@ -31,15 +31,11 @@ Si l’on observe les évolutions depuis le début des années 2000, force est d
 
 Pendant 10 ans, la quasi-totalité des banques se sont engagées dans une course à l’expérimentation et aux « POCs » (Proof of Concept) dans le double objectif tant de communiquer que de dégager des nouveaux axes de développement stratégiques et commerçiaux.
 
-D’aucun avait prédit que Google Pay, Apple Pay, Samsung Pay allaient embarquer tout le marché du paiement mobile et que le bitcoin allait créer une nouvelle économie.
+D’aucun avait prédit que Google Pay, Apple Pay, Samsung Pay allaient embarquer tout le marché du paiement mobile et que le bitcoin allait créer une nouvelle économie. Les tentatives de généralisation de Wallets multi-établissements ont fleuri sur le marché. Qu’en est-il aujourd’hui ? Aucune transformation technologique profonde n’a véritablement eu lieu dans le paysage des paiements.
 
-Les tentatives de généralisation de Wallets multi-établissements ont fleuri sur le marché.
+En revanche, l’adoption continue et la combinaison des évolutions telles que le sans contact, le paiement avec mobile, l’utilisation des tokens et l’introduction du temps-réel dans le SEPA ont contribué à une explosion des usages depuis 4/5 ans. Aujourd’hui, les barrières sont tombées entre le commerce et le paiement. Les deux mondes ont fusionné. Toutes ces évolutions technologiques ont favorisé une pleine intégration du paiement dans le parcours client. A un point tel qu’aujourd’hui, nous payons presque sans nous en rendre compte. Cette fluidité dans l’acte de paiement, mais aussi les attentes de traçabilité et de suivi nous viennent en grande partie des grands retailers (en particulier Amazon et de PayPal) qui ont amené des nouveaux standards sur l’e-commerce. Tous ces changements se sont installés sur la durée sans réelle ruptures.
 
-Qu’en est-il aujourd’hui ? Aucune transformation technologique profonde n’a véritablement eu lieu dans le paysage des paiements.
-
-En revanche, l’adoption continue et la combinaison des évolutions telles que le sans contact, le paiement avec mobile, l’utilisation des tokens et l’introduction du temps-réel dans le SEPA ont contribué à une explosion des usages depuis 4/5 ans. Aujourd’hui, les barrières sont tombées entre le commerce et le paiement. Les deux mondes ont fusionné. Toutes ces évolutions technologiques ont favorisé une pleine intégration du paiement dans le parcours client sans rupture. A un point tel qu’aujourd’hui, nous payons presque sans nous en rendre compte. Cette fluidité dans l’acte de paiement, mais aussi les attentes de traçabilité et de suivi nous viennent en grande partie des grands retailers (en particulier Amazon et de PayPal) qui ont amené des nouveaux standards sur l’e-commerce. Tous ces changements se sont installés sur la durée sans réelle ruptures.
-
-En terme de « chocs thermiques », il faut se tourner vers l’arrivée du temps-réel dans le monde SEPA et vers l’ouverture du marché apportée par la DSP2 (OPEN BANKING et autres TPP). Même si il était déjà en place dans certains pays, l’Instant Payment est un vrai facteur de transformation. Il impose de passer des processus historiquement différés vers du temps réel, crée de nouveaux usages de paiement en amenant le SEPA dans le monde de l’instantané (comme les cartes).
+En terme de « chocs thermiques », il faut se tourner vers l’arrivée du temps-réel dans le monde SEPA et vers l’ouverture du marché apportée par la DSP2 (Open banking et autres prestataires tiers). Même si il était déjà en place dans certains pays, l’Instant Payment est un vrai facteur de transformation. Il impose de passer des processus historiquement différés vers du temps réel, crée de nouveaux usages de paiement en amenant le SEPA dans le monde de l’instantané (comme les cartes).
 
 En résumé, le marché s’est cherché pendant des années. Je ne retiens pas une transformation profonde du secteur des paiements sur le plan technologique. Par contre, les usages sont aujourd’hui totalement désinhibés et sans limites.
 
@@ -81,7 +77,7 @@ Dans cette logique, il m’apparaît plus que jamais nécessaire que les banques
 
 Sur le marché des particuliers, nous avons toujours été attentifs à rester dans le peloton de tête en terme d’offres digitales et de selfcare. En France, Paylib reste un de nos véhicules forts, comme notre marque HelloBank qui met à disposition de nos clients les offres de services digitaux au cœur des attentes du marché. La refonte de nos moteurs de paiement pour adresser tant l’Instant Payment que la dimension transfrontière avec des solutions de conversion de devise fait également partie de nos préoccupations premières.
 
-Sur le marché des entreprises, notre panel d'offres domestiques et cross-border de traitement des flux en appui sur nos implantations à l’étranger et nos filiales est la clé de voute de notre stratégie. En tant que partenaire financier, nous sommes constamment à l'écoute des marchés pour identifier les pistes de partenariats avec les fournisseurs, opérateurs et autres prestataires. En parallèle, nous gardons la volonté d’offrir un large portefeuille de services digitaux le plus complet possible. 
+Sur le marché des entreprises, notre panel d'offres domestiques et cross-border de traitement des flux en appui sur nos implantations à l’étranger et nos filiales est la clé de voute de notre stratégie. En tant que partenaire financier, nous sommes constamment à l'écoute des marchés pour identifier les pistes de partenariats avec les fournisseurs, opérateurs et autres prestataires. En parallèle, nous gardons la volonté d’offrir un large portefeuille de services digitaux, le plus complet possible. 
 
 **Rencontrez-vous des difficultés à évoluer au rythme des législations qui s’enchaînent (DSP1, DSP2…) ? Est-ce une contrainte ?**
 
