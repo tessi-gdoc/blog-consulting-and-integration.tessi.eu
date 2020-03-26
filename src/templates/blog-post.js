@@ -399,6 +399,7 @@ export const BlogPostTemplatePreview = ({ data: { markdownRemark: post } }) => {
               width: 100%;
             }
             & a > img {
+              margin: 2.8rem auto;
               max-width: 720px;
             }
           `}
@@ -431,7 +432,14 @@ const BlogPost = ({
         <Bio author={author} tags={tags} date={date} />
         <Intro markdown={introduction} />
         {!!headings.length && <TableOfContents headings={headings} />}
-        <article dangerouslySetInnerHTML={{ __html: html }} />
+        <article
+          css={css`
+            & span.gatsby-resp-image-wrapper {
+              margin: 2.8rem auto;
+            }
+          `}
+          dangerouslySetInnerHTML={{ __html: html }}
+        />
       </PostContainer>
       {!!posts.length && (
         <RelatedPosts posts={posts} tags={tags} currentPostId={post.id} />
