@@ -515,6 +515,10 @@ export const GlobalStyles = () => (
         float: left;
         min-width: 100%;
       }
+
+      .gatsby-resp-image-wrapper {
+        margin: 2.5rem auto;
+      }
     `}
   />
 );
