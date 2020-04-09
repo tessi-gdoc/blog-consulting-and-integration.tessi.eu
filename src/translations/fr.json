@@ -16,6 +16,7 @@
   },
   "resources": "Ressources",
   "watchVideos": "Voir les vidéos",
+  "watchWebinar": "Voir le webinar",
   "relatedPosts": "Articles associés",
   "tableOfContents": "Dans cet article, nous verrons :",
   "readNews": "Voir la news",
@@ -87,6 +88,10 @@
       "title": "Nos vidéos",
       "description": "Retrouvez l'ensemble de nos vidéos présentant nos innovations technologiques, nos prestations de services externalisées, nos solutions d'activations et nos programmes relationnels ou bien les témoignages de nos clients entreprises."
     },
+    "webinars": {
+      "title": "Nos Webinaires",
+      "description": "Retrouvez l'ensemble de nos vidéos présentant nos innovations technologiques, nos prestations de services externalisées, nos solutions d'activations et nos programmes relationnels ou bien les témoignages de nos clients entreprises."
+    },
     "disclaimer": {
       "title": "Mentions",
       "description": ""
@@ -108,6 +113,7 @@
   "subtitle": "Le Blog de la Conversation Client",
   "title": "French",
   "videos": "Vidéos",
+  "webinars": "Webinaires",
   "tags": {
     "news": "Actualités",
     "contentServices": "Content Services",

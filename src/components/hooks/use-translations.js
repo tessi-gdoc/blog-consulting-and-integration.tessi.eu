@@ -5,10 +5,7 @@ import { useStaticQuery, graphql } from 'gatsby';
 import { LocaleContext } from '../Layout';
 
 const findTranslations = locale =>
-  pipe(
-    find(pathEq(['node', 'name'], locale)),
-    path(['node', 'translations'])
-  );
+  pipe(find(pathEq(['node', 'name'], locale)), path(['node', 'translations']));
 
 const useTranslations = () => {
   const locale = useContext(LocaleContext);
@@ -39,6 +36,7 @@ const query = graphql`
             whitepapers
             kits
             videos
+            webinars
             caseStudies
             thankYou
             form {
@@ -83,6 +81,7 @@ const query = graphql`
             downloadWhitepaper
             downloadKit
             watchVideos
+            watchWebinar
             tableOfContents
             relatedPosts
             partners
@@ -144,6 +143,10 @@ const query = graphql`
                 description
               }
               videos {
+                title
+                description
+              }
+              webinars {
                 title
                 description
               }
