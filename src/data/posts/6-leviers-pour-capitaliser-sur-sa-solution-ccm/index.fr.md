@@ -32,7 +32,7 @@ introduction: >-
 ---
 ## 1 - Connecter sa solution CCM aux systèmes de données
 
-Les clients désirent recevoir leurs communications avec des informations justes et pertinentes, par le canal qu’ils préfèrent, au moment où ils en ont besoin ou qu’ils en font la demande. A la différence des flux batch (communications de masse) planifiés à l'avance, les communications à la demande nécessitent un accès aux données en temps réel. Ainsi, pour permettre à votre solution CCM de répondre à un besoin de communication à la demande, il est primordial que celle-ci soit connectée en permanence à l’ensemble des systèmes qui produisent des données. comme votre CRM par exemple (mais pas seulement). De cette manière, votre système CCM n'est plus seulement "esclave d'un programme d’extraction planifié » mais devient un service de requête de données en temps réel.
+Les clients désirent recevoir leurs communications avec des informations justes et pertinentes, par le canal qu’ils préfèrent, au moment où ils en ont besoin ou qu’ils en font la demande. A la différence des flux batch (communications de masse) planifiés à l'avance, les communications à la demande nécessitent un accès aux données en temps réel. Ainsi, pour permettre à votre solution CCM de répondre à un besoin de communication à la demande, il est primordial que celle-ci soit connectée en permanence à l’ensemble des systèmes qui produisent des données, comme votre CRM par exemple (mais pas seulement). De cette manière, votre système CCM n'est plus seulement "esclave d'un programme d’extraction planifié » mais devient un service de requête de données en temps réel.
 
 **Bénéfices majeurs :**
 
@@ -48,14 +48,14 @@ Le Digital Asset Management (DAM, ou gestion des actifs numériques) est un dép
 * L’organisation contrôle son image de marque et jouit d’une meilleure gestion des risques communicationnels.
 * Le client est rassuré par la constance et la cohérence de l’ensemble des supports de communication.
 
-## 3 – Laisser la main aux clients
+## 3 – Favoriser le selfcare digital
 
-Alors que sur un portail web ou une application smartphone dédiée, le client peut mettre à jour les données qui le concernent à sa convenance, celui-ci se voit parfois contraint, lorsqu’il reçoit des documents issus de la plateforme CCM, de remplir des formulaires manuellement puis de les renvoyer par courrier postal. Après réception, les données sont réintégrées dans le système par opérations manuelles ou semi-automatisées, grâce à des outils de reconnaissance d’écriture. Cette limite peut être levée par la mise en place de formulaires « connectés ». La mise à jour des données dans le système d’information se fait alors automatiquement dès le formulaire en ligne dûment rempli ou, à défaut, dès réception électronique du document en retour. Il n’y a donc plus de saisies manuelles mais simplement un contrôle des données actualisées. 
+Alors que sur un portail web ou une application smartphone dédiée, le client peut mettre à jour les données qui le concernent à sa convenance, celui-ci se voit encore parfois contraint, lorsqu’il reçoit des documents issus de la plateforme CCM, de remplir des formulaires manuellement puis de les renvoyer par courrier postal. Après réception, les données sont réintégrées dans le système par opérations manuelles ou semi-automatisées, grâce à des outils de reconnaissance d’écriture. Cette limite peut être levée par la mise en place de formulaires « connectés ». La mise à jour des données dans le système d’information se fait alors automatiquement dès le formulaire en ligne dûment rempli ou, à défaut, dès réception électronique du document en retour. Il n’y a donc plus de saisies manuelles mais simplement un contrôle des données actualisées. 
 
 **Bénéfices majeurs :** 
 
 * L'organisation gagne en efficacité en optimisant ses processus opérationnels. De plus, elle s'affranchit d'une communication à sens unique et met en place une véritable conversation, gage d'engagement client. 
-* Le client est satisfait, il parvient à transmettre ses informations à l’organisation plus rapidement avec un effort moindre. 
+* Le client est satisfait, il parvient à transmettre ses informations à l’organisation plus rapidement avec un effort moindre et en toute autonomie.
 
 ## 4 - Passer à un format de communication 2.0 riche et engageant
 
