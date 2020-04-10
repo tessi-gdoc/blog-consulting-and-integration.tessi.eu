@@ -30,14 +30,14 @@ introduction: >-
   Pour ce faire, voici 6 leviers activables, véritables opportunités de
   capitaliser sur votre plateforme CCM en place.
 ---
-## 1 - Connexion de la solution CCM directe aux systèmes de données
+## 1 - Connecter sa solution CCM aux systèmes de données
 
-Les clients désirent recevoir leurs communications avec des informations justes et pertinentes, par le canal qu’ils préfèrent, au moment où ils en ont besoin ou qu’ils en font la demande. Mais l’accès aux données est un sujet sensible. Pour créer des communications à la demande, les utilisateurs de l’organisation, front et back office, ont un besoin impératif d’accéder aux données en temps réel à la différence des flux batch (communication de masse). En effet, la production de documents en volume n’a souvent pas un accès direct aux données et doit donc être planifiée en dehors des heures d’utilisation intensive des bases de données. Cela évite une sur-sollicitation des bases en simultanée qui aurait pour conséquence une augmentation des temps d’accès. Ainsi, pour permettre à votre solution CCM de répondre à la fois à un besoin de communication en batch et à la demande, il est primordial que celle-ci soit connectée en permanence à l’ensemble des systèmes qui produisent des données comme votre CRM par exemple. De cette manière, votre système CCM passe d’« esclave d’un programme d’extraction planifié » à un service de requête de données en temps réel.
+Les clients désirent recevoir leurs communications avec des informations justes et pertinentes, par le canal qu’ils préfèrent, au moment où ils en ont besoin ou qu’ils en font la demande. A la différence des flux batch (communications de masse) planifiés à l'avance, les communications à la demande nécessitent un accès aux données en temps réel. Ainsi, pour permettre à votre solution CCM de répondre à un besoin de communication à la demande, il est primordial que celle-ci soit connectée en permanence à l’ensemble des systèmes qui produisent des données. comme votre CRM par exemple (mais pas seulement). De cette manière, votre système CCM n'est plus seulement "esclave d'un programme d’extraction planifié » mais devient un service de requête de données en temps réel.
 
 **Bénéfices majeurs :**
 
 * Le client reçoit des communications intégrant des données à jour en tout temps. 
-* L’organisation répond aux exigences clients d’instantanéité. Les délais de réponses aux demandes clients sont réduits.
+* L’organisation répond à l'exigence client d’instantanéité. Les délais de réponse aux demandes clients sont réduits.
 
 ## 3 - Synchroniser sa solution CCM avec un DAM
 
