@@ -48,7 +48,7 @@ Le Digital Asset Management (DAM, ou gestion des actifs numériques) est un dép
 * L’organisation contrôle son image de marque et jouit d’une meilleure gestion des risques communicationnels.
 * Le client est rassuré par la constance et la cohérence de l’ensemble des supports de communication.
 
-## 3 – Favoriser le selfcare digital
+## 3 – Favoriser le selfcare
 
 Alors que sur un portail web ou une application smartphone dédiée, le client peut mettre à jour les données qui le concernent à sa convenance, celui-ci se voit encore parfois contraint, lorsqu’il reçoit des documents issus de la plateforme CCM, de remplir des formulaires manuellement puis de les renvoyer par courrier postal. Après réception, les données sont réintégrées dans le système par opérations manuelles ou semi-automatisées, grâce à des outils de reconnaissance d’écriture. Cette limite peut être levée par la mise en place de formulaires « connectés ». La mise à jour des données dans le système d’information se fait alors automatiquement dès le formulaire en ligne dûment rempli ou, à défaut, dès réception électronique du document en retour. Il n’y a donc plus de saisies manuelles mais simplement un contrôle des données actualisées. 
 
