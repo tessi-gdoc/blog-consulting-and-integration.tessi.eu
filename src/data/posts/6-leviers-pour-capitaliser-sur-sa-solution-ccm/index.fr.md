@@ -39,7 +39,7 @@ Les clients désirent recevoir leurs communications avec des informations justes
 * Le client reçoit des communications intégrant des données à jour en tout temps. 
 * L’organisation répond à l'exigence client d’instantanéité. Les délais de réponse aux demandes clients sont réduits.
 
-## 3 - Synchroniser sa solution CCM avec un DAM
+## 2 - Synchroniser sa solution CCM avec un DAM
 
 Le Digital Asset Management (DAM, ou gestion des actifs numériques) est un dépôt numérique permettant de stocker et regrouper au même endroit les ressources médias d'une organisation. Son rôle est de rendre accessible les dernières versions des ressources qu’il s’agisse des éléments graphiques de la de charte de l’entreprise, des éléments juridiques comme des conditions générales, des campagnes marketing, ou des messages types (par exemple « nos bureaux seront fermés du … au … »). La mise en œuvre d’une connexion entre le CCM et le DAM permet de garantir l’accessibilité et la conformité des ressources mises à disposition.
 
