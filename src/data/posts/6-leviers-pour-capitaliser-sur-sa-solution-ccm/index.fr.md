@@ -30,23 +30,29 @@ introduction: >-
   Pour ce faire, voici 6 leviers activables, véritables opportunités de
   capitaliser sur votre plateforme CCM en place.
 ---
-## 1 - Connexion directe aux systèmes de données
+## 1 - Connexion de la solution CCM directe aux systèmes de données
 
-Les clients désirent recevoir leurs communications avec des informations justes et pertinentes, par le canal qu’ils préfèrent, au moment où ils en ont besoin ou qu’ils en font la demande. Mais l’accès aux données est un sujet sensible : les utilisateurs de l’organisation (Front et Back office) ont un besoin impératif d’accéder aux données en temps réel alors que la production de documents n’a souvent pas cet accès direct, vu l’impact qu’elle aurait sur ces temps d’accès. Ces documents sont par conséquent souvent planifiés en dehors des heures d’utilisation intensive des bases de données. Il devient primordial de considérer les demandes de documents comme des utilisateurs de l’organisation. De cette manière, votre système CCM passe d’« esclave d’un programme d’extraction planifié » à un service de requête de données en temps réel.
+Les clients désirent recevoir leurs communications avec des informations justes et pertinentes, par le canal qu’ils préfèrent, au moment où ils en ont besoin ou qu’ils en font la demande. Mais l’accès aux données est un sujet sensible. Pour créer des communications à la demande, les utilisateurs de l’organisation, front et back office, ont un besoin impératif d’accéder aux données en temps réel à la différence des flux batch (communication de masse). En effet, la production de documents en volume n’a souvent pas un accès direct aux données et doit donc être planifiée en dehors des heures d’utilisation intensive des bases de données. Cela évite une sur-sollicitation des bases en simultanée qui aurait pour conséquence une augmentation des temps d’accès. Ainsi, pour permettre à votre solution CCM de répondre à la fois à un besoin de communication en batch et à la demande, il est primordial que celle-ci soit connectée en permanence à l’ensemble des systèmes qui produisent des données comme votre CRM par exemple. De cette manière, votre système CCM passe d’« esclave d’un programme d’extraction planifié » à un service de requête de données en temps réel.
 
-L’outil de suivi client, ou CRM, doit être également connecté à la plateforme CCM pour que vos communications puissent prendre en compte l’ensemble des données client. Si votre client a souscrit à un nouveau service récemment, vous pourrez le remercier à la prochaine communication.
+**Bénéfices majeurs :**
 
-Les données dans les communications que reçoit le client sont à jour en tout temps.
+* Les données dans les communications que reçoit le client sont à jour en tout temps. 
+* L’organisation répond aux exigences clients d’instantanéité. Les délais de réponses aux demandes clients sont réduits.
 
-## 2 - Mise à jour des données par le client
+## 2 – Laisser la main aux clients
 
-Alors que sur un portail web ou une application smartphone dédiée, le client peut mettre à jour les données qui le concernent à sa convenance, celui-ci se voit parfois contraint, lorsqu’il reçoit des documents issus de la plateforme CCM, de remplir des formulaires manuellement puis de les renvoyer par courrier postal. Après réception, les données sont réintégrées dans le système par opérations manuelles ou semi-automatisées, grâce à des outils de reconnaissance d’écriture. Cette limite peut être levée par la mise en place de formulaires « connectés », avec fonctions de mise à jour des systèmes d’information. La saisie des données dans le système peut se faire directement dès le formulaire en ligne dûment rempli ou, à défaut, dès réception électronique du document en retour. Il n’y a donc plus de saisies manuelles mais simplement un contrôle des données actualisées. Ainsi, plutôt qu’une communication à sens unique, c’est une conversation qui se met en place.
+Alors que sur un portail web ou une application smartphone dédiée, le client peut mettre à jour les données qui le concernent à sa convenance, celui-ci se voit parfois contraint, lorsqu’il reçoit des documents issus de la plateforme CCM, de remplir des formulaires manuellement puis de les renvoyer par courrier postal. Après réception, les données sont réintégrées dans le système par opérations manuelles ou semi-automatisées, grâce à des outils de reconnaissance d’écriture. Cette limite peut être levée par la mise en place de formulaires « connectés ». La mise à jour des données dans le système d’information se fait alors automatiquement dès le formulaire en ligne dûment rempli ou, à défaut, dès réception électronique du document en retour. Il n’y a donc plus de saisies manuelles mais simplement un contrôle des données actualisées. Ainsi, plutôt qu’une communication à sens unique, c’est une conversation qui se met en place.
 
-Le client transmet ses informations à l’organisation plus rapidement avec un effort moindre, au travers des documents qu’il reçoit.
+**Bénéfices majeurs :** 
+
+* Le client transmet ses informations à l’organisation plus rapidement avec un effort moindre, grâce à des communications « connectées ».
+* L'organisation s'affranchit d'une communication à sens unique et met en place une véritable conversation, gage d'engagement client.
 
 ## 3 - Digital Asset Management (DAM)
 
-Le Digital Asset Management (DAM, ou Gestion des ressources numériques) est un dépôt numérique permettant de stocker et regrouper au même endroit les ressources médias d'une organisation. Son rôle est de rendre accessible les dernières versions des ressources qu’il s’agisse des éléments graphiques de la de charte de l’entreprise, des éléments de droit comme des conditions générales, des campagnes marketing, ou des messages types (par exemple « nos bureaux seront fermés du … au … »). La mise en œuvre d’une connexion entre le CCM et le DAM permet de garantir l’accessibilité des ressources, et la conformité des ressources mises à disposition. Ainsi, l’organisation contrôle son image de marque et la viabilité des contenus graphiques utilisés par les collaborateurs.
+Le Digital Asset Management (DAM, ou gestion des actifs numériques) est un dépôt numérique permettant de stocker et regrouper au même endroit les ressources médias d'une organisation. Son rôle est de rendre accessible les dernières versions des ressources qu’il s’agisse des éléments graphiques de la de charte de l’entreprise, des éléments de droit comme des conditions générales, des campagnes marketing, ou des messages types (par exemple « nos bureaux seront fermés du … au … »). La mise en œuvre d’une connexion entre le CCM et le DAM permet de garantir l’accessibilité des ressources, et la conformité des ressources mises à disposition.
+
+L’organisation contrôle son image de marque et jouie d’une meilleure gestion des risques communicationnels.
 
 Le client est rassuré par la constance et la cohérence de l’ensemble des supports de communication.
 
@@ -66,7 +72,7 @@ De cette façon, l’organisation peut rationaliser le nombre de maquettes à cr
 
 Intégrer le mobile au parcours client est fortement facilité avec une plateforme CCM. Celle-ci permet d’adapter le contenu au support numérique choisi. En fonction du canal, les informations de la communication vont être filtrées de manière à conserver une lisibilité optimale. Par exemple, une communication client par SMS ne contiendra pas la publicité d’un nouveau produit en addition du message principale. En revanche, si cette même communication est distribuée par email ou courrier postale, la promotion du lancement de produit sera intégrée. Avec une solution de composition moderne, les informations peuvent être automatiquement filtrées pour adapter au mieux le contenu au format. La solution de communication client se charge ensuite de la distribution quel que soit le canal choisi.
 
-De nombreuses organisations ont déjà mis en place une stratégie de communication sur mobile. Malheureusement, la majorité des applications permettant les diffusions par SMS résultent de développements isolés et non intégrés à la solution CCM lorsqu’il y en a une. Or, ce n’est pas une surprise, ces applications supplémentaires impliquent de la maintenance, parfois fastidieuse. Alors pourquoi se priver de la souplesse et de la robustesse des plateformes de production documentaire tout en évitant des frais de maintenance supplémentaires ?
+De nombreuses organisations ont déjà mis en place une stratégie de communication sur mobile. Malheureusement, nous constatons très souvent que la diffusion par SMS s’effectue via des applications, résultant de développements isolés, non intégrés à la solution CCM lorsqu’il y en a une. Or ces applications supplémentaires impliquent de la maintenance, parfois fastidieuse. Alors pourquoi se priver de la souplesse et de la robustesse des plateformes de production documentaire tout en évitant des frais de maintenance supplémentaires ?
 
 Le client gagne en mobilité et les communications adaptés au mobile sont pleinement intégrées et synchronisées avec le système central de communication client. La fluidité et la cohérence de l’expérience client en est optimisée.
 
