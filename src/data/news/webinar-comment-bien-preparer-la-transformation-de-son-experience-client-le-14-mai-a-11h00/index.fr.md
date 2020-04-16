@@ -10,4 +10,4 @@ link: >-
 tags:
   - news
 ---
-Transformer l'expérience client d'une organisation est un projet transverse de taille. Alors par où commencer ? Quelles sont les bonnes questions à se poser pour dresser son contexte ? Comment évaluer sa maturité en termes d'expérience client pour définir les projets à mener en priorité ?
+Par où commencer ? Quelles sont les bonnes questions à se poser pour dresser son contexte ? Comment évaluer sa maturité en termes d'expérience client pour définir les projets à mener en priorité ?
