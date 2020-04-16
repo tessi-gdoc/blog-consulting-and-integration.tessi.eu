@@ -175,18 +175,6 @@ to = "/"
 
 [[redirects]]
 force = true
-from = "/webinars/*"
-status = 301
-to = "/whitepapers"
-
-[[redirects]]
-force = true
-from = "/:lang/webinars/*"
-status = 301
-to = "/whitepapers"
-
-[[redirects]]
-force = true
 from = "/company/*"
 status = 301
 to = "https://www.tessi.eu/"
