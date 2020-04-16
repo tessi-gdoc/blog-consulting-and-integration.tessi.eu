@@ -111,11 +111,11 @@ module.exports = {
           {
             label: `videos`,
             slug: `/videos`
-          }
-          /*  {
+          },
+          {
             label: `webinars`,
             slug: `/webinars`
-          } */
+          }
         ]
       },
       {
