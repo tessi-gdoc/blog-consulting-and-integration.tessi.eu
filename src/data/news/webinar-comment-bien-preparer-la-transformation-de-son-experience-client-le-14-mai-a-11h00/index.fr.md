@@ -4,9 +4,7 @@ key: news
 date: 2020-04-16T14:00:35.094Z
 image: actu_webinar_bien_preparer_transfo_xpclient.png
 imageAlt: webinar_préparer_transformation_experience_client
-title: >-
-  WEBINAR "Comment bien préparer la transformation de son expérience client ?" -
-  Le 14 Mai à 11H00
+title: Comment bien préparer la transformation de son expérience client ?
 link: >-
   https://content.blog-consulting-and-integration.tessi.eu/webinar-comment-bien-preparer-la-transformation-de-son-experience-client
 tags:
