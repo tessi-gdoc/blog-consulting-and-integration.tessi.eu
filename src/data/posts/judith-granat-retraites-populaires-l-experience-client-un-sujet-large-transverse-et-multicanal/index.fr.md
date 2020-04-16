@@ -27,7 +27,6 @@ introduction: >-
   être le sponsor ? Judith Granat nous confie sa vision, sa méthode et le
   fonctionnement en place chez Retraites Populaires.
 ---
-
 **Quelle a été l’évolution de l’expérience client chez Retraites Populaires ces dernières années ?**
 
 L’expérience client est un sujet large, transverse et multicanal. Elle a fortement évolué ces sept dernières années et continue de se transformer. Initialement, l’expérience client n’était que transactionnelle et s’inscrivait dans une logique de relation contractuelle. Puis le souci de fidélisation de nos clients, nous a mené à développer une véritable stratégie de relation client en profitant des nouveaux moyens digitaux. Nous avons capitalisé sur cette orientation pour progressivement mettre le client au centre des préoccupations.
@@ -53,6 +52,8 @@ Il n’y a pas vraiment de règle quant à la position que doit avoir celui ou c
 **De quelle manière portez-vous ces projets pour qu’ils voient le jour ?**
 
 D’abord, il est nécessaire de se faire une vision du futur sur laquelle se construit la roadmap sur plusieurs années. Pour intégrer la roadmap dans le portefeuille projets, les budgets et les ressources doivent être disponibles. Et là, il faut convaincre ! Au-delà de mettre les avantages du projet en avant, un business case est nécessaire. Il faut parvenir à démontrer qu’après X années, ce projet sera viable, déterminer le « break even » (ou point mort), les impacts budgétaires, le cross-selling qui en découlera, les économies de coût réalisées… Ces éléments chiffrés sont indispensables pour faire passer un tel projet.
+
+[![webinar_preparation_transformation_experience_client](950x250_banniere_webinar_preparer_transformation_experience_client.png "Webinar \"Comment bien préparer la transformation de son expérience client ?\"")](https://content.blog-consulting-and-integration.tessi.eu/webinar-comment-bien-preparer-la-transformation-de-son-experience-client)
 
 **Sur quelle(s) enveloppe(s) est imputé le budget de ce type de projets transverses ?**
 
