@@ -164,7 +164,7 @@ const wrapPageElement = ({ element, props, ...rest }) => {
   const isArticle = test(localizedRegex('posts/[^\n]+'), pathname);
   const isHomePage = !test(
     localizedRegex(
-      '(posts|notices|thank-you|whitepapers|our-case-studies|kits|demo|videos)'
+      '(posts|notices|thank-you|whitepapers|our-case-studies|kits|demo|videos|webinars)'
     ),
     pathname
   );
