@@ -58,6 +58,8 @@ Lorsqu’un client rencontre un problème avec un produit qu’il a acheté, il 
 
 Voici un exemple auquel le Case Management répond. De nombreux autres cas d’usage peuvent être cités comme la gestion des réclamations, des souscriptions, des incidents, les audits, etc.
 
+[![Télécharger_livre_blanc_Case_Management](950x250_banniere_lb_case_management.png "Livre Blanc \"Pourquoi s'équiper d'une solution de Case Management ?\"")](https://content.gdoc-lasercom.com/livre-blanc-tessi-pourquoi-sequiper-dune-solution-de-case-management)
+
 ## 3/ Les outils du Case Management : Avec quoi ?
 
 Votre outil de Case Management doit être une solution totalement personnalisable et adaptable aux exigences de l’entreprise grâce à un système modulaire. Les modules sont proposés en fonction des besoins du projet de Case Management, des outils et des processus mis en place dans l’entreprise. De ce fait, partir de zéro ou ajouter un seul module à l’existant pour initialiser une solution de Case Management, c’est possible !
