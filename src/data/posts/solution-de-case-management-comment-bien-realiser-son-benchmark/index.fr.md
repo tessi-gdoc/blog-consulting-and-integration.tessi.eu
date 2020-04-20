@@ -79,6 +79,8 @@ Ces éléments de réponse vont vous aider à attribuer un poids à vos critère
 
 Il va sans dire que le périmètre d’application choisi et vos priorités doivent être en adéquation avec les objectifs et la stratégie globale de l’entreprise.
 
+[![Télécharger_kit_Benchmark_Case_Management](banniere-web_950x250px_kit_operationnel_benchmark_case_management.png "Kit opérationnel \"Modèle de benchmark des solutions de Case Management\"")](https://content.blog-consulting-and-integration.tessi.eu/modele-de-benchmark-des-solutions-de-case-management)
+
 ## **02/ Quels critères prendre en compte pour votre benchmark des solutions de Case Management ?**
 
 **A. CHOISISSEZ LE MODE DE REALISATION DE VOTRE SOLUTION DE CASE MANAGEMENT**
