@@ -109,7 +109,7 @@ En effet, si parmi les outils proposés une multitude de paramétrages est possi
 
 Les équipes IT peuvent alors garantir les bonnes pratiques de paramétrage comme de développement, assurer la cohérence de l’ensemble et le pilotage de la solution.
 
-[![Télécharger_Kit_Benchmark_Case_Management](banniere-web_950x250px_kit_operationnel_benchmark_case_management.png "Kit opérationnel \\"Modèle de benchmark des solutions de Case Management\\"")](https://content.blog-consulting-and-integration.tessi.eu/modele-de-benchmark-des-solutions-de-case-management)
+[![Télécharger_Kit_Benchmark_Case_Management](banniere-web_950x250px_kit_operationnel_benchmark_case_management.png "Kit opérationnel Modèle de benchmark des solutions de Case Management")](https://content.blog-consulting-and-integration.tessi.eu/modele-de-benchmark-des-solutions-de-case-management)
 
 ## 02/ Les 6 principaux bénéfices d’une plateforme paramétrable
 
