@@ -109,7 +109,7 @@ En effet, si parmi les outils proposés une multitude de paramétrages est possi
 
 Les équipes IT peuvent alors garantir les bonnes pratiques de paramétrage comme de développement, assurer la cohérence de l’ensemble et le pilotage de la solution.
 
-[![Télécharger_Kit_Benchmark_Case_Management](banniere-web_950x250px_kit_operationnel_benchmark_case_management.png "Kit opérationnel \"Modèle de benchmark des solutions de Case Management\"")](https://content.blog-consulting-and-integration.tessi.eu/modele-de-benchmark-des-solutions-de-case-management)
+[![Télécharger_Kit_Benchmark_Case_Management](banniere-web_950x250px_kit_operationnel_benchmark_case_management.png "Kit opérationnel \\"Modèle de benchmark des solutions de Case Management\\"")](https://content.blog-consulting-and-integration.tessi.eu/modele-de-benchmark-des-solutions-de-case-management)
 
 ## 02/ Les 6 principaux bénéfices d’une plateforme paramétrable
 
@@ -119,8 +119,6 @@ Les équipes IT peuvent alors garantir les bonnes pratiques de paramétrage comm
 4. Une application métier au sein de la plateforme de Case Management peut évoluer sans impacter une autre application métier, ce qui permet une grande souplesse dans la livraison des adaptations et ajustements, au rythme de l’activité.
 5. L’implication de profils différents, dont des profils métier, dans la gestion de la plateforme a 2 effets positifs majeurs : une utilisation optimisée des compétences de chacun tout en maintenant une gouvernance IT, ainsi qu’une meilleure expérience utilisateur. Il en résulte une solution intuitive et une bonne adoption.
 6. L’appui de l’éditeur et les avantages de ses activités de R&D qui peuvent, particulièrement via le relais d’un intégrateur, tenir compte de vos challenges.
-
-[![découvrir_offre_case_management](banniere_offre_case_management.png "Découvrir Case Management")](https://www.tessi.eu/ch/fr/solution/technologies/conseil-integration/conseil-integration/ecm/?utm_source=blog&utm_medium=in_article_banner&utm_content=5e67d416d59cbc342a52e403&utm_campaign=5e68e791d59cbc342a53687b)
 
 ## 03 / Comment choisir votre partenaire : Intégrateur ou éditeur ?
 
@@ -141,3 +139,5 @@ Il n’y a pas de meilleur choix entre intégrateur ou éditeur. Le choix de vot
 ***En bref, pour réaliser votre solution de Case Management, trois options s’offrent à vous : « Buy », « Build », « Configure ». Si vous optez pour la plateforme de Case Management, soit la troisième option, ce sera l’occasion de tirer profit d’une solution sur mesure, paramétrée selon vos besoins autant que d’un cadre technologique unique et performant. Dans le même temps, il vous faudra faire le choix de votre partenaire, un choix qui vous appartient.***
 
 ***Au-delà des décisions relatives au mode de réalisation de votre solution et à votre compagnon de route, le choix d’une solution de Case Management est aussi une histoire de culture d’entreprise. Quelle est votre capacité ou votre envie de changement ou plutôt de stabilité ?***
+
+[![découvrir_offre_case_management](banniere_offre_case_management.png "Découvrir l'offre Case Management")](https://www.tessi.eu/ch/fr/solution/technologies/conseil-integration/conseil-integration/ecm/?utm_source=blog&utm_medium=in_article_banner&utm_content=5e67d416d59cbc342a52e403&utm_campaign=5e68e791d59cbc342a53687b)
