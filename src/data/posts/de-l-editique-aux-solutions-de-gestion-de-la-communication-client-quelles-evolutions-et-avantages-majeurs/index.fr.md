@@ -110,6 +110,8 @@ Les nouvelles solutions de communication client ont dû s’adapter à l’omnic
 * Permet d’assurer une expérience client fluide grâce à des contenus accessibles sur différents supports et adaptés aux différents modes de consommation de contenu
 * La gestion de l’omnicanalité est simplifiée
 
+[![Inscription_webinar_stratégie_omnicanal](950x250_banniere_webinar_tessixopentext_exemple_experience_omnicanal.png "Webinar \"Stratégie omnicanale : exemple d'une expérience client réussie\"")](https://content.blog-consulting-and-integration.tessi.eu/webinar-tessi-x-opentext-strategie-omnicanal-exemple-d-une-experience-client-reussie)
+
 **5. L’EMPOWERMENT DES UTILISATEURS**
 
 Les ressources (le contenu, le design des modèles, les images et logos, les polices de caractère, le mapping de données…) sont centralisées sur des serveurs. Leur gestion est à la main des utilisateurs et non plus seulement réservée aux informaticiens. Ces nouvelles plateformes low-code rendent la gestion des ressources, du versioning et des processus d’approbation accessibles aux métiers.
