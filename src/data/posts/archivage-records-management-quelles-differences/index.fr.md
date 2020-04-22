@@ -64,13 +64,12 @@ Avec l’essor de la dématérialisation, l’archivage sous forme numérique a 
 
 ## Qu’est-ce que le records management ?
 
-En français, le terme « archives » peut porter à confusion, car il désigne à la fois les archives historiques (« archives » en anglais) et les documents engageants que les entreprises ont l’obligation d’archiver (« records » en anglais). Le records management pourrait être traduit par « gestion de l’archivage » ou « archivage managérial ». **Le records management porte uniquement sur l’organisation de la conservation des documents de preuve et de gestion** pout les documents engageants que les entreprises doivent archiver afin de répondre aux obligations légales, défendre leurs droits et gérer leur mémoire. **A la différence de l’archivage, le records management ne concerne donc pas les archives historiques**.
+En français, le terme « archives » peut porter à confusion, car il désigne à la fois les archives historiques (« archives » en anglais) et les documents engageants que les entreprises ont l’obligation d’archiver (« records » en anglais). Le records management pourrait être traduit par « gestion de l’archivage » ou « archivage managérial ». **Le records management porte uniquement sur l’organisation de la conservation des documents de preuve et de gestion** pour les documents engageants que les entreprises doivent archiver afin de répondre aux obligations légales, défendre leurs droits et gérer leur mémoire. **A la différence de l’archivage, le records management ne concerne donc pas les archives historiques**.
 
 Du point de vue du records management, un document peut avoir deux devenirs :
 
-<!--\[if !supportLists]-->-<!--\[endif]-->Soit il devient un « **record** », c’est-à-dire qu’il est validé (donc figé et daté), reconnu comme important et déclaré comme devant être conservé.
-
-<!--\[if !supportLists]-->-<!--\[endif]-->Soit il reste dans un état informatif sans rôle particulier en termes de preuve et n’a donc pas besoin d’être préservé. Il fait alors partie des « **non records** ».
+* Soit il devient un « record », c’est-à-dire qu’il est validé (donc figé et daté), reconnu comme important et déclaré comme devant être conservé.
+* Soit il reste dans un état informatif sans rôle particulier en termes de preuve et n’a donc pas besoin d’être préservé. Il fait alors partie des « non records ».
 
 A noter que les records ayant atteint leur échéance de conservation peuvent ensuite devenir des « archives » (à l’anglaise) et être alors conservés pour leur valeur patrimoniale.
 
