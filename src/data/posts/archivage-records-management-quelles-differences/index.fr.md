@@ -5,7 +5,10 @@ image: archivage_records_management_quelles_differences.png
 imageAlt: image_archivage_electronique
 path: archivage-records-management-quelles-differences
 title: 'Archivage et Records Management : Quelles différences ? '
-description: to do
+description: >-
+  Les enjeux d'archivage et de conservation des documents font partie intégrante
+  d'une bonne gestion documentaire. Qu'est-ce que l'archivage électronique et le
+  records management ? Notions opposées ou complémentaires ?
 date: 2020-04-21T16:18:23.910Z
 tags:
   - contentServices
@@ -14,7 +17,7 @@ introduction: >-
   Factures, contrats, fiches de paie, bons de commande, relevés bancaires… La
   Loi impose aux entreprises de conserver de nombreux documents. Obligation
   légale, l’archivage est un moyen pour l’entreprise de garantir la valeur
-  probatoire des documents de prouver l’authenticité de ceux-ci s’ils sont
+  probatoire des documents et de prouver l’authenticité de ceux-ci s’ils sont
   requis en cas de litige. Assurer la préservation de son patrimoine
   documentaire est ainsi essentiel pour maîtriser ses risques. De plus, face à
   l’augmentation des volumes de documents à gérer et à l’essor de la
