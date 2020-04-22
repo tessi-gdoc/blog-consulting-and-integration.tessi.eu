@@ -4,7 +4,7 @@ key: blog-post
 image: archivage_records_management_quelles_differences.png
 imageAlt: image_archivage_electronique
 path: archivage-records-management-quelles-differences
-title: 'Archivage et Records Management : Quelles différences ? '
+title: 'Archivage et Records Management : quelles différences ? '
 description: >-
   Les enjeux d'archivage et de conservation des documents font partie intégrante
   d'une bonne gestion documentaire. Qu'est-ce que l'archivage électronique et le
