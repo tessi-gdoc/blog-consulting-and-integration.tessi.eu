@@ -28,7 +28,7 @@ introduction: >-
 ---
 ## Le cycle de vie d’un document
 
-De sa création à sa destruction, le document passe par différentes phases telles sa mise au point, sa conservation. Le cycle de vie d’un document est un concept utilisé en gestion documentaire, pour décrire **les différentes étapes menant de la production d’un document à sa destination finale**. Tous les documents n’ont pas la même valeur. Selon leur typologie, certains devront être conservés de façon illimitée, tandis que d’autres pourront être détruits au bout d’une certaine durée.
+De sa création à sa destruction, le document passe par différentes phases telles que sa mise au point, sa conservation. Le cycle de vie d’un document est un concept utilisé en gestion documentaire, pour décrire **les différentes étapes menant de la production d’un document à sa destination finale**. Tous les documents n’ont pas la même valeur. Selon leur typologie, certains devront être conservés de façon illimitée, tandis que d’autres pourront être détruits au bout d’une certaine durée.
 
 ### Archivage : la théorie des trois âges
 
@@ -63,7 +63,7 @@ L’archivage désigne **l’ensemble des actions, des outils et des méthodes m
 
 Avec l’essor de la dématérialisation, l’archivage sous forme numérique a pris une importance croissante au sein des entreprises, et ce, sous plusieurs formes :
 
-* Le **système d’archivage électronique (SAE)** qui regroupe, classe et référence au sein d’un unique outil informatique les différents flux documentaires, afin de les restituer au besoin facilement. Le SAE a peu à peu remplacé le rôle joué par le disque dur d’ordinateur personnel ou le serveur d’une entreprise. Sous cette forme, l’archivage numérique respecte la norme NF-Z42-013 de l’AFNOR, l’Association française de normalisation. Son pendant à l’échelle internationale est la norme ISO 14641. Pérennité, intégrité, confidentialité, disponibilité, réversibilité : en respectant ces 5 axes, le SAE permet de préserver la vocation probatoire des documents numériques archivés.
+* Le **système d’archivage électronique (SAE)** qui regroupe, classe et référence au sein d’un unique outil informatique les différents flux documentaires, afin de les restituer facilement au besoin. Le SAE a peu à peu remplacé le rôle joué par le disque dur d’ordinateur personnel ou le serveur d’une entreprise. Sous cette forme, l’archivage numérique respecte la norme NF-Z42-013 de l’AFNOR, l’Association française de normalisation. Son pendant à l’échelle internationale est la norme ISO 14641. Pérennité, intégrité, confidentialité, disponibilité, réversibilité : en respectant ces 5 axes, le SAE permet de préserver la vocation probatoire des documents numériques archivés.
 * Le **coffre-fort numérique** est un espace de stockage en ligne sécurisé, destiné à conserver les documents numériques. Le coffre-fort numérique peut être consulté et enrichi en ligne, via internet. Il permet de conserver les documents ainsi que leurs métadonnées pour en faciliter l’accès a posteriori. Lors du dépôt d’un document, une empreinte numérique y est apposée. Espace d’archivage à valeur probatoire, le coffre-fort numérique répond à la norme NF Z42-020.
 * La **sauvegarde informatique** qui consiste à dupliquer les données archivées à l’identique, pour pouvoir les restaurer en cas de dommage ou de perte.
 
@@ -80,9 +80,9 @@ A noter que les records ayant atteint leur échéance de conservation peuvent en
 
 **Dans un système de records management efficace, dès qu’un document engageant produit est validé alors il est archivé**. Dans ce système, il est donc possible de justifier la qualification de tous les documents conservés. Cela nécessite d’avoir défini au préalable une politique d’archivage.
 
-Pour résumer, on pourrait dire que **le records management est une pratique d’organisation et des gestion qui prend en charge le contrôle systématique des documents engageants d'une compagnie tout au long du cycle de vie de ceux-ci**. Les documents sont ainsi aussi bien numériques que physiques.
+Pour résumer, on pourrait dire que **le records management est une pratique d’organisation et de gestion qui prend en charge le contrôle systématique des documents engageants d'une entreprise tout au long du cycle de vie de ceux-ci**, qu'ils s'agissent de documents numériques ou physiques.
 
-Le Records Management s’appuie donc sur des produits, des processus et des solutions logicielles afin de garantir la solidité de ses 6 piliers :
+Le Records Management s’appuie donc sur des produits, des processus et des solutions logicielles afin de garantir la solidité de ces 6 piliers :
 
 * Authenticité
 * Fiabilité/Validité
@@ -91,6 +91,6 @@ Le Records Management s’appuie donc sur des produits, des processus et des sol
 * Conformité
 * Exhaustivité
 
-Les produits sont entre autres la signature électronique, l’empreinte, la gestion de processus, une architecture de stockage, un système d’archivage électronique. Archivage numérique et records management peuvent donc fonctionner ensemble. En plus de s’affranchir des coûts d’un archivage physique, l’archivage numérique permet d’optimiser les flux, en améliorant la traçabilité des documents et en y garantissant un accès simplifié. Les ressources humaines sont moins sollicitées. 
+Les produits sont entre autres la signature électronique, l’empreinte, la gestion de processus, une architecture de stockage, un système d’archivage électronique. Archivage numérique et records management peuvent donc fonctionner ensemble. En plus de s’affranchir des coûts d’un archivage physique, l’archivage numérique permet d’optimiser les flux, en améliorant la traçabilité des documents et en y garantissant un accès simplifié. Bien archiver, c'est aussi des ressources humaines qui gagnent du temps au profit de tâches à plus forte valeur ajoutée.
 
-***Couplé au records management, l’archivage numérique permet de gagner significativement en performance à l’échelle d’une société. L’édition de factures au format numérique étant devenue obligatoire depuis 2020, les entreprises de toute taille ont tout intérêt à se pencher sérieusement sur leur processus d’archivage, pour embrasser peu à peu les bénéfices du records management et adopter une solution d’archivage numérique.***
+***Au-delà de se conformer aux contraintes légales qui encadrent votre activité, coupler records management et archivage numérique permet de gagner significativement en performance à l’échelle d’une société. L’édition de factures au format numérique étant devenue obligatoire depuis 2020 (et ce n'est qu'un exemple parmi d'autres), les entreprises de toute taille ont tout intérêt à se pencher sérieusement sur leur processus d’archivage, pour embrasser peu à peu les bénéfices du records management et adopter un système d'archivage électronique.***
