@@ -37,6 +37,8 @@ Du point de vue des archivistes, un document passe par trois phases au cours de 
 
 ### Le cycle de vie d’un document à l’aune du records management
 
+![Schéma_cycle_de_vie_document_archivage_records](archivage_records_management_schema_rogne.png "Cycle de vie d'un document engageant")
+
 Du point de vue du records management, le cycle de vie d’un document est polarisé autour de deux événements majeurs, venant modifier son statut et sa valeur :
 
 * La **validation** qui donne au document sa nature engageante. Il s’agit du moment où le document est figé et validé dans sa forme finale, c’est la *record creation*. A partir de là, le document engageant doit être conservé dans un système sécurisé.
