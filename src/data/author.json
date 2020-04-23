@@ -29,6 +29,11 @@
       "id": "anm",
       "fullname": "Anthony MARANGHI",
       "avatar": "/img/avatar_default.png"
+    },
+    {
+      "avatar": "/img/dominique_pluchon_profil.png",
+      "id": "dop",
+      "fullname": "Dominique Pluchon"
     }
   ]
 }
