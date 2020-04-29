@@ -34,6 +34,11 @@
       "avatar": "/img/dominique_pluchon_profil.png",
       "id": "dop",
       "fullname": "Dominique Pluchon"
+    },
+    {
+      "avatar": "/img/emmanuel_de_ternay.jfif",
+      "fullname": "Emmanuel de Ternay",
+      "id": "edt"
     }
   ]
 }
