@@ -34,7 +34,7 @@ Vouloir substituer des pratiques et des supports matériels par des moyens infor
 * Des **outils de capture** pour remplacer les supports d'information matériels produits par l'entreprise en supports électroniques. Par exemple, des devis et des factures émises pour des clients.
 * Des **outils de partage et de consultation** pour répondre aux activités quotidiennes. Par exemple, le fait de pouvoir partager la rédaction d'un contrat.
 * Des **outils** **permettant de** **faire circuler l'information aux différents acteurs** de l'entreprise. Par exemple, capturer, distribuer et envoyer le courrier reçu par la Poste.
-* Des **outils d'archivage électronique** pour assurer la conservation sur le long terme des informations engageantes. Il faudra par exemple être en mesure de retrouver un document en cas de litige.
+* Des **outils d'[archivage électronique](https://blog-consulting-and-integration.tessi.eu/posts/archivage-records-management-quelles-differences)** pour assurer la conservation sur le long terme des informations engageantes. Il faudra par exemple être en mesure de retrouver un document en cas de litige.
 
 ### Dématérialisation et numérisation, quelles différences ?
 
@@ -96,9 +96,7 @@ Cet engagement de résultat n’est pas uniquement lié à la technologie mise e
 
 #### Documents engageants et documents à force probante
 
-**Le défi de la gestion des flux papier est équivalent pour les documents électroniques**, voire plus. Tout comme le papier, le risque est de se laisser envahir par les documents soit en les conservant dans des armoires, soit en les archivant dans des espaces sécurisés (chez un prestataire ou dans une cave). Pour éviter cet écueil, il faut identifier les **documents engageants** dans l’espace des documents d’activité, afin d’en assurer la **conservation** et le sort final. De l’autre côté, l’enjeu pour les **documents à force probante** consiste à en garantir **l’intégrité** et l’authenticité. Les documents dématérialisés doivent en effet être contrôlés et gérés, afin de garantir que le flux traité ne devienne pas un problème à long terme, avec le risque de devoir gérer un volume d’informations croissant, sans contrôle dans le temps.
-
-Lire aussi : [Archivage et Records Management : quelles différences ?](https://blog-consulting-and-integration.tessi.eu/posts/archivage-records-management-quelles-differences)\
+**Le défi de la gestion des flux papier est équivalent pour les documents électroniques**, voire plus. Tout comme le papier, le risque est de se laisser envahir par les documents soit en les conservant dans des armoires, soit en les archivant dans des espaces sécurisés (chez un prestataire ou dans une cave). Pour éviter cet écueil, il faut identifier les **documents engageants** dans l’espace des documents d’activité, afin d’en assurer la **conservation** et le sort final. De l’autre côté, l’enjeu pour les **documents à force probante** consiste à en garantir **l’intégrité** et l’authenticité. Les documents dématérialisés doivent en effet être contrôlés et gérés, afin de garantir que le flux traité ne devienne pas un problème à long terme, avec le risque de devoir gérer un volume d’informations croissant, sans contrôle dans le temps.\
 \
 Enfin, aborder la dématérialisation sans prendre en compte son **interconnexion avec le** **Système d’Information (SI)** reviendrait à construire une maison sans penser aux portes et aux fenêtres. Les outils mis en œuvre doivent **s’intégrer à la stratégie d’urbanisation** de l’entreprise, afin de garantir que les outils mis en œuvre s’intègrent parfaitement à l’activité.
 
