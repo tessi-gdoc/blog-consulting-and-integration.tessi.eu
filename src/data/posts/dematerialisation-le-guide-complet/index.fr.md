@@ -97,13 +97,13 @@ Cet engagement de résultat n’est pas uniquement lié à la technologie mise e
 Lire aussi : [Archivage et Records Management : quelles différences ?](https://blog-consulting-and-integration.tessi.eu/posts/archivage-records-management-quelles-differences)\
 Enfin, aborder la dématérialisation sans prendre en compte son **interconnexion avec le** **Système d’Information (SI)** reviendrait à construire une maison sans penser aux portes et aux fenêtres. Les outils mis en œuvre doivent **s’intégrer à la stratégie d’urbanisation** de l’entreprise, afin de garantir que les outils mis en œuvre s’intègrent parfaitement à l’activité.
 
-## 03/ Projet de dématérialisation : comment mobiliser l’ensemble des équipes ?
+## 04/ Projet de dématérialisation : comment mobiliser l’ensemble des équipes ?
 
 Un projet de dématérialisation est supposé impliquer toutes les entités d’une entreprise, les besoins étant par nature transverses et variés. Difficile dans ce contexte de disposer d’une **vision stratégique** et de collecter les attentes de toutes les parties prenantes, du côté de la DSI. Pour éviter d’aboutir à une situation où chaque demande nécessiterait une solution particulière, **il est vivement conseillé de construire un socle commun.** À partir de ce socle, il sera possible de capitaliser sur l’effort d’appropriation par les utilisateurs et de mettre en place des indicateurs de performance homogènes.
 
 Il est donc important que **la Direction s’implique en définissant une cible et une feuille de route**. Elle doit aussi s’engager à valider le choix des premières briques. Pour mener à bien une telle vision, il est possible de réaliser un audit de son activité, afin de construire une cartographie de son activité documentaire et d’ainsi mieux définir sa stratégie. L’objectif est de construire **un** **socle de dématérialisation cohérent et pérenne dans le temps**.
 
-## 04/ Les bénéfices de la dématérialisation
+## 05/ Les bénéfices de la dématérialisation
 
 Si le premier bénéfice attendu d’une stratégie de dématérialisation est bien entendu un **retour sur investissement**, il en existe d’autres, tout aussi importants :
 
@@ -113,7 +113,7 @@ Si le premier bénéfice attendu d’une stratégie de dématérialisation est b
 
 L’exploitation des indicateurs permettent de monitorer et de piloter l’efficacité et l’efficience des projets, afin d’accompagner la performance. À partir des résultats obtenus, la Direction est en mesure d’évaluer les bénéfices et de mettre en place, - si nécessaire -, des mesures de corrections.
 
-## 05/ Les étapes clés de la dématérialisation
+## 06/ Les étapes clés de la dématérialisation
 
 Avant de se lancer dans un projet de dématérialisation, il est nécessaire de se poser la question de la cible et de la **stratégie à mener**. Néanmoins, il est évident que l’ensemble du sujet (capture, GED/Case Management, conservation, pilotage et monitoring) doit être abordé dans une analyse globale.
 
