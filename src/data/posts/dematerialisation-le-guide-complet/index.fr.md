@@ -90,6 +90,8 @@ En sortie de la chaine de capture, le document est nativement numérique. L’id
 
 La **GED (Gestion Electronique de Documents) et le [Case Management](https://blog-consulting-and-integration.tessi.eu/posts/case-management-par-ou-commencer) (traitement des processus métiers),** ont vocation à répondre à l’ensemble de ces questions. Le principe ? Stocker les documents électroniques, les intégrer au contexte métier et en assurer la distribution et la circulation. Le Case Management vient s’intégrer en profondeur dans les processus métier pour garantir une dématérialisation complète.
 
+Lire aussi : [De la GED au Case Management : pourquoi changer ?](https://blog-consulting-and-integration.tessi.eu/posts/de-la-ged-au-case-management-pourquoi-changer)
+
 Cet engagement de résultat n’est pas uniquement lié à la technologie mise en place par l’outil. **Il faut au préalable analyser les processus moteurs de l’entreprise**, évaluer et mettre en œuvre les **outils de transformation** vers des processus électroniques et **accompagner les acteurs**. Les bénéfices d’un tel projet doivent être prévus en amont par la mise en place d’indicateurs. Ceux-ci doivent ensuite être remontés vers la Direction, dans l’objectif de **valider les orientations stratégiques**, mais aussi vers les utilisateurs, dans un esprit d’accompagnement au changement.
 
 #### Documents engageants et documents à force probante
@@ -97,6 +99,7 @@ Cet engagement de résultat n’est pas uniquement lié à la technologie mise e
 **Le défi de la gestion des flux papier est équivalent pour les documents électroniques**, voire plus. Tout comme le papier, le risque est de se laisser envahir par les documents soit en les conservant dans des armoires, soit en les archivant dans des espaces sécurisés (chez un prestataire ou dans une cave). Pour éviter cet écueil, il faut identifier les **documents engageants** dans l’espace des documents d’activité, afin d’en assurer la **conservation** et le sort final. De l’autre côté, l’enjeu pour les **documents à force probante** consiste à en garantir **l’intégrité** et l’authenticité. Les documents dématérialisés doivent en effet être contrôlés et gérés, afin de garantir que le flux traité ne devienne pas un problème à long terme, avec le risque de devoir gérer un volume d’informations croissant, sans contrôle dans le temps.
 
 Lire aussi : [Archivage et Records Management : quelles différences ?](https://blog-consulting-and-integration.tessi.eu/posts/archivage-records-management-quelles-differences)\
+\
 Enfin, aborder la dématérialisation sans prendre en compte son **interconnexion avec le** **Système d’Information (SI)** reviendrait à construire une maison sans penser aux portes et aux fenêtres. Les outils mis en œuvre doivent **s’intégrer à la stratégie d’urbanisation** de l’entreprise, afin de garantir que les outils mis en œuvre s’intègrent parfaitement à l’activité.
 
 ## 04/ Projet de dématérialisation : comment mobiliser l’ensemble des équipes ?
