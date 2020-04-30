@@ -56,7 +56,7 @@ Au démarrage d’un projet de dématérialisation, trois grandes questions appa
 
 Dans un monde où les technologies sont en pleine mutation, il est difficile de vouloir figer une vue unique sur les briques logiciels. Pour comprendre les enjeux posés par un projet de dématérialisation, voici une **représentation des briques fonctionnelles** qui constituent un tel projet
 
-IMAGE
+![briques_fonctionnelles_dematerialisation](image_dematerialisation_briques_technos.png "Les briques fonctionnelles de la dématérialisation")
 
 Bien entendu, une organisation n’a pas nécessairement besoin de toutes les briques exposées ci-dessus. Mais pour ne pas se retrouver limité dans le temps, il est nécessaire d'en comprendre les spécifications et les impacts, afin de **spécifier une architecture cible**.
 
@@ -71,8 +71,6 @@ Bien entendu, une organisation n’a pas nécessairement besoin de toutes les br
 * Le **volume à traiter** est-il important ou faible ?
 
 De cette première analyse, il est possible d’envisager **une chaine de capture**. Il est important à ce stade de **clarifier les points d'entrée**, les utilisateurs impliqués et de fixer des règles d'acquisition. À défaut de réaliser ce travail, le risque est de se retrouver devant une multitude de règles imaginées pour chaque cas, sans cohérence globale et de construire un système équivalent à une arborescence fichier non maîtrisée.
-
-
 
 ### La chaine de capture
 
@@ -92,8 +90,6 @@ La **GED (Gestion Electronique de Documents) et le Case Management (traitement d
 
 Cet engagement de résultat n’est pas uniquement lié à la technologie mise en place par l’outil. **Il faut au préalable analyser les processus moteurs de l’entreprise**, évaluer et mettre en œuvre les **outils de transformation** vers des processus électroniques et **accompagner les acteurs**. Les bénéfices d’un tel projet doivent être prévus en amont par la mise en place d’indicateurs. Ceux-ci doivent ensuite être remontés vers la Direction, dans l’objectif de **valider les orientations stratégiques**, mais aussi vers les utilisateurs, dans un esprit d’accompagnement au changement.
 
-
-
 #### Documents engageants et documents à force probante
 
 **Le défi de la gestion des flux papier est équivalent pour les documents électroniques**, voire plus. Tout comme le papier, le risque est de se laisser envahir par les documents soit en les conservant dans des armoires, soit en les archivant dans des espaces sécurisés (chez un prestataire ou dans une cave). Pour éviter cet écueil, il faut identifier les **documents engageants** dans l’espace des documents d’activité, afin d’en assurer la **conservation** et le sort final. De l’autre côté, l’enjeu pour les **documents à force probante** consiste à en garantir **l’intégrité** et l’authenticité. Les documents dématérialisés doivent en effet être contrôlés et gérés, afin de garantir que le flux traité ne devienne pas un problème à long terme, avec le risque de devoir gérer un volume d’informations croissant, sans contrôle dans le temps.\
@@ -105,8 +101,6 @@ Enfin, aborder la dématérialisation sans prendre en compte son **interconnexio
 Un projet de dématérialisation est supposé impliquer toutes les entités d’une entreprise. Les besoins sont donc par nature transverses et variés. Difficile dans ce contexte de disposer d’une **vision stratégique** et de collecter les attentes de toutes les parties prenantes, du côté de la DSI. Pour éviter d’aboutir à une situation où chaque demande nécessiterait une solution particulière, **il est vivement conseillé de construire un socle commun.** À partir de ce socle, il sera possible de capitaliser sur l’effort d’appropriation par les utilisateurs et de mettre en place des indicateurs de performance homogènes.
 
 Il est donc important que **la Direction s’implique en définissant une cible et une feuille de route**. Elle doit aussi s’engager à valider le choix des premières briques. Pour mener à bien une telle vision, il est possible de réaliser un audit de son activité, afin de construire une cartographie de son activité documentaire et d’ainsi mieux définir sa stratégie. L’objectif est de construire **un** **socle de dématérialisation cohérent et pérenne dans le temps**.
-
-
 
 ## Les bénéfices de la dématérialisation
 
@@ -135,7 +129,5 @@ Une fois l’analyse globale de son activité effectuée, l’entreprise est en 
 La cartographie permet de **mettre en avant des opportunités de projets de dématérialisation** et de définir un découpage en plan d’investissement.
 
 Selon la typologie de l’organisation, certains projets auront forcément un impact plus important, avec une **vraie valeur de retour sur investissement**. Par exemple, les services financiers ont tout intérêt à dématérialiser le traitement des factures, quand d’autres structures seront plus intéressées par l’introduction de nouveaux canaux de communication ou le traitement du courrier, pour améliorer la réactivité de traitement et garantir le suivi client…**Le choix d’un projet à forte valeur ajoutée est donc préconisé**.
-
-
 
 ***Choix d’une nouvelle solution, prise en main des outils, mise en place des indicateurs, formation et conduite du changement… Plusieurs paramètres à risque jalonnent un premier projet de dématérialisation. Il est donc nécessaire d’assurer un suivi projet rigoureux, garantissant le succès de ce dernier. Spécialiste de la gestion de contenu au sein des entreprises, Tessi accompagne les entreprises dans la dématérialisation de leurs processus, au travers de missions de conseil ainsi que de l’intégration et la construction de plateforme sur-mesure.***
