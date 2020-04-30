@@ -6,7 +6,7 @@ imageAlt: dématérialisation
 path: dematerialisation-le-guide-complet
 title: 'Dématérialisation : le guide complet'
 description: >-
-  La dématérialisation est un projet globale d'entreprise. Découvrez tout ce
+  La dématérialisation est un projet global d'entreprise. Découvrez tout ce
   qu'il faut savoir pour aborder au mieux un projet de dématérialisation.
 date: 2020-04-30T08:05:37.966Z
 tags:
