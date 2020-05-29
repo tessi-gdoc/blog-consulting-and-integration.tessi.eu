@@ -5,8 +5,8 @@ date: 2020-04-16T12:51:59.069Z
 image: webinar_ot_xp_client_omnicanal_rogne.png
 imageAlt: webinar_strategie_omnicanale_exemple
 title: >-
-  WEBINAR "Stratégie omnicanale : exemple d'une expérience client réussie" - Le
-  28 Mai à 11H30
+  WEBINAR "Stratégie omnicanale : exemple d'une expérience client réussie" -
+  REPLAY
 link: >-
   https://content.blog-consulting-and-integration.tessi.eu/webinar-tessi-x-opentext-strategie-omnicanal-exemple-d-une-experience-client-reussie
 ---
