@@ -41,7 +41,7 @@ Les clients désirent recevoir leurs communications avec des informations justes
 
 ## 2 - Synchroniser sa solution CCM avec un DAM
 
-Le Digital Asset Management (DAM, ou gestion des actifs numériques) est un dépôt numérique permettant de stocker et regrouper au même endroit les ressources médias d'une organisation. Son rôle est de rendre accessible les dernières versions des ressources qu’il s’agisse des éléments graphiques de la de charte de l’entreprise, des éléments juridiques comme des conditions générales, des campagnes marketing, ou des messages types (par exemple « nos bureaux seront fermés du … au … »). La mise en œuvre d’une connexion entre le CCM et le DAM permet de garantir l’accessibilité et la conformité des ressources mises à disposition.
+Le Digital Asset Management (DAM, ou gestion des actifs numériques) est un dépôt numérique permettant de stocker et regrouper au même endroit les ressources médias d'une organisation. Son rôle est de rendre accessible les dernières versions des ressources qu’il s’agisse des éléments graphiques de la charte de l’entreprise, des éléments juridiques comme des conditions générales, des campagnes marketing, ou des messages types (par exemple « nos bureaux seront fermés du … au … »). La mise en œuvre d’une connexion entre le CCM et le DAM permet de garantir l’accessibilité et la conformité des ressources mises à disposition.
 
 **Bénéfices majeurs :**
 
@@ -75,7 +75,7 @@ Un document interactif est un document multicanal c’est-à-dire qu’il s’ad
 * L’organisation peut rationaliser le nombre de maquettes (modèles de communication) à créer et mettre la solution à la main des métiers tout en maîtrisant l'ensemble des communications sortantes.
 * Le client dispose d’un document personnalisé créé en temps réel, à sa demande. Il bénéficie d’un parcours client flexible et fluide, garant d’une expérience client sur mesure.
 
-[![Inscription_webinar_stratégie_omnicanale](950x250_banniere_webinar_tessixopentext_exemple_experience_omnicanal.png "Webinar \"Stratégie omnicanale : exemple d'une expérience client réussie\"")](https://content.blog-consulting-and-integration.tessi.eu/webinar-tessi-x-opentext-strategie-omnicanal-exemple-d-une-experience-client-reussie)
+[![Inscription_webinar_stratégie_omnicanale](950x250_banniere_webinar_tessixopentext_exemple_experience_omnicanal.png "Webinar \\"Stratégie omnicanale : exemple d'une expérience client réussie\\"")](https://content.blog-consulting-and-integration.tessi.eu/webinar-tessi-x-opentext-strategie-omnicanal-exemple-d-une-experience-client-reussie)
 
 ## 6 - Intégrer le canal de communication mobile à sa solution CCM
 
