@@ -14,8 +14,7 @@ tags:
 author: clc
 introduction: >-
   Le Case Management est un terme qui est apparu aux États-Unis vers les années
-  1.    Initialement utilisé dans le domaine de la médecine, il désigne une
-
+  1920. Initialement utilisé dans le domaine de la médecine, il désigne une
   méthode de travail qui s’axe sur le suivi, la prise en charge et la
   coordination des soins, au cas par cas. Cette approche répond au besoin de
   traiter des patients atteint de maladie chronique pour lesquels la mise en
@@ -27,7 +26,6 @@ introduction: >-
   parties prenantes (le patient, le généraliste, les spécialistes, les aidants,
   etc.). Le Case Manager s’assure que les soins prodigués au patient soient en
   corrélation avec ses besoins et objectifs.
-
 
 
   Ce terme s’est petit à petit démocratisé et imposé dans d’autres secteurs
@@ -43,7 +41,7 @@ introduction: >-
 * Le Case Management est le fruit de la digitalisation de la relation client : cette relation auparavant limitée aux échanges en personne ou aux conversations téléphonique, passe aujourd’hui par une multiplicité de points de contact.
 * L’approche de Case Management prend tout son sens particulièrement en BtoC dans les secteurs d’activités où le traitement des cas client peuvent être complexes, longs et recourir à plusieurs acteurs humains et expertises dans la prise de décision.
 * De cette approche sont nées des solutions technologiques de Case Management. Ces dernières mettent le client et les données au centre des processus avec un objectif premier : soigner la relation client.
-* L’amalgame est souvent faite entre Case Management et BPM. Même si en effet, ces deux types de solution permettent le traitement de cas client, le BPM utilise des processus prédictibles. Alors que le Case Management fait appel à des processus contrôlés mais non prédictifs qui confèrent une flexibilité que les solutions de BPM ne sauraient égaler.
+* L’amalgame est souvent fait entre Case Management et BPM (Business Process Management). Même si en effet, ces deux types de solution permettent le traitement de cas client, le BPM utilise des processus prédictibles. Alors que le Case Management fait appel à des processus contrôlés mais non prédictifs qui confèrent une flexibilité que les solutions de BPM ne sauraient égaler.
 * On parle aussi de Case Management 360. Cette notion illustre la vision d’ensemble des dossiers clients et processus qu’offre une solution de Case Management.
 
 ## 2/ Le rôle du Case Management : Ça sert à quoi ?
@@ -58,7 +56,7 @@ Lorsqu’un client rencontre un problème avec un produit qu’il a acheté, il 
 
 Voici un exemple auquel le Case Management répond. De nombreux autres cas d’usage peuvent être cités comme la gestion des réclamations, des souscriptions, des incidents, les audits, etc.
 
-[![Télécharger_livre_blanc_Case_Management](950x250_banniere_lb_case_management.png "Livre Blanc \"Pourquoi s'équiper d'une solution de Case Management ?\"")](https://content.gdoc-lasercom.com/livre-blanc-tessi-pourquoi-sequiper-dune-solution-de-case-management)
+[![Télécharger_livre_blanc_Case_Management](950x250_banniere_lb_case_management.png "Livre Blanc \\"Pourquoi s'équiper d'une solution de Case Management ?\\"")](https://content.gdoc-lasercom.com/livre-blanc-tessi-pourquoi-sequiper-dune-solution-de-case-management)
 
 ## 3/ Les outils du Case Management : Avec quoi ?
 
