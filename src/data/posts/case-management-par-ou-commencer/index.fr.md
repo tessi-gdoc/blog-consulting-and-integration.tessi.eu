@@ -56,7 +56,7 @@ Lorsqu’un client rencontre un problème avec un produit qu’il a acheté, il 
 
 Voici un exemple auquel le Case Management répond. De nombreux autres cas d’usage peuvent être cités comme la gestion des réclamations, des souscriptions, des incidents, les audits, etc.
 
-[![Télécharger_livre_blanc_Case_Management](950x250_banniere_lb_case_management.png "Livre Blanc \\"Pourquoi s'équiper d'une solution de Case Management ?\\"")](https://content.gdoc-lasercom.com/livre-blanc-tessi-pourquoi-sequiper-dune-solution-de-case-management)
+[![Télécharger livre blanc Case Management](950x250_banniere_lb_case_management.png "Livre Blanc \"Pourquoi s'équiper d'une solution de Case Management ?\"")](https://content.gdoc-lasercom.com/livre-blanc-tessi-pourquoi-sequiper-dune-solution-de-case-management)
 
 ## 3/ Les outils du Case Management : Avec quoi ?
 
