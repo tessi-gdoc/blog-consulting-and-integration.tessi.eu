@@ -35,7 +35,7 @@ L’appellation « coffre-fort numérique » est contrôlée par la CNIL. Depuis
 * Lecture du journal des identifiants
 * Listage de tout ou partie du contenu du coffre
 * Restitution des données, en vue d’une lecture ou d’une destruction
-* Vidage
+* Indication de l’horodatage des versements 
 
 ### La différence entre coffre-fort numérique, GED et SAE
 
@@ -43,19 +43,17 @@ Gestion électronique des documents (GED), Système d’archivage électronique 
 
 #### La GED, Gestion électronique de documents
 
-Acquisition, capture, numérisation, validation, diffusion, classement, archivage… **La GED permet d’optimiser la gestion des documents, en les rendant exploitables par des moyens électroniques**. L’enjeu ici n’est donc pas d’assurer l’intégrité des documents, mais bien d’améliorer leur utilisation au sein de l’entreprise. La GED représente donc un système informatique visant à améliorer la gestion des documents électronique dans leur utilisation quotidienne.
+Acquisition, capture, numérisation, validation, diffusion, classement, archivage… **La GED permet d’optimiser la gestion des documents, en les rendant exploitables par des moyens électroniques**. L’enjeu principal n’est donc pas d’assurer l’intégrité des documents, mais bien d’améliorer leur utilisation au sein de l’entreprise. La GED représente donc un système informatique visant à améliorer la gestion des documents électronique dans leur utilisation quotidienne.
 
 #### Le SAE, Système d’archivage numérique
 
-Alors que la GED ne permet pas d’assurer la pérennité des documents, puisqu’ils peuvent être régulièrement modifiés, **le SAE permet de conserver des documents validés, considérés comme permanents**. En effet, une fois intégré dans un Système d’archivage électronique, un document ne peut plus être modifié. Les principaux enjeux d’un SAE sont donc d’assurer la sécurité, l’intégrité, la pérennité, la confidentialité et l’authenticité des documents qui sont stockés en son sein.
+Alors que la GED ne permet pas d’assurer la pérennité des documents, puisqu’ils peuvent être régulièrement modifiés, **le SAE permet de conserver des documents validés, dont l'état doit dorénavant être figé.** En effet, une fois intégré dans un Système d’archivage électronique, un document ne peut plus être modifié. Les principaux enjeux d’un SAE sont donc d’assurer la sécurité, l’intégrité, la pérennité, la confidentialité et l’authenticité des documents qui sont stockés en son sein.
 
 #### Le coffre-fort numérique
 
 Elément complémentaire à un SAE, **le coffre-fort numérique représente un espace encore plus sécurisé pour la conservation des documents**. Cette sécurité accrue tient au fait que l’accès au coffre-fort numérique est limité à son seul utilisateur et aux personnes physiquement mandatées par ce dernier. Le coffre-fort numérique est donc une forme spécifique d’espace de stockage numérique, pouvant faire partie intégrante du SAE.
 
-
-
-## 02/ Quels types de documents met-on dans un coffre-fort numérique ?
+## 02/ Quels types de documents peut-on mettre dans un coffre-fort numérique ?
 
 Documents administratifs, factures, relevés, contrats… De nombreux documents sensibles peuvent être archivés dans un coffre-fort numérique. Une telle solution permet de s’affranchir de l’archivage papier et des risques de perte ou de dégradation des documents qu’il comporte. **Le premier atout d’un coffre-fort numérique réside donc dans le gain de place, mais aussi dans le gain de temps** puisque l’accès aux données est largement simplifié, tout en étant parfaitement sécurisé. Document civil et commercial, pièces comptables, documents fiscaux ou relatifs à la gestion du personnel… Selon le type de documents, la loi fixe une **durée légale de conservation des documents** :
 
@@ -91,7 +89,7 @@ Pour une utilisation facile au quotidien, plusieurs aspects techniques doivent �
 
 #### Interopérabilité
 
-**La capacité d’intégration de la solution avec vos applications métiers est un gage de réussite**. Un coffre-fort numérique relié à votre logiciel de paie permettra par exemple de verser les bulletins de salaire d’un simple clic. De l’interopérabilité dépend le versement automatique de documents, la supervision des flux et la fluidité de leur consultation. Il s’agit donc d’un point à ne pas négliger.
+**La capacité d’intégration de la solution avec vos applications métiers est un gage de réussite**. Un coffre-fort numérique relié à votre logiciel de paie permettra par exemple de verser les bulletins de salaire d’un simple clic. De l’interopérabilité dépend le versement automatique de documents, la supervision des flux et la fluidité de leur consultation. Il s’agit d’un point crucial.
 
 #### Volume de documents
 
@@ -101,7 +99,7 @@ Tous les coffres-forts numériques n’ont pas la même capacité de stockage. I
 
 Un coffre-fort numérique doit garantir **l’intégrité** des documents, en y apposant une empreinte numérique lors du dépôt. Il est également responsable de la **confidentialité** des données, via le cryptage, le contrôle d’accès et la traçabilité des utilisateurs y accédant. La **pérennité** du service dans le temps se fait grâce à des contrôles réguliers, ainsi qu’à la duplication du stockage. Ce n’est qu’ainsi qu’il est possible de préserver la **valeur probante** des documents. Enfin, le coffre-fort numérique doit permettre la **réversibilité**. Ce terme désigne le droit à la récupération des données déposées, de façon complète, intègre et dans un délai raisonnable.
 
-Bien qu’hébergé dans le cloud, un coffre-fort électronique doit répondre à des critères plus stricts que les services cloud classique. Ainsi, en plus de de disposer de serveurs redondants, dont l’emplacement physique est surveillé et sécurisé, **les serveurs de stockage d’un coffre-fort numérique doivent être situés en France**.
+Bien qu’hébergé fréquemment dans le cloud, un coffre-fort électronique doit répondre à des critères plus stricts que les services cloud classique. Ainsi, en plus de disposer de serveurs redondants, dont l’emplacement physique est surveillé et sécurisé, il faut être vigilant à la localisation géographique **des serveurs de stockage d’un coffre-fort numérique.** 
 
 ### Qu’est-ce que le RIC d’un coffre-fort électronique ?
 
