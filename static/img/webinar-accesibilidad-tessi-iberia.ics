@@ -1,0 +1,147 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 15.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:PUBLISH
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:Romance Standard Time
+BEGIN:STANDARD
+DTSTART:16011028T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010325T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20200610T114814Z
+DESCRIPTION: \n\n__________________________________________________________
+	______________________ \n\nUnirse a reunión de Microsoft Teams <https://t
+	eams.microsoft.com/l/meetup-join/19%3ameeting_ZTQ0MzgyZWMtNmZiNi00MDRiLTg5
+	NjktNGI1NzIxODQ0ZjM5%40thread.v2/0?context=%7b%22Tid%22%3a%2282171a52-5d0b
+	-41e2-981e-0f7325defbbd%22%2c%22Oid%22%3a%22b76ba21d-217f-4dce-80f4-7b038c
+	fc674c%22%7d>  \n\n+33 1 70 99 53 79 <tel:+33%201%2070%2099%2053%2079\,\,4
+	85364211#>    France\, Paris (Número de pago) \n\nId. de conferencia: 485
+	 364 211# \n\nNúmeros locales <https://dialin.teams.microsoft.com/dde53b3
+	6-4f5f-4c28-8769-24f78bcd82c4?id=485364211>  | Restablecer PIN <https://my
+	settings.lync.com/pstnconferencing>  | Más información sobre Teams <http
+	s://aka.ms/JoinTeamsMeeting>  | Opciones de reunión <https://teams.micros
+	oft.com/meetingOptions/?organizerId=b76ba21d-217f-4dce-80f4-7b038cfc674c&t
+	enantId=82171a52-5d0b-41e2-981e-0f7325defbbd&threadId=19_meeting_ZTQ0MzgyZ
+	WMtNmZiNi00MDRiLTg5NjktNGI1NzIxODQ0ZjM5@thread.v2&messageId=0&language=es-
+	ES>  \n\nUnirse con un dispositivo de videoconferencia \n\n649094523@t.plc
+	m.vc <mailto:649094523@t.plcm.vc>  Id. de conferencia VTC: 1285437848 \n\n
+	Instrucciones alternativas de marcado VTC <https://dialin.plcm.vc/teams/?k
+	ey=649094523&conf=1285437848>  \n\n_______________________________________
+	_________________________________________ \n\n \n\n
+DTEND;TZID="Romance Standard Time":20200617T130000
+DTSTAMP:20200610T114814Z
+DTSTART;TZID="Romance Standard Time":20200617T120000
+LAST-MODIFIED:20200610T114814Z
+LOCATION:Reunión de Microsoft Teams
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=fr:Webinar Accesibilidad - Tessi Iberia
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000F0B43B462B3FD601000000000000000
+	0100000008CAD8F2DAB1AC54593120FA457D8551D
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//E
+	N">\n<HTML>\n<HEAD>\n<META NAME="Generator" CONTENT="MS Exchange Server ve
+	rsion rmj.rmm.rup.rpr">\n<TITLE></TITLE>\n</HEAD>\n<BODY>\n<!-- Converted 
+	from text/rtf format -->\n\n<P DIR=LTR><SPAN LANG="en-us"></SPAN><SPAN LAN
+	G="en-us"></SPAN><SPAN LANG="en-us"></SPAN><SPAN LANG="es"><FONT FACE="Ari
+	al"> </FONT></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="es"><FONT FACE="Arial">
+	__________________________________________________________________________
+	______ </FONT></SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"></SPAN><A HREF=
+	"https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZTQ0MzgyZWMtNmZiNi
+	00MDRiLTg5NjktNGI1NzIxODQ0ZjM5%40thread.v2/0?context=%7b%22Tid%22%3a%22821
+	71a52-5d0b-41e2-981e-0f7325defbbd%22%2c%22Oid%22%3a%22b76ba21d-217f-4dce-8
+	0f4-7b038cfc674c%22%7d"><SPAN LANG="en-us"></SPAN><SPAN LANG="en-us"></SPA
+	N><SPAN LANG="en-us"><U></U></SPAN><U><SPAN LANG="es"><FONT COLOR="#0563C1
+	" FACE=""Segoe UI Semibold"">Unirse a reunión de Microsoft Teams</FONT></
+	SPAN></U><SPAN LANG="en-us"></SPAN></A><SPAN LANG="en-us"></SPAN><SPAN LAN
+	G="en-us"></SPAN><SPAN LANG="en-us"></SPAN><SPAN LANG="es"><FONT FACE=""Se
+	goe UI""></FONT></SPAN><SPAN LANG="en-us"></SPAN><SPAN LANG="en-us"></SPAN
+	><SPAN LANG="en-us"></SPAN><SPAN LANG="es"> </SPAN></P>\n\n<P DIR=LTR><SPA
+	N LANG="en-us"></SPAN><A HREF="tel:+33%201%2070%2099%2053%2079\,\,48536421
+	1#"><SPAN LANG="en-us"></SPAN><SPAN LANG="en-us"></SPAN><SPAN LANG="en-us"
+	><U></U></SPAN><U><SPAN LANG="es"><FONT COLOR="#0563C1" FACE=""Segoe UI"">
+	+33 1 70 99 53 79</FONT></SPAN></U><SPAN LANG="en-us"></SPAN></A><SPAN LAN
+	G="en-us"></SPAN><SPAN LANG="en-us"></SPAN><SPAN LANG="en-us"></SPAN><SPAN
+	 LANG="es"><FONT FACE=""Segoe UI"">   France\, Paris (Número de pago)</F
+	ONT></SPAN><SPAN LANG="en-us"></SPAN><SPAN LANG="en-us"></SPAN><SPAN LANG=
+	"en-us"></SPAN><SPAN LANG="es"> </SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-u
+	s"></SPAN><SPAN LANG="en-us"></SPAN><SPAN LANG="en-us"></SPAN><SPAN LANG="
+	es"><FONT FACE=""Segoe UI"">Id. de conferencia: 485 364 211#</FONT></SPAN>
+	<SPAN LANG="en-us"></SPAN><SPAN LANG="en-us"></SPAN><SPAN LANG="en-us"></S
+	PAN><SPAN LANG="es"> </SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"></SPAN><
+	A HREF="https://dialin.teams.microsoft.com/dde53b36-4f5f-4c28-8769-24f78bc
+	d82c4?id=485364211"><SPAN LANG="en-us"></SPAN><SPAN LANG="en-us"></SPAN><S
+	PAN LANG="en-us"><U></U></SPAN><U><SPAN LANG="es"><FONT COLOR="#0563C1" FA
+	CE=""Segoe UI"">Números locales</FONT></SPAN></U><SPAN LANG="en-us"></SPA
+	N></A><SPAN LANG="en-us"></SPAN><SPAN LANG="en-us"></SPAN><SPAN LANG="en-u
+	s"></SPAN><SPAN LANG="es"><FONT FACE=""Segoe UI""> |</FONT></SPAN><SPAN LA
+	NG="en-us"> </SPAN><A HREF="https://mysettings.lync.com/pstnconferencing">
+	<SPAN LANG="en-us"></SPAN><SPAN LANG="en-us"></SPAN><SPAN LANG="en-us"><U>
+	</U></SPAN><U><SPAN LANG="es"><FONT COLOR="#0563C1" FACE=""Segoe UI"">Rest
+	ablecer PIN</FONT></SPAN></U><SPAN LANG="en-us"></SPAN></A><SPAN LANG="en-
+	us"></SPAN><SPAN LANG="en-us"></SPAN><SPAN LANG="en-us"></SPAN><SPAN LANG=
+	"es"><FONT FACE=""Segoe UI""> |</FONT></SPAN><SPAN LANG="en-us"> </SPAN><A
+	 HREF="https://aka.ms/JoinTeamsMeeting"><SPAN LANG="en-us"></SPAN><SPAN LA
+	NG="en-us"></SPAN><SPAN LANG="en-us"><U></U></SPAN><U><SPAN LANG="es"><FON
+	T COLOR="#0563C1" FACE=""Segoe UI"">Más información sobre Teams</FONT></
+	SPAN></U><SPAN LANG="en-us"></SPAN></A><SPAN LANG="en-us"></SPAN><SPAN LAN
+	G="en-us"></SPAN><SPAN LANG="en-us"></SPAN><SPAN LANG="es"><FONT FACE=""Se
+	goe UI""> |</FONT></SPAN><SPAN LANG="en-us"> </SPAN><A HREF="https://teams
+	.microsoft.com/meetingOptions/?organizerId=b76ba21d-217f-4dce-80f4-7b038cf
+	c674c&amp\;tenantId=82171a52-5d0b-41e2-981e-0f7325defbbd&amp\;threadId=19_
+	meeting_ZTQ0MzgyZWMtNmZiNi00MDRiLTg5NjktNGI1NzIxODQ0ZjM5@thread.v2&amp\;me
+	ssageId=0&amp\;language=es-ES"><SPAN LANG="en-us"></SPAN><SPAN LANG="en-us
+	"></SPAN><SPAN LANG="en-us"><U></U></SPAN><U><SPAN LANG="es"><FONT COLOR="
+	#0563C1" FACE=""Segoe UI"">Opciones de reunión</FONT></SPAN></U><SPAN LAN
+	G="en-us"></SPAN></A><SPAN LANG="en-us"></SPAN><SPAN LANG="en-us"></SPAN><
+	SPAN LANG="en-us"></SPAN><SPAN LANG="es"><FONT FACE=""Segoe UI""></FONT></
+	SPAN><SPAN LANG="en-us"></SPAN><SPAN LANG="en-us"></SPAN><SPAN LANG="en-us
+	"></SPAN><SPAN LANG="es"> </SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"></S
+	PAN><SPAN LANG="en-us"></SPAN><SPAN LANG="en-us"></SPAN><SPAN LANG="es"><F
+	ONT FACE=""Segoe UI"">Unirse con un dispositivo de videoconferencia</FONT>
+	</SPAN><SPAN LANG="en-us"></SPAN><SPAN LANG="en-us"></SPAN><SPAN LANG="en-
+	us"></SPAN><SPAN LANG="es"> </SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"><
+	/SPAN><A HREF="mailto:649094523@t.plcm.vc"><SPAN LANG="en-us"></SPAN><SPAN
+	 LANG="en-us"></SPAN><SPAN LANG="en-us"><U></U></SPAN><U><SPAN LANG="es"><
+	FONT COLOR="#0563C1" FACE=""Segoe UI"">649094523@t.plcm.vc</FONT></SPAN></
+	U><SPAN LANG="en-us"></SPAN></A><SPAN LANG="en-us"></SPAN><SPAN LANG="en-u
+	s"></SPAN><SPAN LANG="en-us"></SPAN><SPAN LANG="es"><FONT FACE=""Segoe UI"
+	"> Id. de conferencia VTC: 1285437848</FONT></SPAN><SPAN LANG="en-us"></SP
+	AN><SPAN LANG="en-us"></SPAN><SPAN LANG="en-us"></SPAN><SPAN LANG="es"> </
+	SPAN></P>\n\n<P DIR=LTR><SPAN LANG="en-us"></SPAN><A HREF="https://dialin.
+	plcm.vc/teams/?key=649094523&amp\;conf=1285437848"><SPAN LANG="en-us"></SP
+	AN><SPAN LANG="en-us"></SPAN><SPAN LANG="en-us"><U></U></SPAN><U><SPAN LAN
+	G="es"><FONT COLOR="#0563C1" FACE=""Segoe UI"">Instrucciones alternativas 
+	de marcado VTC</FONT></SPAN></U><SPAN LANG="en-us"></SPAN></A><SPAN LANG="
+	en-us"></SPAN><SPAN LANG="en-us"></SPAN><SPAN LANG="en-us"></SPAN><SPAN LA
+	NG="es"><FONT FACE=""Segoe UI""></FONT></SPAN><SPAN LANG="en-us"></SPAN><S
+	PAN LANG="en-us"></SPAN><SPAN LANG="en-us"></SPAN><SPAN LANG="es"> </SPAN>
+	</P>\n\n<P DIR=LTR><SPAN LANG="es"><FONT FACE="Arial">____________________
+	____________________________________________________________ </FONT></SPAN
+	></P>\n\n<P DIR=LTR><SPAN LANG="es"><FONT FACE="Arial"> </FONT></SPAN></P
+	>\n\n<P DIR=LTR><SPAN LANG="en-us"></SPAN><SPAN LANG="es"></SPAN></P>\n\n<
+	/BODY>\n</HTML>
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-AUTOFILLLOCATION:FALSE
+X-MS-OLK-CONFTYPE:0
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
