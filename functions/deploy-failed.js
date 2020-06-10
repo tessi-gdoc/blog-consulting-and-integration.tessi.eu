@@ -5,7 +5,7 @@ const netlifyUser = {
   uid: `netlify-tessi`
 };
 
-exports.handler = async event => {
+exports.handler = async (event) => {
   const { payload } = JSON.parse(event.body);
 
   await axios.post(process.env.TEAMS_WEBHOOK, {
@@ -14,15 +14,16 @@ exports.handler = async event => {
     themeColor: 'FF0000',
     summary: 'Echec déploiement sur Netlify',
     title: `[${payload.name}] Déploiement échoué sur la branche ${payload.branch}`,
-    text: payload.title,
+    text: payload.title.replace(/_/g, '\\_'),
     sections: [
       {
         title: 'Détails',
         facts: [
           {
             name: 'Publié par',
-            value: `[${payload.committer ||
-              netlifyUser.name}](https://github.com/${payload.committer || netlifyUser.uid})`
+            value: `[${
+              payload.committer || netlifyUser.name
+            }](https://github.com/${payload.committer || netlifyUser.uid})`
           },
           {
             name: "Message d'erreur",
