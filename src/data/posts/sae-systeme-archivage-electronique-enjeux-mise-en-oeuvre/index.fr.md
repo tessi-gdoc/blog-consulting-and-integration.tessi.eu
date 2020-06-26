@@ -47,7 +47,7 @@ Afin d’assurer la lisibilité du document dans le temps, un SAE doit :
 
 ### Intégrité
 
-Un système d’archivage électronique doit garantir l’authenticité des documents qu’il contient. Cette intégrité passe par **l’absence de modifications possibles** du contenu et de la forme ainsi que la capture de l'ensemble des opérations réalisées au sein des systèmes d'archivage. Toute modification de donnée doit être recensée dans un **journal des événements afin d'assurer une parfaite traçabilité.** 
+Un système d’archivage électronique doit garantir l’authenticité des documents qu’il contient. Cette intégrité passe par **l’absence de modifications possibles** du contenu et de la forme. Toute modification de donnée doit être recensée dans un **journal des événements.**
 
 ### Confidentialité
 
@@ -55,7 +55,7 @@ Pour répondre aux enjeux de confidentialité et de traçabilité, un SAE doit �
 
 ### Disponibilité
 
-Les documents stockés dans le SAE doivent être facilement accessibles. En ce sens, il est essentiel d’établir un **plan de classement** afin de faciliter la recherche d'un document ou d'une information spécifique. Il est par exemple possible de hiérarchiser et de catégoriser les documents versés en déterminant une arborescence sous forme de dossiers/sous-dossiers.... Mettre en place un modèle de métadonnées peut également être une solution. Ces deux méthodes peuvent cohabiter. 
+Les documents stockés dans le SAE doivent être facilement accessibles. En ce sens, il est essentiel d’établir un **plan de classement** afin de faciliter la recherche d'un document ou d'une information spécifique. Il est par exemple possible de hiérarchiser et de catégoriser les documents versés en déterminant une arborescence sous forme de dossiers / sous-dossiers.... Mettre en place une méthode de recherche basée sur les métadonnées peut également être une solution. Ces deux méthodes peuvent cohabiter. 
 
 ### Réversibilité
 
@@ -84,7 +84,7 @@ L’étude de faisabilité nécessite d’examiner plusieurs points, selon des a
 
 #### Archiver ses documents en ligne
 
-Pour archiver ses documents en ligne, s'assurer auprès du fournisseur de disposer d'une infrastructure **sécurisé, respectant les normes de sécurité obligatoires d’un SAE** est un impératif**.** Pour ce faire, vous devez compter sur des équipes d’exploitation capables de respecter les normes ISO 14641, ISO 27000, ainsi que les procédures de suivi des incidents. Vous devez également prévoir une **solution de recours sécurisée**, pour la duplication des documents archivés. Certaines structures auront besoin de développer un deuxième centre informatique sécurisé, tandis que d’autres pourront utiliser des archives off-line. Cette solution de recours peut-elle aussi être située en propre sur site ou chez un hébergeur.
+Pour archiver ses documents en ligne, s'assurer auprès du fournisseur de disposer d'une infrastructure **sécurisé, respectant les normes de sécurité obligatoires d’un SAE** est un impératif. Pour ce faire, vous devez compter sur des équipes d’exploitation capables de respecter les normes ISO 14641, ISO 27000, ainsi que les procédures de suivi des incidents. Vous devez également prévoir une **solution de recours sécurisée**, pour la duplication des documents archivés. Certaines structures auront besoin de développer un deuxième centre informatique sécurisé, tandis que d’autres pourront utiliser des archives off-line. Cette solution de recours peut-elle aussi être située en propre sur site ou chez un hébergeur.
 
 #### Archiver ses documents sur des supports amovibles
 
