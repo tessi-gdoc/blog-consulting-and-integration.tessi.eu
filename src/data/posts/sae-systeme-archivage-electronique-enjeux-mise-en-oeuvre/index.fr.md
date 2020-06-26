@@ -9,7 +9,7 @@ description: A faire
 date: 2020-05-27T13:59:47.980Z
 tags:
   - contentServices
-author: edt
+author: dop
 introduction: >-
   Combiné à une politique de records management adéquate, un SAE donne
   l’assurance aux entreprises de disposer de leurs documents d’archives dans le
@@ -44,7 +44,7 @@ Afin d’assurer la lisibilité du document dans le temps, un SAE doit :
 
 ### Intégrité
 
-Un système d’archivage électronique doit garantir l’authenticité des documents qu’il contient. Cette intégrité passe par **l’absence de modifications possibles** du contenu et de la forme ainsi que la capture de l'ensemble des opérations réalisées au sein des systèmes d'archivage. Toute modification de donnée doit être recensée dans un **journal des événements afin d'assurer une parfaite traçabilité.**
+Un système d’archivage électronique doit garantir l’authenticité des documents qu’il contient. Cette intégrité passe par **l’absence de modifications possibles** du contenu et de la forme ainsi que la capture de l'ensemble des opérations réalisées au sein des systèmes d'archivage. Toute modification de donnée doit être recensée dans un **journal des événements afin d'assurer une parfaite traçabilité.** 
 
 ### Confidentialité
 
