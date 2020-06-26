@@ -21,9 +21,9 @@ introduction: >-
 ---
 ## 01/ Qu’est-ce qu’un SAE, un système d’archivage électronique ?
 
-L’objectif d’un système d’archivage électronique est de recevoir, conserver, communiquer et restituer des archives, au moyen d’une plate-forme informatique. A partir du moment où un document est intégré au SAE, il n’est plus modifiable, ce qui lui permet de **conserver sa valeur probante**.
+L’objectif d’un système d’archivage électronique est de recevoir, conserver, communiquer et restituer des archives, au moyen d’une plate-forme informatique. A partir du moment où un document est intégré au SAE, il n’est plus modifiable, ce qui lui permet de **conserver sa valeur probante (probatoire).**
 
-Le SAE est à distinguer d’un serveur, qui n’assure pas le maintien de la valeur probante, et de la GED (Gestion électronique des documents) qui n’est pas capable d’assurer la pérennité et l’intégrité des documents.
+Le SAE est à distinguer d’un serveur, qui n’assure pas le maintien de la valeur probante, et de la GED (Gestion électronique des documents) qui n’a pas pour vocation d’assurer la pérennité et l’intégrité des documents.
 
 ### Le SAE, garant de la valeur probatoire
 
@@ -44,7 +44,7 @@ Afin d’assurer la lisibilité du document dans le temps, un SAE doit :
 
 ### Intégrité
 
-Un système d’archivage électronique doit garantir l’authenticité des documents qu’il contient. Cette intégrité passe par **l’absence de modifications possibles** du contenu et de la forme, notamment grâce à la gestion des métadonnées. Ainsi, toute modification de donnée doit être recensée dans un **journal des événements**.
+Un système d’archivage électronique doit garantir l’authenticité des documents qu’il contient. Cette intégrité passe par **l’absence de modifications possibles** du contenu et de la forme ainsi que la capture de l'ensemble des opérations réalisées au sein des systèmes d'archivage. Toute modification de donnée doit être recensée dans un **journal des événements afin d'assurer une parfaite traçabilité.**
 
 ### Confidentialité
 
@@ -52,7 +52,7 @@ Pour répondre aux enjeux de confidentialité et de traçabilité, un SAE doit �
 
 ### Disponibilité
 
-Les documents stockés dans le SAE doivent être facilement accessibles. En ce sens, il est essentiel d’établir un **plan de classement** afin de hiérarchiser et de catégoriser les documents versés. Il est par exemple possible de déterminer une arborescence telle que : famille de documents /sous-domaine/domaine/zone.
+Les documents stockés dans le SAE doivent être facilement accessibles. En ce sens, il est essentiel d’établir un **plan de classement** afin de faciliter la recherche d'un document ou d'une information spécifique. Il est par exemple possible de hiérarchiser et de catégoriser les documents versés en déterminant une arborescence sous forme de dossiers/sous-dossiers.... Mettre en place un modèle de métadonnées peut également être une solution. Ces deux méthodes peuvent cohabiter. 
 
 ### Réversibilité
 
@@ -60,7 +60,7 @@ Un système est réversible s’il permet de restituer les documents d’activit
 
 ## 03/ A quel moment mettre en œuvre un SAE ?
 
-Plusieurs raisons peuvent pousser une entreprise à mettre en place un système d’archivage électronique. La démarche peut par exemple être initiée à la suite d’un audit interne qui mettrait en évidence l’absence de gestion fiable du cycle de vie de l’information, dispersée dans l’hétérogénéité des systèmes. La prise de conscience peut également survenir à l’occasion d’un déménagement, lorsqu’il convient de se demander quels documents conserver et lesquels jeter. Généralement, **la mise en place d’un SAE est le fruit d’un projet de dématérialisation plus global**, répondant à des enjeux économiques. En complément d’une GED, Gestion électronique des documents, un SAE représente un **puissant levier d’efficacité**, qui permet aux entreprises d’embrasser pleinement la transformation digitale.
+Plusieurs raisons peuvent pousser une entreprise à mettre en place un système d’archivage électronique. La démarche peut par exemple être initiée à la suite d’un audit interne qui mettrait en évidence l’absence de gestion fiable du cycle de vie de l’information, dispersée dans l’hétérogénéité des systèmes. La prise de conscience peut également survenir à l’occasion d’un déménagement, lorsqu’il convient de se demander quels documents conserver et lesquels détruire. Généralement, **la mise en place d’un SAE est le fruit d’un projet de dématérialisation plus global**, répondant à des enjeux économiques. En complément d’une GED, Gestion électronique des documents, un SAE représente un **puissant levier d’efficacité**, qui permet aux entreprises d’embrasser pleinement la transformation digitale.
 
 ## 04/ SAE : 7 étapes à suivre pour mettre en œuvre un système d’archivage électronique
 
@@ -71,9 +71,9 @@ Pour qu’un projet de SAE soit réussi, il faut mettre toutes les chances de so
 Cette première étape vise à délimiter le périmètre du SAE, en analysant le contexte juridique et réglementaire auquel est soumis votre organisation et ses échanges documentaires.
 
 * Mails, PDF, données informatiques, documents bureautiques… **Quels sont les types de documents à archiver ?**
-* Factures EDI, PDF signés, appels d’offrespublics dématérialisés, courriers électroniques ayant valeur légale d’engagement…Quelle est la **valeur juridique** des documents échangés ?
+* Factures EDI, factures sous forme de PDF signés, appels d’offres publics dématérialisés, courriers électroniques ayant valeur légale d’engagement…Quelle est la **valeur juridique** des documents échangés ?
 
-Après avoir analysé finement votre production documentaire, les flux et les processus existants, vous devrez décider s’il convient de respecter la norme NF Z42-013 sur l’archivage électronique et si oui, à quel niveau de conformité.
+Après avoir analysé finement votre production documentaire, les flux et les processus existants, vous devrez décider s’il convient de respecter la norme [NF Z42-013](https://normalisation.afnor.org/actualites/la-norme-francaise-nf-z42-013-sur-larchivage-electronique-transposee-en-norme-internationale-par-liso/) sur l’archivage électronique et si oui, à quel degré.
 
 ### 2. L’étude de faisabilité
 
@@ -81,11 +81,11 @@ L’étude de faisabilité nécessite d’examiner plusieurs points, selon des a
 
 #### Archiver ses documents en ligne
 
-Cette solution ne sera possible que si vous disposez d’un **espace pouvant accueillir un local informatique sécurisé, respectant les normes de sécurité obligatoires d’un SAE**. Pour ce faire, vous devez compter sur des équipes d’exploitation capables de respecter les normes ISO 14641, ISO 27000, ainsi que les procédures de suivi des incidents. Dans le cadre d’archives en ligne, vous devez également prévoir une **solution de recours sécurisée**, pour la duplication des documents archivés. Certaines structures auront besoin de développer un deuxième centre informatique sécurisé, tandis que d’autres pourront utiliser des archives off-line.
+Pour archiver ses documents en ligne, s'assurer auprès du fournisseur de disposer d'une infrastructure **sécurisé, respectant les normes de sécurité obligatoires d’un SAE** est un impératif**.** Pour ce faire, vous devez compter sur des équipes d’exploitation capables de respecter les normes ISO 14641, ISO 27000, ainsi que les procédures de suivi des incidents. Vous devez également prévoir une **solution de recours sécurisée**, pour la duplication des documents archivés. Certaines structures auront besoin de développer un deuxième centre informatique sécurisé, tandis que d’autres pourront utiliser des archives off-line. Cette solution de recours peut-elle aussi être située en propre sur site ou chez un hébergeur.
 
 #### Archiver ses documents sur des supports amovibles
 
-Votre infrastructure comporte-elle deux emplacements de stockage sécurisés pour le rangement des supports ? Est-il possible de mettre en place des **procédures sécurisées pour l’enregistrement, la manipulation et le transfert des supports ?** Si vous souhaitez archiver sur des supports amovibles (supports électroniques, disques optiques, bandes magnétiques, CD, DVD…), il faudra se poser ces questions.
+Votre infrastructure comporte-elle deux emplacements de stockage sécurisés pour le rangement des supports ? Est-il possible de mettre en place des **procédures sécurisées pour l’enregistrement, la manipulation et le transfert des supports ?** Si vous souhaitez archiver sur des supports amovibles (supports électroniques, disques optiques, bandes magnétiques…), il faudra se poser ces questions.
 
 ### 3. Le cahier des charges
 
