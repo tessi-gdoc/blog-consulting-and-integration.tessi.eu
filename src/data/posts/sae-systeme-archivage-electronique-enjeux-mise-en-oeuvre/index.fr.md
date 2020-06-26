@@ -108,3 +108,5 @@ Archiver toutes vos informations dès l’installation du SAE est une mauvaise i
 ### 7. Le déploiement du SAE
 
 Le comité de pilotage assure un suivi rigoureux du déploiement du projet. Bon à savoir : chaque nouvelle implémentation devra faire l’objet d’un **audit de conformité initial**. En plus des coûts de maintenance matériel et logiciel, il faut également garder à l’esprit que le SAE entraînera chaque année des frais associés à son audit de conformité.
+
+***De l'accès au document à la perennité de l'information, en passant par la confidentialité, l'intégrité et la réversibilité, le SAE assure toutes les étapes d'un processus d'archivage électronique de façon sécurisé. Et cela, jusqu'à la conservation des documents à valeur probatoire grâce à la possibilité d'y intégrer un coffre-fort électronique. Sa mise en place requiert de respecter une démarche rigoureuse nécessitant un savoir-faire, une bonne connaissance des solutions du marché et du besoin. Une fois en place, un SAE est un excellent moyen de bénéficier d'une vision plus large (de bout en bout) de sa gestion documentaire.***
