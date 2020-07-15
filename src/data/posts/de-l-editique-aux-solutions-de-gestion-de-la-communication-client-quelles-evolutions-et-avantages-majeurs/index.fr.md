@@ -110,7 +110,7 @@ Les nouvelles solutions de communication client ont dû s’adapter à l’omnic
 * Permet d’assurer une expérience client fluide grâce à des contenus accessibles sur différents supports et adaptés aux différents modes de consommation de contenu
 * La gestion de l’omnicanalité est simplifiée
 
-[![Inscription_webinar_stratégie_omnicanal](950x250_banniere_webinar_tessixopentext_exemple_experience_omnicanal.png "Webinar \"Stratégie omnicanale : exemple d'une expérience client réussie\"")](https://content.blog-consulting-and-integration.tessi.eu/webinar-tessi-x-opentext-strategie-omnicanal-exemple-d-une-experience-client-reussie)
+[![Inscription_webinar_stratégie_omnicanal](banniere-webinar-strategie-omnicanal.png "Webinar \\"Stratégie omnicanale : exemple d'une expérience client réussie\\"")](https://content.blog-consulting-and-integration.tessi.eu/webinar-tessi-x-opentext-strategie-omnicanal-exemple-d-une-experience-client-reussie)
 
 **5. L’EMPOWERMENT DES UTILISATEURS**
 
