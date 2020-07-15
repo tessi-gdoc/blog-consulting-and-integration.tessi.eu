@@ -75,7 +75,7 @@ Un document interactif est un document multicanal c’est-à-dire qu’il s’ad
 * L’organisation peut rationaliser le nombre de maquettes (modèles de communication) à créer et mettre la solution à la main des métiers tout en maîtrisant l'ensemble des communications sortantes.
 * Le client dispose d’un document personnalisé créé en temps réel, à sa demande. Il bénéficie d’un parcours client flexible et fluide, garant d’une expérience client sur mesure.
 
-[![Inscription_webinar_stratégie_omnicanale](banniere-webinar-strategie-omnicanal.png "Webinar \\\"Stratégie omnicanale : exemple d'une expérience client réussie\\\"")](https://content.blog-consulting-and-integration.tessi.eu/webinar-tessi-x-opentext-strategie-omnicanal-exemple-d-une-experience-client-reussie)
+[![Inscription_webinar_stratégie_omnicanale](banniere_strategie_omnicanale_final.png "Webinar \\\\"Stratégie omnicanale : exemple d'une expérience client réussie\\\\"")](https://content.blog-consulting-and-integration.tessi.eu/webinar-tessi-x-opentext-strategie-omnicanal-exemple-d-une-experience-client-reussie)
 
 ## 6 - Intégrer le canal de communication mobile à sa solution CCM
 
