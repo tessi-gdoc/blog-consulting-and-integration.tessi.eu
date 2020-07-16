@@ -53,7 +53,7 @@ Il n’y a pas vraiment de règle quant à la position que doit avoir celui ou c
 
 D’abord, il est nécessaire de se faire une vision du futur sur laquelle se construit la roadmap sur plusieurs années. Pour intégrer la roadmap dans le portefeuille projets, les budgets et les ressources doivent être disponibles. Et là, il faut convaincre ! Au-delà de mettre les avantages du projet en avant, un business case est nécessaire. Il faut parvenir à démontrer qu’après X années, ce projet sera viable, déterminer le « break even » (ou point mort), les impacts budgétaires, le cross-selling qui en découlera, les économies de coût réalisées… Ces éléments chiffrés sont indispensables pour faire passer un tel projet.
 
-[![webinar_preparation_transformation_experience_client](essai-.jpg "Webinar \\\\"Comment bien préparer la transformation de son expérience client ?\\\\"")](https://content.blog-consulting-and-integration.tessi.eu/webinar-comment-bien-preparer-la-transformation-de-son-experience-client)
+[![webinar_preparation_transformation_experience_client_replay](essai-.jpg "Webinar \\\\\\"Comment bien préparer la transformation de son expérience client ?\\\\\\"Replay")](https://content.blog-consulting-and-integration.tessi.eu/webinar-comment-bien-preparer-la-transformation-de-son-experience-client)
 
 **Sur quelle(s) enveloppe(s) est imputé le budget de ce type de projets transverses ?**
 
