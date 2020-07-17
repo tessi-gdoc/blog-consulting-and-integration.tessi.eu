@@ -47,7 +47,7 @@ exports.onCreateNode = ({ node, actions }) => {
 
   if (node.internal.type === `MarkdownRemark`) {
     const name = path.basename(node.fileAbsolutePath, `.md`);
-    const isDefault = name === `index.${defaultKey}`;
+    const isDefault = name === `index_${defaultKey}`;
     const lang = isDefault ? defaultKey : getLang(name);
     createNodeField({ name: `locale`, node, value: lang });
     createNodeField({ name: `isDefault`, node, value: isDefault });

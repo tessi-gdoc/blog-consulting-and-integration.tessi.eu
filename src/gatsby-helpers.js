@@ -1,12 +1,13 @@
 const locales = require(`./i18n`);
 
-const localizeSlug = (isDefault, locale, slug) =>
-  isDefault ? slug : `/${locale}${slug}`;
+function localizeSlug(isDefault, locale, slug) {
+  return isDefault ? slug : `/${locale}/${slug}`;
+}
 
 const removeTrailingSlash = (path) =>
   path === `/` ? path : path.replace(/\/$/, ``);
 
-const findKey = (object, predicate) => {
+function findKey(object, predicate) {
   let result;
   if (object == null) {
     return result;
@@ -20,7 +21,7 @@ const findKey = (object, predicate) => {
     return false;
   });
   return result;
-};
+}
 
 const defaultKey = findKey(locales, (o) => o.default === true);
 
