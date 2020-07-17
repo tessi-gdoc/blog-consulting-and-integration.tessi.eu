@@ -4,18 +4,16 @@ key: blog-post
 image: parcours_client_comment_passer_strategie_omnincanal.png
 imageAlt: Parcours client omnicanal
 path: comment-passer-a-une-strategie-omnicanale
-title: 'Parcours client : Comment passer à une stratégie omnicanale ? '
-description: >-
-  L'omnicanal est au coeur de l'expérience client. Découvrez les bonnes
-  pratiques pour offrir à vos clients un parcours client omnicanal fluide et
-  maîtrisé.
+title: "Parcours client : Comment passer à une stratégie omnicanale ? "
+description: L'omnicanal est au coeur de l'expérience client. Découvrez les
+  bonnes pratiques pour offrir à vos clients un parcours client omnicanal fluide
+  et maîtrisé.
 date: 2020-04-03T11:44:08.858Z
 tags:
   - customerJourney
 author: tcj
-introduction: >-
-  Points de vente physique, centre de contact, messaging, site de e-commerce,
-  réseaux sociaux, chatbots… Le temps où vos clients se contentaient
+introduction: Points de vente physique, centre de contact, messaging, site de
+  e-commerce, réseaux sociaux, chatbots… Le temps où vos clients se contentaient
   d’interactions décousues avec votre marque est révolu. L’essor du digital a
   entraîné la multiplication des points de contact entre les entreprises et les
   consommateurs, dans une stratégie multicanale. En parallèle, les exigences des
@@ -24,12 +22,11 @@ introduction: >-
   omnicanale. Comment et pourquoi mettre en place un parcours client omnicanal ?
   Réponses.
 ---
-
 ## 01/ L’omnicanal au cœur de l’expérience client
 
 Par définition, l’expérience client est le sentiment né de l’ensemble des interactions d’un client avec une entreprise. Ce ressenti est donc fortement lié à la qualité du parcours client. Ainsi, agir positivement sur les émotions de vos clients, c’est maîtriser l’ensemble des paramètres et des variables de vos parcours. Une tâche rendue difficile par la complexité des parcours client d’aujourd’hui. Non seulement il faut être présent sur les canaux de choix de vos cibles, pour répondre à leur besoin d’interactions sans perturber leurs habitudes. Mais en plus, il faut répondre à l’exigence d’instantanéité des échanges. Dans ce contexte, l’omnicanal apparaît alors comme la meilleure stratégie à adopter pour améliorer l’expérience client. L’omnicanalité consiste à offrir une expérience unifiée, quel que soit le point de contact, physique ou digital. Votre client repère un produit qui l’intéresse en ligne, demande des informations sur ce produit via Twitter, reçoit une offre promotionnelle par mail, l’essaye et finalement l’achète en magasin. À tout moment, le discours et l’image de la marque est cohérent, sur chaque canal de communication, afin d’offrir une expérience « sans couture ».
 
-[![Inscription_webinar_stratégie_omnicanale](strategie-omnicanale-.jpg "Webinar \\\\\\"Stratégie omnicanale : exemple d'une expérience client réussie\\\\\\"")](https://content.blog-consulting-and-integration.tessi.eu/webinar-tessi-x-opentext-strategie-omnicanal-exemple-d-une-experience-client-reussie)
+[![Inscription_webinar_stratégie_omnicanale](banniere-webinar-strategie-omnicanal.png "Webinar -Stratégie omnicanale : exemple d'une expérience client réussie-")](https://content.blog-consulting-and-integration.tessi.eu/webinar-tessi-x-opentext-strategie-omnicanal-exemple-d-une-experience-client-reussie)
 
 ## 02/ Parcours client omnicanal : comment se lancer ?
 
@@ -57,6 +54,6 @@ Porteurs de projets d’expérience client, responsables clientèle, responsable
 
 Un parcours client doit être appréhendé de A à Z, du premier contact avec la marque à l’après achat. Un point important est donc de s’assurer de l’homogénéité des messages diffusés et de la cohérence visuelle sur l’ensemble des points de contact identifiés. Que l’on soit en points de vente physique ou digitaux, ce travail doit être effectué à la fois sur les communications marketing et sur les communications transactionnelles relatives à vos actes de gestion. Ainsi, il est possible de disposer d’une vision d’ensemble sur la gestion de sa communication client pour être toujours plus pertinent dans ses interactions.
 
-**_Tendre vers un modèle customer-centric ne s’improvise pas et la nécessité de passer à un parcours client omnicanal pour y parvenir n’est plus à démontrer. Tessi vous accompagne dans cette démarche en s’attachant à un triptyque vertueux entre solutions technologiques, optimisation des processus et considération de l’humain. Parce que le passage à l’omnicanal constitue un changement de paradigme, nous portons une attention particulière à l’évolution du système d’information et l’implication des métiers. Ainsi, nos équipes vous aident à modéliser vos parcours client et collaborateurs dans une logique de symétrie des attentions. Nous veillons à garantir la faisabilité technique des parcours modélisés en collaboration avec votre département IT. Nous vous recommandons des solutions sur-mesure pour atteindre votre expérience utilisateur cible. En résumé, notre pôle Conseil & Intégration vous aide dans la définition et la mise en place de votre stratégie omnicanale pour vous permettre, enfin, de mener des conversations continues avec vos clients._**
+***Tendre vers un modèle customer-centric ne s’improvise pas et la nécessité de passer à un parcours client omnicanal pour y parvenir n’est plus à démontrer. Tessi vous accompagne dans cette démarche en s’attachant à un triptyque vertueux entre solutions technologiques, optimisation des processus et considération de l’humain. Parce que le passage à l’omnicanal constitue un changement de paradigme, nous portons une attention particulière à l’évolution du système d’information et l’implication des métiers. Ainsi, nos équipes vous aident à modéliser vos parcours client et collaborateurs dans une logique de symétrie des attentions. Nous veillons à garantir la faisabilité technique des parcours modélisés en collaboration avec votre département IT. Nous vous recommandons des solutions sur-mesure pour atteindre votre expérience utilisateur cible. En résumé, notre pôle Conseil & Intégration vous aide dans la définition et la mise en place de votre stratégie omnicanale pour vous permettre, enfin, de mener des conversations continues avec vos clients.***
 
-[![Téléchargez Livre Blanc](950x250_banniere_lb_parcours_client.png 'Parcours client : Comment ne pas rater la transformation de votre expérience client ?')](https://content.blog-consulting-and-integration.tessi.eu/parcours-client-rater-ou-pas-transformation-experience-client)
+[![Téléchargez Livre Blanc](950x250_banniere_lb_parcours_client.png "Téléchargez Livre Blanc - Parcours client")](https://content.blog-consulting-and-integration.tessi.eu/parcours-client-rater-ou-pas-transformation-experience-client)
