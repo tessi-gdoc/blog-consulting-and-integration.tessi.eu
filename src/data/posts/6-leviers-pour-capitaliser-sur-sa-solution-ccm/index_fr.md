@@ -5,10 +5,9 @@ image: 6_leviers_pour_capitaliser_sur_solution_ccm.png
 imageAlt: image_article_leverage
 path: 6-leviers-pour-capitaliser-sur-sa-solution-CCM
 title: 6 leviers pour capitaliser sur sa solution CCM
-description: >-
-  Comment optimiser sa solution de gestion de la communication client (CCM) pour
-  en faire le centre névralgique de votre communication d'entreprise ? Découvrez
-  les 6 leviers à activer. 
+description: "Comment optimiser sa solution de gestion de la communication
+  client (CCM) pour en faire le centre névralgique de votre communication
+  d'entreprise ? Découvrez les 6 leviers à activer. "
 date: 2020-04-09T13:04:52.995Z
 tags:
   - ccm
@@ -27,8 +26,7 @@ introduction: >-
   la communication client (CCM).
 
 
-  Pour ce faire, voici 6 leviers activables, véritables opportunités de
-  capitaliser sur votre plateforme CCM en place.
+  Pour ce faire, voici 6 leviers activables, véritables opportunités de capitaliser sur votre plateforme CCM en place.
 ---
 ## 1 - Connecter sa solution CCM aux systèmes de données
 
@@ -75,7 +73,7 @@ Un document interactif est un document multicanal c’est-à-dire qu’il s’ad
 * L’organisation peut rationaliser le nombre de maquettes (modèles de communication) à créer et mettre la solution à la main des métiers tout en maîtrisant l'ensemble des communications sortantes.
 * Le client dispose d’un document personnalisé créé en temps réel, à sa demande. Il bénéficie d’un parcours client flexible et fluide, garant d’une expérience client sur mesure.
 
-[![Inscription_webinar_stratégie_omnicanale](strategie-omnicanale-.jpg "Webinar \\\\\"Stratégie omnicanale : exemple d'une expérience client réussie\\\\\"")](https://content.blog-consulting-and-integration.tessi.eu/webinar-tessi-x-opentext-strategie-omnicanal-exemple-d-une-experience-client-reussie)
+[![Inscription_webinar_stratégie_omnicanale](strategie-omnicanale-.jpg "Webinar - Stratégie omnicanale : exemple d'une expérience client réussie- ")](https://content.blog-consulting-and-integration.tessi.eu/webinar-tessi-x-opentext-strategie-omnicanal-exemple-d-une-experience-client-reussie)
 
 ## 6 - Intégrer le canal de communication mobile à sa solution CCM
 
