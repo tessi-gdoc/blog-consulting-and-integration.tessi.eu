@@ -51,7 +51,7 @@ L’objectif premier de produire des documents en masse a été atteint. Aux gr�
 
 **B. La révolution Internet et smartphones**
 
-Plus qu’envoyer un simple document, les plateformes CCM sont un moyen fiable de faire parvenir de l’information. Plus que de transmettre des informations légales, elle devient un outil de vente, un outil d’image et un pas vers la digitalisation de certains processus. Ces nouveaux usages des plateformes CCM sont dûs en grande partie à la démocratisation de l’usage d’Internet et de ses débouchés. Aussi la production documentaire à destination des clients finaux connaît alors un tournant puisqu’elle revêt un intérêt « business ».
+Plus qu’envoyer un simple document, les plateformes CCM sont un moyen fiable de faire parvenir de l’information. Plus que de transmettre des informations légales, elle devient un outil de vente, un outil d’image et un pas vers la digitalisation de certains processus. Ces [nouveaux usages des plateformes CCM](https://blog-consulting-and-integration.tessi.eu/posts/6-leviers-pour-capitaliser-sur-sa-solution-CCM) sont dûs en grande partie à la démocratisation de l’usage d’Internet et de ses débouchés. Aussi la production documentaire à destination des clients finaux connaît alors un tournant puisqu’elle revêt un intérêt « business ».
 
 Le web devient l’un des canaux les plus utilisés pour transmettre de l’information tout en permettant d’en récolter un certain nombre de data. Idem pour les applications mobiles via les smartphones, qui renforce le nombre de canaux à disposition des organisations pour toucher leur client.
 
