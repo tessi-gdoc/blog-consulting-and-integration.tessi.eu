@@ -4,21 +4,19 @@ key: blog-post
 image: archivage_records_management_quelles_differences.png
 imageAlt: image_archivage_electronique
 path: archivage-records-management-quelles-differences
-title: 'Archivage et Records Management : quelles différences ? '
-description: >-
-  Les enjeux d'archivage et de conservation des documents font partie intégrante
-  d'une bonne gestion documentaire. Qu'est-ce que l'archivage électronique et le
-  records management ? Notions opposées ou complémentaires ?
+title: "Archivage et Records Management : quelles différences ? "
+description: Les enjeux d'archivage et de conservation des documents font partie
+  intégrante d'une bonne gestion documentaire. Qu'est-ce que l'archivage
+  électronique et le records management ? Notions opposées ou complémentaires ?
 date: 2020-04-21T16:18:23.910Z
 tags:
   - contentServices
 author: dop
-introduction: >-
-  Factures, contrats, fiches de paie, bons de commande, relevés bancaires… La
-  Loi impose aux entreprises de conserver de nombreux documents. Obligation
-  légale, l’archivage est un moyen pour l’entreprise de garantir la valeur
-  probatoire des documents et de prouver l’authenticité de ceux-ci s’ils sont
-  requis en cas de litige. Assurer la préservation de son patrimoine
+introduction: Factures, contrats, fiches de paie, bons de commande, relevés
+  bancaires… La Loi impose aux entreprises de conserver de nombreux documents.
+  Obligation légale, l’archivage est un moyen pour l’entreprise de garantir la
+  valeur probatoire des documents et de prouver l’authenticité de ceux-ci s’ils
+  sont requis en cas de litige. Assurer la préservation de son patrimoine
   documentaire est ainsi essentiel pour maîtriser ses risques. De plus, face à
   l’augmentation des volumes de documents à gérer et à l’essor de la
   dématérialisation, l’archivage est au cœur des enjeux propres aux entreprises.
@@ -63,7 +61,7 @@ L’archivage désigne **l’ensemble des actions, des outils et des méthodes m
 
 Avec l’essor de la dématérialisation, l’archivage sous forme numérique a pris une importance croissante au sein des entreprises, et ce, sous plusieurs formes :
 
-* Le **système d’archivage électronique (SAE)** qui regroupe, classe et référence au sein d’un unique outil informatique les différents flux documentaires, afin de les restituer facilement au besoin. Le SAE a peu à peu remplacé le rôle joué par le disque dur d’ordinateur personnel ou le serveur d’une entreprise. Sous cette forme, l’archivage numérique respecte la norme NF-Z42-013 de l’AFNOR, l’Association française de normalisation. Son pendant à l’échelle internationale est la norme ISO 14641. Pérennité, intégrité, confidentialité, disponibilité, réversibilité : en respectant ces 5 axes, le SAE permet de préserver la vocation probatoire des documents numériques archivés.
+* Le **[système d’archivage électronique (SAE)](https://blog-consulting-and-integration.tessi.eu/posts/sae-systeme-archivage-electronique-enjeux-mise-en-oeuvre)** qui regroupe, classe et référence au sein d’un unique outil informatique les différents flux documentaires, afin de les restituer facilement au besoin. Le SAE a peu à peu remplacé le rôle joué par le disque dur d’ordinateur personnel ou le serveur d’une entreprise. Sous cette forme, l’archivage numérique respecte la norme NF-Z42-013 de l’AFNOR, l’Association française de normalisation. Son pendant à l’échelle internationale est la norme ISO 14641. Pérennité, intégrité, confidentialité, disponibilité, réversibilité : en respectant ces 5 axes, le SAE permet de préserver la vocation probatoire des documents numériques archivés.
 * Le **[coffre-fort numérique](https://blog-consulting-and-integration.tessi.eu/posts/coffre-fort-numerique-cas-utilisation-en-entreprise-et-guide-pour-choisir)** est un espace de stockage en ligne sécurisé, destiné à conserver les documents numériques. Le coffre-fort numérique peut être consulté et enrichi en ligne, via internet. Il permet de conserver les documents ainsi que leurs métadonnées pour en faciliter l’accès a posteriori. Lors du dépôt d’un document, une empreinte numérique y est apposée. Espace d’archivage à valeur probatoire, le coffre-fort numérique répond à la norme NF Z42-020.
 * La **sauvegarde informatique** qui consiste à dupliquer les données archivées à l’identique, pour pouvoir les restaurer en cas de dommage ou de perte.
 
