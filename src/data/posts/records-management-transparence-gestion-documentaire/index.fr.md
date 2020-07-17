@@ -4,17 +4,15 @@ key: blog-post
 image: records_management_transparent.png
 imageAlt: image_article_records_management_transparent
 path: records-management-transparence-gestion-documentaire
-title: >-
-  Comment le records management favorise la transparence de sa gestion
+title: Comment le records management favorise la transparence de sa gestion
   documentaire ?
-description: to do
+description: TODO
 date: 2020-07-16T07:47:13.756Z
 tags:
   - contentServices
 author: edt
-introduction: >-
-  Intégrer une politique de records management efficace dans les habitudes
-  quotidiennes des employés représente **un défi important** pour les
+introduction: Intégrer une politique de records management efficace dans les
+  habitudes quotidiennes des employés représente **un défi important** pour les
   entreprises. Il s’agit de mettre en place des **procédures standardisées**,
   sans créer plus de travail aux utilisateurs. Il est cependant difficile
   d’assurer une gestion documentaire cohérente au jour le jour, sans interférer
