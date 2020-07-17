@@ -4,23 +4,23 @@ key: blog-post
 image: image-sae-enjeux-mise-en-oeuvre.jpeg.png
 imageAlt: image_article_système_d'archivage_électronique
 path: sae-systeme-archivage-electronique-enjeux-mise-en-oeuvre
-title: 'SAE, système d''archivage électronique : enjeux et mise en oeuvre'
-description: >-
-  Pourquoi et comment mettre en oeuvre un système d'archivage électronique (SAE)
-  ? Découvrez les enjeux, critères incontournables d'un tel outil et les étapes
-  à suivre pour se lancer pleinement dans la dématérialisation. 
+title: "SAE, système d'archivage électronique : enjeux et mise en oeuvre"
+description: "Pourquoi et comment mettre en oeuvre un système d'archivage
+  électronique (SAE) ? Découvrez les enjeux, critères incontournables d'un tel
+  outil et les étapes à suivre pour se lancer pleinement dans la
+  dématérialisation. "
 date: 2020-05-27T13:59:47.980Z
 tags:
   - contentServices
 author: dop
-introduction: >-
-  Combiné à une politique de records management adéquate, un SAE donne
-  l’assurance aux entreprises de disposer de leurs documents d’archives dans le
-  temps. Cet outil informatique permet la conservation pérenne et sécurisée des
-  documents électroniques, dans le respect de normes précises. Pourquoi et
-  comment mettre en œuvre un système d’archivage électronique ? Découvrez les
-  critères incontournables d’un tel outil et les étapes à suivre pour se lancer
-  pleinement dans la dématérialisation.
+introduction: Combiné à une [politique de records
+  management](https://blog-consulting-and-integration.tessi.eu/posts/archivage-records-management-quelles-differences)
+  adéquate, un SAE donne l’assurance aux entreprises de disposer de leurs
+  documents d’archives dans le temps. Cet outil informatique permet la
+  conservation pérenne et sécurisée des documents électroniques, dans le respect
+  de normes précises. Pourquoi et comment mettre en œuvre un système d’archivage
+  électronique ? Découvrez les critères incontournables d’un tel outil et les
+  étapes à suivre pour se lancer pleinement dans la dématérialisation.
 ---
 ## 01/ Qu’est-ce qu’un SAE, un système d’archivage électronique ?
 
