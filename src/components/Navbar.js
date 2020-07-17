@@ -94,7 +94,7 @@ NavItem.propTypes = {
 
 const NavItems = ({ links, ...props }) => (
   <nav {...props}>
-    {links.map(link => (
+    {links.map((link) => (
       <NavItem key={link.label} link={link} />
     ))}
   </nav>
@@ -161,7 +161,7 @@ const Nav = ({ openNewsletter }) => {
   const [{ demo, ...t }] = useTranslations();
   const [open, toggle] = useState(false);
   const onClose = () => toggle(false);
-  const getLinkProps = slug => ({
+  const getLinkProps = (slug) => ({
     onClick: onClose,
     activeStyle: {
       color: secondary,
@@ -202,9 +202,9 @@ const Nav = ({ openNewsletter }) => {
       </Headroom>
       <Modal isOpen={open} onClose={onClose}>
         <MobileNav role="navigation">
-          {menu.map(link => {
+          {menu.map((link) => {
             if (link.items) {
-              return link.items.map(item => (
+              return link.items.map((item) => (
                 <FlexItem width="100%" key={item.label}>
                   <Link {...getLinkProps(item.slug)}>{t[item.label]}</Link>
                 </FlexItem>

@@ -57,7 +57,7 @@ const StyledModal = styled(ReactModal)`
   margin: 0 auto;
   background: white;
   box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.5);
-  max-width: ${props => getSize(props.width)};
+  max-width: ${(props) => getSize(props.width)};
   & > h2 {
     padding: 2.5rem 2rem 0 2.5rem;
     text-align: center;

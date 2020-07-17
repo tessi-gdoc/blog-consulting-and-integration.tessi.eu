@@ -14,7 +14,7 @@ export const enumTypes = {
   GRADIENT: 'gradient'
 };
 
-const getBasicStyle = width => ({
+const getBasicStyle = (width) => ({
   display: `inline-block`,
   fontFamily: `inherit`,
   fontSize: `inherit`,
@@ -116,14 +116,11 @@ const getWidth = cond([
   [T, always(200)]
 ]);
 
-const getStyle = pipe(
-  getWidth,
-  getBasicStyle
-);
+const getStyle = pipe(getWidth, getBasicStyle);
 
 const Cta = ({ link, size, type, children, htmltype, ...rest }) => {
   const css = [getStyle(size), findStyleWithType(type)];
-  const render = content =>
+  const render = (content) =>
     !link ? (
       <button type={htmltype} {...rest} aria-label={content} css={css}>
         {content}

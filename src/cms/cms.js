@@ -8,7 +8,9 @@ import { GlobalStyles } from '../components/Layout';
 import Control from './custom-widgets/AuthorWidget';
 
 const Preview = ({ value }) => {
-  const display = value ? value.map(item => item.get('label')).join(', ') : '';
+  const display = value
+    ? value.map((item) => item.get('label')).join(', ')
+    : '';
   return <p>{display}</p>;
 };
 
@@ -35,7 +37,7 @@ CMS.registerEditorComponent({
     { name: 'title', label: 'Titre', widget: 'string' }
   ],
   pattern: /^\[!\[(.*)\]\((.*?)(\s"(.*)")?\)\]\((.*)\)$/,
-  fromBlock: match =>
+  fromBlock: (match) =>
     match && {
       image: match[2],
       alt: match[1],
@@ -44,16 +46,16 @@ CMS.registerEditorComponent({
     },
   toBlock: ({ alt, image, title, link }) =>
     `[![${alt || ''}](${image || ''}${
-      title ? ` "${title.replace(/"/g, '\\"')}"` : ''
+      title ? ` "${title.replace(/"/g, '- ')}"` : ''
     })](${link})`,
   toPreview: ({ alt, image, title, link }, getAsset, fields) => {
-    const imageField = fields?.find(f => f.get('widget') === 'image');
+    const imageField = fields?.find((f) => f.get('widget') === 'image');
     const src = getAsset(image, imageField);
     return `<a href="${link}" target="_blank" rel="noopener noreferrer"><img src="${src}" alt="${alt}" title="${title}"/></a>`;
   }
 });
 
-CMS.registerPreviewTemplate('blog', props => (
+CMS.registerPreviewTemplate('blog', (props) => (
   <StyleInjector>
     <GlobalStyles />
     <BlogPostPreview {...props} />

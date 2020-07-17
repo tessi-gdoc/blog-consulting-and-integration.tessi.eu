@@ -2,6 +2,7 @@ backend:
   name: git-gateway
   branch: master
 
+site_url: https://blog-consulting-and-integration.tessi.eu
 display_url: https://blog-consulting-and-integration.tessi.eu
 
 logo_url: /icons/logo.svg
@@ -84,12 +85,12 @@ collections:
               - label: 'Status'
                 name: 'status'
                 widget: 'select'
-                default: 301
+                default: '301'
                 options:
-                  - { label: 'Moved Permanently (301)', value: 301 }
-                  - { label: 'Found (302)', value: 302 }
-                  - { label: 'Not Found (404)', value: 404 }
-                  - { label: 'OK (200)', value: 200 }
+                  - { label: 'Moved Permanently (301)', value: '301' }
+                  - { label: 'Found (302)', value: '302' }
+                  - { label: 'Not Found (404)', value: '404' }
+                  - { label: 'OK (200)', value: '200' }
               - label: 'Force'
                 name: 'force'
                 widget: 'boolean'
@@ -482,6 +483,7 @@ collections:
     folder: 'src/data/news'
     path: '{{title}}/index.{{lang}}'
     create: true
+    delete: false
     editor:
       preview: false
     fields:
@@ -515,6 +517,7 @@ collections:
     folder: 'src/data/posts'
     path: '{{path}}/index.{{lang}}'
     create: true
+    delete: false
     fields:
       - {
           label: 'Localisation',
@@ -584,6 +587,7 @@ collections:
     folder: 'src/data/kits'
     path: '{{title}}/index.{{lang}}'
     create: true
+    delete: false
     editor:
       preview: false
     fields:
@@ -621,6 +625,7 @@ collections:
     folder: 'src/data/whitepapers'
     path: '{{title}}/index.{{lang}}'
     create: true
+    delete: false
     editor:
       preview: false
     fields:
@@ -663,6 +668,7 @@ collections:
     folder: 'src/data/case-studies'
     path: '{{title}}/index.{{lang}}'
     create: true
+    delete: false
     editor:
       preview: false
     fields:
@@ -705,6 +711,7 @@ collections:
     folder: 'src/data/videos'
     path: '{{title}}/index.{{lang}}'
     create: true
+    delete: false
     editor:
       preview: false
     fields:
@@ -747,6 +754,7 @@ collections:
     folder: 'src/data/webinars'
     path: '{{title}}/index.{{lang}}'
     create: true
+    delete: false
     editor:
       preview: false
     fields:
@@ -789,6 +797,7 @@ collections:
     folder: 'src/data/notices'
     path: '{{title}}/index.{{lang}}'
     create: true
+    delete: false
     editor:
       preview: false
     fields:

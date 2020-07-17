@@ -35,7 +35,7 @@ const SEO = ({
           buildTime
         }
       }) => {
-        const digMetadata = attr => {
+        const digMetadata = (attr) => {
           const pageMetadata = pathname !== `/` ? parsePath(pathname) : `home`;
           return path(['siteMetadata', pageMetadata, attr], t);
         };

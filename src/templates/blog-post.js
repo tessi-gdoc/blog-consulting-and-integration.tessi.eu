@@ -284,7 +284,7 @@ const StripesLeft = () => {
 
 const RelatedPosts = ({ currentPostId, posts, tags }) => {
   const [{ relatedPosts: title }] = useTranslations();
-  const getSimilarTags = arr => arr.filter(v => tags.includes(v));
+  const getSimilarTags = (arr) => arr.filter((v) => tags.includes(v));
   const relatedPosts = posts.filter(
     ({ node }) =>
       node.id !== currentPostId &&
@@ -322,7 +322,7 @@ const SocialButtons = ({ url, title, introduction }) => {
 };
 
 const BioPreview = ({ author: authorId, date, tagNames }) => {
-  const maybeAuthor = authors.list.find(author => author.id === authorId);
+  const maybeAuthor = authors.list.find((author) => author.id === authorId);
   if (!maybeAuthor) return null;
   return (
     <Author>

@@ -3,7 +3,7 @@ const locales = require(`./i18n`);
 const localizeSlug = (isDefault, locale, slug) =>
   isDefault ? slug : `/${locale}${slug}`;
 
-const removeTrailingSlash = path =>
+const removeTrailingSlash = (path) =>
   path === `/` ? path : path.replace(/\/$/, ``);
 
 const findKey = (object, predicate) => {
@@ -11,7 +11,7 @@ const findKey = (object, predicate) => {
   if (object == null) {
     return result;
   }
-  Object.keys(object).some(key => {
+  Object.keys(object).some((key) => {
     const value = object[key];
     if (predicate(value, key, object)) {
       result = key;
@@ -22,6 +22,6 @@ const findKey = (object, predicate) => {
   return result;
 };
 
-const defaultKey = findKey(locales, o => o.default === true);
+const defaultKey = findKey(locales, (o) => o.default === true);
 
 module.exports = { localizeSlug, removeTrailingSlash, defaultKey };

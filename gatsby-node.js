@@ -18,7 +18,7 @@ exports.onCreatePage = ({ page, actions }) => {
 
   deletePage(page);
 
-  Object.keys(locales).map(lang => {
+  Object.keys(locales).map((lang) => {
     const { default: isDefault, path } = locales[lang];
     const localizedPath = isDefault
       ? removeTrailingSlash(page.path)
@@ -96,9 +96,9 @@ exports.createPages = ({ graphql, actions }) => {
         }
       }
     `
-  ).then(result => {
+  ).then((result) => {
     if (result.errors) {
-      result.errors.forEach(e => console.error(e.toString()));
+      result.errors.forEach((e) => console.error(e.toString()));
       return Promise.reject(result.errors);
     }
 
@@ -112,11 +112,12 @@ exports.createPages = ({ graphql, actions }) => {
         locale,
         uri ? `posts/${uri}` : node.relativeDirectory
       );
-      createPage({
-        path: localizedSlug,
-        component: path.resolve(`src/templates/${key}.js`),
-        context: { slug: localizedSlug, locale, isDefault, title }
-      });
+      if (typeof key === 'string')
+        createPage({
+          path: localizedSlug,
+          component: path.resolve(`src/templates/${key}.js`),
+          context: { slug: localizedSlug, locale, isDefault, title }
+        });
     });
 
     const { edges: tagEdges, group: tagGroups } = result.data.tagsGroup;
@@ -150,7 +151,7 @@ exports.createSchemaCustomization = ({ actions, schema }) => {
           type: 'DataJsonList',
           resolve: (source, args, { nodeModel }, info) => {
             const [authors] = nodeModel.getAllNodes({ type: 'DataJson' });
-            return authors.list.find(a => a.id === source.author);
+            return authors.list.find((a) => a.id === source.author);
           }
         }
       }

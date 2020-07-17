@@ -34,7 +34,9 @@ export const customSelect = (
       transform-origin: center;
       z-index: 4;
       ${typeof arrowStyles === `object`
-        ? Object.keys(arrowStyles).map(key => `${key}: ${arrowStyles[key]};\n`)
+        ? Object.keys(arrowStyles).map(
+            (key) => `${key}: ${arrowStyles[key]};\n`
+          )
         : ``}
     }
     & > select {
@@ -67,12 +69,12 @@ const ErrorWrapper = styled.div`
   border-radius: 5px;
 `;
 
-const removeElement = el => {
+const removeElement = (el) => {
   if (el.parentNode === null) return;
   el.parentNode.removeChild(el);
 };
 
-const useScript = src => {
+const useScript = (src) => {
   const [state, setState] = useState({ loaded: false, error: false });
 
   useEffect(() => {

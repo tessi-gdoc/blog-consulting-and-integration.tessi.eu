@@ -8,7 +8,7 @@ const getSize = cond([
   [equals('small'), always({ width: 16, height: 16 })],
   [equals('large'), always({ width: 48, height: 48 })],
   [equals('default'), always({ width: 24, height: 24 })],
-  [T, s => ({ width: s, height: s })]
+  [T, (s) => ({ width: s, height: s })]
 ]);
 
 const Icon = ({ type, size, color, ...props }) => (

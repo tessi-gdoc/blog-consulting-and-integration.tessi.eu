@@ -4,7 +4,7 @@ import { useStaticQuery, graphql } from 'gatsby';
 
 import { LocaleContext } from '../Layout';
 
-const findTranslations = locale =>
+const findTranslations = (locale) =>
   pipe(find(pathEq(['node', 'name'], locale)), path(['node', 'translations']));
 
 const useTranslations = () => {

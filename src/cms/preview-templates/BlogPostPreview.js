@@ -2,23 +2,23 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { BlogPostTemplatePreview } from '../../templates/blog-post';
 
-const matchHeadings = md => md.match(/(#+\s*)(.*)/g) || [];
+const matchHeadings = (md) => md.match(/(#+\s*)(.*)/g) || [];
 
-const getHeadingDepth = line => line.match(/^(?:#+)/)[0].length;
+const getHeadingDepth = (line) => line.match(/^(?:#+)/)[0].length;
 
 const BlogPostPreview = ({ entry, widgetFor, getAsset }) => {
   const [imageData, setImageData] = React.useState('');
   const [bannerData, setBannerData] = React.useState('');
 
   const headings = matchHeadings(entry.getIn(['data', 'body']))
-    .filter(h => /^#{1,2}\s/.test(h))
-    .map(str => ({
+    .filter((h) => /^#{1,2}\s/.test(h))
+    .map((str) => ({
       depth: getHeadingDepth(str),
       value: str.replace(/[*#_]/g, '').trim()
     }));
 
   React.useEffect(() => {
-    const getAssetData = assetPath =>
+    const getAssetData = (assetPath) =>
       assetPath ? getAsset(assetPath) : Promise.resolve(null);
     const fetchAsset = async () => {
       const imagePath = entry.getIn(['data', 'image']),
