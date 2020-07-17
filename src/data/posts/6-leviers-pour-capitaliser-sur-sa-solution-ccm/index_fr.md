@@ -18,12 +18,13 @@ introduction: >-
   (rencontres avec des conseillers, téléphone, papier). De nos jours, il semble
   difficile voire impossible de se passer de communications digitales (site web,
   email, messaging, bot, application smartphone dédiée…). Tout le challenge de
-  la communication d'entreprise d'aujourd'hui est là : parvenir à lier les
-  expériences physiques et digitales notamment en adoptant une communication
-  multicanal. De plus, le client est désormais le pilote de la relation, et se
-  met progressivement aux commandes de la communication client. Ce changement de
-  paradigme pousse les organisations à faire évoluer leur système de gestion de
-  la communication client (CCM).
+  la [communication d'entreprise
+  d'aujourd'hui](https://blog-consulting-and-integration.tessi.eu/posts/de-l-editique-aux-solutions-de-gestion-de-la-communication-client-quelles-evolutions-et-avantages-majeurs)
+  est là : parvenir à lier les expériences physiques et digitales notamment en
+  adoptant une communication multicanal. De plus, le client est désormais le
+  pilote de la relation, et se met progressivement aux commandes de la
+  communication client. Ce changement de paradigme pousse les organisations à
+  faire évoluer leur système de gestion de la communication client (CCM).
 
 
   Pour ce faire, voici 6 leviers activables, véritables opportunités de capitaliser sur votre plateforme CCM en place.
