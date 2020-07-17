@@ -36,6 +36,10 @@ exports.onCreatePage = ({ page, actions }) => {
   });
 };
 
+const getLang = (filename) => {
+  return filename.slice(((filename.lastIndexOf('_') - 1) >>> 0) + 2);
+};
+
 exports.onCreateNode = ({ node, actions }) => {
   const { createNodeField } = actions;
 
@@ -44,7 +48,7 @@ exports.onCreateNode = ({ node, actions }) => {
   if (node.internal.type === `MarkdownRemark`) {
     const name = path.basename(node.fileAbsolutePath, `.md`);
     const isDefault = name === `index.${defaultKey}`;
-    const lang = isDefault ? defaultKey : name.split(`.`)[1];
+    const lang = isDefault ? defaultKey : getLang(name);
     createNodeField({ name: `locale`, node, value: lang });
     createNodeField({ name: `isDefault`, node, value: isDefault });
   }

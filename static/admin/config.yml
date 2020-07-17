@@ -481,7 +481,7 @@ collections:
     label: 'Actualités'
     label_singular: 'Actualité'
     folder: 'src/data/news'
-    path: '{{title}}/index.{{lang}}'
+    path: '{{title}}/index_{{lang}}'
     create: true
     delete: false
     editor:
@@ -515,7 +515,7 @@ collections:
     label: 'Blog'
     label_singular: 'Article'
     folder: 'src/data/posts'
-    path: '{{path}}/index.{{lang}}'
+    path: '{{path}}/index_{{lang}}'
     create: true
     delete: false
     fields:
@@ -585,7 +585,7 @@ collections:
     label: 'Kits'
     label_singular: 'Kit'
     folder: 'src/data/kits'
-    path: '{{title}}/index.{{lang}}'
+    path: '{{title}}/index_{{lang}}'
     create: true
     delete: false
     editor:
@@ -623,7 +623,7 @@ collections:
     label: 'Livres blancs'
     label_singular: 'Livre blanc'
     folder: 'src/data/whitepapers'
-    path: '{{title}}/index.{{lang}}'
+    path: '{{title}}/index_{{lang}}'
     create: true
     delete: false
     editor:
@@ -666,7 +666,7 @@ collections:
     label: 'Etudes de cas'
     label_singular: 'Etude de cas'
     folder: 'src/data/case-studies'
-    path: '{{title}}/index.{{lang}}'
+    path: '{{title}}/index_{{lang}}'
     create: true
     delete: false
     editor:
@@ -709,7 +709,7 @@ collections:
     label: 'Vidéos'
     label_singular: 'Vidéo'
     folder: 'src/data/videos'
-    path: '{{title}}/index.{{lang}}'
+    path: '{{title}}/index_{{lang}}'
     create: true
     delete: false
     editor:
@@ -752,7 +752,7 @@ collections:
     label: 'Webinaires'
     label_singular: 'Webinaire'
     folder: 'src/data/webinars'
-    path: '{{title}}/index.{{lang}}'
+    path: '{{title}}/index_{{lang}}'
     create: true
     delete: false
     editor:
@@ -795,7 +795,7 @@ collections:
     label: 'Mentions et politiques'
     label_singular: 'Mention ou politique'
     folder: 'src/data/notices'
-    path: '{{title}}/index.{{lang}}'
+    path: '{{title}}/index_{{lang}}'
     create: true
     delete: false
     editor:

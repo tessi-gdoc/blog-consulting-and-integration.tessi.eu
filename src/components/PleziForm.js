@@ -80,6 +80,7 @@ const useScript = (src) => {
   useEffect(() => {
     let script = document.createElement('script');
     script.src = src;
+    script.type = 'text/javascript';
     script.async = true;
     const onScriptLoad = () => setState({ loaded: true, error: false });
 
@@ -103,7 +104,7 @@ const useScript = (src) => {
 const PleziForm = ({ webformId, formId, tenantId }) => {
   const [{ form }] = useTranslations();
   const [loaded, error] = useScript(
-    `https://app.plezi.co/scripts/ossleads_forms.js?tenant_id=${tenantId}&form_id=${formId}&form_version=3&content_web_form_id=${webformId}`
+    `https://api.plezi.co/api/v1/web_forms/scripts?tenant_id=${tenantId}&form_id=${formId}&form_version=3&content_web_form_id=${webformId}`
   );
   if (error) {
     return (
