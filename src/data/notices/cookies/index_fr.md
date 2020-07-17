@@ -1,6 +1,7 @@
 ---
 lang: fr
 key: notice
+id: cookies
 title: Politique de gestion des cookies
 ---
 

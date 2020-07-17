@@ -516,6 +516,7 @@ collections:
     label_singular: 'Article'
     folder: 'src/data/posts'
     path: '{{path}}/index_{{lang}}'
+    preview_path: posts/{{path}}
     create: true
     delete: false
     fields:
@@ -586,6 +587,7 @@ collections:
     label_singular: 'Kit'
     folder: 'src/data/kits'
     path: '{{title}}/index_{{lang}}'
+    preview_path: kits
     create: true
     delete: false
     editor:
@@ -624,6 +626,7 @@ collections:
     label_singular: 'Livre blanc'
     folder: 'src/data/whitepapers'
     path: '{{title}}/index_{{lang}}'
+    preview_path: whitepapers
     create: true
     delete: false
     editor:
@@ -667,6 +670,7 @@ collections:
     label_singular: 'Etude de cas'
     folder: 'src/data/case-studies'
     path: '{{title}}/index_{{lang}}'
+    preview_path: our-case-studies
     create: true
     delete: false
     editor:
@@ -710,6 +714,7 @@ collections:
     label_singular: 'Vidéo'
     folder: 'src/data/videos'
     path: '{{title}}/index_{{lang}}'
+    preview_path: videos
     create: true
     delete: false
     editor:
@@ -752,6 +757,7 @@ collections:
     label: 'Webinaires'
     label_singular: 'Webinaire'
     folder: 'src/data/webinars'
+    preview_path: webinars
     path: '{{title}}/index_{{lang}}'
     create: true
     delete: false
@@ -796,7 +802,8 @@ collections:
     label_singular: 'Mention ou politique'
     folder: 'src/data/notices'
     path: '{{title}}/index_{{lang}}'
-    create: true
+    preview_path: notices/{{id}}
+    create: false
     delete: false
     editor:
       preview: false
@@ -818,6 +825,7 @@ collections:
           default: 'notice',
           widget: 'hidden',
         }
+      - { label: 'ID', name: 'id', widget: 'hidden' }
       - {
           label: 'Titre',
           name: 'title',

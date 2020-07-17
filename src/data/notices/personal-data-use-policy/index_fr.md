@@ -1,6 +1,7 @@
 ---
 lang: fr
 key: notice
+id: personal-data-use-policy
 title: Politique d'utilisation des données personnelles
 ---
 

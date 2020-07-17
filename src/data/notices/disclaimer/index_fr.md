@@ -1,6 +1,7 @@
 ---
 lang: fr
 key: notice
+id: disclaimer
 title: Mentions légales
 ---
 
