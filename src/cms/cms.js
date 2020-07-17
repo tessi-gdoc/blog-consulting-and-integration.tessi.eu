@@ -46,7 +46,7 @@ CMS.registerEditorComponent({
     },
   toBlock: ({ alt, image, title, link }) =>
     `[![${alt || ''}](${image || ''}${
-      title ? ` "${title.replace(/"/g, '- ')}"` : ''
+      title ? ` "${title.replace(/"/g, '-')}"` : ''
     })](${link})`,
   toPreview: ({ alt, image, title, link }, getAsset, fields) => {
     const imageField = fields?.find((f) => f.get('widget') === 'image');
