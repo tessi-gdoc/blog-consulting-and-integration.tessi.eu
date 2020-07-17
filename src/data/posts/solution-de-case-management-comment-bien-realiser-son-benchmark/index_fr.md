@@ -4,19 +4,17 @@ key: blog-post
 image: benchmark_solution_case_management.png
 imageAlt: Benchmark Case Management
 path: solution-de-case-management-comment-bien-realiser-son-benchmark
-title: 'Solution de Case Management : Comment bien réaliser son benchmark ?'
-description: >-
-  Découvrez les étapes à suivre et les bonnes questions à se poser pour choisir
-  votre solution de Case Management.
+title: "Solution de Case Management : Comment bien réaliser son benchmark ?"
+description: Découvrez les étapes à suivre et les bonnes questions à se poser
+  pour choisir votre solution de Case Management.
 date: 2019-04-02T07:56:52.328Z
 tags:
   - caseManagement
 author: niz
-introduction: >-
-  Le Case Management est la solution qui vous permet de porter la qualité de
-  votre relation client à l’étape supérieure. Traitement des cas plus rapide,
-  ultra personnalisation de la réponse, suivi précis de la gestion des cas,
-  meilleure circulation de l’information… Le Case Management répond aux
+introduction: Le Case Management est la solution qui vous permet de porter la
+  qualité de votre relation client à l’étape supérieure. Traitement des cas plus
+  rapide, ultra personnalisation de la réponse, suivi précis de la gestion des
+  cas, meilleure circulation de l’information… Le Case Management répond aux
   exigences de notre temps telles que l’instantanéité et le sur-mesure. Le choix
   des entreprises se porte alors de plus en plus sur les plateformes « custom ».
   Toutefois cette option implique de composer votre propre solution de Case
@@ -79,7 +77,7 @@ Ces éléments de réponse vont vous aider à attribuer un poids à vos critère
 
 Il va sans dire que le périmètre d’application choisi et vos priorités doivent être en adéquation avec les objectifs et la stratégie globale de l’entreprise.
 
-[![Télécharger_kit_Benchmark_Case_Management](banniere-web_950x250px_kit_operationnel_benchmark_case_management.png "Kit opérationnel \"Modèle de benchmark des solutions de Case Management\"")](https://content.blog-consulting-and-integration.tessi.eu/modele-de-benchmark-des-solutions-de-case-management)
+[![Télécharger_kit_Benchmark_Case_Management](banniere-web_950x250px_kit_operationnel_benchmark_case_management.png "Kit opérationnel - Modèle de benchmark des solutions de Case Management- ")](https://content.blog-consulting-and-integration.tessi.eu/modele-de-benchmark-des-solutions-de-case-management)
 
 ## **02/ Quels critères prendre en compte pour votre benchmark des solutions de Case Management ?**
 
