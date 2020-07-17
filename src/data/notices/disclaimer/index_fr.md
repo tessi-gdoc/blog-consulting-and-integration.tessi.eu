@@ -3,7 +3,6 @@ lang: fr
 key: notice
 title: Mentions légales
 ---
-
 ## Le présent site est édité par :
 
 **GDOC LASERCOM FRANCE, filiale du groupe TESSI**
@@ -13,6 +12,8 @@ SAS immatriculée au RGS de Nanterre sous le n° 512 067 877
 Adresse siège : 116 rue de Silly, 92100 BOULOGNE-BILLANCOURT
 
 Tél : 01 55 18 00 84
+
+test
 
 **Responsable de la publication :** Jean-Luc VECCHIO
 
