@@ -3,29 +3,25 @@ lang: fr
 key: blog-post
 image: ./ediitique_solutions_ccm_moderne.png
 imageAlt: éditique
-path: >-
-  de-l-editique-aux-solutions-de-gestion-de-la-communication-client-quelles-evolutions-et-avantages-majeurs
-title: >-
-  De l’éditique aux solutions de gestion de la communication client : Quelles
-  évolutions et avantages majeurs ?
-description: >-
-  Votre solution de composition ne répond plus à vos besoins ? Elle n'est plus
-  mise à jour ou pas suffisamment ? Vous commencez à envisager un éventuel
-  changement ? Découvrez en quoi les solutions CCM ont évolué et ce que vous
-  pouvez attendre d'une solution CCM moderne.
+path: de-l-editique-aux-solutions-de-gestion-de-la-communication-client-quelles-evolutions-et-avantages-majeurs
+title: "De l’éditique aux solutions de gestion de la communication client :
+  Quelles évolutions et avantages majeurs ?"
+description: Votre solution de composition ne répond plus à vos besoins ? Elle
+  n'est plus mise à jour ou pas suffisamment ? Vous commencez à envisager un
+  éventuel changement ? Découvrez en quoi les solutions CCM ont évolué et ce que
+  vous pouvez attendre d'une solution CCM moderne.
 date: 2019-09-13T15:52:10.975Z
 tags:
   - ccm
 author: niz
-introduction: >-
-  Dans une société connectée comme celle que connaissons, avec un accès à
-  l’information instantané via une multitude de canaux, les comportements et
-  exigences clients ont évoluée en conséquence, la gestion de la communication
-  client ou l’éditique comme elle fut longtemps appelée, s’est radicalement
-  transformée. Les solutions de composition d’une 20aine, voir une 10aine
-  d’année sont progressivement devenues obsolètes face aux nouveaux besoins
-  métiers. C’est pourquoi, pour permettre aux entreprises de s’attaquer aux
-  nouveaux enjeux de la communication client, les éditeurs des solutions CCM
+introduction: Dans une société connectée comme celle que connaissons, avec un
+  accès à l’information instantané via une multitude de canaux, les
+  comportements et exigences clients ont évoluée en conséquence, la gestion de
+  la communication client ou l’éditique comme elle fut longtemps appelée, s’est
+  radicalement transformée. Les solutions de composition d’une 20aine, voir une
+  10aine d’année sont progressivement devenues obsolètes face aux nouveaux
+  besoins métiers. C’est pourquoi, pour permettre aux entreprises de s’attaquer
+  aux nouveaux enjeux de la communication client, les éditeurs des solutions CCM
   (customer communication manager) se sont beaucoup investis afin d’offrir une
   offre complète sur l’ensemble du parcours client. Dans cet article, nous
   reviendrons sur l’histoire de la communication client au sein des
@@ -110,7 +106,7 @@ Les nouvelles solutions de communication client ont dû s’adapter à l’omnic
 * Permet d’assurer une expérience client fluide grâce à des contenus accessibles sur différents supports et adaptés aux différents modes de consommation de contenu
 * La gestion de l’omnicanalité est simplifiée
 
-[![Inscription_webinar_stratégie_omnicanal](strategie-omnicanale-.jpg "Webinar \\\\\"Stratégie omnicanale : exemple d'une expérience client réussie\\\\\"")](https://content.blog-consulting-and-integration.tessi.eu/webinar-tessi-x-opentext-strategie-omnicanal-exemple-d-une-experience-client-reussie)
+[![Inscription_webinar_stratégie_omnicanal](strategie-omnicanale-.jpg "Webinar - Stratégie omnicanale : exemple d'une expérience client réussie- ")](https://content.blog-consulting-and-integration.tessi.eu/webinar-tessi-x-opentext-strategie-omnicanal-exemple-d-une-experience-client-reussie)
 
 **5. L’EMPOWERMENT DES UTILISATEURS**
 
