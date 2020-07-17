@@ -4,22 +4,20 @@ key: blog-post
 image: coffre-fort_numerique_cas_utilisation_en_entreprise_guide_pour_choisir-1-.png
 imageAlt: Image_article_coffre-fort_électronique
 path: coffre-fort-numerique-cas-utilisation-en-entreprise-et-guide-pour-choisir
-title: 'Coffre-fort numérique : Cas d''utilisation en entreprise et guide pour choisir'
-description: >-
-  Plusieurs solutions s'offrent aux entreprises pour entreprendre une démarche
-  d'archivage électronique de leurs documents. Dans quels cas choisir le
-  coffre-fort numérique ? Quelles différences avec une GED ou un SAE ? A quels
-  aspects porter une attention particulière pour choisir ?
+title: "Coffre-fort numérique : Cas d'utilisation en entreprise et guide pour choisir"
+description: Plusieurs solutions s'offrent aux entreprises pour entreprendre une
+  démarche d'archivage électronique de leurs documents. Dans quels cas choisir
+  le coffre-fort numérique ? Quelles différences avec une GED ou un SAE ? A
+  quels aspects porter une attention particulière pour choisir ?
 date: 2020-05-27T13:10:05.058Z
 tags:
   - contentServices
 author: dop
-introduction: >-
-  Dans le cadre d’un projet de dématérialisation, de nombreuses entreprises
-  entreprennent une démarche d’archivage électronique de leurs documents. Pour y
-  parvenir, il existe plusieurs solutions, dont le coffre-fort numérique.
-  Comment fonctionne cet outil ? En quoi le coffre-fort numérique est-il
-  différent de la GED ou du SAE ? Quels types de documents met-on dans un
+introduction: Dans le cadre d’un projet de dématérialisation, de nombreuses
+  entreprises entreprennent une démarche d’archivage électronique de leurs
+  documents. Pour y parvenir, il existe plusieurs solutions, dont le coffre-fort
+  numérique. Comment fonctionne cet outil ? En quoi le coffre-fort numérique
+  est-il différent de la GED ou du SAE ? Quels types de documents met-on dans un
   coffre-fort électronique ? A quels aspects porter une attention particulière
   pour choisir ?
 ---
@@ -47,7 +45,7 @@ Acquisition, capture, numérisation, validation, diffusion, classement, archivag
 
 #### Le SAE, Système d’archivage numérique
 
-Alors que la GED ne permet pas d’assurer la pérennité des documents, puisqu’ils peuvent être régulièrement modifiés, **le SAE permet de conserver des documents validés, dont l'état doit dorénavant être figé.** En effet, une fois intégré dans un Système d’archivage électronique, un document ne peut plus être modifié. Les principaux enjeux d’un SAE sont donc d’assurer la sécurité, l’intégrité, la pérennité, la confidentialité et l’authenticité des documents qui sont stockés en son sein.
+Alors que la GED ne permet pas d’assurer la pérennité des documents, puisqu’ils peuvent être régulièrement modifiés, **le [SAE](https://blog-consulting-and-integration.tessi.eu/posts/sae-systeme-archivage-electronique-enjeux-mise-en-oeuvre) permet de conserver des documents validés, dont l'état doit dorénavant être figé.** En effet, une fois intégré dans un Système d’archivage électronique, un document ne peut plus être modifié. Les principaux enjeux d’un SAE sont donc d’assurer la sécurité, l’intégrité, la pérennité, la confidentialité et l’authenticité des documents qui sont stockés en son sein.
 
 #### Le coffre-fort numérique
 
