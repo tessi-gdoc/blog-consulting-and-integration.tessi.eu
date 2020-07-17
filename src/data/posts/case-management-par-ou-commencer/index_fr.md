@@ -4,10 +4,10 @@ key: blog-post
 image: case_management_definition.png
 imageAlt: Case Management
 path: case-management-par-ou-commencer
-title: 'Le Case Management : Par où commencer ? Définition, rôle et outils'
-description: >-
-  Le Case Management vous en avez entendu parler, mais savez-vous vraiment de
-  quoi il s’agit, à quoi ça sert, de quoi avez-vous besoin et par où commencer.
+title: "Le Case Management : Par où commencer ? Définition, rôle et outils"
+description: Le Case Management vous en avez entendu parler, mais savez-vous
+  vraiment de quoi il s’agit, à quoi ça sert, de quoi avez-vous besoin et par où
+  commencer.
 date: 2019-02-28T23:40:32.169Z
 tags:
   - caseManagement
@@ -28,11 +28,7 @@ introduction: >-
   corrélation avec ses besoins et objectifs.
 
 
-  Ce terme s’est petit à petit démocratisé et imposé dans d’autres secteurs
-  comme la banque, les assurances ou encore la justice. Ces domaines
-  représentent la partie immergée de l’iceberg car nombreuses sont les
-  entreprises (tout secteur confondu) qui utilisent le Case Management sans même
-  en avoir conscience.
+  Ce terme s’est petit à petit démocratisé et imposé dans d’autres secteurs comme la banque, les assurances ou encore la justice. Ces domaines représentent la partie immergée de l’iceberg car nombreuses sont les entreprises (tout secteur confondu) qui utilisent le Case Management sans même en avoir conscience.
 ---
 ## 1/ Définition du Case Management : C’est quoi ?
 
@@ -56,7 +52,7 @@ Lorsqu’un client rencontre un problème avec un produit qu’il a acheté, il 
 
 Voici un exemple auquel le Case Management répond. De nombreux autres cas d’usage peuvent être cités comme la gestion des réclamations, des souscriptions, des incidents, les audits, etc.
 
-[![télécharger_livre_blanc_Case_Management](950x250_banniere_lb_case_management.png "Livre Blanc Pourquoi s'équiper d'une solution de Case Management")](https://content.gdoc-lasercom.com/livre-blanc-tessi-pourquoi-sequiper-dune-solution-de-case-management)
+[![télécharger_livre_blanc_Case_Management](950x250_banniere_lb_case_management.png "Livre Blanc ″Pourquoi s'équiper d'une solution de Case Management″")](https://content.gdoc-lasercom.com/livre-blanc-tessi-pourquoi-sequiper-dune-solution-de-case-management)
 
 ## 3/ Les outils du Case Management : Avec quoi ?
 
