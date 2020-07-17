@@ -109,7 +109,7 @@ Cette stratégie nécessite une période de double « Run » (phase de product
 
 *En cas de migration des données de votre GED vers une solution de Case Management…*
 
-Il faut bien avoir bien soigné l’étape d’analyse (« Discovery ») qui permettra d’évaluer la pertinence de la solution cible choisie, de déterminer votre plan de migration et les ressources à mobiliser. Des résultats de l’analyse, pourront être validé le choix de la solution cible et le planning envisageable.
+Il faut bien avoir bien soigné l’étape d’analyse (« Discovery ») qui permettra d’évaluer la pertinence de la [solution cible choisie,](https://blog-consulting-and-integration.tessi.eu/posts/le-case-management-objectif-no-code) de déterminer votre plan de migration et les ressources à mobiliser. Des résultats de l’analyse, pourront être validé le choix de la solution cible et le planning envisageable.
 
 [![Télécharger_livre_blanc_Case_Management](950x250_banniere_lb_case_management.png "Livre Blanc - Pourquoi s'équiper d'une solution de Case Management ?- ")](https://content.gdoc-lasercom.com/livre-blanc-tessi-pourquoi-sequiper-dune-solution-de-case-management)
 
