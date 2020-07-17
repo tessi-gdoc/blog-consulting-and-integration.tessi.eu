@@ -4,18 +4,43 @@ key: blog-post
 image: ged_case_management_migration.png
 imageAlt: Migration GED
 path: de-la-ged-au-case-management-pourquoi-changer
-title: 'De la GED au Case Management : Pourquoi changer ?'
-description: >-
-  De nombreuses raisons peuvent vous pousser à remettre en question votre
-  système de GED actuel. Mais alors vers quelles solutions se tourner : une
-  nouvelle GED ? Une solution de Case Management ? Découvrez les raisons de
-  changer et les stratégies envisageables pour opérer la transition.
+title: "De la GED au Case Management : Pourquoi changer ?"
+description: "De nombreuses raisons peuvent vous pousser à remettre en question
+  votre système de GED actuel. Mais alors vers quelles solutions se tourner :
+  une nouvelle GED ? Une solution de Case Management ? Découvrez les raisons de
+  changer et les stratégies envisageables pour opérer la transition."
 date: 2019-10-03T14:43:05.418Z
 tags:
   - contentServices
   - caseManagement
 author: mat
-introduction: "A l’arrivée du digital, mettre en place un système de GED s’est rapidement imposé comme une évidence. Le temps du tout papier était révolu, il était temps de passer aux documents dématérialisés. Les entreprises bénéficient alors de coûts de stockage et de logistique moindres, d’une accessibilité aux documents optimisée, d’un classement des documents structurant, de la sécurisation des données et d’une collaboration facilitée.  \r\n\nPuis, comme une seconde étape de la transformation digitale des organisations et des parcours de leurs clients, les besoins métier ont évolué, les volumes de données et les canaux de communication se sont multipliés, les systèmes d’information, les processus et les offres de produits/services se sont complexifiés. L’ergonomie et la personnalisation des solutions technologiques sont devenues des critères de choix, et la quête de productivité reste un enjeu majeur. \r\n\nC’est pourquoi dans de nombreux cas, les anciennes GED ne répondent plus complètement aux exigences de notre temps.  \r\n\n\rDans cet article nous définirons les limites fonctionnelles d’une GED, le moment opportun pour en changer ou la faire évoluer et les bénéfices d’une telle transition. Puis, nous verrons les deux stratégies envisageables pour passer d’un système de GED à une solution de Case Management, les ressources nécessaires et les grandes étapes d’une migration GED/ECM."
+introduction: "A l’arrivée du digital, mettre en place un système de GED s’est
+  rapidement imposé comme une évidence. Le temps du tout papier était révolu, il
+  était temps de passer aux documents dématérialisés. Les entreprises
+  bénéficient alors de coûts de stockage et de logistique moindres, d’une
+  accessibilité aux documents optimisée, d’un classement des documents
+  structurant, de la sécurisation des données et d’une collaboration
+  facilitée.  \r
+
+
+  Puis, comme une seconde étape de la transformation digitale des
+  organisations et des parcours de leurs clients, les besoins métier ont évolué,
+  les volumes de données et les canaux de communication se sont multipliés, les
+  systèmes d’information, les processus et les offres de produits/services se
+  sont complexifiés. L’ergonomie et la personnalisation des solutions
+  technologiques sont devenues des critères de choix, et la quête de
+  productivité reste un enjeu majeur. \r
+
+
+  C’est pourquoi dans de nombreux cas, les anciennes GED ne répondent plus
+  complètement aux exigences de notre temps.  \r
+
+
+  \rDans cet article nous définirons les limites fonctionnelles d’une GED, le
+  moment opportun pour en changer ou la faire évoluer et les bénéfices d’une
+  telle transition. Puis, nous verrons les deux stratégies envisageables pour
+  passer d’un système de GED à une solution de Case Management, les ressources
+  nécessaires et les grandes étapes d’une migration GED/ECM."
 ---
 ## 01/ Pourquoi faire évoluer ou changer sa GED ?
 
@@ -86,7 +111,7 @@ Cette stratégie nécessite une période de double « Run » (phase de product
 
 Il faut bien avoir bien soigné l’étape d’analyse (« Discovery ») qui permettra d’évaluer la pertinence de la solution cible choisie, de déterminer votre plan de migration et les ressources à mobiliser. Des résultats de l’analyse, pourront être validé le choix de la solution cible et le planning envisageable.
 
-[![Télécharger_livre_blanc_Case_Management](950x250_banniere_lb_case_management.png "Livre Blanc \"Pourquoi s'équiper d'une solution de Case Management ?\"")](https://content.gdoc-lasercom.com/livre-blanc-tessi-pourquoi-sequiper-dune-solution-de-case-management)
+[![Télécharger_livre_blanc_Case_Management](950x250_banniere_lb_case_management.png "Livre Blanc - Pourquoi s'équiper d'une solution de Case Management ?- ")](https://content.gdoc-lasercom.com/livre-blanc-tessi-pourquoi-sequiper-dune-solution-de-case-management)
 
 ## 03/ Quelles ressources pour opérer la transition ?
 
