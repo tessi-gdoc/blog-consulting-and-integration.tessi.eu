@@ -3,29 +3,25 @@ lang: fr
 key: blog-post
 image: interview_experience_client_judith_granat.png
 imageAlt: Judith Granat Retraites Populaires
-path: >-
-  judith-granat-retraites-populaires-l-experience-client-un-sujet-large-transverse-et-multicanal
-title: >-
-  Judith Granat, Retraites Populaires : « L’expérience client : un sujet large,
-  transverse et multicanal »
-description: >-
-  Judith Granat, Retraites Populaires, nous partage sa vision, sa méthode et ses
-  conseils pour donner vie aux projets d'expérience client (convaincre,
-  financer, gérer...)
+path: judith-granat-retraites-populaires-l-experience-client-un-sujet-large-transverse-et-multicanal
+title: "Judith Granat, Retraites Populaires : « L’expérience client : un sujet
+  large, transverse et multicanal »"
+description: Judith Granat, Retraites Populaires, nous partage sa vision, sa
+  méthode et ses conseils pour donner vie aux projets d'expérience client
+  (convaincre, financer, gérer...)
 date: 2019-12-03T13:14:06.108Z
 tags:
   - customerJourney
 author: tcj
-introduction: >-
-  Il y a 4 ans, Retraites Populaires lance un gigantesque chantier visant à
-  optimiser le traitement des cas client dans une logique d'amélioration de
-  l'expérience client. Judith Granat, membre de la direction de Retraites
-  Populaires et responsable du marketing, de la communication et de la
-  distribution interne et externe, soutient cette dynamique avec la conviction
-  que l'expérience client doit être une priorité stratégique. Comment parvenir à
-  initier des projets transverses de long terme ? Avec quel budget ? Qui doit en
-  être le sponsor ? Judith Granat nous confie sa vision, sa méthode et le
-  fonctionnement en place chez Retraites Populaires.
+introduction: Il y a 4 ans, Retraites Populaires lance un gigantesque chantier
+  visant à optimiser le traitement des cas client dans une logique
+  d'amélioration de l'expérience client. Judith Granat, membre de la direction
+  de Retraites Populaires et responsable du marketing, de la communication et de
+  la distribution interne et externe, soutient cette dynamique avec la
+  conviction que l'expérience client doit être une priorité stratégique. Comment
+  parvenir à initier des projets transverses de long terme ? Avec quel budget ?
+  Qui doit en être le sponsor ? Judith Granat nous confie sa vision, sa méthode
+  et le fonctionnement en place chez Retraites Populaires.
 ---
 **Quelle a été l’évolution de l’expérience client chez Retraites Populaires ces dernières années ?**
 
@@ -53,7 +49,7 @@ Il n’y a pas vraiment de règle quant à la position que doit avoir celui ou c
 
 D’abord, il est nécessaire de se faire une vision du futur sur laquelle se construit la roadmap sur plusieurs années. Pour intégrer la roadmap dans le portefeuille projets, les budgets et les ressources doivent être disponibles. Et là, il faut convaincre ! Au-delà de mettre les avantages du projet en avant, un business case est nécessaire. Il faut parvenir à démontrer qu’après X années, ce projet sera viable, déterminer le « break even » (ou point mort), les impacts budgétaires, le cross-selling qui en découlera, les économies de coût réalisées… Ces éléments chiffrés sont indispensables pour faire passer un tel projet.
 
-[![webinar_preparation_transformation_experience_client](essai-.jpg "Webinar \\\\\\\"Comment bien préparer la transformation de son expérience client ?\\\\\\\"")](https://content.blog-consulting-and-integration.tessi.eu/webinar-comment-bien-preparer-la-transformation-de-son-experience-client)
+[![webinar_preparation_transformation_experience_client](essai-.jpg "Webinar - Comment bien préparer la transformation de son expérience client ?- ")](https://content.blog-consulting-and-integration.tessi.eu/webinar-comment-bien-preparer-la-transformation-de-son-experience-client)
 
 **Sur quelle(s) enveloppe(s) est imputé le budget de ce type de projets transverses ?**
 
