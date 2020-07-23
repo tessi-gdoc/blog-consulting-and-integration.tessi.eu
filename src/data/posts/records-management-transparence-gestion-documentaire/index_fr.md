@@ -6,7 +6,10 @@ imageAlt: image_article_records_management_transparent
 path: records-management-transparence-gestion-documentaire
 title: Comment le records management favorise la transparence de sa gestion
   documentaire ?
-description: TODO
+description: En matière de gestion de l'information et de records management, la
+  transparence est un aspect essentiel. Gage d'efficacité, de conformité et de
+  confiance, comment mettre en place une gestion transparente des records sans
+  compromettre l'activité quotidienne des utilisateurs métiers ?
 date: 2020-07-16T19:09:00.000Z
 tags:
   - contentServices
