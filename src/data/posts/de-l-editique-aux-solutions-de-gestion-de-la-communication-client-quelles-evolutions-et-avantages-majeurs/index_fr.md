@@ -47,7 +47,7 @@ Au début de l’ère informatique, les entreprises se sont servies de l’impre
 
 Pour y parvenir, les organisations utilisent des systèmes de production documentaire autrement dit des programmes connectés/intégrés aux outils métier producteur de données. Ces systèmes assurent à la fois l’extraction des données, la mise en page des maquettes, apposent les informations sur la page, jusqu’au pilotage des imprimantes. A cette époque, malgré des systèmes lourds et complexes, mener un processus d’impression de bout en bout sans interruption relève d'une évolution majeure « … et à la fin, ça s’imprime ! ».
 
-L’objectif premier de produire des documents en masse a été atteint. Aux grés des évolutions technologiques les plateformes éditiques ou plateforme de composition se sont tournées vers de nouvelles fonctionnalités, centrés sur les éléments de personnalisation de la relation client et la distribution sur l’ensemble des nouveaux canaux.
+L’objectif premier de produire des documents en masse a été atteint. Aux grés des évolutions technologiques les plateformes éditiques ou plateforme de composition se sont tournées vers de nouvelles fonctionnalités, centrées sur les éléments de personnalisation de la relation client et la distribution sur l’ensemble des nouveaux canaux.
 
 **B. La révolution Internet et smartphones**
 
