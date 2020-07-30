@@ -16,8 +16,8 @@ tags:
 author: niz
 introduction: Dans une société connectée comme celle que connaissons, avec un
   accès à l’information instantané via une multitude de canaux, les
-  comportements et exigences clients ont évoluée en conséquence, la gestion de
-  la communication client ou l’éditique comme elle fut longtemps appelée, s’est
+  comportements et exigences clients ont évolué en conséquence, la gestion de la
+  communication client ou l’éditique comme elle fut longtemps appelée, s’est
   radicalement transformée. Les solutions de composition d’une 20aine, voir une
   10aine d’année sont progressivement devenues obsolètes face aux nouveaux
   besoins métiers. C’est pourquoi, pour permettre aux entreprises de s’attaquer
@@ -51,7 +51,7 @@ L’objectif premier de produire des documents en masse a été atteint. Aux gr�
 
 **B. La révolution Internet et smartphones**
 
-Plus qu’envoyer un simple document, les plateformes CCM sont un moyen fiable de faire parvenir de l’information. Plus que de transmettre des informations légales, elle devient un outil de vente, un outil d’image et un pas vers la digitalisation de certains processus. Ces [nouveaux usages des plateformes CCM](https://blog-consulting-and-integration.tessi.eu/posts/6-leviers-pour-capitaliser-sur-sa-solution-CCM) sont dûs en grande partie à la démocratisation de l’usage d’Internet et de ses débouchés. Aussi la production documentaire à destination des clients finaux connaît alors un tournant puisqu’elle revêt un intérêt « business ».
+Plus qu’envoyer un simple document, une plateforme CCM est un moyen fiable de faire parvenir de l’information. Plus que de transmettre des informations légales, elle devient un outil de vente, un outil d’image et un pas vers la digitalisation de certains processus. Ces [nouveaux usages des plateformes CCM](https://blog-consulting-and-integration.tessi.eu/posts/6-leviers-pour-capitaliser-sur-sa-solution-CCM) sont dûs en grande partie à la démocratisation de l’usage d’Internet et de ses débouchés. Aussi la production documentaire à destination des clients finaux connaît alors un tournant puisqu’elle revêt un intérêt « business ».
 
 Le web devient l’un des canaux les plus utilisés pour transmettre de l’information tout en permettant d’en récolter un certain nombre de data. Idem pour les applications mobiles via les smartphones, qui renforce le nombre de canaux à disposition des organisations pour toucher leur client.
 
@@ -78,7 +78,7 @@ Pour y parvenir, une solution de communication client ne doit pas seulement perm
 
 La donnée c’est la clé! Pour produire des communications à jour, pleine de sens et hyper contextualisées il faut pouvoir capter toutes les sources (parfois variées) de données.
 
-Les solutions actuelles se connectent à toutes sortes de bases d’informations (CRM, ERP et autres applications métier), par des moyens tels que les Web Service, les bus de données et autres plateformes de communication technique, pour les connexions internes et externes. La solution CCM est donc pleinement intégrée au système d’information est devient une brique centrale !
+Les solutions actuelles se connectent à toutes sortes de bases d’informations (CRM, ERP et autres applications métier), par des moyens tels que les Web Service, les bus de données et autres plateformes de communication technique, pour les connexions internes et externes. La solution CCM est donc pleinement intégrée au système d’information et devient une brique centrale !
 
 * Mise à jour de données en temps réel,
 * Meilleure accessibilité aux données notamment celles stockées dans le Cloud.
