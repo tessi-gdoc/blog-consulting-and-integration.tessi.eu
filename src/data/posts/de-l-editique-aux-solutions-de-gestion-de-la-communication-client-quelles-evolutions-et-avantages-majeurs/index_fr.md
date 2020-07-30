@@ -16,17 +16,17 @@ tags:
 author: niz
 introduction: Dans une société connectée comme celle que connaissons, avec un
   accès à l’information instantané via une multitude de canaux, les
-  comportements et exigences clients ont évolué en conséquence, la gestion de la
-  communication client ou l’éditique comme elle fut longtemps appelée, s’est
-  radicalement transformée. Les solutions de composition d’une 20aine, voir une
-  10aine d’année sont progressivement devenues obsolètes face aux nouveaux
-  besoins métiers. C’est pourquoi, pour permettre aux entreprises de s’attaquer
-  aux nouveaux enjeux de la communication client, les éditeurs des solutions CCM
-  (customer communication manager) se sont beaucoup investis afin d’offrir une
-  offre complète sur l’ensemble du parcours client. Dans cet article, nous
-  reviendrons sur l’histoire de la communication client au sein des
-  organisations pour comprendre dans une deuxième partie, en quoi les solutions
-  CCM modernes présentent des opportunités à saisir.
+  comportements et les exigences des clients ont évolué en conséquence. La
+  gestion de la communication client ou l’éditique comme elle fut longtemps
+  appelée, s’est radicalement transformée. Les solutions de composition d’une
+  20aine, voir d'une 10aine d’année sont progressivement devenues obsolètes face
+  aux nouveaux besoins métiers. C’est pourquoi, pour permettre aux entreprises
+  de s’attaquer aux nouveaux enjeux de la communication client, les éditeurs des
+  solutions CCM (customer communication manager) se sont beaucoup investis afin
+  d’offrir une offre complète sur l’ensemble du parcours client. Dans cet
+  article, nous reviendrons sur l’histoire de la communication client au sein
+  des organisations pour comprendre dans une deuxième partie, en quoi les
+  solutions CCM modernes présentent des opportunités à saisir.
 ---
 ## 01/ De l'éditique aux plateformes de composition modernes
 
