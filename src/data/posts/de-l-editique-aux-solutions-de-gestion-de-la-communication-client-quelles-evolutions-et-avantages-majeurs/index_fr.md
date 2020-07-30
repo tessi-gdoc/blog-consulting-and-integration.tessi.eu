@@ -61,12 +61,12 @@ Produire un document à la demande à un instant T choisi ou en temps réel suit
 
 Avec l’arrivée des ordinateurs personnels et des smartphones, il s’agit de « suivre » le client, de manière proactive. En effet, à présent les clients souhaitent:
 
-* Recevoir des communications adaptées à leur situation générale du moment, que les informations reçues soient à jour,
+* Recevoir des communications adaptées à leur situation générale du moment et enrichies d'informations à jour,
 * Que leur choix de canal préféré soit respecté et qu’ils soient seuls maîtres de décider du moment où ils traiteront les communications reçues,
-* Etre mesure de faire par eux même. C’est même parfois eux qui initient la conversation ou qui réalisent des opérations pour leur propre compte (on parle de self care). Le client est devenu le pilote de la communication client.
+* Etre mesure de faire par eux même. C’est même parfois eux qui initient la conversation ou qui réalisent des opérations pour leur propre compte (on parle de "Selfcare"). Le client est devenu le pilote de la communication client.
 * Pousser le degré de personnalisation jusqu’à des modifications en dernière minute dont le contenu est basé sur un échange ou une situation. Cela permet de déléguer la gestion du contenu aux sachants comme les services marketing qui mêlent informations obligatoires et messages marketing ultra-ciblés, ultra-contextualisés.
 
-Ces nouvelles exigences sont autant d'opportunités à saisir ! Donner accès au client à ses informations via un portail web, notifier le client de documents nouvellement disponibles grâce à des accusés de réception automatiques, produire des documents à la demande du client sont des stratégies qui permettent de se démarquer de la concurrence, acquérir et conserver ses clients.
+Ces nouvelles exigences sont autant d'opportunités à saisir ! Donner accès au client, à ses informations via un portail web, notifier le client de documents nouvellement disponibles grâce à des accusés de réception automatiques, produire des documents à la demande du client sont des stratégies qui permettent de se démarquer de la concurrence, acquérir et conserver ses clients.
 
 ## 02/ Les avantages des plateformes de composition modernes
 
