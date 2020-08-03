@@ -46,7 +46,7 @@ introduction: "A l’arrivée du digital, mettre en place un système de GED s�
 
 **a) Les limites fonctionnelles d’une GED**
 
-La plupart des éditeurs de logiciels proposent les fonctionnalités de base d’un système de GED afin que puissiez numériser, importer, indexer, classer, stocker, sauvegarder et archiver vos documents. Mais votre ou vos GED sont-elles aujourd’hui en capacité de :
+La plupart des éditeurs de logiciels proposent les fonctionnalités de base d’un système de GED afin que vous puissiez numériser, importer, indexer, classer, stocker, sauvegarder et archiver vos documents. Mais votre ou vos GED sont-elles aujourd’hui en capacité de :
 
 * Passer d’une solution de stockage des documents à un outil métier complètement intégré.
 * Importer (et gérer) les flux physiques et digitaux depuis les scanners de bureaux, aux salles courriers, en passant par les boites mail génériques ou les applications. Tous les canaux de capture doivent être accessibles.
