@@ -11,6 +11,7 @@ description: En matière de gestion de l'information et de records management, l
   confiance, comment mettre en place une gestion transparente des records sans
   compromettre l'activité quotidienne des utilisateurs métiers ?
 date: 2020-07-16T19:09:00.000Z
+canonicalUrl: ""
 tags:
   - contentServices
 author: edt

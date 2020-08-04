@@ -8,6 +8,7 @@ title: "Solution de Case Management : Comment bien réaliser son benchmark ?"
 description: Découvrez les étapes à suivre et les bonnes questions à se poser
   pour choisir votre solution de Case Management.
 date: 2019-04-02T07:56:52.328Z
+canonicalUrl: ""
 tags:
   - caseManagement
 author: niz

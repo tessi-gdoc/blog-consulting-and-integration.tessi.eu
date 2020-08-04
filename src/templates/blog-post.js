@@ -467,6 +467,7 @@ export const pageQuery = graphql`
         introduction
         description
         title
+        canonicalUrl
         image {
           childImageSharp {
             original {

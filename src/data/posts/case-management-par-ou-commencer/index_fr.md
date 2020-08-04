@@ -9,6 +9,7 @@ description: Le Case Management vous en avez entendu parler, mais savez-vous
   vraiment de quoi il s’agit, à quoi ça sert, de quoi avez-vous besoin et par où
   commencer.
 date: 2019-02-28T23:40:32.169Z
+canonicalUrl: ""
 tags:
   - caseManagement
 author: clc

@@ -10,6 +10,7 @@ description: >-
   Case Management. Découvrez les bénéfices et inconvénients de chacune des
   options.
 date: 2019-03-17T23:00:00.000Z
+canonicalUrl: ""
 tags:
   - caseManagement
 author: mat

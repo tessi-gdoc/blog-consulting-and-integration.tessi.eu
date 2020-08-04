@@ -156,7 +156,7 @@ const Footer = () => {
   );
 };
 
-const wrapPageElement = ({ element, props, ...rest }) => {
+const wrapPageElement = ({ element, props }) => {
   const { pathname } = props.location;
   const { isDefault, locale } = props.pageContext;
   const localizedRegex = (path) =>
@@ -178,7 +178,8 @@ const wrapPageElement = ({ element, props, ...rest }) => {
       description,
       image,
       author,
-      date
+      date,
+      canonicalUrl
     } = element.props.data.markdownRemark.frontmatter;
     seo = {
       seo: {
@@ -187,6 +188,7 @@ const wrapPageElement = ({ element, props, ...rest }) => {
         author: author ? author.fullname : null,
         publishDate: date,
         article: true,
+        canonicalUrl,
         ...(image ? { image: image.childImageSharp.original.src } : {})
       }
     };

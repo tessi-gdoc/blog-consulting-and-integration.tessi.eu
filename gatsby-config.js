@@ -1,6 +1,5 @@
 const path = require('path');
-const { description } = require('./package.json');
-const { primary, secondary, lightGrey } = require('./src/styles/colors');
+const { secondary } = require('./src/styles/colors');
 const { defaultKey } = require('./src/gatsby-helpers');
 
 const cloud_id = `d33wubrfki0l68`;
@@ -126,12 +125,6 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-plugin-canonical-urls`,
-      options: {
-        siteUrl: `https://blog-consulting-and-integration.tessi.eu`
-      }
-    },
-    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/static/img`,
@@ -170,7 +163,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              linkImagesToOriginal: false,
+              linkImagesToOriginal: true,
               maxWidth: 1920,
               quality: 90
             }
@@ -190,7 +183,7 @@ module.exports = {
           },
           {
             resolve: `gatsby-remark-autolink-headers`,
-            options: { icon: false }
+            options: { icon: true }
           },
           {
             resolve: `gatsby-remark-prismjs`,
@@ -244,22 +237,6 @@ module.exports = {
           '@media': path.resolve(__dirname, 'src/styles/media'),
           '@static': path.resolve(__dirname, 'static/')
         }
-      }
-    },
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `Tessi#Journey`,
-        short_name: `T#J`,
-        description,
-        lang: `fr`,
-        start_url: `/`,
-        background_color: lightGrey,
-        theme_color: primary,
-        display: `standalone`,
-        orientation: `portrait`,
-        include_favicon: false,
-        icon: `src/assets/manifest_logo.png`
       }
     },
     `gatsby-plugin-remove-serviceworker`,

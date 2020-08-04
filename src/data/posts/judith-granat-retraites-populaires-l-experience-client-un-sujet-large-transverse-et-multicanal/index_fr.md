@@ -10,6 +10,7 @@ description: Judith Granat, Retraites Populaires, nous partage sa vision, sa
   méthode et ses conseils pour donner vie aux projets d'expérience client
   (convaincre, financer, gérer...)
 date: 2019-12-03T13:14:06.108Z
+canonicalUrl: ""
 tags:
   - customerJourney
 author: tcj

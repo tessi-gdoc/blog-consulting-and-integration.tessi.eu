@@ -13,6 +13,7 @@ description: >-
   et surtout d’une explosion des usages, le secteur des paiements se transforme.
   On fait le point !
 date: 2020-03-25T10:20:52.702Z
+canonicalUrl: ""
 tags:
   - customerJourney
 author: tcj

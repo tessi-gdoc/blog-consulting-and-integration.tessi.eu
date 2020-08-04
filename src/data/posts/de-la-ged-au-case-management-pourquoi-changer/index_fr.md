@@ -10,6 +10,7 @@ description: "De nombreuses raisons peuvent vous pousser à remettre en question
   une nouvelle GED ? Une solution de Case Management ? Découvrez les raisons de
   changer et les stratégies envisageables pour opérer la transition."
 date: 2019-10-03T14:43:05.418Z
+canonicalUrl: ""
 tags:
   - contentServices
   - caseManagement

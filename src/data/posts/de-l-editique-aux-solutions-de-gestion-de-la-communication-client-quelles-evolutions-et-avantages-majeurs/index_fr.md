@@ -11,6 +11,7 @@ description: Votre solution de composition ne répond plus à vos besoins ? Elle
   éventuel changement ? Découvrez en quoi les solutions CCM ont évolué et ce que
   vous pouvez attendre d'une solution CCM moderne.
 date: 2019-09-13T15:52:10.975Z
+canonicalUrl: ""
 tags:
   - ccm
 author: niz

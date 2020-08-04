@@ -11,6 +11,7 @@ description: >-
   progressive web app et un tuto appliqué à un exemple concret pour développer
   votre PWA. 
 date: 2020-01-31T17:03:48.051Z
+canonicalUrl: ""
 tags:
   - ccm
 author: mag
