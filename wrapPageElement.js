@@ -1,5 +1,5 @@
 import React from 'react';
-import { hasPath, test } from 'ramda';
+import { test } from 'ramda';
 import styled from '@emotion/styled';
 import Layout from './src/components/Layout';
 import useTranslations from './src/components/hooks/use-translations';
@@ -169,10 +169,7 @@ const wrapPageElement = ({ element, props }) => {
     pathname
   );
   let seo = {};
-  if (
-    isArticle &&
-    hasPath(['props', 'data', 'markdownRemark', 'frontmatter'], element)
-  ) {
+  if (isArticle && element.props?.data?.markdownRemark?.frontmatter) {
     const {
       title,
       description,

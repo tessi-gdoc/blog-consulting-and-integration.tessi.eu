@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from '@emotion/styled';
 import { css } from '@emotion/core';
-import { hasPath } from 'ramda';
 import Img from 'gatsby-image/withIEPolyfill';
 
 import Flex from './Flex';
@@ -213,7 +212,7 @@ const Post = ({ data, link }) => {
           css={PostCardImageLink}
         >
           <PostCardImage className="post-card-image">
-            {hasPath(['image', 'childImageSharp', 'fluid']) && (
+            {image?.childImageSharp?.fluid && (
               <Img
                 alt={imageAlt || `${title} cover image`}
                 style={{ height: `100%` }}

@@ -182,8 +182,7 @@ module.exports = {
             options: { dashes: `oldschool` }
           },
           {
-            resolve: `gatsby-remark-autolink-headers`,
-            options: { icon: true }
+            resolve: `gatsby-remark-autolink-headers`
           },
           {
             resolve: `gatsby-remark-prismjs`,
