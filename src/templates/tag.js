@@ -92,8 +92,8 @@ export const pageQuery = graphql`
             date(formatString: "D MMMM YYYY", locale: $locale)
             image {
               childImageSharp {
-                fluid(maxWidth: 1920, traceSVG: { color: "#1a214d" }) {
-                  ...GatsbyImageSharpFluid_withWebp_tracedSVG
+                fluid(maxWidth: 720, traceSVG: { color: "#1a214d" }) {
+                  ...GatsbyImageSharpFluid_tracedSVG
                 }
               }
             }

@@ -215,6 +215,7 @@ const Post = ({ data, link }) => {
             {image?.childImageSharp?.fluid && (
               <Img
                 alt={imageAlt || `${title} cover image`}
+                loading="lazy"
                 style={{ height: `100%` }}
                 fluid={image.childImageSharp.fluid}
               />

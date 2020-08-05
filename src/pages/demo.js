@@ -107,7 +107,7 @@ const Demo = ({
       <h2>{partners}</h2>
       <Flex justify="space-around">
         {edges.map(({ node: { publicURL, name, id } }) => (
-          <Img key={id} src={publicURL} alt={name} />
+          <Img key={id} src={publicURL} loading="lazy" alt={name} />
         ))}
       </Flex>
     </Container>
