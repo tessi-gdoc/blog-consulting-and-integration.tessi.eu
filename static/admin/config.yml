@@ -1,6 +1,10 @@
 backend:
   name: git-gateway
-  branch: canonical
+  branch: master
+  commit_messages:
+    create: "chore: :rocket: {{slug}}"
+    update: "chore: :speech_balloon: {{slug}}"
+    delete: "chore: :fire: {{slug}}"
 
 site_url: https://blog-consulting-and-integration.tessi.eu
 display_url: https://blog-consulting-and-integration.tessi.eu
