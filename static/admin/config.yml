@@ -57,50 +57,59 @@ collections:
     folder: 'src/translations'
     fields:
       - { label: Titre dans l'application CMS, name: 'title', widget: 'string' }
-      - { label: 'Not Found', name: 'notFound', widget: 'string' }
-      - { label: 'Subtitle', name: 'subtitle', widget: 'string' }
+      - { label: 'Introuvable', name: 'notFound', widget: 'string' }
+      - { label: 'Sous titre', name: 'subtitle', widget: 'string' }
       - { label: 'Service', name: 'service', widget: 'string' }
       - { label: 'Website', name: 'website', widget: 'string' }
-      - { label: 'Follow', name: 'follow', widget: 'string' }
-      - { label: 'All articles', name: 'allArticles', widget: 'string' }
+      - { label: 'Nous suivre', name: 'follow', widget: 'string' }
+      - { label: 'Tous les articles', name: 'allArticles', widget: 'string' }
       - { label: 'Contact', name: 'contact', widget: 'string' }
       - { label: 'Blog', name: 'blog', widget: 'string' }
-      - { label: 'Resources', name: 'resources', widget: 'string' }
-      - { label: 'Whitepapers', name: 'whitepapers', widget: 'string' }
+      - { label: 'Ressources', name: 'resources', widget: 'string' }
+      - { label: 'Livres blans', name: 'whitepapers', widget: 'string' }
       - { label: 'Kits', name: 'kits', widget: 'string' }
-      - { label: 'Case Studies', name: 'caseStudies', widget: 'string' }
-      - { label: 'Videos', name: 'videos', widget: 'string' }
-      - { label: 'Webinars', name: 'webinars', widget: 'string' }
-      - { label: 'Thank you', name: 'thankYou', widget: 'string' }
-      - { label: 'Demo title', name: 'demo', widget: 'string' }
+      - { label: 'Etudes de cas', name: 'caseStudies', widget: 'string' }
+      - { label: 'Vidéos', name: 'videos', widget: 'string' }
+      - { label: 'Webinaires', name: 'webinars', widget: 'string' }
+      - { label: 'Merci', name: 'thankYou', widget: 'string' }
+      - { label: 'Titre de la démo', name: 'demo', widget: 'string' }
       - label: 'Form'
         name: 'form'
         widget: 'object'
         fields:
-          - { label: 'Failed', name: 'failed', widget: 'markdown' }
+          - { label: 'Echec', name: 'failed', widget: 'markdown' }
           - {
-              label: 'Back to home (button)',
+              label: "Revenir à l'accueil (bouton)",
               name: 'backToHome',
               widget: 'string',
             }
-      - label: 'Offers'
+      - label: 'Offres'
         name: 'offers'
         widget: 'object'
         fields:
-          - { label: 'Content', name: 'text', widget: 'string' }
-          - { label: 'Link', name: 'link', widget: 'string' }
-      - label: 'About'
+          - { label: 'Contenu', name: 'text', widget: 'string' }
+          - {
+              label: 'Lien externe',
+              name: 'link',
+              widget: 'string',
+              pattern:
+                [
+                  '^https?:\/\/[\w.-]+(?:\.[\w\.-]+)',
+                  'Doit commencer par http(s)://',
+                ],
+            }
+      - label: 'A propos'
         name: 'about'
         widget: 'object'
         fields:
           - { label: 'Titre', name: 'title', widget: 'string' }
-          - { label: 'Content', name: 'content', widget: 'markdown' }
-      - { label: 'Convinced', name: 'convinced', widget: 'string' }
+          - { label: 'Contenu', name: 'content', widget: 'markdown' }
+      - { label: 'Convaincu(e) ?', name: 'convinced', widget: 'string' }
       - label: 'Tags'
         name: 'tags'
         widget: 'object'
         fields:
-          - { label: 'News', name: 'news', widget: 'string' }
+          - { label: 'Actualités', name: 'news', widget: 'string' }
           - {
               label: 'Content Services',
               name: 'contentServices',
@@ -121,31 +130,31 @@ collections:
               name: 'customerJourney',
               widget: 'string',
             }
-      - { label: 'Read article', name: 'readArticle', widget: 'string' }
-      - { label: 'Read news', name: 'readNews', widget: 'string' }
-      - { label: 'Read Case study', name: 'readCaseStudy', widget: 'string' }
+      - { label: 'Lire article', name: 'readArticle', widget: 'string' }
+      - { label: 'Lire actualité', name: 'readNews', widget: 'string' }
+      - { label: 'Lire étude de cas', name: 'readCaseStudy', widget: 'string' }
       - {
-          label: 'Download Whitepaper',
+          label: 'Télécharger livre blanc',
           name: 'downloadWhitepaper',
           widget: 'string',
         }
-      - { label: 'Download Kit', name: 'downloadKit', widget: 'string' }
-      - { label: 'Watch videos', name: 'watchVideos', widget: 'string' }
-      - { label: 'Watch webinar', name: 'watchWebinar', widget: 'string' }
+      - { label: 'Télécharger kit', name: 'downloadKit', widget: 'string' }
+      - { label: 'Regarder vidéo', name: 'watchVideos', widget: 'string' }
+      - { label: 'Regarder webinaire', name: 'watchWebinar', widget: 'string' }
       - label: 'Newsletter'
         name: 'newsletter'
         widget: 'object'
         fields:
           - { label: 'Titre', name: 'title', widget: 'string' }
-          - { label: 'Content', name: 'content', widget: 'string' }
+          - { label: 'Contenu', name: 'content', widget: 'string' }
       - label: 'Page de remerciements'
         name: 'thankYouPage'
         widget: 'object'
         fields:
           - { label: 'Titre', name: 'title', widget: 'string' }
-          - { label: 'Subtitle', name: 'subtitle', widget: 'string' }
-          - { label: 'Content', name: 'content', widget: 'markdown' }
-          - { label: 'Call-to-action', name: 'cta', widget: 'string' }
+          - { label: 'Sous titre', name: 'subtitle', widget: 'string' }
+          - { label: 'Contenu', name: 'content', widget: 'markdown' }
+          - { label: 'Bouton', name: 'cta', widget: 'string' }
       - label: 'Démo'
         name: 'demoPage'
         widget: 'object'
@@ -169,11 +178,11 @@ collections:
           name: 'tableOfContents',
           widget: 'string',
         }
-      - label: 'Site Metadata'
+      - label: 'Métadonnées du site'
         name: 'siteMetadata'
         widget: 'object'
         fields:
-          - label: 'Homepage'
+          - label: 'Accueil'
             name: 'home'
             widget: 'object'
             fields:
@@ -205,7 +214,7 @@ collections:
                   widget: 'string',
                   required: false,
                 }
-          - label: 'Personal Data Use Policy'
+          - label: 'Politique utilisation des données'
             name: 'personalDataUsePolicy'
             widget: 'object'
             fields:
@@ -221,7 +230,7 @@ collections:
                   widget: 'string',
                   required: false,
                 }
-          - label: 'Disclaimer'
+          - label: 'Mentions légales'
             name: 'disclaimer'
             widget: 'object'
             fields:
@@ -237,7 +246,7 @@ collections:
                   widget: 'string',
                   required: false,
                 }
-          - label: 'Demo'
+          - label: 'Démo'
             name: 'demo'
             widget: 'object'
             fields:
@@ -253,7 +262,7 @@ collections:
                   widget: 'string',
                   required: false,
                 }
-          - label: 'Case Studies'
+          - label: 'Etudes de cas'
             name: 'ourCaseStudies'
             widget: 'object'
             fields:
@@ -285,7 +294,7 @@ collections:
                   widget: 'string',
                   required: false,
                 }
-          - label: 'Whitepapers'
+          - label: 'Livres blancs'
             name: 'whitepapers'
             widget: 'object'
             fields:
@@ -301,7 +310,7 @@ collections:
                   widget: 'string',
                   required: false,
                 }
-          - label: 'Thank You'
+          - label: 'Merci'
             name: 'thankYou'
             widget: 'object'
             fields:
@@ -317,7 +326,7 @@ collections:
                   widget: 'string',
                   required: false,
                 }
-          - label: 'News'
+          - label: 'Actualités'
             name: 'news'
             widget: 'object'
             fields:
@@ -397,7 +406,7 @@ collections:
                   widget: 'string',
                   required: false,
                 }
-          - label: 'Videos'
+          - label: 'Vidéos'
             name: 'videos'
             widget: 'object'
             fields:
@@ -413,7 +422,7 @@ collections:
                   widget: 'string',
                   required: false,
                 }
-          - label: 'Webinar'
+          - label: 'Webinaires'
             name: 'webinars'
             widget: 'object'
             fields:
@@ -440,7 +449,7 @@ collections:
       preview: false
     fields:
       - {
-          label: 'Localization',
+          label: 'Localisation',
           name: 'lang',
           widget: 'select',
           default: 'fr',
@@ -456,11 +465,20 @@ collections:
           default: 'news',
           widget: 'hidden',
         }
-      - { label: 'Publish date', name: 'date', widget: 'datetime' }
+      - { label: 'Date de publication', name: 'date', widget: 'datetime' }
       - { label: 'Image', name: 'image', widget: 'image' }
       - { label: 'Image Alt', name: 'imageAlt', widget: 'string' }
       - { label: 'Titre', name: 'title', widget: 'string' }
-      - { label: 'External link', name: 'link', widget: 'string' }
+      - {
+          label: 'Lien externe',
+          name: 'link',
+          widget: 'string',
+          pattern:
+            [
+              '^https?:\/\/[\w.-]+(?:\.[\w\.-]+)',
+              'Doit commencer par http(s)://',
+            ],
+        }
       - { label: 'Tags', name: 'tags', widget: 'hidden', default: ['news'] }
       - { label: 'Description', name: 'body', widget: 'markdown' }
   - name: 'blog'
@@ -491,8 +509,23 @@ collections:
         }
       - { label: 'Image', name: 'image', widget: 'image' }
       - { label: 'Image Alt', name: 'imageAlt', widget: 'string' }
-      - { label: "Chemin de l'article", name: 'path', widget: 'string', default: 'super-title' }
-      - { label: 'Lien canonique', name: 'canonicalUrl', widget: 'string', required: false }
+      - {
+          label: "Chemin de l'article",
+          name: 'path',
+          widget: 'string',
+          default: 'super-title',
+        }
+      - {
+          label: 'Lien canonique',
+          name: 'canonicalUrl',
+          widget: 'string',
+          pattern:
+            [
+              '^https?:\/\/[\w.-]+(?:\.[\w\.-]+)',
+              'Doit commencer par http(s)://',
+            ],
+          required: false,
+        }
       - {
           label: 'Titre',
           name: 'title',
@@ -567,7 +600,16 @@ collections:
           widget: 'string',
           default: 'Super title',
         }
-      - { label: 'Link', name: 'link', widget: 'string' }
+      - {
+          label: 'Lien externe',
+          name: 'link',
+          widget: 'string',
+          pattern:
+            [
+              '^https?:\/\/[\w.-]+(?:\.[\w\.-]+)',
+              'Doit commencer par http(s)://',
+            ],
+        }
       - {
           label: 'Corps',
           name: 'body',
@@ -611,9 +653,18 @@ collections:
           widget: 'string',
           default: 'Super title',
         }
-      - { label: 'Link', name: 'link', widget: 'string' }
       - {
-          label: 'Body',
+          label: 'Lien externe',
+          name: 'link',
+          widget: 'string',
+          pattern:
+            [
+              '^https?:\/\/[\w.-]+(?:\.[\w\.-]+)',
+              'Doit commencer par http(s)://',
+            ],
+        }
+      - {
+          label: 'Corps',
           name: 'body',
           widget: 'markdown',
           default: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
@@ -630,7 +681,7 @@ collections:
       preview: false
     fields:
       - {
-          label: 'Localization',
+          label: 'Localisation',
           name: 'lang',
           widget: 'select',
           default: 'fr',
@@ -646,7 +697,7 @@ collections:
           default: 'case-study',
           widget: 'hidden',
         }
-      - { label: 'Publish date', name: 'date', widget: 'datetime' }
+      - { label: 'Date de publication', name: 'date', widget: 'datetime' }
       - { label: 'Image', name: 'image', widget: 'image' }
       - { label: 'Image Alt', name: 'imageAlt', widget: 'string' }
       - {
@@ -655,9 +706,13 @@ collections:
           widget: 'string',
           default: 'Super title',
         }
-      - { label: 'Link', name: 'link', widget: 'string' }
       - {
-          label: 'Body',
+          label: 'Lien (chemin après https://www.tessi.eu)',
+          name: 'link',
+          widget: 'string',
+        }
+      - {
+          label: 'Corps',
           name: 'body',
           widget: 'markdown',
           default: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
@@ -674,7 +729,7 @@ collections:
       preview: false
     fields:
       - {
-          label: 'Localization',
+          label: 'Localisation',
           name: 'lang',
           widget: 'select',
           default: 'fr',
@@ -690,7 +745,7 @@ collections:
           default: 'video',
           widget: 'hidden',
         }
-      - { label: 'Publish date', name: 'date', widget: 'datetime' }
+      - { label: 'Date de publication', name: 'date', widget: 'datetime' }
       - { label: 'Image', name: 'image', widget: 'image' }
       - { label: 'Image Alt', name: 'imageAlt', widget: 'string' }
       - {
@@ -699,9 +754,18 @@ collections:
           widget: 'string',
           default: 'Super title',
         }
-      - { label: 'Link', name: 'link', widget: 'string' }
       - {
-          label: 'Body',
+          label: 'Lien externe',
+          name: 'link',
+          widget: 'string',
+          pattern:
+            [
+              '^https?:\/\/[\w.-]+(?:\.[\w\.-]+)',
+              'Doit commencer par http(s)://',
+            ],
+        }
+      - {
+          label: 'Corps',
           name: 'body',
           widget: 'markdown',
           default: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
@@ -718,7 +782,7 @@ collections:
       preview: false
     fields:
       - {
-          label: 'Localization',
+          label: 'Localisation',
           name: 'lang',
           widget: 'select',
           default: 'fr',
@@ -734,7 +798,7 @@ collections:
           default: 'webinar',
           widget: 'hidden',
         }
-      - { label: 'Publish date', name: 'date', widget: 'datetime' }
+      - { label: 'Date de publication', name: 'date', widget: 'datetime' }
       - { label: 'Image', name: 'image', widget: 'image' }
       - { label: 'Image Alt', name: 'imageAlt', widget: 'string' }
       - {
@@ -743,9 +807,18 @@ collections:
           widget: 'string',
           default: 'Super title',
         }
-      - { label: 'Link', name: 'link', widget: 'string' }
       - {
-          label: 'Body',
+          label: 'Lien externe',
+          name: 'link',
+          widget: 'string',
+          pattern:
+            [
+              '^https?:\/\/[\w.-]+(?:\.[\w\.-]+)',
+              'Doit commencer par http(s)://',
+            ],
+        }
+      - {
+          label: 'Corps',
           name: 'body',
           widget: 'markdown',
           default: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
@@ -762,7 +835,7 @@ collections:
       preview: false
     fields:
       - {
-          label: 'Localization',
+          label: 'Localisation',
           name: 'lang',
           widget: 'select',
           default: 'fr',
@@ -785,4 +858,4 @@ collections:
           widget: 'string',
           default: 'Super title',
         }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Corps', name: 'body', widget: 'markdown' }
