@@ -1,11 +1,13 @@
 ---
 lang: fr
 key: blog-post
-image: visuel_actualite_strategie_clients.jpg
+image: ged_ou_ecm_changez_de_point_de_vue_sur_vos_contenus.png
 imageAlt: GED_ECM_gestion_de_contenu
 path: GED-ECM-gestion-de-contenu
 title: GED ou ECM ? Changez de point de vue sur vos (précieux) contenus
-description: "To do "
+description: "Longtemps la solution de gestion des documents par excellence, la
+  GED montre aujourd'hui des limites qu'une démarche ECM vient solutionner. GED
+  vs. ECM : Quelles différences ? Pourquoi et quand changer ?"
 date: 2020-08-05T13:39:04.632Z
 tags:
   - contentServices
