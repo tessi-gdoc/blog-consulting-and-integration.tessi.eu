@@ -215,6 +215,8 @@ const Post = ({ data, link }) => {
           <PostCardImage className="post-card-image">
             {image?.childImageSharp?.fluid && (
               <Img
+                title={imageAlt}
+                fadeIn
                 alt={imageAlt || `${title} cover image`}
                 loading="lazy"
                 style={{ height: `100%` }}
@@ -304,7 +306,7 @@ export const postFragment = graphql`
       image {
         childImageSharp {
           fluid(maxWidth: 720, traceSVG: { color: "#1a214d" }) {
-            ...GatsbyImageSharpFluid_tracedSVG
+            ...GatsbyImageSharpFluid_withWebp_noBase64
           }
         }
       }
