@@ -9,6 +9,7 @@ description: Les enjeux d'archivage et de conservation des documents font partie
   intégrante d'une bonne gestion documentaire. Qu'est-ce que l'archivage
   électronique et le records management ? Notions opposées ou complémentaires ?
 date: 2020-04-21T16:18:23.910Z
+canonicalUrl: ""
 tags:
   - contentServices
 author: dop

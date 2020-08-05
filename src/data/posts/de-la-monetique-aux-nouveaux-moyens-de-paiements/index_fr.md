@@ -10,6 +10,7 @@ description: >-
   innovants. Comment s'opère cette transition et quels seront les moyens de
   paiement de demain ?
 date: 2019-09-13T16:24:29.670Z
+canonicalUrl: ""
 tags:
   - customerJourney
 author: anm

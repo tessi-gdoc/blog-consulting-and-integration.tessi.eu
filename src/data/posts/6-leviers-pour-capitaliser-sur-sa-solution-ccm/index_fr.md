@@ -9,6 +9,7 @@ description: "Comment optimiser sa solution de gestion de la communication
   client (CCM) pour en faire le centre névralgique de votre communication
   d'entreprise ? Découvrez les 6 leviers à activer. "
 date: 2020-04-09T13:04:52.995Z
+canonicalUrl: ""
 tags:
   - ccm
 author: niz

@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from '@emotion/styled';
+import { graphql } from 'gatsby';
 import { css } from '@emotion/core';
-import { hasPath } from 'ramda';
 import Img from 'gatsby-image/withIEPolyfill';
 
 import Flex from './Flex';
@@ -213,9 +213,12 @@ const Post = ({ data, link }) => {
           css={PostCardImageLink}
         >
           <PostCardImage className="post-card-image">
-            {hasPath(['image', 'childImageSharp', 'fluid']) && (
+            {image?.childImageSharp?.fluid && (
               <Img
+                title={imageAlt}
+                fadeIn
                 alt={imageAlt || `${title} cover image`}
+                loading="lazy"
                 style={{ height: `100%` }}
                 fluid={image.childImageSharp.fluid}
               />
@@ -283,3 +286,30 @@ const Posts = ({ allPosts }) => (
 );
 
 export default Posts;
+
+export const postFragment = graphql`
+  fragment Post on MarkdownRemark {
+    id
+    parent {
+      ... on File {
+        relativeDirectory
+      }
+    }
+    excerpt(pruneLength: 200)
+    frontmatter {
+      title
+      link
+      description
+      tags
+      path
+      date(formatString: "D MMMM YYYY", locale: $locale)
+      image {
+        childImageSharp {
+          fluid(maxWidth: 720, traceSVG: { color: "#1a214d" }) {
+            ...GatsbyImageSharpFluid_withWebp_noBase64
+          }
+        }
+      }
+    }
+  }
+`;

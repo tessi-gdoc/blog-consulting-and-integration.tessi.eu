@@ -9,6 +9,7 @@ description: L'omnicanal est au coeur de l'expérience client. Découvrez les
   bonnes pratiques pour offrir à vos clients un parcours client omnicanal fluide
   et maîtrisé.
 date: 2020-04-03T11:44:08.858Z
+canonicalUrl: ""
 tags:
   - customerJourney
 author: tcj

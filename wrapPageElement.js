@@ -1,5 +1,5 @@
 import React from 'react';
-import { hasPath, test } from 'ramda';
+import { test } from 'ramda';
 import styled from '@emotion/styled';
 import Layout from './src/components/Layout';
 import useTranslations from './src/components/hooks/use-translations';
@@ -156,7 +156,7 @@ const Footer = () => {
   );
 };
 
-const wrapPageElement = ({ element, props, ...rest }) => {
+const wrapPageElement = ({ element, props }) => {
   const { pathname } = props.location;
   const { isDefault, locale } = props.pageContext;
   const localizedRegex = (path) =>
@@ -169,16 +169,14 @@ const wrapPageElement = ({ element, props, ...rest }) => {
     pathname
   );
   let seo = {};
-  if (
-    isArticle &&
-    hasPath(['props', 'data', 'markdownRemark', 'frontmatter'], element)
-  ) {
+  if (isArticle && element.props?.data?.markdownRemark?.frontmatter) {
     const {
       title,
       description,
       image,
       author,
-      date
+      date,
+      canonicalUrl
     } = element.props.data.markdownRemark.frontmatter;
     seo = {
       seo: {
@@ -187,6 +185,7 @@ const wrapPageElement = ({ element, props, ...rest }) => {
         author: author ? author.fullname : null,
         publishDate: date,
         article: true,
+        canonicalUrl,
         ...(image ? { image: image.childImageSharp.original.src } : {})
       }
     };

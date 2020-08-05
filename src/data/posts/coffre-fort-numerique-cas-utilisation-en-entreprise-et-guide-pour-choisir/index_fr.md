@@ -10,6 +10,7 @@ description: Plusieurs solutions s'offrent aux entreprises pour entreprendre une
   le coffre-fort numérique ? Quelles différences avec une GED ou un SAE ? A
   quels aspects porter une attention particulière pour choisir ?
 date: 2020-05-27T13:10:05.058Z
+canonicalUrl: ""
 tags:
   - contentServices
 author: dop

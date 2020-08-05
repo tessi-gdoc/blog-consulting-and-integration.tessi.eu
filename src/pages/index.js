@@ -56,28 +56,7 @@ export const pageQuery = graphql`
       }
       edges {
         node {
-          id
-          parent {
-            ... on File {
-              relativeDirectory
-            }
-          }
-          excerpt(pruneLength: 200)
-          frontmatter {
-            title
-            link
-            description
-            path
-            tags
-            date(formatString: "D MMMM YYYY", locale: $locale)
-            image {
-              childImageSharp {
-                fluid(maxWidth: 1920, traceSVG: { color: "#1a214d" }) {
-                  ...GatsbyImageSharpFluid_withWebp_tracedSVG
-                }
-              }
-            }
-          }
+          ...Post
         }
       }
     }

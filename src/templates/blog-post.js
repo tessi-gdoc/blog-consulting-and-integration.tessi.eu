@@ -467,6 +467,7 @@ export const pageQuery = graphql`
         introduction
         description
         title
+        canonicalUrl
         image {
           childImageSharp {
             original {
@@ -494,26 +495,7 @@ export const pageQuery = graphql`
     ) {
       edges {
         node {
-          id
-          parent {
-            ... on File {
-              relativeDirectory
-            }
-          }
-          frontmatter {
-            title
-            description
-            tags
-            path
-            date(formatString: "D MMMM YYYY", locale: $locale)
-            image {
-              childImageSharp {
-                fluid(maxWidth: 1920, traceSVG: { color: "#1a214d" }) {
-                  ...GatsbyImageSharpFluid_withWebp_tracedSVG
-                }
-              }
-            }
-          }
+          ...Post
         }
       }
     }

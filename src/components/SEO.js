@@ -15,6 +15,7 @@ const SEO = ({
   author,
   publishDate,
   pathname,
+  canonicalUrl,
   article
 }) => {
   const [t] = useTranslations();
@@ -55,6 +56,7 @@ const SEO = ({
         return (
           <Helmet title={seo.title} titleTemplate={`%s - ${defaultTitle}`}>
             <html lang={lang} />
+            {canonicalUrl ? <link rel="canonical" href={canonicalUrl} /> : null}
             <meta property="image" content={seo.image} />
             <meta name="description" content={seo.description} />
             {!article && (
@@ -172,7 +174,8 @@ SEO.propTypes = {
   image: PropTypes.string,
   pathname: PropTypes.string,
   article: PropTypes.bool,
-  publishDate: PropTypes.string
+  publishDate: PropTypes.string,
+  canonicalUrl: PropTypes.string
 };
 
 SEO.defaultProps = {
@@ -183,7 +186,8 @@ SEO.defaultProps = {
   pathname: null,
   image: null,
   article: false,
-  publishDate: null
+  publishDate: null,
+  canonicalUrl: null
 };
 
 export default SEO;
