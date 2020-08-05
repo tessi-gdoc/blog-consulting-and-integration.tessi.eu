@@ -39,20 +39,7 @@ export const query = graphql`
     ) {
       edges {
         node {
-          id
-          html
-          frontmatter {
-            image {
-              childImageSharp {
-                fluid(maxWidth: 450, traceSVG: { color: "#1a214d" }) {
-                  ...GatsbyImageSharpFluid_tracedSVG
-                }
-              }
-            }
-            imageAlt
-            title
-            link
-          }
+          ...Doc
         }
       }
     }

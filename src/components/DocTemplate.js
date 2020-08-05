@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { graphql } from 'gatsby';
 import Img from 'gatsby-image/withIEPolyfill';
 import styled from '@emotion/styled';
 
@@ -65,3 +66,22 @@ DocTemplate.propTypes = {
 };
 
 export default DocTemplate;
+
+export const docFragment = graphql`
+  fragment Doc on MarkdownRemark {
+    id
+    html
+    frontmatter {
+      image {
+        childImageSharp {
+          fluid(maxWidth: 450) {
+            ...GatsbyImageSharpFluid_noBase64
+          }
+        }
+      }
+      imageAlt
+      title
+      link
+    }
+  }
+`;

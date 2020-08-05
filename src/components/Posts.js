@@ -305,8 +305,8 @@ export const postFragment = graphql`
       date(formatString: "D MMMM YYYY", locale: $locale)
       image {
         childImageSharp {
-          fluid(maxWidth: 720, traceSVG: { color: "#1a214d" }) {
-            ...GatsbyImageSharpFluid_withWebp_noBase64
+          fluid(maxWidth: 720) {
+            ...GatsbyImageSharpFluid_withWebp
           }
         }
       }
