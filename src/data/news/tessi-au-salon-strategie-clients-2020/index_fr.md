@@ -2,7 +2,7 @@
 lang: fr
 key: news
 date: 2020-08-03T15:58:08.236Z
-image: sc-300x250-fr.gif
+image: visuel_actualite_strategie_clients.jpg
 imageAlt: Salon_strategie_clients_2020
 title: Tessi au Salon Stratégie Clients 2020
 link: https://www.tessi.eu/fr/tessi-au-salon-strategie-clients-2020/
