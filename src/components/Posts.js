@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from '@emotion/styled';
+import { graphql } from 'gatsby';
 import { css } from '@emotion/core';
 import Img from 'gatsby-image/withIEPolyfill';
 
@@ -283,3 +284,30 @@ const Posts = ({ allPosts }) => (
 );
 
 export default Posts;
+
+export const postFragment = graphql`
+  fragment Post on MarkdownRemark {
+    id
+    parent {
+      ... on File {
+        relativeDirectory
+      }
+    }
+    excerpt(pruneLength: 200)
+    frontmatter {
+      title
+      link
+      description
+      tags
+      path
+      date(formatString: "D MMMM YYYY", locale: $locale)
+      image {
+        childImageSharp {
+          fluid(maxWidth: 720, traceSVG: { color: "#1a214d" }) {
+            ...GatsbyImageSharpFluid_tracedSVG
+          }
+        }
+      }
+    }
+  }
+`;
