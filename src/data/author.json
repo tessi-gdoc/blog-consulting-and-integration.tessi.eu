@@ -39,6 +39,11 @@
       "avatar": "/img/emmanuel_de_ternay.jfif",
       "fullname": "Emmanuel de Ternay",
       "id": "edt"
+    },
+    {
+      "avatar": "/img/arnaud-vincent.jpg",
+      "id": "arv",
+      "fullname": "Arnaud Vincent"
     }
   ]
 }
