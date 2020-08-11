@@ -3,7 +3,7 @@ lang: fr
 key: blog-post
 image: visuel-omnicanal.png
 imageAlt: image_strategie_omnicanal
-path: "Multicanal_cross_canal_omnicanal_quelle_strategie_communication "
+path: Multicanal_cross_canal_omnicanal_quelle_strategie_de_communication_choisir
 canonicalUrl: https://www.ictjournal.ch/articles/2020-04-27/les-clients-attendent-une-relation-fluide-et-unifiee
 title: "Multicanal, cross-canal et omnicanal : Quelle stratégie de communication
   choisir ? "
