@@ -38,4 +38,4 @@ Progressivement, les usages ont mené à une fusion du monde physique et digital
 
 Ainsi, adopter une logique omnicanal revient à penser ou à repenser l’expérience client dans sa globalité. Pour y parvenir, l’ensemble des paramètres et des variables qui composent le parcours clients doivent être connus et maîtrisés. Tel est le challenge à relever pour embrasser un parcours client omnicanal et devenir véritablement une entreprise customer-centric.
 
-En raison des comportements des clients aujourd'hui, ces évolutions se font au gré des consommateurs. Il faut donc offrir une expérience client à la hauteur des attentes du consommateurs.
+En raison des comportements des clients aujourd'hui, ces évolutions se font au gré des consommateurs. Il faut donc offrir une expérience client à la hauteur des attentes du consommateur.
