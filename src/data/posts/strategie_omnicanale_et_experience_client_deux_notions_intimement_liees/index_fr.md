@@ -5,12 +5,12 @@ image: 258-converti-1920x1080px.jpg
 imageAlt: image_strategie_omnicanale
 path: strategie_omnicanale_et_experience_client_deux_notions_intimement_liees
 canonicalUrl: https://www.ictjournal.ch/articles/2020-04-27/la-strategie-omnicanal-et-lexperience-client-sont-deux-notions-intimement-liees
-title: "Stratégie omnicanale et expérience client : deux notions intimement liées"
+title: 'Stratégie omnicanale et expérience client : deux notions intimement liées'
 description: "Stratégie omnicanale et expérience client ; deux notions
   intimement liées. Aujourd'hui, plus possible de parler d'expérience client
   sans évoquer l'omnicanal. Pourquoi ? Nous avons interviewé @ArnaudVincent,
   notre responsable des opérations Suisse. Il vous livre sa vision sur la
-  question. "
+  question."
 date: 2020-08-19T13:55:44.592Z
 tags:
   - ccm
@@ -20,8 +20,7 @@ introduction: Aujourd'hui, plus possible de parler d'expérience client sans
   responsable des opérations Suisse. Il vous livre sa vision sur la question.
 ---
 
-
-**Questions :** 
+## Questions
 
 **Quels sont pour vous les éléments essentiels d’une stratégie omnicanal? A qui devrait-elle être confiée ?**
 
@@ -42,8 +41,6 @@ Il existe une multitude de technologies ! Imaginez qu’en matière de communica
 Mais comme socle technologique transverse, celles que nous pouvons citer sont les plateformes CCM (Customer Communication Management). Souvent déjà présentes pour assurer les obligations opérationnelles (création de communications transactionnelles de type relevés, factures, contrats…), elles peuvent également agir comme un hub de conversation permettant de créer, personnaliser, et diffuser en omnicanal les messages marketing.
 
 Une solution CCM est la réponse à l’enjeu de transition digitale des processus documentaires. Elle fédère les communications d’entreprise papier comme digital en centralisant leur traitement multicanal.
-
-
 
 **Quels travaux sont nécessaires côté back-end ?**
 
