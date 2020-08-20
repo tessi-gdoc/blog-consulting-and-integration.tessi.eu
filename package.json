@@ -2,7 +2,7 @@
   "name": "tessi-journey",
   "displayName": "Tessi#Journey",
   "description": "Business Process Services in a digital world",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "author": {
     "name": "Mathieu Gauthier",
@@ -76,6 +76,47 @@
   },
   "license": "UNLICENSED",
   "main": "n/a",
+  "standard-version": {
+    "types": [
+      {
+        "type": "feat",
+        "section": "Features"
+      },
+      {
+        "type": "fix",
+        "section": "Bug Fixes"
+      },
+      {
+        "type": "chore",
+        "section": "Posts"
+      },
+      {
+        "type": "docs",
+        "section": "Admin Config. & Releases"
+      },
+      {
+        "type": "style",
+        "section": "Style"
+      },
+      {
+        "type": "refactor",
+        "section": "Refactoring"
+      },
+      {
+        "type": "build",
+        "section": "Build (external dependencies)"
+      },
+      {
+        "type": "perf",
+        "hidden": true
+      },
+      {
+        "type": "test",
+        "hidden": true
+      }
+    ],
+    "releaseCommitMessageFormat": "docs(release): updated CHANGELOG with {{currentTag}}"
+  },
   "scripts": {
     "dev": "gatsby develop",
     "build": "gatsby build",
