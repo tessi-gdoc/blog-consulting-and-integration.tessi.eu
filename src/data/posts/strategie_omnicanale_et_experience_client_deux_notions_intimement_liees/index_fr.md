@@ -20,7 +20,7 @@ introduction: Aujourd'hui, plus possible de parler d'expérience client sans
   responsable des opérations Suisse. Il vous livre sa vision sur la question.
 ---
 
-## Questions
+### Questions
 
 **Quels sont pour vous les éléments essentiels d’une stratégie omnicanal? A qui devrait-elle être confiée ?**
 

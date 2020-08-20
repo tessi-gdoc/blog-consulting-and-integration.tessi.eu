@@ -116,20 +116,20 @@ const TocWrapper = styled.section`
 
 const TableOfContents = ({ headings }) => {
   const [{ tableOfContents }] = useTranslations();
+  const contents = headings.filter(({ depth }) => depth <= 2);
+  if (!contents.length) return null;
   return (
     <TocWrapper>
       {tableOfContents}
       <ol>
-        {headings
-          .filter(({ depth }) => depth <= 2)
-          .map(({ value }) => {
-            const id = getId(value);
-            return (
-              <li key={value}>
-                <AnchorLink href={`#${id}`}>{value}</AnchorLink>
-              </li>
-            );
-          })}
+        {contents.map(({ value }) => {
+          const id = getId(value);
+          return (
+            <li key={value}>
+              <AnchorLink href={`#${id}`}>{value}</AnchorLink>
+            </li>
+          );
+        })}
       </ol>
     </TocWrapper>
   );
