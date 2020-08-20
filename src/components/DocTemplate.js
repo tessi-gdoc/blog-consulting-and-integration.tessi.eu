@@ -74,7 +74,7 @@ export const docFragment = graphql`
     frontmatter {
       image {
         childImageSharp {
-          fluid(maxWidth: 450) {
+          fluid(maxWidth: 400, quality: 90) {
             ...GatsbyImageSharpFluid_noBase64
           }
         }

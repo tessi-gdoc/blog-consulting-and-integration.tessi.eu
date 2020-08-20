@@ -473,8 +473,8 @@ export const pageQuery = graphql`
             original {
               src
             }
-            fluid(maxWidth: 1920) {
-              ...GatsbyImageSharpFluid_withWebp
+            fluid(maxWidth: 1600, quality: 90) {
+              ...GatsbyImageSharpFluid_noBase64
             }
           }
         }
