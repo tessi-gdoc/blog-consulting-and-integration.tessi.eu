@@ -6,7 +6,7 @@ imageAlt: image_strategie_omnicanale
 path: strategie_omnicanale_et_experience_client_deux_notions_intimement_liees
 canonicalUrl: https://www.ictjournal.ch/articles/2020-04-27/la-strategie-omnicanal-et-lexperience-client-sont-deux-notions-intimement-liees
 title: "Stratégie omnicanale et expérience client : deux notions intimement liées"
-description: Stratégie omnicanale et expérience client ; deux notions intimement
+description: Stratégie omnicanal et expérience client ; deux notions intimement
   liées. Aujourd'hui, plus possible de parler d'expérience client sans évoquer
   l'omnicanal. Pourquoi ? Nous avons interviewé Arnaud Vincent, notre
   responsable des opérations Suisse. Il vous livre sa vision sur la question.
