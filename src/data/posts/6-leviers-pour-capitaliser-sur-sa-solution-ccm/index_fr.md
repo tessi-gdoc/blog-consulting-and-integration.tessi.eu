@@ -1,15 +1,15 @@
 ---
 lang: fr
 key: blog-post
-image: 6_leviers_pour_capitaliser_sur_solution_ccm.png
+image: 6_leviers_pour_capitaliser_sur_sa_solution_ccm.jpg
 imageAlt: image_article_leverage
 path: 6-leviers-pour-capitaliser-sur-sa-solution-CCM
+canonicalUrl: ""
 title: 6 leviers pour capitaliser sur sa solution CCM
 description: "Comment optimiser sa solution de gestion de la communication
   client (CCM) pour en faire le centre névralgique de votre communication
   d'entreprise ? Découvrez les 6 leviers à activer. "
 date: 2020-04-09T13:04:52.995Z
-canonicalUrl: ""
 tags:
   - ccm
 author: niz
