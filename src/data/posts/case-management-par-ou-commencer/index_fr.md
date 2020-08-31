@@ -1,15 +1,15 @@
 ---
 lang: fr
 key: blog-post
-image: case_management_definition.png
+image: le_case_management_par_ou_commencer_definition_role_et_outils.jpg
 imageAlt: Case Management
 path: case-management-par-ou-commencer
+canonicalUrl: ""
 title: "Le Case Management : Par où commencer ? Définition, rôle et outils"
 description: Le Case Management vous en avez entendu parler, mais savez-vous
   vraiment de quoi il s’agit, à quoi ça sert, de quoi avez-vous besoin et par où
   commencer.
 date: 2019-02-28T23:40:32.169Z
-canonicalUrl: ""
 tags:
   - caseManagement
 author: clc
