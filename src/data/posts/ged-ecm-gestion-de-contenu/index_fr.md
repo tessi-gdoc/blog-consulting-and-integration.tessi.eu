@@ -1,7 +1,7 @@
 ---
 lang: fr
 key: blog-post
-image: ged_ou_ecm_changez_de_point_de_vue_sur_vos_contenus.png
+image: ged_ou_ecm_changez_de_point_de_vue_sur_vos_precieux_contenus.jpg
 imageAlt: GED_ECM_gestion_de_contenu
 path: GED-ECM-gestion-de-contenu
 title: GED ou ECM ? Changez de point de vue sur vos (précieux) contenus
