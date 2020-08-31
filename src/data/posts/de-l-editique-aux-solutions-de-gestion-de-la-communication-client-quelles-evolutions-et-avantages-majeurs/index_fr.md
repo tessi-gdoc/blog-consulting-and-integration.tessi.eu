@@ -1,9 +1,10 @@
 ---
 lang: fr
 key: blog-post
-image: ./ediitique_solutions_ccm_moderne.png
+image: de_leditique_aux_solutions_de_gestion_de_la_communication_client_quelles_evolutions_et_avantages_majeurs.jpg
 imageAlt: éditique
 path: de-l-editique-aux-solutions-de-gestion-de-la-communication-client-quelles-evolutions-et-avantages-majeurs
+canonicalUrl: ""
 title: "De l’éditique aux solutions de gestion de la communication client :
   Quelles évolutions et avantages majeurs ?"
 description: Votre solution de composition ne répond plus à vos besoins ? Elle
@@ -11,7 +12,6 @@ description: Votre solution de composition ne répond plus à vos besoins ? Elle
   éventuel changement ? Découvrez en quoi les solutions CCM ont évolué et ce que
   vous pouvez attendre d'une solution CCM moderne.
 date: 2019-09-13T15:52:10.975Z
-canonicalUrl: ""
 tags:
   - ccm
 author: niz
