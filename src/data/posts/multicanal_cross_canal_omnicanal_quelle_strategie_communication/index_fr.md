@@ -20,7 +20,9 @@ introduction: "Multicanal, cross-canal, omnicanal… où en êtes-vous aujourd�
   Ou d’abord, mesurez-vous bien les différences ? Car il n’y paraît rien mais
   derrière ces expressions se dissimulent différents modes de gestion de la
   communication client dont dépend la fluidité de vos parcours client. La
-  priorité en 2020 : l’omnicanal !"
+  priorité en 2020 : [l’omnicanal
+  ](https://blog-consulting-and-integration.tessi.eu/posts/comment-passer-a-une\
+  -strategie-omnicanale)!"
 ---
 Magasins physiques, appels téléphoniques, SMS, sites e-commerce, réseaux sociaux, chatbots… face à la multitude de canaux via lesquels les clients peuvent communiquer avec les marques aujourd’hui, difficile d’éviter des conversations interrompues et sinueuses. Or, le temps où les clients se contentaient d’interactions décousues avec les marques est révolu. Les clients attendent une relation fluide et unifiée. Cela impose aux entreprises d’être centrées client et cela passe notamment par leur capacité de faire évoluer la gestion de la communication avec leur clientèle. On passe d’une logique multicanal ou cross-canal à une logique omnicanal. Bien que les distinctions n’apparaissent pas toujours clairement, ces modes de communication sont pourtant bien différents.
 
