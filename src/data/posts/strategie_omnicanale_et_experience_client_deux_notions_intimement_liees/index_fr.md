@@ -18,7 +18,6 @@ introduction: Aujourd'hui, plus possible de parler d'expérience client sans
   évoquer l'omnicanal. Pourquoi ? Nous avons interviewé Arnaud Vincent, notre
   responsable des opérations Suisse. Il vous livre sa vision sur la question.
 ---
-
 ### Questions
 
 **Quels sont pour vous les éléments essentiels d’une stratégie omnicanal? A qui devrait-elle être confiée ?**
@@ -39,7 +38,7 @@ Il existe une multitude de technologies ! Imaginez qu’en matière de communica
 
 Mais comme socle technologique transverse, celles que nous pouvons citer sont les plateformes CCM (Customer Communication Management). Souvent déjà présentes pour assurer les obligations opérationnelles (création de communications transactionnelles de type relevés, factures, contrats…), elles peuvent également agir comme un hub de conversation permettant de créer, personnaliser, et diffuser en omnicanal les messages marketing.
 
-Une solution CCM est la réponse à l’enjeu de transition digitale des processus documentaires. Elle fédère les communications d’entreprise papier comme digital en centralisant leur traitement multicanal.
+Une [solution CCM](https://blog-consulting-and-integration.tessi.eu/posts/6-leviers-pour-capitaliser-sur-sa-solution-CCM) est la réponse à l’enjeu de transition digitale des processus documentaires. Elle fédère les communications d’entreprise papier comme digital en centralisant leur traitement multicanal.
 
 **Quels travaux sont nécessaires côté back-end ?**
 
