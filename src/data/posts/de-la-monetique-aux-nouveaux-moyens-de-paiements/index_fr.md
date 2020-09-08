@@ -1,28 +1,26 @@
 ---
 lang: fr
 key: blog-post
-image: monétique_nouveaux_moyens_de_paiement.png
+image: adobestock_99130765.jpg
 imageAlt: monétique-nouveaux-moyens-paiement
 path: de-la-monetique-aux-nouveaux-moyens-de-paiements
-title: De la monétique aux nouveaux moyens de paiement
-description: >-
-  La monétique laisse progressivement place à un écosystème de paiements
-  innovants. Comment s'opère cette transition et quels seront les moyens de
-  paiement de demain ?
-date: 2019-09-13T16:24:29.670Z
 canonicalUrl: ""
+title: De la monétique aux nouveaux moyens de paiement
+description: La monétique laisse progressivement place à un écosystème de
+  paiements innovants. Comment s'opère cette transition et quels seront les
+  moyens de paiement de demain ?
+date: 2019-09-13T16:24:29.670Z
 tags:
   - customerJourney
 author: anm
-introduction: >-
-  Le digital a bouleversé le domaine de la monétique et des moyens de paiement.
-  Le terme « monétique » né dans les années 1980 a progressivement perdu de son
-  sens et cède sa place aux moyens de paiement protéiformes. De plus, le digital
-  a induit une évolution des modèles. A présent, c’est le client qui impose les
-  procédures, et non plus les donneurs d’ordres tels que les banques de détail
-  par exemple. Alors dans cette dynamique de transformation digitale, le
-  parcours client est roi et l’innovation, reine, dans un secteur du paiement en
-  pleine ébullition.
+introduction: Le digital a bouleversé le domaine de la monétique et des moyens
+  de paiement. Le terme « monétique » né dans les années 1980 a progressivement
+  perdu de son sens et cède sa place aux moyens de paiement protéiformes. De
+  plus, le digital a induit une évolution des modèles. A présent, c’est le
+  client qui impose les procédures, et non plus les donneurs d’ordres tels que
+  les banques de détail par exemple. Alors dans cette dynamique de
+  transformation digitale, le parcours client est roi et l’innovation, reine,
+  dans un secteur du paiement en pleine ébullition.
 ---
 ## 01/ La transformation du Retail Banking
 
