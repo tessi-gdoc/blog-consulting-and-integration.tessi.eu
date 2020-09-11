@@ -1,5 +1,4 @@
 const path = require(`path`);
-const { fmImagesToRelative } = require('gatsby-remark-relative-images');
 const locales = require(`./src/i18n`);
 const kebabCase = require(`lodash.kebabcase`);
 const filter = require(`ramda/src/filter`);
@@ -42,8 +41,6 @@ const getLang = (filename) => {
 
 exports.onCreateNode = ({ node, actions }) => {
   const { createNodeField } = actions;
-
-  fmImagesToRelative(node);
 
   if (node.internal.type === `MarkdownRemark`) {
     const name = path.basename(node.fileAbsolutePath, `.md`);
