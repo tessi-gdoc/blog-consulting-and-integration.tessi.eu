@@ -39,7 +39,7 @@
     "gatsby-source-filesystem": "2.3.24",
     "gatsby-transformer-json": "2.4.11",
     "gatsby-transformer-remark": "2.8.28",
-    "gatsby-transformer-sharp": "2.5.13",
+    "gatsby-transformer-sharp": "2.5.14",
     "immutable": "4.0.0-rc.12",
     "intersection-observer": "0.11.0",
     "lodash.camelcase": "4.3.0",
