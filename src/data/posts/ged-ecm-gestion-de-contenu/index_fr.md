@@ -20,7 +20,7 @@ introduction: Au-delà des obligations légales, une entreprise se doit de
   longtemps permis d’organiser efficacement des contenus au sein de silos
   d’activité donnés, elle montre désormais ses limites face à l’émergence de
   besoins métiers variés, à la multiplication des sources et des formats de
-  contenu**. L’ECM, l’Enterprise Content Management, apparaît alors comme la
+  contenu**. L’ECM, l’*Enterprise Content Management*, apparaît alors comme la
   solution toute trouvée. De quoi s’agit-il ? Quand est-il pertinent de passer
   de la GED à l’ECM ? Découvrez comment l’ECM peut vous permettre de gagner en
   efficacité et en fluidité.
