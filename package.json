@@ -25,7 +25,7 @@
     "gatsby-plugin-nprogress": "2.3.10",
     "gatsby-plugin-react-helmet": "3.3.10",
     "gatsby-plugin-remove-serviceworker": "1.0.0",
-    "gatsby-plugin-sharp": "2.6.27",
+    "gatsby-plugin-sharp": "2.6.35",
     "gatsby-plugin-sitemap": "2.4.12",
     "gatsby-remark-autolink-headers": "2.3.11",
     "gatsby-remark-code-titles": "1.1.0",
