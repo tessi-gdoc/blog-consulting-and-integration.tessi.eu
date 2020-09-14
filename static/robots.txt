@@ -1,3 +1,4 @@
 User-agent: *
+Disallow: /admin/
 
 sitemap: https://blog-consulting-and-integration.tessi.eu/sitemap.xml
