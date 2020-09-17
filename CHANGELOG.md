@@ -2,6 +2,32 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.2](https://github.com/tessi-gdoc/blog-consulting-and-integration.tessi.eu/compare/v1.1.1...v1.1.2) (2020-09-17)
+
+
+### Posts
+
+* disallow /admin (robots.txt) ([8823565](https://github.com/tessi-gdoc/blog-consulting-and-integration.tessi.eu/commit/88235651cf821ea0b67bd0efa542df99cd71b484))
+
+
+### Build (external dependencies)
+
+* :fire: remove useless deps (immutable, smartypants and prop-types) ([48e964e](https://github.com/tessi-gdoc/blog-consulting-and-integration.tessi.eu/commit/48e964e5be2e38457eddc6a113b044b84598cbe8))
+* **deps:** bump gatsby from 2.24.57 to 2.24.58 ([7e29800](https://github.com/tessi-gdoc/blog-consulting-and-integration.tessi.eu/commit/7e29800c7136024f362d3b7aee493b80dd79ec15))
+* **deps:** bump gatsby from 2.24.58 to 2.24.60 ([b73713c](https://github.com/tessi-gdoc/blog-consulting-and-integration.tessi.eu/commit/b73713cdc20dc5b22edb0d40ef8871ba8237e0d3))
+* **deps:** bump gatsby-plugin-nprogress from 2.3.10 to 2.3.11 ([8ac8555](https://github.com/tessi-gdoc/blog-consulting-and-integration.tessi.eu/commit/8ac8555765e1daeb802f44773a262e2ebdd27d60))
+* **deps:** bump gatsby-plugin-react-helmet from 3.3.10 to 3.3.11 ([9b1ba16](https://github.com/tessi-gdoc/blog-consulting-and-integration.tessi.eu/commit/9b1ba16d3daea98ccdfa9d372ed26ea59edad646))
+* **deps:** bump gatsby-plugin-sharp from 2.6.35 to 2.6.36 ([797c99c](https://github.com/tessi-gdoc/blog-consulting-and-integration.tessi.eu/commit/797c99c8a5e3a1c37286f5f113000a403e8513ce))
+* **deps:** bump gatsby-plugin-sitemap from 2.4.12 to 2.4.13 ([19fd796](https://github.com/tessi-gdoc/blog-consulting-and-integration.tessi.eu/commit/19fd7965fd28a10f33b874d3214a62d1d21378f9))
+* **deps:** bump gatsby-remark-autolink-headers from 2.3.12 to 2.3.13 ([8d3ed58](https://github.com/tessi-gdoc/blog-consulting-and-integration.tessi.eu/commit/8d3ed588d494664fc73a1b223ef88adfdad2c052))
+* **deps:** bump gatsby-remark-prismjs from 3.5.11 to 3.5.12 ([f792f51](https://github.com/tessi-gdoc/blog-consulting-and-integration.tessi.eu/commit/f792f51ce0bc9a84e2bace511f06944a22c634b1))
+* **deps:** bump gatsby-remark-smartypants from 2.3.10 to 2.3.11 ([dd2d303](https://github.com/tessi-gdoc/blog-consulting-and-integration.tessi.eu/commit/dd2d303af0427b03da7ddf6938cbc94e8f7214d1))
+* **deps:** bump gatsby-transformer-json from 2.4.11 to 2.4.12 ([0e4130a](https://github.com/tessi-gdoc/blog-consulting-and-integration.tessi.eu/commit/0e4130a7a2423e0eda376bcdb7202db5fc17cf66))
+* **deps:** bump netlify-cms-app from 2.12.20 to 2.12.21 ([40a9c55](https://github.com/tessi-gdoc/blog-consulting-and-integration.tessi.eu/commit/40a9c554c408c078dbfbbbef84c10c697d698c91))
+* **deps-dev:** bump eslint from 7.8.1 to 7.9.0 ([a51748e](https://github.com/tessi-gdoc/blog-consulting-and-integration.tessi.eu/commit/a51748edb1f0c9bf1710a18b7a85ec4c52fbc259))
+* **deps-dev:** bump eslint-plugin-react-hooks from 4.1.1 to 4.1.2 ([b76530f](https://github.com/tessi-gdoc/blog-consulting-and-integration.tessi.eu/commit/b76530f55094771f3e22bdcbfb1aa6ee8e4cfcad))
+* **deps-dev:** bump prettier from 2.1.1 to 2.1.2 ([5812030](https://github.com/tessi-gdoc/blog-consulting-and-integration.tessi.eu/commit/5812030c86eda8739c42a12b0e529f2727f097f5))
+
 ### [1.1.1](https://github.com/tessi-gdoc/blog-consulting-and-integration.tessi.eu/compare/v1.0.0...v1.1.1) (2020-09-11)
 
 
