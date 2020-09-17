@@ -178,10 +178,6 @@ module.exports = {
             options: { destinationDir: `static` }
           },
           {
-            resolve: `gatsby-remark-smartypants`,
-            options: { dashes: `oldschool` }
-          },
-          {
             resolve: `gatsby-remark-autolink-headers`
           },
           {
