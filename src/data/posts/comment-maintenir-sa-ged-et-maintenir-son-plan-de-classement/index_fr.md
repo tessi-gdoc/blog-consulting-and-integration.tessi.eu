@@ -44,7 +44,7 @@ Le classement consiste à ordonnancer des documents dans des catégories, selon 
 
 Cette approche consiste à organiser sa gestion de documents selon une **arborescence précise** et des sous-dossiers en cascade. Par exemple, pour une entreprise française présente sur des marchés européens :
 
-![GED_par_dossiers](image_hierarchie_dossiers.png "Structure GED par dossiers")
+![GED_par_dossiers](image_hierarchie_dossiers_2.png "Structure GED par dossiers")
 
 Cette approche présente **l’avantage de ressembler à l’organisation d’un disque dur**. Les utilisateurs habitués à l’organisation en place sur les disques locaux y trouvent facilement leurs marques. Cette arborescence unique et logique permet à chacun d’appréhender la structure. En revanche, **la structuration à plusieurs niveaux peut également sembler trop lourde pour les utilisateurs**. Découragés par la complexité de l’arborescence et l’hétérogénéité des règles de nommage, ils pourraient être tentés de mal ranger les documents, ce qui aurait pour conséquence d’être confronté aux problèmes évoqués précédemment : perte de temps, frustration, baisse de la productivité. **Ce type de hiérarchisation montre également ses limites à l’usage**. Il n’est en effet pas rare qu’un fichier doive légitimement se trouver à plusieurs endroits du plan de classement, selon le point de vue de l’utilisateur. C’est pourquoi il est intéressant d’utiliser les capacités d’indexation d’une GED, en mettant à profit les métadonnées.
 
