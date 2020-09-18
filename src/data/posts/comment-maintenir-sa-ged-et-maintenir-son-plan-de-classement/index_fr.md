@@ -2,15 +2,13 @@
 lang: fr
 key: blog-post
 image: photo-article-ged.png
-imageAlt: Structurer sa GED et maintenir son plan de classement
-path: "comment-maintenir-sa-ged-et-maintenir-son-plan-de-classement "
+imageAlt: GED_plan_de_classement
+path: comment-structurer-sa-ged-et-maintenir-son-plan-de-classement
 title: Comment structurer sa GED et maintenir son plan de classement ?
-description: "Accéder à un document facilement au sein de son entreprise
-  représente une tâche compliqué. LA structuration d'une bonne GED est alors
-  indispensable. Il existe plusieurs méthodes pour organiser sa GED. Vous ne
-  savez pas par où commencer ? La mise en place d'un plan de classement est
-  nouveau pour vous ?Découvrez dès à présent de quelles méthodes il s'agit et
-  les bonnes pratiques pour maintenir son plan de classement. "
+description: Lors de la mise en place d'une GED, l'un des enjeux majeurs réside
+  dans l'ordonnancement des documents. Quelles sont les 3 manières de structurer
+  sa GED et les bonnes pratiques pour maintenir son plan de classement dans le
+  temps ?
 date: 2020-09-16T12:16:21.546Z
 tags:
   - contentServices
@@ -46,23 +44,7 @@ Le classement consiste à ordonnancer des documents dans des catégories, selon 
 
 Cette approche consiste à organiser sa gestion de documents selon une **arborescence précise** et des sous-dossiers en cascade. Par exemple, pour une entreprise française présente sur des marchés européens :
 
-* 1. Clients Europe
-* 1. Clients France  
-
-  * 2.1. Nord-Est
-  * 2.2. Nord-Ouest
-  * 2.3. Sud-Est
-  * 2.4. Sud-Ouest 
-
-    * 2.4.1. Entreprises 
-    * 2.4.2. Particuliers 
-
-      * M. ARMAND
-      * M. BEAUREGARD
-
-        * Devis
-        * Contrat
-        * Facture 
+![GED_par_dossiers](image_hierarchie_dossiers.png "Structure GED par dossiers")
 
 Cette approche présente **l’avantage de ressembler à l’organisation d’un disque dur**. Les utilisateurs habitués à l’organisation en place sur les disques locaux y trouvent facilement leurs marques. Cette arborescence unique et logique permet à chacun d’appréhender la structure. En revanche, **la structuration à plusieurs niveaux peut également sembler trop lourde pour les utilisateurs**. Découragés par la complexité de l’arborescence et l’hétérogénéité des règles de nommage, ils pourraient être tentés de mal ranger les documents, ce qui aurait pour conséquence d’être confronté aux problèmes évoqués précédemment : perte de temps, frustration, baisse de la productivité. **Ce type de hiérarchisation montre également ses limites à l’usage**. Il n’est en effet pas rare qu’un fichier doive légitimement se trouver à plusieurs endroits du plan de classement, selon le point de vue de l’utilisateur. C’est pourquoi il est intéressant d’utiliser les capacités d’indexation d’une GED, en mettant à profit les métadonnées.
 
@@ -86,4 +68,4 @@ Voici une série de bonnes pratiques à suivre pour organiser sa GED de façon �
 
 Ainsi, **l’utilisation devient intuitive**, car elle ne requiert pas d’appréhender une logique de stockage qui n’est pas facilement appréhendable par tous. En revanche, la mise en place d’une logique commune doit faire l’objet d’une **réflexion à entreprendre de préférence en amont de la mise en place de la GED**.
 
-Pour qu’elle soit efficiente, une GED doit toujours être paramétrée en fonction des besoins réels de l’activité. Mettre en place une structure adaptée, c’est s’assurer du respect de son plan de classement. L’organisation et les process d’une entreprise évoluant constamment, il est également important de faire régulièrement évoluer son plan de classement et ses outils d’indexation, pour une GED toujours à la page.
+***Pour qu’elle soit efficiente, une GED doit toujours être paramétrée en fonction des besoins réels de l’activité. Mettre en place une structure adaptée, c’est s’assurer du respect de son plan de classement. L’organisation et les process d’une entreprise évoluant constamment, il est également important de faire régulièrement évoluer son plan de classement et ses outils d’indexation, pour une GED toujours à la page.***
