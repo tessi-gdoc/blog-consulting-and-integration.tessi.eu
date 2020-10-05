@@ -493,7 +493,7 @@ collections:
     path: '{{path}}/index_{{lang}}'
     preview_path: posts/{{path}}
     create: true
-    delete: false
+    delete: true
     fields:
       - {
           label: 'Localisation',
