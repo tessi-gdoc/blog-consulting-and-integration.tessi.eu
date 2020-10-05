@@ -5,7 +5,9 @@ image: tes_18_12620_logo_tessi_bleu_rvb.jpg
 imageAlt: interfaçage_web_service_API_ECM_GED
 path: connecteurs-api-web-service-jms-quel-interfacage-pour-logiciels-ged-ecm
 title: Des connecteurs aux API, quel interfaçage pour vos logiciels de GED Et d'ECM ?
-description: "To do "
+description: "L'intégration de solutions de GED, d'ECM, ou de CCM à vos
+  applicatifs existants représente un enjeu clé. Découvrez les différents modes
+  d'interfaçage et comment choisir entre connecteur, API, web service et JMS. "
 date: 2020-10-05T09:56:04.378Z
 tags:
   - contentServices
