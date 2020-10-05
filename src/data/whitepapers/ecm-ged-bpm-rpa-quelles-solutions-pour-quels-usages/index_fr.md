@@ -3,7 +3,7 @@ lang: fr
 key: whitepaper
 date: 2020-08-27T13:34:16.863Z
 image: asset-couverturepsd-logo.png
-imageAlt: Livre_blanc_archimag
+imageAlt: Livre_blanc_ECM-GED-BPM-RPA
 title: "ECM, GED, BPM, RPA : Quelles solutions pour quels usages ? "
 link: https://www.archimag.com/livres-blancs/suppl%C3%A9ment-archimag-ged-ecm-rpa-bpm-quelles-solutions-pour-quels-usages
 ---
