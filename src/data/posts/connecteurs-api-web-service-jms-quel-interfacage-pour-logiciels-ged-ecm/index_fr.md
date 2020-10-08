@@ -1,7 +1,7 @@
 ---
 lang: fr
 key: blog-post
-image: tes_18_12620_logo_tessi_bleu_rvb.jpg
+image: connecteurs-api.png
 imageAlt: interfaçage_web_service_API_ECM_GED
 path: connecteurs-api-web-service-jms-quel-interfacage-pour-logiciels-ged-ecm
 title: Des connecteurs aux API, quel interfaçage pour vos logiciels de GED Et d'ECM ?
