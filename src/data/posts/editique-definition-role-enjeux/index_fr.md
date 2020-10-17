@@ -79,7 +79,7 @@ En véritable hub de conversation, les solutions éditiques facilitent la mise e
 
 ### Enjeu n°2 : Assurer une ultra-personnalisation des communications et interagir en instantané
 
-**Une solution éditique va au-delà de la capacité à ajouter des variables dans les documents de gestion** afin d’y insérer des données personnelles. La solution éditique moderne ou solution CCM (Customer Communication Management) est **une solution collaborative qui ne s’adresse plus seulement aux services informatiques ou documentaires**. Dans un souci d’amélioration de la relation client, elle s’est ouverte aux utilisateurs métiers et aux agents Front-Office en contact direct avec les clients (conseillers, chargés de clientèle…).
+**Une solution éditique va au-delà de la capacité à ajouter des variables dans les documents de gestion** afin d’y insérer des données personnelles. La solution éditique moderne ou [solution CCM (Customer Communication Management)](https://blog-consulting-and-integration.tessi.eu/posts/de-l-editique-aux-solutions-de-gestion-de-la-communication-client-quelles-evolutions-et-avantages-majeurs) est **une solution collaborative qui ne s’adresse plus seulement aux services informatiques ou documentaires**. Dans un souci d’amélioration de la relation client, elle s’est ouverte aux utilisateurs métiers et aux agents Front-Office en contact direct avec les clients (conseillers, chargés de clientèle…).
 
 Un service marketing peut ainsi insérer des messages ciblés au sein de documents transactionnels (on parle de transpromo), créer des campagnes emailing pour différents segments de client depuis un même modèle de document, orchestrer des campagnes en fonction des retours clients…
 
