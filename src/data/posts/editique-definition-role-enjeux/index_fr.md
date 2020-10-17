@@ -5,7 +5,10 @@ image: editique_definition_enjeux.jpg
 imageAlt: editique_definition_role_enjeux
 path: editique-definition-role-enjeux
 title: "Editique : Définition, rôle et enjeux"
-description: "To do "
+description: Bien que méconnu, l'éditique est un pilier de la gestion de
+  l'expérience et de la relation client permettant de répondre aux enjeux de
+  communication des entreprises. Qu'est-ce que l'éditique et à quels enjeux
+  répond-elle ?
 date: 2020-10-15T12:02:16.913Z
 tags:
   - ccm
