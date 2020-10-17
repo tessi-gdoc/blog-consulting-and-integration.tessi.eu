@@ -17,13 +17,13 @@ introduction: L’éditique, contraction d’édition et informatique, est depui
   décennies l’art d’automatiser et d’industrialiser la production et la
   diffusion des documents de l’entreprise grâce aux moyens informatiques.
   Aujourd’hui, avec l’avènement des nouvelles technologies et l’évolution des
-  comportements et usages digitaux, l’éditique s’impose comme **un maillon à
+  comportements et usages digitaux, l’éditique s’impose commeun maillon à
   intégrer dans les réflexions de transformation de la relation et de
-  l’expérience client**. Mais que recouvre vraiment ce terme relativement
-  méconnu et pourtant, à l’origine de la production de nombreux documents
-  personnels de notre vie quotidienne ? A quels enjeux actuels font face les
-  entreprises en termes de gestion de l'expérience client ? Comment les
-  solutions éditiques modernes y viennent en réponse ?
+  l’expérience client. Mais que recouvre vraiment ce terme relativement méconnu
+  et pourtant, à l’origine de la production de nombreux documents personnels de
+  notre vie quotidienne ? A quels enjeux actuels font face les entreprises en
+  termes de gestion de l'expérience client ? Comment les solutions éditiques
+  modernes y viennent en réponse ?
 ---
 ## Qu’est-ce que l’éditique concrètement ?
 
