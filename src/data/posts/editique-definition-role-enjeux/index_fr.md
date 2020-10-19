@@ -34,7 +34,7 @@ Grâce aux innovations technologiques successives, les solutions éditiques ont 
 
 On peut dire que l’éditique a relevé le défi de l’industrialisation de la production et de la distribution documentaire multicanal. Depuis un socle unique, une solution éditique permet une meilleure gestion des communications, la maîtrise des coûts relatifs aux volumes de documents, une capacité illimitée d’enrichissement des communications, une forte traçabilité, et la flexibilité nécessaire pour adapter ses communications au gré des nouvelles réglementations, nouveaux canaux de communication, usages digitaux et comportements clients.
 
-### Les 5 étapes de la chaîne éditique
+### Les 4 étapes de la chaîne éditique
 
 Concrètement, de la conception à la distribution d’une communication, le processus par lequel passe la communication peut être schématisé en 4 étapes :
 
