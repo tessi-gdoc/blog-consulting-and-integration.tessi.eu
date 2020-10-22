@@ -16,7 +16,7 @@ introduction: L’éditique, contraction d’édition et informatique, est depui
   décennies l’art d’automatiser et d’industrialiser la production et la
   diffusion des documents de l’entreprise grâce aux moyens informatiques.
   Aujourd’hui, avec l’avènement des nouvelles technologies et l’évolution des
-  comportements et usages digitaux, l’éditique s’impose commeun maillon à
+  comportements et usages digitaux, l’éditique s’impose comme un maillon à
   intégrer dans les réflexions de transformation de la relation et de
   l’expérience client. Mais que recouvre vraiment ce terme relativement méconnu
   et pourtant, à l’origine de la production de nombreux documents personnels de
@@ -88,7 +88,7 @@ Au niveau des agents front office, là encore, les capacités de personnalisatio
 
 ### Enjeu n°3 : Accroître sa réactivité pour s’adapter en termes de conformité
 
-Lors de la souscription à un contrat d’assurances ou la conclusion d’un contrat de prêt par exemple, un ensemble d’informations réglementaires doivent venir compléter les annexes au contrat. Les solutions éditiques permettent **l’ajout automatique** de ces informations selon le type de document dont il s’agit. En cas d’évolution des réglementations, **la solution éditique facilite la mise à jour de ces éléments** par le service juridique et leur déploiement au sein des futurs documents qui seront produits. C’est notamment **la robustesse des solutions éditiques et la fiabilité des flux d’informations gérés par ces dernières**, qui expliquent l’attrait des professionnels, dont les métiers sont encadrés par de fortes contraintes réglementaires, pour ce type de solution.
+Lors de la souscription à un contrat d’assurances ou la conclusion d’un contrat de prêt par exemple, un ensemble d’informations réglementaires doit venir compléter les annexes au contrat. Les solutions éditiques permettent **l’ajout automatique** de ces informations selon le type de document dont il s’agit. En cas d’évolution des réglementations, **la solution éditique facilite la mise à jour de ces éléments** par le service juridique et leur déploiement au sein des futurs documents qui seront produits. C’est notamment **la robustesse des solutions éditiques et la fiabilité des flux d’informations gérés par ces dernières**, qui expliquent l’attrait des professionnels, dont les métiers sont encadrés par de fortes contraintes réglementaires, pour ce type de solution.
 
 ### Enjeu n°4 : Optimiser la qualité de la relation client et sa constance
 
