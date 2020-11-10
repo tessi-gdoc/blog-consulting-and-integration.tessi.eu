@@ -5,7 +5,7 @@ image: editique_marketing_deux_mondes_a_rassembler.png
 imageAlt: editique_marketing
 path: editique_marketing_deux_mondes_a_rassembler
 title: "Editique et marketing : deux mondes à rassembler"
-description: "To do "
+description: To do test mathieu
 date: 2020-10-26T14:49:22.004Z
 tags:
   - ccm
