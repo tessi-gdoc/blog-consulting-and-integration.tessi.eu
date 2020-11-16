@@ -7,7 +7,7 @@ path: GED-ECM-gestion-de-contenu
 title: GED ou ECM ? Changez de point de vue sur vos (précieux) contenus
 description: "Longtemps la solution de gestion des documents par excellence, la
   GED montre aujourd'hui des limites qu'une démarche ECM vient solutionner. GED
-  vs. ECM : Quelles différences ? Pourquoi et quand changer ?"
+  vs. ECM : Quelles différences ? Pourquoi et quand changer ? test"
 date: 2020-08-05T13:39:04.632Z
 tags:
   - contentServices
