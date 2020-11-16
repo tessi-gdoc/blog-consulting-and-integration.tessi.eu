@@ -89,9 +89,11 @@ const Footer = () => {
                 ':hover, :focus': { textDecoration: `none`, color: `inherit` }
               }}
             >
-              <Brand />
-              <br />
-              Business Process Services in a digital world
+              <span>
+                <Brand />
+                <br />
+                Business Process Services in a digital world
+              </span>
             </Link>
             <p>
               <a

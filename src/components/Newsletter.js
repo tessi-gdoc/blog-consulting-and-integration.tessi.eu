@@ -69,8 +69,13 @@ const Newsletter = ({ isOpen, onClose }) => {
         ...formStyles
       }}
     >
-      <p>{newsletter.content}</p>
-      <PleziForm webformId={webformId} formId={formId} tenantId={tenantId} />
+      <p key="newsletter_content">{newsletter.content}</p>
+      <PleziForm
+        key="newsletter_plezi_form"
+        webformId={webformId}
+        formId={formId}
+        tenantId={tenantId}
+      />
     </Modal>
   );
 };

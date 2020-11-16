@@ -228,21 +228,23 @@ const Post = ({ data, link }) => {
       )}
       <PostCardContent className="post-card-content">
         <div className="post-card-content-link" css={PostCardContentLink}>
-          {allTags.map((t, i) => [
-            i > 0 && <InlineTag key={i}> • </InlineTag>,
-            <InlineTag key={t}>{tags[t]}</InlineTag>
-          ])}
-          <Header className="post-card-header">
-            <span>{date}</span>
-            <h2>{title}</h2>
-          </Header>
-          <Section>
-            <p>
-              {isNotNil(description)
-                ? truncateString(description, 200)
-                : data.excerpt}
-            </p>
-          </Section>
+          <div>
+            {allTags.map((t, i) => [
+              i > 0 && <InlineTag key={i}> • </InlineTag>,
+              <InlineTag key={t}>{tags[t]}</InlineTag>
+            ])}
+            <Header className="post-card-header">
+              <span>{date}</span>
+              <h2>{title}</h2>
+            </Header>
+            <Section>
+              <p>
+                {isNotNil(description)
+                  ? truncateString(description, 200)
+                  : data.excerpt}
+              </p>
+            </Section>
+          </div>
         </div>
         <PostCardMeta className="post-card-meta">
           <ReadArticle to={link}>
