@@ -5,8 +5,7 @@
   "demo": "Demande de démo",
   "readCaseStudy": "Lire l'étude de cas",
   "form": {
-    "failed": "## Une erreur est survenue\n\nNotre formulaire de demande de démonstration est indisponible pour le moment. \n\n**Merci de réessayer ultérieurement.**",
-    "backToHome": "Revenir à l'accueil"
+    "failed": "## Une erreur est survenue\n\nNotre formulaire de demande de démonstration est indisponible pour le moment. \n\n**Merci de réessayer ultérieurement.**"
   },
   "thankYouPage": {
     "title": "Bonjour",

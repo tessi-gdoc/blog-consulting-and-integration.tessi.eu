@@ -42,7 +42,7 @@ collections:
                   label: 'Trigramme',
                   name: 'id',
                   widget: 'string',
-                  pattern: ['[a-z]{3}', 'Doit avoir uniquement 3 caractères'],
+                  pattern: ['[a-z]{3}', 'Doit avoir uniquement 3 caractères']
                 }
               - { label: 'Prénom et nom', name: 'fullname', widget: 'string' }
               - {
@@ -50,7 +50,7 @@ collections:
                   name: 'avatar',
                   widget: 'image',
                   default: '/img/avatar_default.png',
-                  hint: "L'avatar doit être dimensionné sous la forme d'un carré (exemple: 250x250px)",
+                  hint: "L'avatar doit être dimensionné sous la forme d'un carré (exemple: 250x250px)"
                 }
   - name: 'translations'
     label: 'Traductions'
@@ -83,11 +83,6 @@ collections:
         widget: 'object'
         fields:
           - { label: 'Echec', name: 'failed', widget: 'markdown' }
-          - {
-              label: "Revenir à l'accueil (bouton)",
-              name: 'backToHome',
-              widget: 'string',
-            }
       - label: 'Offres'
         name: 'offers'
         widget: 'object'
@@ -100,8 +95,8 @@ collections:
               pattern:
                 [
                   '^https?:\/\/[\w.-]+(?:\.[\w\.-]+)',
-                  'Doit commencer par http(s)://',
-                ],
+                  'Doit commencer par http(s)://'
+                ]
             }
       - label: 'A propos'
         name: 'about'
@@ -118,22 +113,22 @@ collections:
           - {
               label: 'Content Services',
               name: 'contentServices',
-              widget: 'string',
+              widget: 'string'
             }
           - {
               label: 'Customer Communication (CCM)',
               name: 'ccm',
-              widget: 'string',
+              widget: 'string'
             }
           - {
               label: 'caseManagement',
               name: 'caseManagement',
-              widget: 'string',
+              widget: 'string'
             }
           - {
               label: 'customerJourney',
               name: 'customerJourney',
-              widget: 'string',
+              widget: 'string'
             }
       - { label: 'Lire article', name: 'readArticle', widget: 'string' }
       - { label: 'Lire actualité', name: 'readNews', widget: 'string' }
@@ -141,7 +136,7 @@ collections:
       - {
           label: 'Télécharger livre blanc',
           name: 'downloadWhitepaper',
-          widget: 'string',
+          widget: 'string'
         }
       - { label: 'Télécharger kit', name: 'downloadKit', widget: 'string' }
       - { label: 'Regarder vidéo', name: 'watchVideos', widget: 'string' }
@@ -169,19 +164,19 @@ collections:
           - {
               label: 'Contenu de gauche',
               name: 'leftContent',
-              widget: 'markdown',
+              widget: 'markdown'
             }
           - {
               label: 'Contenu de droite',
               name: 'rightContent',
-              widget: 'markdown',
+              widget: 'markdown'
             }
       - { label: 'Partenaires', name: 'partners', widget: 'string' }
       - { label: 'Articles associés', name: 'relatedPosts', widget: 'string' }
       - {
           label: 'Table des matières (introduction)',
           name: 'tableOfContents',
-          widget: 'string',
+          widget: 'string'
         }
       - label: 'Métadonnées du site'
         name: 'siteMetadata'
@@ -195,13 +190,13 @@ collections:
                   label: 'Titre',
                   name: 'title',
                   widget: 'string',
-                  required: false,
+                  required: false
                 }
               - {
                   label: 'Description',
                   name: 'description',
                   widget: 'string',
-                  required: false,
+                  required: false
                 }
           - label: 'Cookies'
             name: 'cookies'
@@ -211,13 +206,13 @@ collections:
                   label: 'Titre',
                   name: 'title',
                   widget: 'string',
-                  required: false,
+                  required: false
                 }
               - {
                   label: 'Description',
                   name: 'description',
                   widget: 'string',
-                  required: false,
+                  required: false
                 }
           - label: 'Politique utilisation des données'
             name: 'personalDataUsePolicy'
@@ -227,13 +222,13 @@ collections:
                   label: 'Titre',
                   name: 'title',
                   widget: 'string',
-                  required: false,
+                  required: false
                 }
               - {
                   label: 'Description',
                   name: 'description',
                   widget: 'string',
-                  required: false,
+                  required: false
                 }
           - label: 'Mentions légales'
             name: 'disclaimer'
@@ -243,13 +238,13 @@ collections:
                   label: 'Titre',
                   name: 'title',
                   widget: 'string',
-                  required: false,
+                  required: false
                 }
               - {
                   label: 'Description',
                   name: 'description',
                   widget: 'string',
-                  required: false,
+                  required: false
                 }
           - label: 'Démo'
             name: 'demo'
@@ -259,13 +254,13 @@ collections:
                   label: 'Titre',
                   name: 'title',
                   widget: 'string',
-                  required: false,
+                  required: false
                 }
               - {
                   label: 'Description',
                   name: 'description',
                   widget: 'string',
-                  required: false,
+                  required: false
                 }
           - label: 'Etudes de cas'
             name: 'ourCaseStudies'
@@ -275,13 +270,13 @@ collections:
                   label: 'Titre',
                   name: 'title',
                   widget: 'string',
-                  required: false,
+                  required: false
                 }
               - {
                   label: 'Description',
                   name: 'description',
                   widget: 'string',
-                  required: false,
+                  required: false
                 }
           - label: 'Kits'
             name: 'kits'
@@ -291,13 +286,13 @@ collections:
                   label: 'Titre',
                   name: 'title',
                   widget: 'string',
-                  required: false,
+                  required: false
                 }
               - {
                   label: 'Description',
                   name: 'description',
                   widget: 'string',
-                  required: false,
+                  required: false
                 }
           - label: 'Livres blancs'
             name: 'whitepapers'
@@ -307,13 +302,13 @@ collections:
                   label: 'Titre',
                   name: 'title',
                   widget: 'string',
-                  required: false,
+                  required: false
                 }
               - {
                   label: 'Description',
                   name: 'description',
                   widget: 'string',
-                  required: false,
+                  required: false
                 }
           - label: 'Merci'
             name: 'thankYou'
@@ -323,13 +318,13 @@ collections:
                   label: 'Titre',
                   name: 'title',
                   widget: 'string',
-                  required: false,
+                  required: false
                 }
               - {
                   label: 'Description',
                   name: 'description',
                   widget: 'string',
-                  required: false,
+                  required: false
                 }
           - label: 'Actualités'
             name: 'news'
@@ -339,13 +334,13 @@ collections:
                   label: 'Titre',
                   name: 'title',
                   widget: 'string',
-                  required: false,
+                  required: false
                 }
               - {
                   label: 'Description',
                   name: 'description',
                   widget: 'string',
-                  required: false,
+                  required: false
                 }
           - label: 'CCM'
             name: 'ccm'
@@ -355,13 +350,13 @@ collections:
                   label: 'Titre',
                   name: 'title',
                   widget: 'string',
-                  required: false,
+                  required: false
                 }
               - {
                   label: 'Description',
                   name: 'description',
                   widget: 'string',
-                  required: false,
+                  required: false
                 }
           - label: 'Content Services'
             name: 'contentServices'
@@ -371,13 +366,13 @@ collections:
                   label: 'Titre',
                   name: 'title',
                   widget: 'string',
-                  required: false,
+                  required: false
                 }
               - {
                   label: 'Description',
                   name: 'description',
                   widget: 'string',
-                  required: false,
+                  required: false
                 }
           - label: 'Case Management'
             name: 'caseManagement'
@@ -387,13 +382,13 @@ collections:
                   label: 'Titre',
                   name: 'title',
                   widget: 'string',
-                  required: false,
+                  required: false
                 }
               - {
                   label: 'Description',
                   name: 'description',
                   widget: 'string',
-                  required: false,
+                  required: false
                 }
           - label: 'Customer Journey'
             name: 'customerJourney'
@@ -403,13 +398,13 @@ collections:
                   label: 'Titre',
                   name: 'title',
                   widget: 'string',
-                  required: false,
+                  required: false
                 }
               - {
                   label: 'Description',
                   name: 'description',
                   widget: 'string',
-                  required: false,
+                  required: false
                 }
           - label: 'Vidéos'
             name: 'videos'
@@ -419,13 +414,13 @@ collections:
                   label: 'Titre',
                   name: 'title',
                   widget: 'string',
-                  required: false,
+                  required: false
                 }
               - {
                   label: 'Description',
                   name: 'description',
                   widget: 'string',
-                  required: false,
+                  required: false
                 }
           - label: 'Webinaires'
             name: 'webinars'
@@ -435,13 +430,13 @@ collections:
                   label: 'Titre',
                   name: 'title',
                   widget: 'string',
-                  required: false,
+                  required: false
                 }
               - {
                   label: 'Description',
                   name: 'description',
                   widget: 'string',
-                  required: false,
+                  required: false
                 }
   - name: 'news'
     label: 'Actualités'
@@ -461,14 +456,14 @@ collections:
           options:
             [
               { label: 'Français', value: 'fr' },
-              { label: 'English', value: 'en' },
-            ],
+              { label: 'English', value: 'en' }
+            ]
         }
       - {
           label: 'Template Key',
           name: 'key',
           default: 'news',
-          widget: 'hidden',
+          widget: 'hidden'
         }
       - { label: 'Date de publication', name: 'date', widget: 'datetime' }
       - { label: 'Image', name: 'image', widget: 'image' }
@@ -481,8 +476,8 @@ collections:
           pattern:
             [
               '^https?:\/\/[\w.-]+(?:\.[\w\.-]+)',
-              'Doit commencer par http(s)://',
-            ],
+              'Doit commencer par http(s)://'
+            ]
         }
       - { label: 'Tags', name: 'tags', widget: 'hidden', default: ['news'] }
       - { label: 'Description', name: 'body', widget: 'markdown' }
@@ -503,14 +498,14 @@ collections:
           options:
             [
               { label: 'Français', value: 'fr' },
-              { label: 'English', value: 'en' },
-            ],
+              { label: 'English', value: 'en' }
+            ]
         }
       - {
           label: 'Template Key',
           name: 'key',
           default: 'blog-post',
-          widget: 'hidden',
+          widget: 'hidden'
         }
       - { label: 'Image', name: 'image', widget: 'image' }
       - { label: 'Image Alt', name: 'imageAlt', widget: 'string' }
@@ -518,7 +513,7 @@ collections:
           label: "Chemin de l'article",
           name: 'path',
           widget: 'string',
-          default: 'super-title',
+          default: 'super-title'
         }
       - {
           label: 'Lien canonique',
@@ -527,15 +522,15 @@ collections:
           pattern:
             [
               '^https?:\/\/[\w.-]+(?:\.[\w\.-]+)',
-              'Doit commencer par http(s)://',
+              'Doit commencer par http(s)://'
             ],
-          required: false,
+          required: false
         }
       - {
           label: 'Titre',
           name: 'title',
           widget: 'string',
-          default: 'Super title',
+          default: 'Super title'
         }
       - { label: 'Description', name: 'description', widget: 'text' }
       - { label: 'Date de publication', name: 'date', widget: 'datetime' }
@@ -553,9 +548,9 @@ collections:
                 { label: 'Content Services', value: 'contentServices' },
                 { label: 'Customer Communications (CCM)', value: 'ccm' },
                 { label: 'Case Management', value: 'caseManagement' },
-                { label: 'Customer Journey', value: 'customerJourney' },
+                { label: 'Customer Journey', value: 'customerJourney' }
               ],
-            default: 'news',
+            default: 'news'
           }
       - label: Auteur de l'article
         name: author
@@ -565,13 +560,13 @@ collections:
           label: 'Introduction',
           name: 'introduction',
           widget: 'markdown',
-          default: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+          default: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
         }
       - {
           label: 'Article',
           name: 'body',
           widget: 'markdown',
-          default: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+          default: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
         }
   - name: 'kits'
     label: 'Kits'
@@ -592,8 +587,8 @@ collections:
           options:
             [
               { label: 'Français', value: 'fr' },
-              { label: 'English', value: 'en' },
-            ],
+              { label: 'English', value: 'en' }
+            ]
         }
       - { label: 'Template Key', name: 'key', default: 'kit', widget: 'hidden' }
       - { label: 'Date de publication', name: 'date', widget: 'datetime' }
@@ -603,7 +598,7 @@ collections:
           label: 'Titre',
           name: 'title',
           widget: 'string',
-          default: 'Super title',
+          default: 'Super title'
         }
       - {
           label: 'Lien externe',
@@ -612,14 +607,14 @@ collections:
           pattern:
             [
               '^https?:\/\/[\w.-]+(?:\.[\w\.-]+)',
-              'Doit commencer par http(s)://',
-            ],
+              'Doit commencer par http(s)://'
+            ]
         }
       - {
           label: 'Corps',
           name: 'body',
           widget: 'markdown',
-          default: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+          default: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
         }
   - name: 'whitepapers'
     label: 'Livres blancs'
@@ -640,14 +635,14 @@ collections:
           options:
             [
               { label: 'Français', value: 'fr' },
-              { label: 'English', value: 'en' },
-            ],
+              { label: 'English', value: 'en' }
+            ]
         }
       - {
           label: 'Template Key',
           name: 'key',
           default: 'whitepaper',
-          widget: 'hidden',
+          widget: 'hidden'
         }
       - { label: 'Date de publication', name: 'date', widget: 'datetime' }
       - { label: 'Image', name: 'image', widget: 'image' }
@@ -656,7 +651,7 @@ collections:
           label: 'Titre',
           name: 'title',
           widget: 'string',
-          default: 'Super title',
+          default: 'Super title'
         }
       - {
           label: 'Lien externe',
@@ -665,14 +660,14 @@ collections:
           pattern:
             [
               '^https?:\/\/[\w.-]+(?:\.[\w\.-]+)',
-              'Doit commencer par http(s)://',
-            ],
+              'Doit commencer par http(s)://'
+            ]
         }
       - {
           label: 'Corps',
           name: 'body',
           widget: 'markdown',
-          default: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+          default: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
         }
   - name: 'case-studies'
     label: 'Etudes de cas'
@@ -693,14 +688,14 @@ collections:
           options:
             [
               { label: 'Français', value: 'fr' },
-              { label: 'English', value: 'en' },
-            ],
+              { label: 'English', value: 'en' }
+            ]
         }
       - {
           label: 'Template Key',
           name: 'key',
           default: 'case-study',
-          widget: 'hidden',
+          widget: 'hidden'
         }
       - { label: 'Date de publication', name: 'date', widget: 'datetime' }
       - { label: 'Image', name: 'image', widget: 'image' }
@@ -709,18 +704,18 @@ collections:
           label: 'Titre',
           name: 'title',
           widget: 'string',
-          default: 'Super title',
+          default: 'Super title'
         }
       - {
           label: 'Lien (chemin après https://www.tessi.eu)',
           name: 'link',
-          widget: 'string',
+          widget: 'string'
         }
       - {
           label: 'Corps',
           name: 'body',
           widget: 'markdown',
-          default: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+          default: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
         }
   - name: 'videos'
     label: 'Vidéos'
@@ -741,14 +736,14 @@ collections:
           options:
             [
               { label: 'Français', value: 'fr' },
-              { label: 'English', value: 'en' },
-            ],
+              { label: 'English', value: 'en' }
+            ]
         }
       - {
           label: 'Template Key',
           name: 'key',
           default: 'video',
-          widget: 'hidden',
+          widget: 'hidden'
         }
       - { label: 'Date de publication', name: 'date', widget: 'datetime' }
       - { label: 'Image', name: 'image', widget: 'image' }
@@ -757,7 +752,7 @@ collections:
           label: 'Titre',
           name: 'title',
           widget: 'string',
-          default: 'Super title',
+          default: 'Super title'
         }
       - {
           label: 'Lien externe',
@@ -766,14 +761,14 @@ collections:
           pattern:
             [
               '^https?:\/\/[\w.-]+(?:\.[\w\.-]+)',
-              'Doit commencer par http(s)://',
-            ],
+              'Doit commencer par http(s)://'
+            ]
         }
       - {
           label: 'Corps',
           name: 'body',
           widget: 'markdown',
-          default: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+          default: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
         }
   - name: 'webinars'
     label: 'Webinaires'
@@ -794,14 +789,14 @@ collections:
           options:
             [
               { label: 'Français', value: 'fr' },
-              { label: 'English', value: 'en' },
-            ],
+              { label: 'English', value: 'en' }
+            ]
         }
       - {
           label: 'Template Key',
           name: 'key',
           default: 'webinar',
-          widget: 'hidden',
+          widget: 'hidden'
         }
       - { label: 'Date de publication', name: 'date', widget: 'datetime' }
       - { label: 'Image', name: 'image', widget: 'image' }
@@ -810,7 +805,7 @@ collections:
           label: 'Titre',
           name: 'title',
           widget: 'string',
-          default: 'Super title',
+          default: 'Super title'
         }
       - {
           label: 'Lien externe',
@@ -819,14 +814,14 @@ collections:
           pattern:
             [
               '^https?:\/\/[\w.-]+(?:\.[\w\.-]+)',
-              'Doit commencer par http(s)://',
-            ],
+              'Doit commencer par http(s)://'
+            ]
         }
       - {
           label: 'Corps',
           name: 'body',
           widget: 'markdown',
-          default: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+          default: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
         }
   - name: 'notices'
     label: 'Mentions et politiques'
@@ -847,20 +842,20 @@ collections:
           options:
             [
               { label: 'Français', value: 'fr' },
-              { label: 'English', value: 'en' },
-            ],
+              { label: 'English', value: 'en' }
+            ]
         }
       - {
           label: 'Template Key',
           name: 'key',
           default: 'notice',
-          widget: 'hidden',
+          widget: 'hidden'
         }
       - { label: 'ID', name: 'id', widget: 'hidden' }
       - {
           label: 'Titre',
           name: 'title',
           widget: 'string',
-          default: 'Super title',
+          default: 'Super title'
         }
       - { label: 'Corps', name: 'body', widget: 'markdown' }

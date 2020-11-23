@@ -41,7 +41,6 @@ const query = graphql`
             thankYou
             form {
               failed
-              backToHome
             }
             newsletter {
               title
