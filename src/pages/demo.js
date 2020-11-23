@@ -40,6 +40,7 @@ const Demo = ({
   return (
     <Container>
       <h1
+        key="title"
         css={css`
           font-size: 1.75rem;
           text-align: center;
@@ -60,9 +61,10 @@ const Demo = ({
           }
         `}
       >
-        {title} <Subtitle>{subtitle}</Subtitle>
+        {title} <Subtitle key="subtitle">{subtitle}</Subtitle>
       </h1>
       <Flex
+        key="container"
         align="start"
         css={css`
           & p:first-of-type {
@@ -84,10 +86,11 @@ const Demo = ({
           }
         `}
       >
-        <FlexItem width="50%">
+        <FlexItem key="left_content" width="50%">
           <HTML markdown={leftContent} />
         </FlexItem>
         <FlexItem
+          key="right_content"
           width="50%"
           css={css`
             div.jsonform-error-where_are_you_based,
@@ -96,16 +99,17 @@ const Demo = ({
             }
           `}
         >
-          <HTML markdown={rightContent} />
+          <HTML key="demo_content" markdown={rightContent} />
           <PleziForm
+            key="demo_plezi_form"
             webformId={webformId}
             formId={formId}
             tenantId={tenantId}
           />
         </FlexItem>
       </Flex>
-      <h2>{partners}</h2>
-      <Flex justify="space-around">
+      <h2 key="partners_title">{partners}</h2>
+      <Flex key="partners" justify="space-around">
         {edges.map(({ node: { publicURL, name, id } }) => (
           <Img key={id} src={publicURL} loading="lazy" alt={name} />
         ))}

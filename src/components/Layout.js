@@ -539,9 +539,9 @@ const Layout = ({
           height: 100%;
         `}
       >
-        <Navbar openNewsletter={() => toggleNewsletter(true)} />
-        <main>{children}</main>
-        <Footer />
+        <Navbar key="navbar" openNewsletter={() => toggleNewsletter(true)} />
+        <main key="main">{children}</main>
+        <Footer key="footer" />
       </div>
     </LocaleContext.Provider>
   );

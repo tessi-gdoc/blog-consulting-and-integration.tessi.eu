@@ -120,17 +120,19 @@ const TableOfContents = ({ headings }) => {
   if (!contents.length) return null;
   return (
     <TocWrapper>
-      {tableOfContents}
-      <ol>
-        {contents.map(({ value }) => {
-          const id = getId(value);
-          return (
-            <li key={value}>
-              <AnchorLink href={`#${id}`}>{value}</AnchorLink>
-            </li>
-          );
-        })}
-      </ol>
+      <div>
+        {tableOfContents}
+        <ol>
+          {contents.map(({ value }) => {
+            const id = getId(value);
+            return (
+              <li key={value}>
+                <AnchorLink href={`#${id}`}>{value}</AnchorLink>
+              </li>
+            );
+          })}
+        </ol>
+      </div>
     </TocWrapper>
   );
 };
@@ -293,10 +295,10 @@ const RelatedPosts = ({ currentPostId, posts, tags }) => {
   if (!relatedPosts.length) return null;
   return (
     <Container css={HomePosts}>
-      <StripesLeft />
-      <StripesRight />
-      <RelatedPostTitle>{title}</RelatedPostTitle>
-      <Posts allPosts={relatedPosts} />
+      <StripesLeft key="stripes_left" />
+      <StripesRight key="stipes_right" />
+      <RelatedPostTitle key="related_post_tile">{title}</RelatedPostTitle>
+      <Posts key="posts" allPosts={relatedPosts} />
     </Container>
   );
 };
@@ -390,10 +392,13 @@ export const BlogPostTemplatePreview = ({ data: { markdownRemark: post } }) => {
       />
       {image && <Hero title={title} imageData={image} imageAlt={imageAlt} />}
       <PostContainer css={BlogPostStyle}>
-        <BioPreview author={author} date={date} tagNames={tagNames} />
-        <Intro markdown={introduction} />
-        {!!headings.length && <TableOfContentsPreview headings={headings} />}
+        <BioPreview key="bio" author={author} date={date} tagNames={tagNames} />
+        <Intro key="intro" markdown={introduction} />
+        {!!headings.length && (
+          <TableOfContentsPreview key="toc" headings={headings} />
+        )}
         <article
+          key="article"
           css={css`
             & img {
               width: 100%;
@@ -429,10 +434,11 @@ const BlogPost = ({
       <SocialButtons title={title} summary={introduction} url={location.href} />
       <Hero title={title} imageData={image} imageAlt={imageAlt} />
       <PostContainer css={BlogPostStyle}>
-        <Bio author={author} tags={tags} date={date} />
-        <Intro markdown={introduction} />
-        {!!headings.length && <TableOfContents headings={headings} />}
+        <Bio key="bio" author={author} tags={tags} date={date} />
+        <Intro key="intro" markdown={introduction} />
+        {!!headings.length && <TableOfContents key="toc" headings={headings} />}
         <article
+          key="article"
           css={css`
             & span.gatsby-resp-image-wrapper {
               margin: 2.8rem auto;

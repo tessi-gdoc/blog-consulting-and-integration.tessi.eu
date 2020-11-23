@@ -1,15 +1,41 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import styled from '@emotion/styled';
-import { css } from '@emotion/core';
+import { css, keyframes } from '@emotion/core';
 
-import SyncLoader from 'react-spinners/SyncLoader';
-
-import Cta, { enumTypes } from './Cta';
 import HTML from './HTML';
 
 import useTranslations from '@hooks/use-translations';
 import { secondary } from '@colors';
+
+const sync = keyframes`
+  33% {transform: translateY(10px)}
+  66% {transform: translateY(-10px)}
+  100% {transform: translateY(0)}
+`;
+
+function Loader({ loading, color }) {
+  const style = (i) => {
+    return css`
+      background-color: ${color};
+      width: 15px;
+      height: 15px;
+      margin: 2px;
+      border-radius: 100%;
+      display: inline-block;
+      animation: ${sync} 0.6s ${i * 0.07}s infinite ease-in-out;
+      animation-fill-mode: both;
+    `;
+  };
+
+  return loading ? (
+    <div>
+      <div key="first_circle" css={style(1)} />
+      <div key="second_circle" css={style(2)} />
+      <div key="third_circle" css={style(3)} />
+    </div>
+  ) : null;
+}
 
 export const customSelect = (
   arrowStyles = { top: `1.125em`, right: `1.125em` }
@@ -110,9 +136,6 @@ const PleziForm = ({ webformId, formId, tenantId }) => {
     return (
       <ErrorWrapper>
         <HTML markdown={form.failed} />
-        <Cta type={enumTypes.SECONDARY} link="/" size="large">
-          {form.backToHome}
-        </Cta>
       </ErrorWrapper>
     );
   }
@@ -120,7 +143,7 @@ const PleziForm = ({ webformId, formId, tenantId }) => {
     <>
       <form id={`foss-${webformId}`}></form>
       <Wrapper>
-        <SyncLoader color={secondary} loading={!loaded} />
+        <Loader color={secondary} loading={!loaded} />
       </Wrapper>
     </>
   );

@@ -179,19 +179,17 @@ const wrapPageElement = ({ element, props }) => {
       canonicalUrl
     } = element.props.data.markdownRemark.frontmatter;
     seo = {
-      seo: {
-        title,
-        description,
-        author: author ? author.fullname : null,
-        publishDate: date,
-        article: true,
-        canonicalUrl,
-        ...(image ? { image: image.childImageSharp.original.src } : {})
-      }
+      title,
+      description,
+      author: author ? author.fullname : null,
+      publishDate: date,
+      article: true,
+      canonicalUrl,
+      ...(image ? { image: image.childImageSharp.original.src } : {})
     };
   }
   return (
-    <Layout {...props} {...seo}>
+    <Layout location={props.location} pageContext={props.pageContext} seo={seo}>
       {isHomePage && <Header />}
       {element}
       {isHomePage && <Footer />}
