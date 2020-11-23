@@ -118,7 +118,7 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "format": "prettier --config .prettierrc --write \"**/*.{js,json}\"",
+    "format": "prettier --config .prettierrc --write \"**/*.{js,json,yml}\"",
     "lint": "eslint src/**/*.js",
     "lint:fix": "eslint --fix src/**/*.js",
     "release": "standard-version"

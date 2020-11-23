@@ -12,7 +12,11 @@ const LocalizedLink = ({ to, children, ...props }) => {
     ? to
     : `/${locales[locale].path}${isIndex ? `` : `${to}`}`;
 
-  return <Link {...props} to={path}>{children}</Link>;
+  return (
+    <Link {...props} to={path}>
+      {children}
+    </Link>
+  );
 };
 
 export default LocalizedLink;
