@@ -21,8 +21,6 @@ introduction: Les solutions de GED et d’ECM sont aujourd’hui largement dépl
   pourquoi les adopter ? Voici 5 bonnes raisons d’intégrer les technologies IA
   /RPA aux solutions de gestion de contenus d’entreprise.
 ---
-
-
 `youtube: l-BHsIkUb1Y`
 
 ## 1. Accroitre les performances de capture et d’extraction automatique
@@ -73,4 +71,4 @@ Ici encore, les techniques d’intelligence artificielle se révèlent particuli
 
 **L’IA permet ainsi de lever les limites relatives à l’analyse de grands volumes de données**, très souvent inexploitées jusque-là. Un cercle vertueux se met alors en place : le suivi de la performance globale est de plus en plus précis, et les résultats des analyses de données (sous toutes leurs formes et dans toute leur complexité) offrent les clés pour optimiser l’expérience client, elle-même source de performance.
 
-***Coupler l’intelligence artificielle aux solutions de gestion de contenus d’entreprise, c’est mettre toutes les chances de son côté pour offrir une expérience client unique et mémorable**. **Que vous souhaitiez automatiser les processus de gestion de documents et de données, intégrer les technologies d’IA et de RPA, ou encore migrer vos solutions vers des plateformes digitales de gestion de contenu orientées client, Tessi vous accompagne, à travers son Centre d’Excellence en Intelligent Automation et son expertise des solutions de GED, d’ECM et de Case management.***
+**Coupler l’intelligence artificielle aux solutions de gestion de contenus d’entreprise, c’est mettre toutes les chances de son côté pour offrir une expérience client unique et mémorable**. **Que vous souhaitiez automatiser les processus de gestion de documents et de données, intégrer les technologies d’IA et de RPA, ou encore migrer vos solutions vers des plateformes digitales de gestion de contenu orientées client, Tessi vous accompagne, à travers son Centre d’Excellence en Intelligent Automation et son expertise des solutions de GED, d’ECM et de Case management.**
