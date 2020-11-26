@@ -51,7 +51,32 @@ CMS.registerEditorComponent({
   toPreview: ({ alt, image, title, link }, getAsset, fields) => {
     const imageField = fields?.find((f) => f.get('widget') === 'image');
     const src = getAsset(image, imageField);
-    return `<a href="${link}" target="_blank" rel="noopener noreferrer"><img src="${src}" alt="${alt}" title="${title}"/></a>`;
+    return (
+      <a href={link || '#'} target="_blank" rel="noopener noreferrer">
+        <img src={src || ''} alt={alt || ''} title={title || ''} />
+      </a>
+    );
+  }
+});
+
+CMS.registerEditorComponent({
+  id: 'youtube',
+  label: 'Youtube',
+  fields: [{ name: 'id', label: 'Youtube Video ID', widget: 'string' }],
+  pattern: /^`youtube: (\S+)`$/,
+  fromBlock: function (match) {
+    return { id: match[1] };
+  },
+  toBlock: function (obj) {
+    return '`youtube: ' + obj.id + '`';
+  },
+  toPreview: function (obj) {
+    return (
+      <img
+        src={`https://img.youtube.com/vi/${obj.id}/maxresdefault.jpg`}
+        alt={`youtube ${obj.id}`}
+      />
+    );
   }
 });
 

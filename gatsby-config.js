@@ -156,6 +156,13 @@ module.exports = {
         excerpt_separator: `<!-- end -->`,
         plugins: [
           {
+            resolve: `gatsby-remark-embed-video`,
+            options: {
+              related: false,
+              noIframeBorder: true
+            }
+          },
+          {
             resolve: `gatsby-remark-code-titles`,
             options: { className: `gatsby-remark-code-title` }
           },
