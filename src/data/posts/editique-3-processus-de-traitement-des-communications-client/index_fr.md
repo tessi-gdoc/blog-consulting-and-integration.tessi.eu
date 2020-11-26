@@ -35,6 +35,8 @@ Notons également que même si la vocation première de l’éditique batch n’
 
 Enfin, l’éditique batch ne répond pas non plus à un enjeu d’instantanéité. Car même si le processus de traitement est automatisé, il n’en reste pas moins plusieurs étapes pour préparer ces envois de masse. Création, production, recette, validation, préproduction… le processus informatique classique de l’éditique batch reste lourd et peut prendre jusqu’à plusieurs semaines entre la création et la [](<>)distribution.
 
+`youtube: 50fdBw41Iw0`
+
 ## L’éditique transactionnelle, ou éditique à la demande
 
 A l’inverse de l’éditique batch qui vise à traiter un grand nombre de documents regroupés par lots, l’éditique transactionnelle relève du **traitement unitaire**. Ici, la production du document reste entièrement automatisée. Comme en batch, l’éditique est au service d’une application. C’est-à-dire que les modèles de document à la demande sont déjà prêts à l’emploi et automatiquement complété avec les données du client. En revanche, le contexte change. Le choix du modèle de document à envoyer et sa distribution sont à la main des agents en contact direct avec les clients. De plus, il ne s’agit plus d’envoi en masse, mais en one-to-one pour répondre au besoin spécifique d’un client à un instant T. Un enjeu majeur ici est celui de l’instantanéité.
