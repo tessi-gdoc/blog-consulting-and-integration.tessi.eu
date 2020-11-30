@@ -108,7 +108,7 @@ Il se peut qu’une des solutions logicielles qui vous sera présentée lors de 
 
 **F. UNE SOLUTION DE CASE MANAGEMENT... ET UN PARTENAIRE !**
 
-Si vous faites le choix d’une solution sur étagère (« Buy ») ou à paramétrer (« Configure »), la qualité de service compte tout autant que la solution. En effet, aussi puissante et robuste que puisse être la solution choisie, un projet de Case Management est un vrai chantier dont il ne faut pas négliger les conséquences et impacts durant le projet et au-delà. Pour cette raison, il est important de faire de son éditeur ou intégrateur un partenaire, un allié. Il s’agit d’un facteur clé de réussite indéniable. Veillez à partager des valeurs communes. [Choisissez un partenaire](https://www.gdoc-lasercom.com/posts/le-case-management-objectif-no-code) qui jouera pleinement son rôle de support, de formateur, de conseiller.
+Si vous faites le choix d’une solution sur étagère (« Buy ») ou à paramétrer (« Configure »), la qualité de service compte tout autant que la solution. En effet, aussi puissante et robuste que puisse être la solution choisie, un projet de Case Management est un vrai chantier dont il ne faut pas négliger les conséquences et impacts durant le projet et au-delà. Pour cette raison, il est important de faire de son éditeur ou intégrateur un partenaire, un allié. Il s’agit d’un facteur clé de réussite indéniable. Veillez à partager des valeurs communes. Choisissez un partenaire qui jouera pleinement son rôle de support, de formateur, de conseiller.
 
 ## 03/ Les 9 étapes pour bien choisir sa solution de Case Management
 
