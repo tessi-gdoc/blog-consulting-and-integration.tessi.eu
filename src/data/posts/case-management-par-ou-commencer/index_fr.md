@@ -89,7 +89,7 @@ Si vous êtes dans l’une de ces situations, alors plus de doute le Case Manage
 
 **2. Evaluer vos options de Case Management**
 
-Il est temps maintenant de réfléchir au type de solution vers laquelle vous allez vous orienter [Buy / Build / Configure](https://blog-consulting-and-integration.tessi.eu/posts/de-la-ged-au-case-management-pourquoi-changer). La solution « Buy » est une solution vendue par un éditeur qui a été standardisée pour votre secteur d’activité. Le « Build » est une solution qui doit être construite de A à Z, c’est vous qui la concevez avec les ressources compétentes. La troisième solution qui s’offre à vous est l’achat d’une plateforme hautement paramétrable. Votre solution est personnalisée en fonction de vos besoins et s’intègre à vos outils existants.
+Il est temps maintenant de réfléchir au type de solution vers laquelle vous allez vous orienter [Buy / Build / Configure](https://blog-consulting-and-integration.tessi.eu/posts/le-case-management-objectif-no-code). La solution « Buy » est une solution vendue par un éditeur qui a été standardisée pour votre secteur d’activité. Le « Build » est une solution qui doit être construite de A à Z, c’est vous qui la concevez avec les ressources compétentes. La troisième solution qui s’offre à vous est l’achat d’une plateforme hautement paramétrable. Votre solution est personnalisée en fonction de vos besoins et s’intègre à vos outils existants.
 
 **3. Choisir la bonne solution (et le bon partenaire)**
 
