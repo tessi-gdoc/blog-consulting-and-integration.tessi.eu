@@ -256,7 +256,10 @@ module.exports = {
         headers: {
           '/*': [
             `X-UA-Compatible: IE=Edge`,
-            `Content-Security-Policy: block-all-mixed-content; base-uri 'self'; default-src 'self' blob: data: ${cloud_id}.cloudfront.net raw.githubusercontent.com app.plezi.co www.google-analytics.com www.googleadservices.com www.googletagmanager.com googleads.g.doubleclick.net img.youtube.com www.youtube.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' www.googletagmanager.com www.google-analytics.com googleads.g.doubleclick.net www.googleadservices.com api.plezi.co app.plezi.co; style-src 'self' 'unsafe-inline'; object-src 'none'; form-action 'self'; font-src 'self' data: ${cloud_id}.cloudfront.net; connect-src blob: 'self' app.plezi.co files.plezi.co api.plezi.co www.google-analytics.com www.googleadservices.com api.github.com`
+            `Content-Security-Policy: block-all-mixed-content; base-uri 'self'; default-src 'self' blob: data: ${cloud_id}.cloudfront.net app.plezi.co www.google-analytics.com www.googleadservices.com www.googletagmanager.com googleads.g.doubleclick.net www.youtube.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' www.googletagmanager.com www.google-analytics.com googleads.g.doubleclick.net www.googleadservices.com api.plezi.co app.plezi.co; style-src 'self' 'unsafe-inline'; object-src 'none'; form-action 'self'; font-src 'self' data: ${cloud_id}.cloudfront.net; connect-src blob: 'self' app.plezi.co files.plezi.co api.plezi.co www.google-analytics.com www.googleadservices.com`
+          ],
+          '/admin/*': [
+            `Content-Security-Policy: block-all-mixed-content; base-uri 'self'; default-src 'self' blob: data: raw.githubusercontent.com img.youtube.com; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; object-src 'none'; form-action 'self'; font-src 'self' data:; connect-src 'self' blob: api.github.com`
           ],
           '/icons/*.png': [`cache-control: public, max-age=31536000,immutable`],
           '/jquery.min.js': [
@@ -267,6 +270,7 @@ module.exports = {
           ]
         }
       }
-    }
+    },
+    `gatsby-plugin-netlify-cache`
   ]
 };
