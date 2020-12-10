@@ -4,7 +4,7 @@ key: blog-post
 image: 5-bonnes-raisons-dintegrer-ai-aux-solutions-ecm-ged.jpg
 imageAlt: ged-ecm-ia-rpa
 path: solutions-ged-ecm-5-bonnes-raisons-integrer-technologies-ia-rpa
-title: "Solutions GED et ECM : 5 bonnes raisons d’intégrer les technologies IA/RPA"
+title: "Solutions GED et ECM : 5 bonnes raisons d’intégrer les technologies d'IA/RPA"
 description: L'intelligence artificielle et la robotisation permettent
   aujourd'hui de repousser les limites technologiques des solutions de GED et
   d'ECM. Que peut-on en attendre concrètement ?
