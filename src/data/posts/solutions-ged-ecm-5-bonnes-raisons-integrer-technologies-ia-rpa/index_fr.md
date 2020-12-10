@@ -1,25 +1,29 @@
 ---
 lang: fr
 key: blog-post
-image: evenement_saloon-1-.png
+image: 5-bonnes-raisons-dintegrer-ai-aux-solutions-ecm-ged.jpg
 imageAlt: ged-ecm-ia-rpa
 path: solutions-ged-ecm-5-bonnes-raisons-integrer-technologies-ia-rpa
 title: "Solutions GED et ECM : 5 bonnes raisons d’intégrer les technologies IA/RPA"
-description: "To do "
+description: L'intelligence artificielle et la robotisation permettent
+  aujourd'hui de repousser les limites technologiques des solutions de GED et
+  d'ECM. Que peut-on en attendre concrètement ?
 date: 2020-11-26T16:34:34.327Z
 tags:
   - contentServices
 author: tcj
-introduction: Les solutions de GED et d’ECM sont aujourd’hui largement déployées
-  au sein des entreprises. Elles fiabilisent la gestion de l’information,
-  facilitent l’accès et le partage des documents et des contenus, et favorisent
-  l’interopérabilité avec les applications métiers. Face à la nécessité
-  croissante des organisations de tirer pleinement parti de leurs données,
-  l’intelligence artificielle et la robotisation viennent repousser les limites
-  technologiques, afin de répondre toujours mieux aux nouveaux défis posés aux
-  entreprises. Mais que peut-on attendre précisément de ces technologies ? Et
-  pourquoi les adopter ? Voici 5 bonnes raisons d’intégrer les technologies IA
-  /RPA aux solutions de gestion de contenus d’entreprise.
+introduction: Les [solutions de GED et
+  d’ECM](https://blog-consulting-and-integration.tessi.eu/posts/GED-ECM-gestion-de-contenu)
+  sont aujourd’hui largement déployées au sein des entreprises. Elles
+  fiabilisent la gestion de l’information, facilitent l’accès et le partage des
+  documents et des contenus, et favorisent l’interopérabilité avec les
+  applications métiers. Face à la nécessité croissante des organisations de
+  tirer pleinement parti de leurs données, l’intelligence artificielle et la
+  robotisation viennent repousser les limites technologiques, afin de répondre
+  toujours mieux aux nouveaux défis posés aux entreprises. Mais que peut-on
+  attendre précisément de ces technologies ? Et pourquoi les adopter ? Voici 5
+  bonnes raisons d’intégrer les technologies IA /RPA aux solutions de gestion de
+  contenus d’entreprise.
 ---
 `youtube: l-BHsIkUb1Y`
 
