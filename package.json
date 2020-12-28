@@ -37,7 +37,7 @@
     "gatsby-remark-prismjs": "3.10.0",
     "gatsby-remark-relative-images": "2.0.2",
     "gatsby-remark-responsive-iframe": "2.8.0",
-    "gatsby-source-filesystem": "2.7.0",
+    "gatsby-source-filesystem": "2.8.1",
     "gatsby-transformer-json": "2.6.0",
     "gatsby-transformer-remark": "2.11.1",
     "gatsby-transformer-sharp": "2.9.0",
