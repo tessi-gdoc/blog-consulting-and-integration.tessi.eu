@@ -7186,10 +7186,10 @@ gatsby-plugin-netlify-cms@4.8.0:
     netlify-identity-widget "^1.9.1"
     webpack "^4.44.2"
 
-gatsby-plugin-netlify@2.8.0:
-  version "2.8.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-netlify/-/gatsby-plugin-netlify-2.8.0.tgz#686323c18d920e0091f6df03c9e35b819f03ae72"
-  integrity sha512-Nz38dvPBAwqVQdoRWZLip1ITzgZB6noiZq9NbpiVX/GW3e1dFaLPZH0bnwp0rCkt6MIjxgqELSjR5YzhRzaERA==
+gatsby-plugin-netlify@2.9.0:
+  version "2.9.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-netlify/-/gatsby-plugin-netlify-2.9.0.tgz#58e241e9f53fbc9b0e9bb1c82206016a14be5062"
+  integrity sha512-KJ4/LXTUptJzjt3uywQAKi76SPAo56jxQ6QrVmZhrCZS1D0YAMUHlJx3BOPANOJ/utY9JHFio4Qpfb7eH8mx0Q==
   dependencies:
     "@babel/runtime" "^7.12.5"
     fs-extra "^8.1.0"
@@ -7197,10 +7197,10 @@ gatsby-plugin-netlify@2.8.0:
     lodash "^4.17.20"
     webpack-assets-manifest "^3.1.1"
 
-gatsby-plugin-nprogress@2.7.0:
-  version "2.7.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-nprogress/-/gatsby-plugin-nprogress-2.7.0.tgz#26e091bd54cf5c452fea5eec6348dd7040dfc86a"
-  integrity sha512-9t3yPIz8j8IkUD3/fTNxIC23U4sZApI+64PU3JQ1/Ok8BemWTYgP1/eyreTnDs7M8LUwuZRcCfwgbaiWKYmsUw==
+gatsby-plugin-nprogress@2.8.0:
+  version "2.8.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-nprogress/-/gatsby-plugin-nprogress-2.8.0.tgz#2a6eaecc1e346370b9f877ae05d13cbe14412358"
+  integrity sha512-fjyNI9ihCKuj8+mkR/aRbekXabjwQULpV2ekFLbO/yIITkdsfGxgkHVnz9//z2CkHTfaH3/RZeT5z+eIo4eJhQ==
   dependencies:
     "@babel/runtime" "^7.12.5"
     nprogress "^0.2.0"
@@ -7434,10 +7434,10 @@ gatsby-remark-images@3.9.0:
     unist-util-select "^1.5.0"
     unist-util-visit-parents "^2.1.2"
 
-gatsby-remark-prismjs@3.10.0:
-  version "3.10.0"
-  resolved "https://registry.yarnpkg.com/gatsby-remark-prismjs/-/gatsby-remark-prismjs-3.10.0.tgz#544e242c78516322466c0bfed0d0536304a59d4e"
-  integrity sha512-TKH4th2Nkb2g7KRqYWG86o7AnfA2jpwv2KE2ZrjsGxzAvKWZ/TNuJn+S9mKqtZr/pVvSlM+fS0pnckE1nNKONg==
+gatsby-remark-prismjs@3.11.0:
+  version "3.11.0"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-prismjs/-/gatsby-remark-prismjs-3.11.0.tgz#68305976b2331e368f90f736e36aa9531102195f"
+  integrity sha512-aMiky/kEKfnJfByMwkPq53h9k7GUvJkPMCecu4HwCYmvM8KqCXhpqH070h7QlTuk6yAjTnxa3Ck4y3aMpkOOIw==
   dependencies:
     "@babel/runtime" "^7.12.5"
     parse-numeric-range "^0.0.2"
@@ -7512,14 +7512,14 @@ gatsby-transformer-json@2.9.0:
     "@babel/runtime" "^7.12.5"
     bluebird "^3.7.2"
 
-gatsby-transformer-remark@2.13.1:
-  version "2.13.1"
-  resolved "https://registry.yarnpkg.com/gatsby-transformer-remark/-/gatsby-transformer-remark-2.13.1.tgz#a8983ebe1857c896ab171b6c5aa58d5503b5684b"
-  integrity sha512-l1QWWye5l9x009vLNn+tus2cEHO2OICKINJg5jhValw4Frm+XLJz97ffX1Y6s6a8b6tLuEZPQFb/pwk0wgi0UQ==
+gatsby-transformer-remark@2.14.0:
+  version "2.14.0"
+  resolved "https://registry.yarnpkg.com/gatsby-transformer-remark/-/gatsby-transformer-remark-2.14.0.tgz#d7fd3d8cdbea4993180f94b720abe8eb1ca637db"
+  integrity sha512-GYtJjDRVdXbvp3BqQ4wObiSu+1We05aV5B+ifOVX1sxNXLKOUOw14tkEb6Uij6pJ3mNe3azHTkChqTe0LboYPA==
   dependencies:
     "@babel/runtime" "^7.12.5"
     bluebird "^3.7.2"
-    gatsby-core-utils "^1.7.1"
+    gatsby-core-utils "^1.8.0"
     gray-matter "^4.0.2"
     hast-util-raw "^4.0.0"
     hast-util-to-html "^4.0.1"
