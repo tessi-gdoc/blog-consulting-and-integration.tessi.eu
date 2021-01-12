@@ -65,7 +65,7 @@ Le réseau La Poste – La Banque postale compte 17 000 points de contacts et r
 
 ## Comment mesurer l’engagement collaborateur ?
 
-Bénéficier d’une image positive, transformer l’organisation, veiller au bien-être de ses collaborateurs, accroître sa performance… De nombreuses raisons peuvent pousser une entreprise à mesurer l’engagement et l’épanouissement de ses collaborateurs. Mettre des mots sur l'intention de la mesure est une première étape essentielle. Il est possible d’y parvenir en mettant en place les bons outils. Il en existe 4 grands types : **le baromètre, l'outil d’accompagnement au management émotionnel, l'outil communautaire ou encore l'outil collaboratif et réseau social d'entreprise** comme par exempleTeam Smart.
+Bénéficier d’une image positive, transformer l’organisation, veiller au bien-être de ses collaborateurs, accroître sa performance… De nombreuses raisons peuvent pousser une entreprise à mesurer l’engagement et l’épanouissement de ses collaborateurs. Mettre des mots sur l'intention de la mesure est une première étape essentielle. Il est possible d’y parvenir en mettant en place les bons outils. Il en existe 4 grands types : **le baromètre, l'outil d’accompagnement au management émotionnel, l'outil communautaire ou encore l'outil collaboratif et réseau social d'entreprise.**
 
 Une démarche de mesure de l'épanouissement  et de l'engagement au travail est une démarche globale qui implique de faire de nombreux choix. Au-delà du choix des outils, il existe un ensemble de bonnes pratiques à suivre pour rendre cette démarche vertueuse :
 
