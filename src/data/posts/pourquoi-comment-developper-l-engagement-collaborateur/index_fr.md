@@ -63,14 +63,16 @@ Le réseau La Poste – La Banque postale compte 17 000 points de contacts et r
 
 ## Comment mesurer l’engagement collaborateur ?
 
-Bénéficier d’une image positive, transformer l’organisation, veiller au bien-être de ses collaborateurs… De nombreuses raisons peuvent pousser une entreprise à mesurer l’engagement et l’épanouissement de ses collaborateurs. Il est possible d’y parvenir en mettant en place **un baromètre, des outils d’accompagnement au management émotionnel ou encore des outils communautaires**. Au-delà du choix des outils, il existe un ensemble de bonnes pratiques à suivre pour rendre cette démarche vertueuse :
+Bénéficier d’une image positive, transformer l’organisation, veiller au bien-être de ses collaborateurs, accroître sa performance… De nombreuses raisons peuvent pousser une entreprise à mesurer l’engagement et l’épanouissement de ses collaborateurs. Mettre des mots sur l'intention de la mesure est une première étape essentielle. Il est possible d’y parvenir en mettant en place les bons outils. Il en existe 4 grands types : **le baromètre, l'outil d’accompagnement au management émotionnel, l'outil communautaire ou encore l'outil collaboratif et réseau social d'entreprise** comme par exempleTeam Smart.
 
-* **Définir la bonne architecture pour les enquêtes**, en utilisant une formulation positive des questions, en définissant des objectifs clairs, une fréquence...
+Une démarche de mesure de l'épanouissement  et de l'engagement au travail est une démarche globale qui implique de faire de nombreux choix. Au-delà du choix des outils, il existe un ensemble de bonnes pratiques à suivre pour rendre cette démarche vertueuse :
+
+* **Pour mener une enquête, définissez une architecture claire pour assurer une bonne lisibilité de votre questionnaire.**
 * **Transformer les résultats des enquêtes en un récit**, plutôt qu’une analyse froide
-* **Co-construire la démarche** pour embarquer un maximum de collaborateurs
+* **Co-construire la démarche** pour embarquer un maximum de collaborateurs et savoir ce qui est important pour eux.
 * Envisager l’issue de l’enquête non pas comme un résultat final, mais comme la **première étape d’un processus de changement**
-* **Accompagner émotionnellement le processus**, car les résultats peuvent bouleverser les managers
-* Faire suivre la campagne de mesure d’**un plan d’action**
+* **Accompagner émotionnellement le processus**, car les résultats peuvent bouleverser les managers 
+* Faire suivre la campagne de mesure d’**un plan d’action.** Probablement la bonne pratique la plus importante à retenir. 
 
 *« L’épanouissement au travail est une nécessité éthique : on a besoin de prendre soin les uns des autres et que les organisations prennent soin de nous. On a également un faisceau d’indices qui révèlent à quel point **l’épanouissement au travail génère de la performance** »*, explique Alexandre Jost, Fondateur de [La Fabrique Spinoza](https://fabriquespinoza.fr/qui-sommes-nous/). En vous préoccupant de comment vont vos collaborateurs, il sera ensuite possible d’identifier des leviers pour les faire gagner en efficacité. In fine, **se préoccuper de l’expérience collaborateur c’est mettre toutes les chances de son côté pour proposer la meilleure expérience client possible**.
 
