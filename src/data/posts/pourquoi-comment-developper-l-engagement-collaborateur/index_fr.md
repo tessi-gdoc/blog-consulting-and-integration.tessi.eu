@@ -67,13 +67,17 @@ Bénéficier d’une image positive, transformer l’organisation, veiller au bi
 
 Une démarche de mesure de l'épanouissement  et de l'engagement au travail est une démarche globale qui implique de faire de nombreux choix. Au-delà du choix des outils, il existe un ensemble de bonnes pratiques à suivre pour rendre cette démarche vertueuse :
 
-* **Pour mener une enquête, définissez une architecture claire pour assurer une bonne lisibilité de votre questionnaire.**
-* **Transformer les résultats des enquêtes en un récit**, plutôt qu’une analyse froide
-* **Co-construire la démarche** pour embarquer un maximum de collaborateurs et savoir ce qui est important pour eux.
-* Envisager l’issue de l’enquête non pas comme un résultat final, mais comme la **première étape d’un processus de changement**
-* **Accompagner émotionnellement le processus**, car les résultats peuvent bouleverser les managers 
-* Faire suivre la campagne de mesure d’**un plan d’action.** Probablement la bonne pratique la plus importante à retenir. 
+* **Coconstruisez vos enquêtes** pour embarquer un maximum de collaborateurs et connaître ce qui est important pour eux, 
+* **Définissez une architecture claire** pour assurer une bonne lisibilité de vos questionnaires. 
+* **Transformez les résultats des enquêtes en un récit**, plutôt qu’une analyse froide,
+* Envisagez l’issue de vos enquêtes non pas comme un résultat final, mais comme la **première étape d’un processus de changement,**
+* **Accompagnez émotionnellement le processus**, car les résultats peuvent bouleverser les managers notamment,
+* **Suivez la campagne de mesure d’un plan d’action.** Probablement la bonne pratique la plus importante à retenir. 
 
-*« L’épanouissement au travail est une nécessité éthique : on a besoin de prendre soin les uns des autres et que les organisations prennent soin de nous. On a également un faisceau d’indices qui révèlent à quel point **l’épanouissement au travail génère de la performance** »*, explique Alexandre Jost, Fondateur de [La Fabrique Spinoza](https://fabriquespinoza.fr/qui-sommes-nous/). En vous préoccupant de comment vont vos collaborateurs, il sera ensuite possible d’identifier des leviers pour les faire gagner en efficacité. In fine, **se préoccuper de l’expérience collaborateur c’est mettre toutes les chances de son côté pour proposer la meilleure expérience client possible**.
+Pour retrouver tous les bons conseils d'Alexandre Jost à ce sujet, retrouvez sa conférence ["La mesure de l'engagement et de l'épanouissement des collaborateurs"](https://www.saloon.cloud/fr/conferences/la-mesure-de-l-engagement-et-de-l-epanouissement-des-collaborateurs).
+
+*« L’épanouissement au travail est une nécessité éthique : on a besoin de prendre soin les uns des autres et que les organisations prennent soin de nous. On a également un faisceau d’indices qui révèlent à quel point **l’épanouissement au travail génère de la performance** »*, explique Alexandre Jost, Fondateur de La Fabrique Spinoza. En vous préoccupant de comment vont vos collaborateurs, il sera ensuite possible d’identifier des leviers pour les faire gagner en efficacité. 
+
+In fine, **se préoccuper de l’expérience collaborateur c’est mettre toutes les chances de son côté pour proposer la meilleure expérience client possible**.
 
 [![replay-saloon-experience-collaborateur](banniere_saloon_ex_350x950px.png "Ecoutez le replay du saloon de l'expérience collaborateur")](https://www.saloon.cloud/fr/events/le-saloon-de-l-experience-collaborateur?utm_medium=blog-tessijourney&utm_source=websites&utm_campaign=tci-customercentric&utm_content=in-article-banner)
