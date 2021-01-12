@@ -7,7 +7,7 @@ path: pourquoi-comment-developper-l-engagement-collaborateur
 title: Pourquoi et comment développer l'engagement collaborateur ?
 description: Véritable clé de la réussite de la transformation de l'expérience
   client, l'engagement collaborateur est un atout déterminant. Pourquoi ? Quels
-  leviers pour engager ses collaborateurs ?
+  sont les leviers pour engager ses collaborateurs ?
 date: 2021-01-12T14:59:28.152Z
 tags:
   - customerJourney
@@ -17,7 +17,7 @@ introduction: >-
   collaborateur", un événement digital que vous pouvez retrouver en replay par
   [ici](https://www.saloon.cloud/fr/events/le-saloon-de-l-experience-collaborateur?utm_medium=blog-tessijourney&utm_source=websites&utm_campaign=tci-customercentric&utm_content=hyperlink).
   Si le temps vous manque pour visionner les conférences alors cet article est
-  fait pour vous. Il vous donnera un aperçu des idées clés partagées à cet
+  fait pour vous. Il vous donnera un aperçu des idées clés partagées à cette
   occasion. 
 
 
@@ -30,6 +30,8 @@ Il y a encore quelques décennies, les organisations était relativement éloign
 L’arrivée du web et la multiplication des points de contact ont fait passer les organisations à un **modèle multicanal**. Dans ce nouveau paradigme, tout l’enjeu était d’offrir aux clients de nouveaux moyens pour interagir avec l’entreprise. De nouveaux canaux ont alors été intégrés aux parcours client. A ce stade, les canaux de communication cohabitent et les premières expériences de Selfcare voient le jour. Les organisations s’organisent avec d’un côté le front-office en contact direct avec le client et d’un autre côté, le back-office en charge de traiter les demandes des clients
 
 Dans ce modèle multicanal, l’information reste cloisonnée entre les collaborateurs du front et du back-office. Il est donc difficile d’entretenir une relation forte avec le client. **C’est pourquoi les entreprises tendent désormais vers un modèle davantage customer-centric et omnicanal, soucieux de l’expérience offerte à leurs clients**. Dans ce modèle, les canaux sont intrinsèquement liés entre eux permettant ainsi une meilleure circulation de l’information, une fluidité et une cohérence des parcours. Le self-care prend une place essentielle. Le client entre véritablement au cœur de l’entreprise et devient plus autonome. Pour accompagner ce parcours, le collaborateur détient le rôle principal. Le digital quant à lui, joue un rôle d’accélérateur au service de l’humain et des expériences.
+
+![modèle omnicanal customer centric](image_cx_ex_duo-de-choc.png "L'engagement client et collaborateur : un duo de choc")
 
 *« Le modèle omnicanal casse les silos et décloisonne le front-office du back-office. Les collaborateurs du front et du back-office se transforment pour assister et coacher le client pendant son parcours. **L’objectif est d’évoluer vers la symétrie des attentions, entre le client et le collaborateur, mais aussi vers une symétrie des intentions entre le collaborateur et le management** »*, estime Pascal Corrotti, Directeur Conseil – Tessi Conseil & Intégration. 
 
