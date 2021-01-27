@@ -7149,10 +7149,10 @@ gatsby-plugin-netlify-cms@4.8.0:
     netlify-identity-widget "^1.9.1"
     webpack "^4.44.2"
 
-gatsby-plugin-netlify@2.9.0:
-  version "2.9.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-netlify/-/gatsby-plugin-netlify-2.9.0.tgz#58e241e9f53fbc9b0e9bb1c82206016a14be5062"
-  integrity sha512-KJ4/LXTUptJzjt3uywQAKi76SPAo56jxQ6QrVmZhrCZS1D0YAMUHlJx3BOPANOJ/utY9JHFio4Qpfb7eH8mx0Q==
+gatsby-plugin-netlify@2.10.0:
+  version "2.10.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-netlify/-/gatsby-plugin-netlify-2.10.0.tgz#aa493f07130939ed68cb737feb239bf554ba7026"
+  integrity sha512-6zNzL/ePYzOpZ6PcUhLcWI53wPWe/YBofXzzWv8OEbM/3eupNRuG4QHsjTadxJdrTTnD7AcgUdR2a6jT/L1Mxg==
   dependencies:
     "@babel/runtime" "^7.12.5"
     fs-extra "^8.1.0"
@@ -7160,10 +7160,10 @@ gatsby-plugin-netlify@2.9.0:
     lodash "^4.17.20"
     webpack-assets-manifest "^3.1.1"
 
-gatsby-plugin-nprogress@2.8.0:
-  version "2.8.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-nprogress/-/gatsby-plugin-nprogress-2.8.0.tgz#2a6eaecc1e346370b9f877ae05d13cbe14412358"
-  integrity sha512-fjyNI9ihCKuj8+mkR/aRbekXabjwQULpV2ekFLbO/yIITkdsfGxgkHVnz9//z2CkHTfaH3/RZeT5z+eIo4eJhQ==
+gatsby-plugin-nprogress@2.9.0:
+  version "2.9.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-nprogress/-/gatsby-plugin-nprogress-2.9.0.tgz#6be4d1da9126b5cf2f4f21828cbd3c5878edc922"
+  integrity sha512-zaYokx5qz2E0frSf5ts/oS0eqkJgYVZZaE+a72zwn7vhUtuf2jiXydt8fdQtDyxH2nMyoj1weAZafOSCyGL7UQ==
   dependencies:
     "@babel/runtime" "^7.12.5"
     nprogress "^0.2.0"
@@ -7421,17 +7421,17 @@ gatsby-remark-responsive-iframe@2.10.0:
     lodash "^4.17.20"
     unist-util-visit "^1.4.1"
 
-gatsby-source-filesystem@2.9.1:
-  version "2.9.1"
-  resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-2.9.1.tgz#25d603739d0ee818a72391f7711c3a6a0385c05e"
-  integrity sha512-irXzH0EK3Y+jSwzhpnxG02fzvXBfkFFsT7tvv5Gp3CosPNX5LWz14PiKYFlylPC0rj2Q/zR7sgHVvkIeqgs3vA==
+gatsby-source-filesystem@2.10.0:
+  version "2.10.0"
+  resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-2.10.0.tgz#9ee2f770d3ae15062a111bb1faea76b7d6e2b059"
+  integrity sha512-kf1D25wBe+mXa+c4C0HgI+5bwgEoTUQupP1q7nk4Q1+RC2mHlWSm3X+lNPWVfxg8MKNWrLmrX1GrXorW8cEtEQ==
   dependencies:
     "@babel/runtime" "^7.12.5"
     better-queue "^3.8.10"
     chokidar "^3.4.3"
     file-type "^16.0.0"
     fs-extra "^8.1.0"
-    gatsby-core-utils "^1.8.0"
+    gatsby-core-utils "^1.9.0"
     got "^9.6.0"
     md5-file "^5.0.0"
     mime "^2.4.6"
