@@ -258,9 +258,6 @@ module.exports = {
             `X-UA-Compatible: IE=Edge`,
             `Content-Security-Policy: block-all-mixed-content; base-uri 'self'; default-src * 'self' blob: data:; script-src * 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; object-src 'none'; form-action 'self'; font-src * 'self' data:; connect-src * blob: 'self'`
           ],
-          '/admin/*': [
-            `Content-Security-Policy: block-all-mixed-content; base-uri 'self'; default-src 'self' blob: data: raw.githubusercontent.com img.youtube.com; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; object-src 'none'; form-action 'self'; font-src 'self' data:; connect-src 'self' blob: api.github.com`
-          ],
           '/icons/*.png': [`cache-control: public, max-age=31536000,immutable`],
           '/jquery.min.js': [
             `cache-control: public, max-age=31536000,immutable`
