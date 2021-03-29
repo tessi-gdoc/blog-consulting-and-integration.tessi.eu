@@ -2,7 +2,7 @@
 lang: fr
 key: blog-post
 image: image_reinventer_ses_processus_metier.png
-imageAlt: test
+imageAlt: processus_metier
 path: super-title
 title: Super title
 description: test
