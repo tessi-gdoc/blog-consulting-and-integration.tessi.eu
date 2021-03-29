@@ -18,17 +18,17 @@ introduction: La mise en place du télétravail à marche forcée a révélé
   moins de temps qu’il ne faut pour le dire. Ces nouveaux modes de
   travail, qu’il a fallu adopter, ont impacté les organisations dans leur
   ensemble, les parcours client, la relation client... Dans de nombreux
-  cas, **refondre les processus métiers en profondeur s’avère être un
-  impératif, ou tout du moins, porteur de
-  forts leviers d’optimisation.** Répondre à ces nouveaux enjeux soulève des
-  questionnements. Comment s’y prendre ? Quelles technologies utilisées pour
-  quels besoins ? Faut-il automatiser et à quel point ?
+  cas, refondre les processus métiers en profondeur s’avère être un
+  impératif, ou tout du moins, porteur de forts leviers d’optimisation. Répondre
+  à ces nouveaux enjeux soulève des questionnements. Comment s’y prendre ?
+  Quelles technologies utilisées pour quels besoins ? Faut-il automatiser et à
+  quel point ?
 ---
 ## 01/ Processus métier VS Parcours client : quelle différence et par où commencer ? 
 
 ### Processus métier et parcours client : deux notions clés 
 
-**Le parcours client correspond à une suite d’étapes** – découverte, évaluation, achat, post-achat… - **que poursuit un client dans sa relation avec une marque, avec pour objectif de trouver une réponse à un besoin initial.** Le consommateur est guidé par l’entreprise au travers des possibilités offertes par cette dernière, tout en étant l’acteur principal. La satisfaction éprouvée par le client lors de ce parcours aboutit ou non à la transaction finale, voire à des actions de réachat. 
+**Le parcours client correspond à une suite d’étapes** – découverte, évaluation, achat, post-achat… - **que poursuit un client dans sa relation avec une marque,** avec pour objectif de trouver une réponse à un besoin initial. Le consommateur est guidé par l’entreprise au travers des possibilités offertes par cette dernière, tout en étant l’acteur principal. La satisfaction éprouvée par le client lors de ce parcours aboutit ou non à la transaction finale, voire à des actions de réachat. 
 
 Le processus métier, lui, est la face cachée du parcours client. Ce n’est autre qu’**une suite d’opérations normalisées, plus ou moins automatisées, effectuées par toute ou partie des collaborateurs d’un ou plusieurs métiers de l’entreprise pour réaliser un objectif donné.** En d’autres termes, il s’agit d’une succession de tâches, d’événements, de données, de décisions qui mènent au traitement d’un cas, d’une demande ou d’une action.  
 
@@ -56,9 +56,9 @@ Cette stratégie « outside in » est toute indiquée pour les processus�
 
 **Vouloir tout traiter pourrait nuire à l’efficacité du procédé.** Il est donc préférable de définir de « vraies » priorités en se posant de bonnes questions : 
 
-1. A quelles opérations critiques tel processus manuel fait-il obstacle ? 
-2. Peut-on l’automatiser avec les outils et technologies existantes ou à travers une nouvelle solution facile à mettre en place ? 
-3. Quels sont les éléments supplémentaires (obligations légales, réductions de temps de cycles, traçabilité, etc …) à prendre en compte ? 
+* A quelles opérations critiques tel processus manuel fait-il obstacle ? 
+* Peut-on l’automatiser avec les outils et technologies existantes ou à travers une nouvelle solution facile à mettre en place ? 
+* Quels sont les éléments supplémentaires (obligations légales, réductions de temps de cycles, traçabilité, etc …) à prendre en compte ? 
 
 Ainsi vont se dégager **les processus constituant des enjeux vitaux pour l’entreprise**, ceux impactant de manière importante et récurrente les clients et les collaborateurs, ainsi que ceux dont la résolution peut être justifiée par un ROI prévisionnel, définissant par là même, les priorités ! Cela étant dit, l’exercice est titanesque. En effet, dans la pratique, chaque processus génère et modifie des quantités significatives d’informations, on imagine les volumes astronomiques de données à traiter. C’est à ce moment-là que la technologie entre en jeu !  
 
@@ -94,7 +94,7 @@ L’utilisation des technologies liées au BPA (Business Process Automation) ne
 
 **Réinventer ses processus est un savant dosage. Les options sont nombreuses et à étudier au cas par cas.** Cependant, une chose est certaine. Les bénéfices découlant de l’automatisation des processus métier peuvent être considérables à condition que l’automatisation soit au service de l’expérience client et utilisateur ; qu’un cadre soit bien défini pour veiller à la maintenabilité des solutions. 
 
-Quelques exemples de technologie d’automatisation :  
+Quelques exemples de technologies d’automatisation :  
 
 * **La technologie RPA (Robotic Automation Process)** par exemple, reproduit les interactions entre l’homme et l’ordinateur, automatisant certaines séquences de tâches d’un processus. Contrairement à l’Intelligence Artificielle, il n’existe pas de montée en compétence en RPA. Les robots sont plutôt destinés à réaliser les tâches répétitives et fastidieuses, à faible valeur ajoutée pour l’entreprise et chronophage pour les métiers. En définitive, les opérations sont rationnalisées, l’efficacité améliorée, les erreurs humaines supprimées, et les coûts diminués.   
 * **Les plateformes d’application Low Code**, permettent aux développeurs d’accélérer le processus de développement d’applications, sans avoir à réinventer sans cesse la roue et en ayant très peu recours à la programmation manuelle. Elle permet également aux experts métier d’automatiser eux-mêmes leurs tâches afin de créer des applications sur mesure à forte valeur ajoutée. 
