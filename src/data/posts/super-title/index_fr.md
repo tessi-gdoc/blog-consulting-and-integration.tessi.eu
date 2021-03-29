@@ -28,19 +28,19 @@ introduction: La mise en place du télétravail à marche forcée a révélé
 
 ### Processus métier et parcours client : deux notions clés 
 
-Le parcours client correspond à une suite d’étapes – découverte, évaluation, achat, post-achat… - que poursuit un client dans sa relation avec une marque, avec pour objectif de trouver une réponse à un besoin initial. Le consommateur est guidé par l’entreprise au travers des possibilités offertes par cette dernière, tout en étant l’acteur principal. La satisfaction éprouvée par le client lors de ce parcours aboutit ou non à la transaction finale, voire à des actions de réachat. En résumé, le parcours client est ce que vit le consommateur au travers de ses interactions avec une organisation. 
+**Le parcours client correspond à une suite d’étapes** – découverte, évaluation, achat, post-achat… - **que poursuit un client dans sa relation avec une marque, avec pour objectif de trouver une réponse à un besoin initial.** Le consommateur est guidé par l’entreprise au travers des possibilités offertes par cette dernière, tout en étant l’acteur principal. La satisfaction éprouvée par le client lors de ce parcours aboutit ou non à la transaction finale, voire à des actions de réachat. 
 
-Le processus métier, lui, est la face cachée du parcours client. Ce n’est autre qu’une suite d’opérations normalisées, plus ou moins automatisées, effectuées par toute ou partie des collaborateurs d’un ou plusieurs métiers de l’entreprise pour réaliser un objectif donné. En d’autres termes, il s’agit d’une succession de tâches, d’événements, de données, de décisions qui mènent au traitement d’un cas, d’une demande ou d’une action.  
+Le processus métier, lui, est la face cachée du parcours client. Ce n’est autre qu’**une suite d’opérations normalisées, plus ou moins automatisées, effectuées par toute ou partie des collaborateurs d’un ou plusieurs métiers de l’entreprise pour réaliser un objectif donné.** En d’autres termes, il s’agit d’une succession de tâches, d’événements, de données, de décisions qui mènent au traitement d’un cas, d’une demande ou d’une action.  
 
-Les processus métiers d’une organisation sont sous-jacents aux parcours client. Il s’agit de la partie invisible par le client, mais qui en toute logique, impacte fortement la qualité d’un parcours client et par extension la satisfaction. On notera d’ailleurs qu’un processus métier défaillant ou peu optimisé peut mettre à mal la satisfaction du client tout comme celle du collaborateur en charge du traitement.  
+**Les processus métiers d’une organisation sont sous-jacents aux parcours client.** Il s’agit de la partie invisible par le client, mais qui en toute logique, impacte fortement la qualité d’un parcours client et par extension la satisfaction. On notera d’ailleurs qu’un processus métier défaillant ou peu optimisé peut mettre à mal la satisfaction du client tout comme celle du collaborateur en charge du traitement.  
 
 ### D’une approche Produit à une approche Client : quelles conséquences sur les processus ? 
 
-Jusqu’à il n’y a pas si longtemps, la notion de produit étant privilégiée à celle de client, les processus étaient pensés en fonction des besoins internes des métiers, sans mettre les attentes clients au centre de la réflexion. 
+Jusqu’à il n’y a pas si longtemps, la notion de produit étant privilégiée à celle de client, **les processus étaient pensés en fonction des besoins internes des métiers, sans mettre les attentes clients au centre de la réflexion.** 
 
-Aujourd’hui, de plus en plus d’entreprises adoptent un positionnement « customer-centric » ou centré client. Cette vision consistant à mettre au cœur de la stratégie de l’entreprise les préoccupations des clients suggère de comprendre leurs attentes, leurs besoins, leurs émotions… afin de proposer des services toujours plus pertinents et d’entretenir une relation toujours plus personnalisée. 
+Aujourd’hui, de plus en plus d’entreprises adoptent un **positionnement « customer-centric »** ou centré client. Cette vision consistant à mettre au cœur de la stratégie de l’entreprise les préoccupations des clients suggère de comprendre leurs attentes, leurs besoins, leurs émotions… afin de proposer des services toujours plus pertinents et d’entretenir une relation toujours plus personnalisée. 
 
-Pour y parvenir, l’entreprise doit connaître l’ensemble de ses parcours client et les faire évoluer dans le temps. Cette approche Client bouleverse les méthodes de travail traditionnelles. D’un modèle « inside out » où l’on définissait ses processus en fonction des besoins métiers, nous sommes passés au modèle « outside in » consistant à d’abord cartographier les parcours client, pour ensuite construire les processus métier associés. 
+Pour y parvenir, l’entreprise doit connaître l’ensemble de ses parcours client et les faire évoluer dans le temps. Cette approche Client bouleverse les méthodes de travail traditionnelles. D’un modèle « inside out » où l’on définissait ses processus en fonction des besoins métiers, nous sommes passés au **modèle « outside in » consistant à d’abord cartographier les parcours client, pour ensuite construire les processus métier associés.** 
 
 Cette stratégie « outside in » est toute indiquée pour les processus : 
 
@@ -48,7 +48,7 @@ Cette stratégie « outside in » est toute indiquée pour les processus�
 * où le client a des attentes fortes vis-à-vis de l’entreprise,  
 * nécessitant d’impliquer fréquemment le client.  
 
-En somme, cette méthodologie est à envisager pour tout processus supportant « un moment de vérité » sur le parcours client. 
+**En somme, cette méthodologie est à envisager pour tout processus supportant « un moment de vérité » sur le parcours client.** 
 
  
 
