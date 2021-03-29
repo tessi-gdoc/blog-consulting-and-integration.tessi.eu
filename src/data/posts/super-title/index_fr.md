@@ -9,7 +9,7 @@ description: test
 date: 2021-03-29T16:21:42.571Z
 tags:
   - news
-author: mag
+author: tcj
 introduction: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
   eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
   veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
