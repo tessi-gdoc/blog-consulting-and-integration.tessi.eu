@@ -1,0 +1,21 @@
+---
+lang: fr
+key: blog-post
+image: veolia-vector-logo-324x400.png
+imageAlt: reger
+path: super-title
+canonicalUrl: ""
+title: Super title
+description: gregerge
+date: 2021-03-29T14:12:30.577Z
+tags:
+  - news
+author: mag
+introduction: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+  commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+  esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+  non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+---
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
