@@ -31,7 +31,7 @@
     "gatsby-remark-autolink-headers": "2.11.0",
     "gatsby-remark-code-titles": "1.1.0",
     "gatsby-remark-copy-linked-files": "2.10.0",
-    "gatsby-remark-embed-video": "^3.1.0",
+    "gatsby-remark-embed-video": "^3.1.1",
     "gatsby-remark-external-links": "0.0.4",
     "gatsby-remark-images": "3.11.1",
     "gatsby-remark-prismjs": "3.13.0",
@@ -54,7 +54,7 @@
     "react-headroom": "3.1.0",
     "react-helmet": "6.1.0",
     "react-modal": "3.12.1",
-    "react-select": "4.1.0",
+    "react-select": "4.3.0",
     "react-share": "4.4.0",
     "react-typist": "2.0.5",
     "showdown": "1.9.1",
@@ -70,7 +70,7 @@
     "eslint-plugin-react": "7.23.2",
     "eslint-plugin-react-hooks": "4.2.0",
     "prettier": "2.2.1",
-    "standard-version": "9.1.1"
+    "standard-version": "9.2.0"
   },
   "license": "UNLICENSED",
   "main": "n/a",
