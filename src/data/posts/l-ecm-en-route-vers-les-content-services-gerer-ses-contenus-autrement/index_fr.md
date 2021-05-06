@@ -1,6 +1,7 @@
 ---
 lang: fr
 key: blog-post
+showToC: true
 image: ecm_vers_content_services.png
 imageAlt: Content Services
 path: l-ecm-en-route-vers-les-content-services-gerer-ses-contenus-autrement

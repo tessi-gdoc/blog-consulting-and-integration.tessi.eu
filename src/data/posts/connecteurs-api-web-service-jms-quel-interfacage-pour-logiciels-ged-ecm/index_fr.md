@@ -1,6 +1,7 @@
 ---
 lang: fr
 key: blog-post
+showToC: true
 image: connecteurs-api.png
 imageAlt: interfaçage_web_service_API_ECM_GED
 path: connecteurs-api-web-service-jms-quel-interfacage-pour-logiciels-ged-ecm

@@ -1,6 +1,7 @@
 ---
 lang: fr
 key: blog-post
+showToC: true
 image: 6_leviers_pour_capitaliser_sur_sa_solution_ccm.jpg
 imageAlt: image_article_leverage
 path: 6-leviers-pour-capitaliser-sur-sa-solution-CCM

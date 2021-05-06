@@ -1,6 +1,7 @@
 ---
 lang: fr
 key: blog-post
+showToC: true
 image: coffre-fort_numerique_cas_utilisation_en_entreprise_guide_pour_choisir-1-.png
 imageAlt: Image_article_coffre-fort_électronique
 path: coffre-fort-numerique-cas-utilisation-en-entreprise-et-guide-pour-choisir

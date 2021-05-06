@@ -1,6 +1,7 @@
 ---
 lang: fr
 key: blog-post
+showToC: true
 image: photo-article-ged.png
 imageAlt: GED_plan_de_classement
 path: comment-structurer-sa-ged-et-maintenir-son-plan-de-classement

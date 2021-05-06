@@ -1,6 +1,7 @@
 ---
 lang: fr
 key: blog-post
+showToC: true
 image: adobestock_99130765.jpg
 imageAlt: monétique-nouveaux-moyens-paiement
 path: de-la-monetique-aux-nouveaux-moyens-de-paiements

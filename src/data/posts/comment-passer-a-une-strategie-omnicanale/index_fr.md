@@ -1,6 +1,7 @@
 ---
 lang: fr
 key: blog-post
+showToC: true
 image: parcours_client_comment_passer_strategie_omnincanal.png
 imageAlt: Parcours client omnicanal
 path: comment-passer-a-une-strategie-omnicanale

@@ -1,6 +1,7 @@
 ---
 lang: fr
 key: blog-post
+showToC: true
 image: 244-converti-.png
 imageAlt: image_strategie_omnicanal
 path: Multicanal_cross_canal_omnicanal_quelle_strategie_de_communication_choisir

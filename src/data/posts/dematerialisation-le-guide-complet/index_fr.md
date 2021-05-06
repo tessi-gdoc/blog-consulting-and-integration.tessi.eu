@@ -1,6 +1,7 @@
 ---
 lang: fr
 key: blog-post
+showToC: true
 image: image_dematerialisation_guide_complet.png
 imageAlt: dématérialisation
 path: dematerialisation-le-guide-complet

@@ -1,6 +1,7 @@
 ---
 lang: fr
 key: blog-post
+showToC: true
 image: de_leditique_aux_solutions_de_gestion_de_la_communication_client_quelles_evolutions_et_avantages_majeurs.jpg
 imageAlt: éditique
 path: de-l-editique-aux-solutions-de-gestion-de-la-communication-client-quelles-evolutions-et-avantages-majeurs

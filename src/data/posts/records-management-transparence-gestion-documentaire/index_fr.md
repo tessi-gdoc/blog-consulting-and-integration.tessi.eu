@@ -1,6 +1,7 @@
 ---
 lang: fr
 key: blog-post
+showToC: true
 image: records_management_transparent.png
 imageAlt: image_article_records_management_transparent
 path: records-management-transparence-gestion-documentaire

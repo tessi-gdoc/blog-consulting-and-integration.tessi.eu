@@ -378,7 +378,8 @@ export const BlogPostTemplatePreview = ({ data: { markdownRemark: post } }) => {
       imageAlt,
       tags: tagNames,
       author,
-      path
+      path,
+      showToC
     },
     html,
     headings
@@ -394,7 +395,7 @@ export const BlogPostTemplatePreview = ({ data: { markdownRemark: post } }) => {
       <PostContainer css={BlogPostStyle}>
         <BioPreview key="bio" author={author} date={date} tagNames={tagNames} />
         <Intro key="intro" markdown={introduction} />
-        {!!headings.length && (
+        {!!headings.length && showToC && (
           <TableOfContentsPreview key="toc" headings={headings} />
         )}
         <article
@@ -424,7 +425,7 @@ const BlogPost = ({
   }
 }) => {
   const {
-    frontmatter: { introduction, date, title, image, imageAlt, author, tags },
+    frontmatter: { introduction, date, title, image, imageAlt, author, tags, showToC },
     html,
     headings
   } = post;
@@ -436,7 +437,7 @@ const BlogPost = ({
       <PostContainer css={BlogPostStyle}>
         <Bio key="bio" author={author} tags={tags} date={date} />
         <Intro key="intro" markdown={introduction} />
-        {!!headings.length && <TableOfContents key="toc" headings={headings} />}
+        {!!headings.length && showToC && <TableOfContents key="toc" headings={headings} />}
         <article
           key="article"
           css={css`
@@ -473,6 +474,7 @@ export const pageQuery = graphql`
         introduction
         description
         title
+        showToC
         canonicalUrl
         image {
           childImageSharp {

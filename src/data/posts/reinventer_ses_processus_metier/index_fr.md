@@ -1,6 +1,7 @@
 ---
 lang: fr
 key: blog-post
+showToC: true
 image: image_reinventer_ses_processus_metier.png
 imageAlt: processus_metier
 path: reinventer-ses-processus-metier-quels-usages-des-nouvelles-technologies

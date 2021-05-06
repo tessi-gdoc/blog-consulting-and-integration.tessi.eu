@@ -1,6 +1,7 @@
 ---
 lang: fr
 key: blog-post
+showToC: true
 image: le_case_management_par_ou_commencer_definition_role_et_outils.jpg
 imageAlt: Case Management
 path: case-management-par-ou-commencer
