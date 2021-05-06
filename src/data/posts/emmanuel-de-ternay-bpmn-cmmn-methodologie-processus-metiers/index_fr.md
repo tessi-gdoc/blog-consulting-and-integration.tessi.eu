@@ -26,6 +26,7 @@ introduction: Fort de 28 ans d’expérience, **Emmanuel de Ternay** évolue dep
   met à l’épreuve lors d’exercices de modélisation de processus pour le
   développement d’applications métiers.Retour sur une approche projet efficace
   dont il nous définit les contours.
+showToC: false
 ---
 ## Le BPMN et le CMMN : de quoi s’agit-il ?
 
