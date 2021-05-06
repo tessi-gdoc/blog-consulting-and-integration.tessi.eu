@@ -49,6 +49,7 @@ const BlogPostPreview = ({ entry, widgetFor, getAsset }) => {
         image: imageData,
         imageAlt: entry.getIn(['data', 'imageAlt']),
         tags: entry.getIn(['data', 'tags']).toJS(),
+        showToC: entry.getIn(['data', 'showToC']),
         banner: {
           title: entry.getIn(['data', 'banner', 'title']),
           alt: entry.getIn(['data', 'banner', 'alt']),
