@@ -1,6 +1,7 @@
 ---
 lang: fr
 key: blog-post
+showToC: true
 image: pourquoi-comment-developper-engagement-collaborateur.jpg.png
 imageAlt: expérience-collaborateur
 path: pourquoi-comment-developper-l-engagement-collaborateur

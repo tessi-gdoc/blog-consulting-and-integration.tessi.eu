@@ -1,6 +1,7 @@
 ---
 lang: fr
 key: blog-post
+showToC: true
 image: editique_definition_enjeux.jpg
 imageAlt: editique_definition_role_enjeux
 path: editique-definition-role-enjeux

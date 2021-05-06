@@ -1,6 +1,7 @@
 ---
 lang: fr
 key: blog-post
+showToC: true
 image: introduction_aux_progressive_web_app.png
 imageAlt: Introduction aux Progressive Web Apps
 path: introduction-progressive-web-apps-avantages-exemple-tuto

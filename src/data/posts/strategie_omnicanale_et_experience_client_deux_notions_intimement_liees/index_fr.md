@@ -1,6 +1,7 @@
 ---
 lang: fr
 key: blog-post
+showToC: true
 image: 258-converti-1920x1080px.jpg
 imageAlt: image_strategie_omnicanale
 path: strategie_omnicanale_et_experience_client_deux_notions_intimement_liees

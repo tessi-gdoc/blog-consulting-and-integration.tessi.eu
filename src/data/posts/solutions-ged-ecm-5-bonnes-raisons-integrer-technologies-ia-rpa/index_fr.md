@@ -1,6 +1,7 @@
 ---
 lang: fr
 key: blog-post
+showToC: true
 image: 5-bonnes-raisons-dintegrer-ai-aux-solutions-ecm-ged.jpg
 imageAlt: ged-ecm-ia-rpa
 path: solutions-ged-ecm-5-bonnes-raisons-integrer-technologies-ia-rpa

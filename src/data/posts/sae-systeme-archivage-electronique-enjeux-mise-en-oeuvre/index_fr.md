@@ -1,6 +1,7 @@
 ---
 lang: fr
 key: blog-post
+showToC: true
 image: image-sae-enjeux-mise-en-oeuvre.jpeg.png
 imageAlt: image_article_système_d'archivage_électronique
 path: sae-systeme-archivage-electronique-enjeux-mise-en-oeuvre

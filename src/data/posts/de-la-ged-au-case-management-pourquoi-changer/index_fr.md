@@ -1,6 +1,7 @@
 ---
 lang: fr
 key: blog-post
+showToC: true
 image: ged_case_management_migration.png
 imageAlt: Migration GED
 path: de-la-ged-au-case-management-pourquoi-changer

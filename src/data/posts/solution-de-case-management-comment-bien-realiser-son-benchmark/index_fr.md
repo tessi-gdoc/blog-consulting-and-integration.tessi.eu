@@ -1,6 +1,7 @@
 ---
 lang: fr
 key: blog-post
+showToC: true
 image: solution_de_case_management_comment_bien_realiser_son_benchmark.jpg
 imageAlt: Benchmark Case Management
 path: solution-de-case-management-comment-bien-realiser-son-benchmark

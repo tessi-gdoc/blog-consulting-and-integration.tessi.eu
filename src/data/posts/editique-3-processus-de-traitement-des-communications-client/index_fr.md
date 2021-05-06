@@ -1,6 +1,7 @@
 ---
 lang: fr
 key: blog-post
+showToC: true
 image: editique_3_processus_de_traitement.png
 imageAlt: 3_processus_de_traitement_editique
 path: editique-3-processus-de-traitement-des-communications-client

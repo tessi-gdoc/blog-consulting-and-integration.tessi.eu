@@ -1,6 +1,7 @@
 ---
 lang: fr
 key: blog-post
+showToC: true
 image: portrait_laurent_leterrier_2.jpg
 imageAlt: Portrait Laurent Leterrier
 path: >-

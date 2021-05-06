@@ -1,6 +1,7 @@
 ---
 lang: fr
 key: blog-post
+showToC: true
 image: editique_marketing_deux_mondes_a_rassembler.png
 imageAlt: editique_marketing
 path: editique_marketing_deux_mondes_a_rassembler

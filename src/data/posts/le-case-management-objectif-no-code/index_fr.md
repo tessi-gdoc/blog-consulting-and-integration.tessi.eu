@@ -1,6 +1,7 @@
 ---
 lang: fr
 key: blog-post
+showToC: true
 image: case_management_low_code.png
 imageAlt: Case_management_paramétrage
 path: le-case-management-objectif-no-code

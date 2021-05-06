@@ -1,6 +1,7 @@
 ---
 lang: fr
 key: blog-post
+showToC: true
 image: archivage_records_management_quelles_differences.png
 imageAlt: image_archivage_electronique
 path: archivage-records-management-quelles-differences
