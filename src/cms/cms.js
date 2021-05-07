@@ -68,7 +68,7 @@ CMS.registerEditorComponent({
   ],
   pattern: /^`youtube: \[([\S\s]+)\]\(https:\/\/www.youtube.com\/watch\?v=(\S+)\)`$/,
   fromBlock: function (match) {
-    return { id: match[1], title: match[2] };
+    return { id: match[2], title: match[1] };
   },
   toBlock: function (obj) {
     return (
@@ -83,7 +83,7 @@ CMS.registerEditorComponent({
     return (
       <img
         src={`https://img.youtube.com/vi/${obj.id}/maxresdefault.jpg`}
-        alt={`Voir sur Youtube : "${obj.title || obj.id}"`}
+        alt={`Voir sur Youtube : "${obj.title}"`}
       />
     );
   }
