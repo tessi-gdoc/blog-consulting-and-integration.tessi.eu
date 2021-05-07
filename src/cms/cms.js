@@ -62,19 +62,28 @@ CMS.registerEditorComponent({
 CMS.registerEditorComponent({
   id: 'youtube',
   label: 'Youtube',
-  fields: [{ name: 'id', label: 'Youtube Video ID', widget: 'string' }],
-  pattern: /^`youtube: (\S+)`$/,
+  fields: [
+    { name: 'id', label: 'Youtube Video ID', widget: 'string' },
+    { name: 'title', label: 'Titre (a11y)', widget: 'string' }
+  ],
+  pattern: /^`youtube: \[([\S\s]+)\]\(https:\/\/www.youtube.com\/watch\?v=(\S+)\)`$/,
   fromBlock: function (match) {
-    return { id: match[1] };
+    return { id: match[1], title: match[2] };
   },
   toBlock: function (obj) {
-    return '`youtube: ' + obj.id + '`';
+    return (
+      '`youtube: [' +
+      obj.title +
+      '](https://www.youtube.com/watch?v=' +
+      obj.id +
+      ')`'
+    );
   },
   toPreview: function (obj) {
     return (
       <img
         src={`https://img.youtube.com/vi/${obj.id}/maxresdefault.jpg`}
-        alt={`youtube ${obj.id}`}
+        alt={`Voir sur Youtube : "${obj.title || obj.id}"`}
       />
     );
   }
