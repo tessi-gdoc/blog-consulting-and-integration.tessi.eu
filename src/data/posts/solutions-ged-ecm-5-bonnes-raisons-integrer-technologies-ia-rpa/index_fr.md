@@ -26,7 +26,7 @@ introduction: Les [solutions de GED et
   bonnes raisons d’intégrer les technologies IA /RPA aux solutions de gestion de
   contenus d’entreprise.
 ---
-`youtube: l-BHsIkUb1Y`
+`youtube: [Solutions GED/ECM : 5 bonnes raisons d'intégrer les technologies IA/RPA](https://www.youtube.com/watch?v=l-BHsIkUb1Y)`
 
 ## 1. Accroitre les performances de capture et d’extraction automatique
 
