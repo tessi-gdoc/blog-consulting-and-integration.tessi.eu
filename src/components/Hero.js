@@ -107,7 +107,7 @@ const Hero = ({ title, imageData, imageAlt, children }) => {
       fluid={gatsbyImage}
       backgroundColor={primary}
     >
-      <InnerContent title={title}>{children}</InnerContent>>
+      <InnerContent title={title}>{children}</InnerContent>
     </BackgroundImage>
   );
 };
