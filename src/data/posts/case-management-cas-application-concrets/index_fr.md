@@ -5,27 +5,28 @@ image: case_management_exemples_concrets.png
 imageAlt: case-management-exemples
 path: case-management-cas-application-concrets
 title: "Case Management : 5 cas d'application concrets"
-description: To do
+description: De la collecte d'information à la résolution d'un cas, le Case
+  Management est schématiquement le processus complet de gestion d'un dossier.
+  Découvrez 5 exemples concrets de mise en œuvre.
 date: 2021-05-17T12:59:13.473Z
 tags:
   - caseManagement
 author: edt
-introduction: Acteur majeur européen du BPS (Business Process Services) depuis
-  40 ans, Tessi accompagne les entreprises de domaines d’activités divers dans
-  leur stratégie de dématérialisation des processus métiers. L’objectif est de
-  les aider, en les impliquant dans la modélisation, à **structurer leurs**
-  **processus afin de développer une solution pour une première
-  industrialisation ou dans une** **démarche d’amélioration des méthodes de
-  travail**. En cartographiant les spécifications, traduites en langages BPMN et
-  CMMN, l’approche proposée assure la bonne adéquation avec les besoins
-  exprimés.
+introduction: Gain de productivité, réduction des délais de traitement, gestion
+  des exceptions, augmentation de la satisfaction client, flexibilité des
+  processus, aide à la prise de décision, vision 360° des dossiers clients… les
+  avantages du Case Management sont multiples et les cas d'application divers.
+  Fort des projets menés aux côtés de nos clients, nous vous partageons dans cet
+  article 5 exemples concrets de mise en œuvre d'une approche Case Management
+  appliqués à des processus distincts au sein d'entreprise de différents
+  secteurs d'activité.
 showToC: true
 ---
 ## 01/ Case Management pour un organisme d’assurance vie et de prévoyance professionnelle
 
 Dans cette société, toutes les demandes clients sont reçues sur une même plateforme, quel que soit le métier concerné. Au départ il était convenu que chaque demande soit décrite, afin d’orienter la requête vers le bon métier, et trouver une réponse quasiment finale… une approche typiquement BPM. Cependant, l’analyse des métiers, de leurs procédures et de leurs exceptions respectives, a abouti à un schéma BPMN (Business Process Management Notation) tellement dense que le projet de modélisation a été arrêté, pour cause d’usure générale !
 
-A lire aussi : [Emmanuel de Ternay, Tessi : "BPMN et CMMN, une approche projet efficace au service des processus métiers"](https://blog-consulting-and-integration.tessi.eu/posts/emmanuel-de-ternay-BPMN-CMMN-methodologie-modelisation-processus-metiers)
+**A lire aussi :** [Emmanuel de Ternay, Tessi : "BPMN et CMMN, une approche projet efficace au service des processus métiers"](https://blog-consulting-and-integration.tessi.eu/posts/emmanuel-de-ternay-BPMN-CMMN-methodologie-modelisation-processus-metiers)
 
 Tessi a repris le même schéma, en s’inscrivant dans une démarche de Case Management et privilégiant une approche globale au départ. Elle consistait à utiliser les informations minimum, nécessaires à typer la demande, et l’envoyer au bon métier, afin que la décision soit prise selon la connaissance des chargés de dossiers. Ensuite, chaque cas a été étudié pour une éventuelle automatisation sur l’application métier. **En fait, il suffisait d’inverser la donne première, en partant** **du fait que c’est le métier qui décide de la suite à donner à la réponse, alors même que le** **processus se déroule**. Un cas avéré de Case management, où l’application se substitue à la personne qui pilote l’information entrante, et non à celle qui gère la réponse. Une manière de transformer les méthodes de travail, pour une efficience accrue !
 
