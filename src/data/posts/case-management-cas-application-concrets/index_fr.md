@@ -59,4 +59,4 @@ Effectuée et motivée au nom d’une personne morale (groupe d’agriculteurs o
 
 A ce titre, Tessi est intervenu pour un Etat gérant les subventions destinées aux agriculteurs. L’objectif était de conserver, de la demande initiale, à la réception du paiement, l’ensemble des décisions et leurs causes, les montants attribués, les échelonnements des versements, leur effectivité ou leur non-paiement… Des données précieuses, permettant la **lisibilité et la traçabilité de toutes les** **interactions, ainsi qu’un gain de temps dans la gestion des demandes ultérieures**.
 
-***Au-delà de l'efficacité, l'ensemble de ces exemples pratiques démontre la flexibilité d'une approche Case Management, si bien dans la méthodologie, au stade de la modélisation des processus, que dans le traitement des cas d'affaire aussi complexes soient-ils.***
+***Au-delà de l'efficacité, l'ensemble de ces exemples pratiques démontre la flexibilité d'une approche Case Management, si bien dans la méthodologie, au stade de la modélisation des processus, que dans le traitement des cas d'affaires aussi complexes soient-ils.***
