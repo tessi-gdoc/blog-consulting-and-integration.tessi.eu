@@ -1,7 +1,6 @@
 ---
 lang: fr
 key: blog-post
-showToC: true
 image: le_case_management_par_ou_commencer_definition_role_et_outils.jpg
 imageAlt: Case Management
 path: case-management-par-ou-commencer
@@ -31,8 +30,9 @@ introduction: >-
 
 
   Ce terme s’est petit à petit démocratisé et imposé dans d’autres secteurs comme la banque, les assurances ou encore la justice. Ces domaines représentent la partie immergée de l’iceberg car nombreuses sont les entreprises (tout secteur confondu) qui utilisent le Case Management sans même en avoir conscience.
+showToC: true
 ---
-## 1/ Définition du Case Management : C’est quoi ?
+## 01/ Définition du Case Management : C’est quoi ?
 
 * Le Case Management est un concept qui vise à optimiser la performance des organisations et plus particulièrement la performance des équipes front office.
 * En français, Case Management se traduit par « gestion des cas ». Autrement dit, le Case Management facilite le traitement des cas pour plus d’efficacité.
@@ -42,7 +42,7 @@ introduction: >-
 * L’amalgame est souvent fait entre Case Management et BPM (Business Process Management). Même si en effet, ces deux types de solution permettent le traitement de cas client, le BPM utilise des processus prédictibles. Alors que le Case Management fait appel à des processus contrôlés mais non prédictifs qui confèrent une flexibilité que les solutions de BPM ne sauraient égaler.
 * On parle aussi de Case Management 360. Cette notion illustre la vision d’ensemble des dossiers clients et processus qu’offre une solution de Case Management.
 
-## 2/ Le rôle du Case Management : Ça sert à quoi ?
+## 02/ Le rôle du Case Management : Ça sert à quoi ?
 
 Le Case Management offre de nombreuses possibilités dans le cycle de vie d’un cas. Le gestionnaire y est au centre. Il est le décisionnaire de la succession d’étapes que le cas va suivre jusqu’à sa résolution. C’est ce qui permet une gestion au cas par cas même lorsque ces derniers sont complexes.
 
@@ -54,9 +54,11 @@ Lorsqu’un client rencontre un problème avec un produit qu’il a acheté, il 
 
 Voici un exemple auquel le Case Management répond. De nombreux autres cas d’usage peuvent être cités comme la gestion des réclamations, des souscriptions, des incidents, les audits, etc.
 
-[![télécharger_livre_blanc_Case_Management](950x250_banniere_lb_case_management.png "Livre Blanc ″Pourquoi s'équiper d'une solution de Case Management″")](https://content.gdoc-lasercom.com/livre-blanc-tessi-pourquoi-sequiper-dune-solution-de-case-management)
+**A lire aussi :** ["Case Management : 5 cas d'application concrets"](https://blog-consulting-and-integration.tessi.eu/posts/case-management-cas-application-concrets)
 
-## 3/ Les outils du Case Management : Avec quoi ?
+
+
+## 03/ Les outils du Case Management : Avec quoi ?
 
 Votre outil de Case Management doit être une solution totalement personnalisable et adaptable aux exigences de l’entreprise grâce à un système modulaire. Les modules sont proposés en fonction des besoins du projet de Case Management, des outils et des processus mis en place dans l’entreprise. De ce fait, partir de zéro ou ajouter un seul module à l’existant pour initialiser une solution de Case Management, c’est possible !
 
@@ -67,6 +69,10 @@ De façon générale, certains modules sont indispensables. Pour avoir une solut
 * De suivi : Il est possible d’avoir un aperçu général du processus dans sa globalité ou sur un cas précis grâce à des tableaux de bord et rapports disponibles à tout moment et partout sans passer par le service informatique. Lorsqu’une décision est prise, les données sont instantanément mise à jour dans votre solution.
 
 Vous aurez également besoin de vos applications métiers, votre GED et/ou CRM auxquels la solution de Case Management vient se connecter. En effet, si le Case Management permet de gérer certaines actions depuis la plateforme, rappelons qu’une solution de Case Management n’a pas vocation à remplacer vos outils existants. Il s’agit d’un facilitateur.
+
+[![télécharger_livre_blanc_Case_Management](950x250_banniere_lb_case_management.png "Livre Blanc ″Pourquoi s'équiper d'une solution de Case Management″")](https://content.blog-consulting-and-integration.tessi.eu/livre-blanc-tessi-pourquoi-sequiper-dune-solution-de-case-management)
+
+
 
 ## 4/ Par où commencer pour se lancer ?
 
@@ -102,4 +108,4 @@ Si vous possédez l’ensemble des compétences en interne et que vous pouvez ga
 
 ***Le Case Management est une solution mixte à la fois automatique et manuelle où la technologie aide le savoir-faire humain. L’utilisateur métier gagne du temps et peut enfin se consacrer uniquement au traitement des cas. De par l’existence de solutions modulaires, ses possibilités de personnalisation et son large champ d’applications, le Case Management s’adresse aux entreprises de toutes tailles sur de nombreux secteurs d’activité. Ce concept vient en soutient aux organisations désireuses d’optimiser leurs processus, d’améliorer leur relation client et de réduire leur coût de fonctionnement informatique.***
 
-[![découvrir_offre_case_management](banniere_offre_case_management.png "Découvrir Case Management")](https://www.tessi.eu/ch/fr/solution/technologies/conseil-integration/conseil-integration/ecm/?utm_source=blog&utm_medium=in_article_banner&utm_content=5e67d416d59cbc342a52e403&utm_campaign=5e68e791d59cbc342a53687b)
+[![découvrir_offre_case_management](banniere_offre_case_management.png "Découvrir Case Management")](https://www.tessi.eu/ch/fr/solution/technologies/conseil-integration/conseil-integration/ecm/)
