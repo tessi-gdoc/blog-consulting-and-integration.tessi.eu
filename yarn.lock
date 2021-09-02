@@ -11261,10 +11261,10 @@ netlify-cms-locales@^1.33.0:
   resolved "https://registry.yarnpkg.com/netlify-cms-locales/-/netlify-cms-locales-1.33.0.tgz#4754749e0eca41d5f9a463823eed8fecf3dc8373"
   integrity sha512-IBA83qWX1QT4VyHwxxe+SuAbZKhbdDyhp7s49TtJS7QuE9gyUtmVeAWBMalF5Spih/hDwaNISHDaos3WK4HR6g==
 
-netlify-cms-ui-default@2.14.0, netlify-cms-ui-default@^2.14.0:
-  version "2.14.0"
-  resolved "https://registry.yarnpkg.com/netlify-cms-ui-default/-/netlify-cms-ui-default-2.14.0.tgz#9cfcd177b4ab555651722db96e86058bed5ef2cd"
-  integrity sha512-8TBYukdwr1nM/vz9xZy8F6KHZIRAPvWDS2c2QzXi5fyX7faO7cq/84QdPC+q5GXlbwg6FhyhqDfi3KisnVcAEw==
+netlify-cms-ui-default@2.15.2, netlify-cms-ui-default@^2.14.0:
+  version "2.15.2"
+  resolved "https://registry.yarnpkg.com/netlify-cms-ui-default/-/netlify-cms-ui-default-2.15.2.tgz#a0a2d6d03c2b82995a9c45d12ad380cd0aeb2c15"
+  integrity sha512-yyEyLai4e015+fcBqcQTk0KCrwLVYNlB+3KZjdjBgVQOFR2oRmIbMx9l1KR0M4vyIRxcvpog9UZXqDIPN/wxvQ==
   dependencies:
     react-aria-menubutton "^7.0.0"
     react-toggled "^1.1.2"
