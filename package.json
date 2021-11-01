@@ -10,7 +10,7 @@
     "url": "https://blog-consulting-and-integration.tessi.eu"
   },
   "dependencies": {
-    "@emotion/cache": "10.0.29",
+    "@emotion/cache": "11.5.0",
     "@emotion/core": "10.1.1",
     "@emotion/styled": "10.0.27",
     "gatsby": "2.32.13",
