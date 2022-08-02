@@ -62,14 +62,14 @@
   },
   "devDependencies": {
     "babel-eslint": "10.1.0",
-    "eslint": "8.19.0",
+    "eslint": "8.21.0",
     "eslint-config-react-app": "7.0.1",
     "eslint-plugin-flowtype": "8.0.2",
     "eslint-plugin-import": "2.26.0",
     "eslint-plugin-jsx-a11y": "6.5.1",
-    "eslint-plugin-react": "7.30.0",
+    "eslint-plugin-react": "7.30.1",
     "eslint-plugin-react-hooks": "4.4.0",
-    "prettier": "2.5.1",
+    "prettier": "2.7.1",
     "standard-version": "9.3.2"
   },
   "license": "UNLICENSED",
