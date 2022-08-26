@@ -3,7 +3,7 @@ lang: fr
 key: blog-post
 image: image_analyser_ses_parcours_client_contexte_omnicanale.png
 imageAlt: parcours_client_omnicanal
-path: "analyse-parcours-client-contexte-omnicanal   "
+path: analyse-parcours-client-contexte-omnicanal
 title: Comment analyser ses parcours clients dans un contexte omnicanal ?
   Méthodes et outils
 description: "Dans un contexte omnicanal aux multiples points de contact, il
