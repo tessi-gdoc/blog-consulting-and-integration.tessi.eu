@@ -52,7 +52,7 @@ Combinées à une **méthodologie et une équipe dédiée** en interne et/ou en 
 
 ### Les solutions de cartographie automatisée
 
-Si l’expertise humaine reste un maillon indispensable au travail d’analyse des parcours, ce type de solutions portent l’ambition de **faciliter le travail de cartographie grâce à l’automatisation**. Parmi elles, nous pouvons citer [Datakili](https://datakili.com/), une technologie innovante membre de notre programme Pépite Shaker.
+Si l’expertise humaine reste un maillon indispensable au travail d’analyse des parcours, ce type de solutions portent l’ambition de **faciliter le travail de cartographie grâce à l’automatisation**. Parmi elles, nous pouvons citer [Datakili](<-	https://datakili.com/?utm_source=tessi&utm_medium=article&utm_campaign=q1_2022>), une technologie innovante membre de notre programme Pépite Shaker.
 
 « Souvent les parcours au niveau d’un centre de contact ou sur un site e-commerce sont déjà très optimisés. Les gains significatifs se trouvent plutôt entre les canaux car c’est précisément là que le suivi et la mesure deviennent difficiles entrainant des ruptures dans les parcours. La promesse de Datakili est d’aller chercher le potentiel d’amélioration qui se cache précisément lors de ces changements de canaux, qu’ils soient digitaux ou physiques, en retraçant les parcours client de bout en bout. » explique Johan Evrard, Directeur Général de Datakili.
 
@@ -84,7 +84,7 @@ Cette méthode qui consiste à commencer avec un seul cas d’usage est plus fac
 * **Fluidifier un parcours d’achat** pour augmenter son chiffre d’affaires
 * **Réduire le nombre d’appels passés au call-center**, pour diminuer ses coûts de fonctionnement et améliorer la relation client, en identifiant les irritants à l’origine du nombre d’appels
 * **Augmenter la satisfaction client**, en comparant les parcours de ceux qui se déclarent très satisfaits avec ceux qui le sont moins
-* **Optimiser la relance commerciale** en identifiant les prospects à fort potentiel, ainsi que la période dans laquelle ils sont le plus susceptibles d’acheter. Découvrez le [cas MAIF](https://datakili.com/cas-dusage/maif/).
+* **Optimiser la relance commerciale** en identifiant les prospects à fort potentiel, ainsi que la période dans laquelle ils sont le plus susceptibles d’acheter. Découvrez le [cas MAIF](<-	https://datakili.com/cas-dusage/maif/?utm_source=tessi&utm_medium=article&utm_campaign=q1_2022>).
 
 ### Veiller à ce que les métiers gardent la main sur la modélisation des parcours client
 
