@@ -25,7 +25,7 @@ introduction: Augmenter le volume de souscription à un service, diminuer le tau
   relever le défi et ainsi accroître ses résultats commerciaux.
 showToC: true
 ---
-## Quelles solutions pour l’analyse de vos parcours client ?
+## 01/ Quelles solutions pour l’analyse de vos parcours client ?
 
 Plusieurs approches peuvent être adoptées pour retracer les parcours de vos clients et les optimiser. Naturellement, il existe donc différents types de solutions permettant d’aboutir à la cartographie de ces derniers. Nous verrons dans cette article deux catégories d’outils, l’une plutôt manuelle et l’autre davantage automatisée.
 
@@ -69,7 +69,7 @@ Source : *datakili®*
 
 Après la capacité à cartographier, explorer, analyser, un dernier volet est celui du pilotage et de l’activation. Le monitoring sur le long terme est permis par l’automatisation de la cartographie offrant la capacité à **suivre l’évolutivité des parcours**. Un autre avantage est celui de **la dimension prédictive** permettant d’anticiper certaines actions, de créer des segments à partir de séquences de parcours à risque ou à fort potentiel, et prendre des actions correctives à temps pour réorienter les clients vers des parcours plus vertueux.
 
-## 3 bonnes pratiques pour analyser ses parcours client
+## 02/ 3 bonnes pratiques pour analyser ses parcours client
 
 Quel que soit la typologie de solution retenue pour vous accompagner dans l’analyse de vos parcours clients, quelques principes sont à retenir.
 
@@ -86,12 +86,10 @@ Cette méthode qui consiste à commencer avec un seul cas d’usage est plus fac
 * **Augmenter la satisfaction client**, en comparant les parcours de ceux qui se déclarent très satisfaits avec ceux qui le sont moins
 * **Optimiser la relance commerciale** en identifiant les prospects à fort potentiel, ainsi que la période dans laquelle ils sont le plus susceptibles d’acheter. Découvrez le [cas MAIF](https://datakili.com/cas-dusage/maif/).
 
- 
-
 ### Veiller à ce que les métiers gardent la main sur la modélisation des parcours client
 
 Responsable de parcours, Product Owner, directeur de l’expérience client… Les métiers doivent avoir la main sur la modélisation des parcours client pour les analyser et prendre des actions concrètes régulièrement, dans une dynamique d’amélioration continue. **Lors du choix d’un outil d’analyse des parcours client, il est donc impératif de s’assurer de sa facilité d’utilisation pour assurer la prise en main par les métiers et leur autonomie**. Car finalement sans analyse, une cartographie n’a que peu de valeur. L’intérêt d’un tel projet réside dans l’interprétation des données et dans la décision des actions à prendre. Et pour l’instant, la technologie ne saurait prendre le relai.
 
 ### Industrialiser la relation client en omnicanal
 
-Harmoniser la connaissance, homogénéiser certaines pratiques, détecter des opportunités d’automatisation de processus… l’analyse des parcours client est une des clés nécessaires à la **personnalisation en masse de la relation client**. Intégré à des solutions de CXM embarquant des outils de composition, de distribution omnicanale ou de centre de contacts, il est par exemple possible d’automatiser le déclenchement de campagnes prédictives d’appels ou d’emailing. Un **moyen de maximiser le ROI** et **agir transversalement à l’échelle de l’entreprise**. Veillez donc à **l’interopérabilité** de votre future solution d’analyse des parcours client.
+Harmoniser la connaissance, homogénéiser certaines pratiques, détecter des opportunités d’automatisation de processus… l’analyse des parcours client est une des clés nécessaires à la **personnalisation en masse de la relation client**. Intégré à des solutions de CXM, telle que la plateforme technologique de l'offre [DIGITAL EXPERIENCE by Tessi](https://www.tessi.eu/fr/digital-experience-by-tessi/?mtm_campaign=digitalexperience_lancement&mtm_source=blog_tessijourney&mtm_medium=referral&mtm_content=article-tessi-datakili-methodes-outils), embarquant des outils de composition, de distribution omnicanale ou de centre de contacts, il devient par exemple possible d’automatiser le déclenchement de campagnes prédictives d’appels ou d’emailing. Un **moyen de maximiser le ROI** et **agir transversalement à l’échelle de l’entreprise**. Veillez donc à **l’interopérabilité** de votre future solution d’analyse des parcours client.
