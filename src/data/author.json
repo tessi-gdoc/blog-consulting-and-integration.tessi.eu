@@ -44,6 +44,11 @@
       "avatar": "/img/arnaud-vincent.jpg",
       "id": "arv",
       "fullname": "Arnaud Vincent"
+    },
+    {
+      "avatar": "/img/auteur_blog_250x250.png",
+      "id": "cep",
+      "fullname": "Céline Prieur, GPOMagazine"
     }
   ]
 }
