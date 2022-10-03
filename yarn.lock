@@ -14978,10 +14978,10 @@ react-frame-component@^5.2.1:
   resolved "https://registry.yarnpkg.com/react-frame-component/-/react-frame-component-5.2.1.tgz#6bd5ec73ef7d720f57ee8f259546ed926a941267"
   integrity sha512-nrSh1OZuHlX69eWqJPiUkPT9S6/wxc4PpJV+vOQ4pHQQ8XmIsIT+utWT+nX32ZfANHZuKONA7JsWMUGT36CqaQ==
 
-react-headroom@3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/react-headroom/-/react-headroom-3.2.0.tgz#ff14d01343b850d02bf30624bfa2c7ed60c75558"
-  integrity sha512-8rbXBKN187DnPg8lyJa5IKZx9rA1DbkvO4X0F6A6lSGr54fr7CHphF84fxwlPbX93Uqs9daFt9q0j3fhC7RTEg==
+react-headroom@3.2.1:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/react-headroom/-/react-headroom-3.2.1.tgz#30a3e27cc6d21d464665ccedb94f62a698031de3"
+  integrity sha512-C+7bmTwmHWIOjU1r5aSLm4tAQKjmqW4PB65tHllE/D6h+If1+V3gy83BOvp46OCo25LtJJlLa/HDs7Eq5OPFgA==
   dependencies:
     prop-types "^15.5.8"
     raf "^3.3.0"
