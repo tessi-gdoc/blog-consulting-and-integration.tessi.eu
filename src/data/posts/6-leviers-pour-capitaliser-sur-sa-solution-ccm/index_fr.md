@@ -1,9 +1,8 @@
 ---
 lang: fr
 key: blog-post
-showToC: true
 image: 6_leviers_pour_capitaliser_sur_sa_solution_ccm.jpg
-imageAlt: image_article_leverage
+imageAlt: communication_client
 path: 6-leviers-pour-capitaliser-sur-sa-solution-CCM
 canonicalUrl: ""
 title: 6 leviers pour capitaliser sur sa solution CCM
@@ -30,6 +29,7 @@ introduction: >-
 
 
   Pour ce faire, voici 6 leviers activables, véritables opportunités de capitaliser sur votre plateforme CCM en place.
+showToC: true
 ---
 ## 1 - Connecter sa solution CCM aux systèmes de données
 
